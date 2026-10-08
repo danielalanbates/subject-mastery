@@ -1,0 +1,26 @@
+# Logarithms as Inverses
+
+Suppose you place a cell phone on your desk and it loses half its battery charge every hour. If you start with a full battery, how long until you have one sixteenth of your power left? You already know how to handle the forward direction of this problem using exponential decay. You write an equation where one half raised to a power equals one sixteenth, and you might easily spot that the power is four. But what if the remaining power was one twentieth instead of one sixteenth? What power of one half gives one twentieth? To answer that question, we need a new mathematical tool that reverses exponents, and that tool is the logarithm.
+
+In mathematics, whenever we build an operation, we look for its inverse to undo it. Addition has subtraction, multiplication has division, and squaring a number has taking the square root. Exponential functions, which raise a base to a variable exponent, also need an inverse. That inverse is the logarithm. A logarithm is simply an exponent. When you write a logarithmic statement, you are asking a direct question. You are asking what power a given base must be raised to in order to produce a specific number.
+
+For any logarithmic expression, the base must follow strict rules. The base must be a positive number, and the base cannot equal one. Why cannot the base equal one? Because one raised to any power is always one, which means we could never reverse the process to find a unique exponent.
+
+Let us make this precise by looking at how exponential and logarithmic forms relate. Consider the simple statement that two raised to the third power equals eight. The base is two, the exponent is three, and the result is eight. The equivalent logarithmic statement reads as follows. The logarithm with base two of eight equals three. Notice what happened to the three pieces of information. The base of the exponent remains the base of the logarithm. The result of the exponential expression moves inside the logarithm, and the exponent itself becomes the answer to the logarithmic statement.
+
+Let us practice converting between these two forms using different letters so everything stays clear. Suppose we have a base of b raised to the power y equals x. In logarithmic form, this becomes the logarithm with base b of x equals y. Every time you look at a logarithm, say its meaning aloud to yourself. Say to yourself, the logarithm base b of x is the exponent that turns b into x. If you can keep that phrase in your head, you will never get turned around when solving these equations.
+
+This inverse relationship gives us several basic logarithmic values right away. For instance, the logarithm with base b of one always equals zero, because any nonzero base raised to the zero power equals one. For example, three raised to the zero power is one, so the logarithm with base three of one equals zero. Likewise, the logarithm with base b of b always equals one, because any base raised to the first power equals itself. For example, five raised to the first power is five, so the logarithm with base five of five equals one.
+
+We can also state two key algebraic inverse properties that connect exponents and logarithms directly. First, if you take the base b and raise it to the logarithm with base b of x, the result is simply x. For example, two raised to the logarithm with base two of eight equals eight. Second, if you take the logarithm with base b of b raised to the power x, the result is also simply x. For example, the logarithm with base two of two raised to the third power equals three.
+
+To see this in action with a worked example, let us evaluate the logarithm with base three of eighty-one without using a calculator. We want to find the exponent, let us call it y, such that three raised to the power y equals eighty-one. We test powers of three in our heads. Three to the first is three, three squared is nine, three cubed is twenty-seven, and three to the fourth power is eighty-one. Therefore, the logarithm with base three of eighty-one equals four.
+
+Two particular bases show up so often in mathematics that they receive special notation and names. The first is the base ten logarithm, which we call the common logarithm. When scientists or engineers write a logarithm with no base written at all, they usually mean base ten. The second is the base e logarithm, which we call the natural logarithm, honoring the number e we studied previously. Instead of writing log with a small e, mathematicians write the natural logarithm as l n. The natural logarithm answers the question of what power of e gives us our target number.
+
+## Key ideas
+- A logarithm is an exponent that requires the base to be positive and not equal to one.
+- Converting between forms relies on the fact that the base raised to the logarithmic answer gives the inside value.
+- Basic logarithmic values include the logarithm base b of one equaling zero and the logarithm base b of b equaling one.
+- The algebraic inverse properties show that base b raised to the logarithm base b of x equals x, and the logarithm base b of b raised to x equals x.
+- Common logarithms use base ten while natural logarithms use the base e, and the graph exists only for positive numbers.

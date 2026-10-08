@@ -1,0 +1,434 @@
+{
+  "id": "psychology",
+  "title": "Psychology",
+  "tagline": "Mind and behavior: perception, memory, learning, development and personality.",
+  "description": "A complete introductory psychology path at college level. It starts with how psychologists study mind and behavior, moves through the brain, sensation and perception, consciousness, learning, memory, thinking and development, and ends with motivation and emotion, personality, social psychology, and psychological disorders and their treatment. It says plainly which findings are solid and which have failed to replicate.",
+  "category": "Social Sciences",
+  "color": "#bf3989",
+  "modules": [
+    {
+      "id": "m01-psychology-as-a-science",
+      "title": "Psychology as a Science",
+      "summary": "Learners will understand where psychology came from, its main perspectives, and how psychologists gather and test evidence, including the lessons of the replication crisis.",
+      "lessons": [
+        {
+          "id": "l01-origins-of-psychology",
+          "title": "The Origins of Psychology",
+          "summary": "Learners will understand how psychology grew out of philosophy and physiology into a science, from Wundt's laboratory and structuralism to William James and functionalism."
+        },
+        {
+          "id": "l02-schools-and-modern-perspectives",
+          "title": "Schools of Thought and Modern Perspectives",
+          "summary": "Learners will understand psychoanalysis, behaviorism, humanism and the cognitive revolution, today's biological, evolutionary and sociocultural perspectives, and the main fields psychologists work in."
+        },
+        {
+          "id": "l03-descriptive-and-correlational-research",
+          "title": "Descriptive and Correlational Research",
+          "summary": "Learners will understand case studies, naturalistic observation, surveys and archival research, what each can and cannot show, and why a correlation, however strong, does not by itself show that one thing causes another."
+        },
+        {
+          "id": "l04-experiments-and-research-ethics",
+          "title": "Experiments and Research Ethics",
+          "summary": "Learners will understand how experiments use independent and dependent variables, random assignment, control groups and blinding to test causes, and the ethical rules, such as informed consent and review boards, that protect human and animal participants."
+        },
+        {
+          "id": "l05-statistics-reliability-and-validity",
+          "title": "Statistics, Reliability and Validity",
+          "summary": "Learners will understand, in words and small round numbers, averages and spread, what a correlation coefficient and statistical significance mean, and how reliability and validity tell us whether a measure can be trusted."
+        },
+        {
+          "id": "l06-replication-crisis-and-open-science",
+          "title": "The Replication Crisis and Open Science",
+          "summary": "Learners will understand why many published findings failed to replicate in the 2010s, the practices behind the problem such as small samples, publication bias and flexible analysis, and open-science reforms such as preregistration and large replication projects."
+        }
+      ]
+    },
+    {
+      "id": "m02-biology-of-behavior",
+      "title": "The Biology of Behavior",
+      "summary": "Learners will understand how genes, neurons, the nervous system, the brain and hormones shape behavior and experience.",
+      "lessons": [
+        {
+          "id": "l01-genes-evolution-and-behavior",
+          "title": "Genes, Evolution and Behavior",
+          "summary": "Learners will understand how twin and adoption studies separate the effects of genes and environment, how genes and experience interact, including epigenetics, and what evolutionary psychology explains and where its explanations are hard to test."
+        },
+        {
+          "id": "l02-neurons-and-neural-communication",
+          "title": "Neurons and Neural Communication",
+          "summary": "Learners will understand the parts of a neuron, how an action potential travels along it, how neurotransmitters such as dopamine and serotonin carry signals across the synapse, and how drugs can mimic or block them."
+        },
+        {
+          "id": "l03-the-nervous-system",
+          "title": "The Nervous System",
+          "summary": "Learners will understand the central and peripheral nervous systems, and how the sympathetic and parasympathetic branches prepare the body for action and for rest."
+        },
+        {
+          "id": "l04-the-brain",
+          "title": "The Brain and Its Structures",
+          "summary": "Learners will understand the main regions of the brain, from the brainstem and cerebellum to the limbic system and the four lobes of the cortex, how scientists study the brain through injuries, brain waves and scans, the brain's plasticity, and why split-brain research does not mean that people are left-brained or right-brained."
+        },
+        {
+          "id": "l05-endocrine-system",
+          "title": "The Endocrine System",
+          "summary": "Learners will understand how glands such as the pituitary, thyroid and adrenal glands release hormones that act more slowly than nerve signals, how hormones such as cortisol and adrenaline influence behavior, and why popular claims about oxytocin as a 'love hormone' go beyond the evidence."
+        }
+      ]
+    },
+    {
+      "id": "m03-states-of-consciousness",
+      "title": "States of Consciousness",
+      "summary": "Learners will understand biological rhythms, sleep and dreams, sleep disorders, psychoactive drugs, and what the evidence says about hypnosis and meditation.",
+      "lessons": [
+        {
+          "id": "l01-biological-rhythms-and-sleep-stages",
+          "title": "Biological Rhythms and Sleep Stages",
+          "summary": "Learners will understand circadian rhythms and the brain's master clock, what jet lag and shift work do to them, and the stages of sleep as measured by brain waves: three stages of non-REM sleep, the deepest being slow-wave sleep, and REM sleep, repeating in cycles of about ninety minutes."
+        },
+        {
+          "id": "l02-why-we-sleep-and-dream",
+          "title": "Why We Sleep and Dream",
+          "summary": "Learners will understand what sleep loss does to body and mind, the leading theories of why we sleep and why we dream, from Freud to activation-synthesis and cognitive theories, and how strong the evidence for each one is."
+        },
+        {
+          "id": "l03-sleep-disorders",
+          "title": "Sleep Disorders",
+          "summary": "Learners will understand insomnia, sleep apnea, narcolepsy and other sleep disorders, their causes and their main treatments."
+        },
+        {
+          "id": "l04-psychoactive-drugs",
+          "title": "Psychoactive Drugs",
+          "summary": "Learners will understand how depressants, stimulants, opioids and hallucinogens act on the brain's chemical messengers, and how tolerance, dependence and addiction develop."
+        },
+        {
+          "id": "l05-hypnosis-and-meditation",
+          "title": "Hypnosis and Meditation",
+          "summary": "Learners will understand what hypnosis can and cannot do, the debate over whether it is a special state of consciousness, and what controlled studies show about mindfulness and other kinds of meditation."
+        }
+      ]
+    },
+    {
+      "id": "m04-sensation-and-perception",
+      "title": "Sensation and Perception",
+      "summary": "Learners will understand how the senses turn light, sound, chemicals, pressure and movement into nerve signals, and how the brain builds those signals into a perceived world.",
+      "lessons": [
+        {
+          "id": "l01-thresholds-and-signal-detection",
+          "title": "Thresholds and Signal Detection",
+          "summary": "Learners will understand the difference between sensation and perception, absolute and difference thresholds, sensory adaptation, signal detection theory, and the weak evidence for persuasion by subliminal messages."
+        },
+        {
+          "id": "l02-vision",
+          "title": "Vision",
+          "summary": "Learners will understand how the eye focuses light, how rods and cones turn it into nerve signals, how the brain analyzes features such as edges and motion, and how color vision works, combining the trichromatic and opponent-process theories."
+        },
+        {
+          "id": "l03-hearing",
+          "title": "Hearing",
+          "summary": "Learners will understand how sound waves become nerve signals in the ear, and how the brain works out pitch, loudness and where a sound comes from."
+        },
+        {
+          "id": "l04-taste-and-smell",
+          "title": "Taste and Smell",
+          "summary": "Learners will understand how taste buds detect the basic tastes, how smell receptors detect odors and send signals almost directly to emotional and memory centers of the brain, and why the flavor of food depends on smell as much as on taste."
+        },
+        {
+          "id": "l05-touch-pain-and-body-senses",
+          "title": "Touch, Pain and the Body Senses",
+          "summary": "Learners will understand the skin senses of pressure, temperature and pain, the gate-control theory of pain and how expectation and placebos change it, and the senses of body position and balance that come from the muscles, joints and inner ear."
+        },
+        {
+          "id": "l06-perceptual-organization",
+          "title": "Perceptual Organization",
+          "summary": "Learners will understand how the brain builds sensations into objects through bottom-up and top-down processing, the gestalt principles, depth cues and perceptual constancies, and what illusions reveal about perception."
+        }
+      ]
+    },
+    {
+      "id": "m05-learning-and-memory",
+      "title": "Learning and Memory",
+      "summary": "Learners will understand how experience changes behavior through conditioning and observation, and how memories are formed, lost, distorted and strengthened.",
+      "lessons": [
+        {
+          "id": "l01-classical-conditioning",
+          "title": "Classical Conditioning",
+          "summary": "Learners will understand Pavlov's discovery, the unconditioned and conditioned stimulus and response, acquisition, extinction, spontaneous recovery, generalization and discrimination, and how conditioning shapes fears and food dislikes, including Watson's ethically troubling Little Albert study."
+        },
+        {
+          "id": "l02-operant-conditioning",
+          "title": "Operant Conditioning",
+          "summary": "Learners will understand Thorndike's law of effect and Skinner's operant conditioning, positive and negative reinforcement and punishment, shaping, and the schedules of reinforcement and why they matter."
+        },
+        {
+          "id": "l03-observational-and-cognitive-learning",
+          "title": "Observational and Cognitive Learning",
+          "summary": "Learners will understand Bandura's work on modeling, along with latent learning, cognitive maps and learned helplessness."
+        },
+        {
+          "id": "l04-how-memory-works",
+          "title": "How Memory Works",
+          "summary": "Learners will understand how memories are encoded, stored and retrieved, the sensory, working and long-term memory stores, the difference between explicit memories of facts and events and implicit memories of skills, and the brain structures, such as the hippocampus, that support them."
+        },
+        {
+          "id": "l05-forgetting-and-false-memories",
+          "title": "Forgetting and False Memories",
+          "summary": "Learners will understand why we forget, from the forgetting curve to interference and retrieval failure, how misleading information and suggestion can create false memories, and what this means for eyewitness testimony and the recovered-memory controversy."
+        },
+        {
+          "id": "l06-improving-memory-and-learning",
+          "title": "Improving Memory and Learning",
+          "summary": "Learners will understand evidence-based study methods such as retrieval practice and spacing, and why popular ideas such as learning styles lack support."
+        }
+      ]
+    },
+    {
+      "id": "m06-thinking-language-and-intelligence",
+      "title": "Thinking, Language and Intelligence",
+      "summary": "Learners will understand how people form concepts, solve problems and make decisions, how language works and develops, and what intelligence is, how it is measured and what shapes it.",
+      "lessons": [
+        {
+          "id": "l01-concepts-and-problem-solving",
+          "title": "Concepts, Schemas and Problem Solving",
+          "summary": "Learners will understand how the mind organizes knowledge into concepts, prototypes and schemas, how people solve problems by trial and error, step-by-step methods and sudden insight, and what blocks them, such as fixation and mental set."
+        },
+        {
+          "id": "l02-heuristics-and-biases",
+          "title": "Heuristics, Biases and Decisions",
+          "summary": "Learners will understand the availability and representativeness heuristics, anchoring, framing, confirmation bias and overconfidence, and the debate over whether such mental shortcuts are mainly errors or often useful rules of thumb."
+        },
+        {
+          "id": "l03-language-and-its-development",
+          "title": "Language and Its Development",
+          "summary": "Learners will understand the building blocks of language, from sounds to grammar and meaning, how children acquire language, the debate between learning and inborn accounts of it, and the debate over how much language shapes thought."
+        },
+        {
+          "id": "l04-theories-of-intelligence",
+          "title": "Theories of Intelligence",
+          "summary": "Learners will understand general intelligence, multiple intelligences, the triarchic theory and emotional intelligence, and how well the evidence supports each."
+        },
+        {
+          "id": "l05-measuring-intelligence",
+          "title": "Measuring Intelligence",
+          "summary": "Learners will understand how intelligence tests are built, standardized and checked for reliability and validity, what an IQ score means on a scale where the average is one hundred, the Flynn effect, and the history of the tests' misuse, from eugenics to immigration policy."
+        },
+        {
+          "id": "l06-genes-environment-and-intelligence",
+          "title": "Genes, Environment and Intelligence",
+          "summary": "Learners will understand what twin and adoption studies show about the heritability of intelligence, what heritability does and does not mean, including why it cannot by itself explain average differences between groups, and how schooling, nutrition and poverty affect test scores."
+        }
+      ]
+    },
+    {
+      "id": "m07-lifespan-development",
+      "title": "Lifespan Development",
+      "summary": "Learners will understand how people change physically, mentally and socially from before birth to old age and death, and how psychologists study that change.",
+      "lessons": [
+        {
+          "id": "l01-prenatal-development-and-infancy",
+          "title": "Prenatal Development and Infancy",
+          "summary": "Learners will understand how developmental psychologists study change with cross-sectional and longitudinal studies, the stages of prenatal development and the harm that teratogens such as alcohol can do, and the reflexes, senses and motor skills of newborns and infants."
+        },
+        {
+          "id": "l02-attachment-and-early-relationships",
+          "title": "Attachment and Early Relationships",
+          "summary": "Learners will understand attachment research from Harlow and Bowlby to Ainsworth, and what it does and does not tell us about parenting."
+        },
+        {
+          "id": "l03-cognitive-development",
+          "title": "Cognitive Development",
+          "summary": "Learners will understand Piaget's stages of cognitive development, Vygotsky's view of learning with the help of others, how children come to understand other people's minds, and where later research has revised Piaget."
+        },
+        {
+          "id": "l04-moral-and-psychosocial-development",
+          "title": "Moral and Psychosocial Development",
+          "summary": "Learners will understand Kohlberg's levels of moral reasoning and the criticisms of them, including Carol Gilligan's, and Erikson's eight stages of psychosocial development across the whole of life."
+        },
+        {
+          "id": "l05-adolescence",
+          "title": "Adolescence",
+          "summary": "Learners will understand the physical changes of puberty, the developing teenage brain, the search for identity, the roles of parents and peers, and the idea of emerging adulthood in the late teens and twenties."
+        },
+        {
+          "id": "l06-adulthood-aging-and-death",
+          "title": "Adulthood, Aging and Death",
+          "summary": "Learners will understand the relationships and milestones of adulthood, how body and mind change with age, including which abilities decline and which hold steady or grow, and how people face death and grief, including the weak evidence for the popular five-stage model."
+        }
+      ]
+    },
+    {
+      "id": "m08-motivation-emotion-and-stress",
+      "title": "Motivation, Emotion and Stress",
+      "summary": "Learners will understand the main theories of motivation, the drives of hunger and sex, how emotions arise and are expressed, and how stress affects health.",
+      "lessons": [
+        {
+          "id": "l01-theories-of-motivation",
+          "title": "Theories of Motivation",
+          "summary": "Learners will understand instinct, drive-reduction and arousal theories, intrinsic and extrinsic motivation and self-determination theory, and Maslow's hierarchy of needs and how well the evidence supports it."
+        },
+        {
+          "id": "l02-hunger-and-eating",
+          "title": "Hunger and Eating",
+          "summary": "Learners will understand the body signals and brain systems that control hunger and fullness, how culture and surroundings shape eating, obesity, and the main eating disorders: anorexia nervosa, bulimia nervosa and binge-eating disorder."
+        },
+        {
+          "id": "l03-sexual-behavior",
+          "title": "Sexual Behavior",
+          "summary": "Learners will understand the history of research on human sexuality, from Kinsey to Masters and Johnson, the human sexual response cycle, and what research shows and does not show about how sexual orientation develops, told factually and without graphic detail."
+        },
+        {
+          "id": "l04-emotion",
+          "title": "Emotion",
+          "summary": "Learners will understand the James-Lange, Cannon-Bard and two-factor theories of emotion, brain systems such as the amygdala, the debate over whether a few basic emotions are expressed and recognized the same way in every culture, and the mixed evidence on facial feedback."
+        },
+        {
+          "id": "l05-stress-coping-and-health",
+          "title": "Stress, Coping and Health",
+          "summary": "Learners will understand what stress is and how we appraise it, Selye's general adaptation syndrome and the body's stress hormones, how long-lasting stress affects the heart and the immune system, and which ways of coping, such as social support and exercise, the evidence favors."
+        }
+      ]
+    },
+    {
+      "id": "m09-personality",
+      "title": "Personality",
+      "summary": "Learners will understand the main historical and current approaches to personality and how well the evidence supports each.",
+      "lessons": [
+        {
+          "id": "l01-freud-and-the-psychodynamic-tradition",
+          "title": "Freud and the Psychodynamic Tradition",
+          "summary": "Learners will understand Freud's theory of personality and defense mechanisms, the neo-Freudians who revised it, and how current psychology judges these ideas."
+        },
+        {
+          "id": "l02-humanistic-and-social-cognitive-approaches",
+          "title": "Humanistic and Social-Cognitive Approaches",
+          "summary": "Learners will understand the humanistic views of Rogers and Maslow and the social-cognitive ideas of Bandura and Rotter, such as self-efficacy and locus of control."
+        },
+        {
+          "id": "l03-trait-theories-and-the-big-five",
+          "title": "Trait Theories and the Big Five",
+          "summary": "Learners will understand trait theories from Allport and Eysenck to the Big Five, how stable traits are across life and across cultures, and the person-situation debate over how well traits predict behavior."
+        },
+        {
+          "id": "l04-biology-culture-and-personality",
+          "title": "Biology, Culture and Personality",
+          "summary": "Learners will understand temperament, twin and adoption studies of personality, and how culture shapes the way personality is expressed and understood."
+        },
+        {
+          "id": "l05-personality-assessment",
+          "title": "Personality Assessment",
+          "summary": "Learners will understand self-report inventories such as the MMPI and Big Five questionnaires, projective tests such as the Rorschach inkblots, how reliable and valid each kind is, and why popular type tests such as the Myers-Briggs predict behavior poorly."
+        }
+      ]
+    },
+    {
+      "id": "m10-social-psychology",
+      "title": "Social Psychology",
+      "summary": "Learners will understand how situations and other people shape thought and behavior, from attributions and attitudes to conformity, prejudice, aggression and helping.",
+      "lessons": [
+        {
+          "id": "l01-attribution-and-self-presentation",
+          "title": "Attribution and Self-Presentation",
+          "summary": "Learners will understand situational and dispositional explanations of behavior, the fundamental attribution error and how it varies across cultures, the self-serving bias, how people manage the impressions they make, and why the Stanford prison experiment, long taught as proof of the power of situations, is now seriously criticized."
+        },
+        {
+          "id": "l02-attitudes-and-persuasion",
+          "title": "Attitudes and Persuasion",
+          "summary": "Learners will understand how attitudes form and change, cognitive dissonance, and the central and peripheral routes to persuasion."
+        },
+        {
+          "id": "l03-conformity-compliance-and-obedience",
+          "title": "Conformity, Compliance and Obedience",
+          "summary": "Learners will understand Asch's conformity studies, compliance techniques such as the foot-in-the-door, and Milgram's obedience studies, with their later partial replications and the ethical and methodological criticisms of them."
+        },
+        {
+          "id": "l04-behavior-in-groups",
+          "title": "Behavior in Groups",
+          "summary": "Learners will understand social facilitation and social loafing, group polarization, groupthink and deindividuation."
+        },
+        {
+          "id": "l05-prejudice-and-discrimination",
+          "title": "Prejudice and Discrimination",
+          "summary": "Learners will understand stereotypes, prejudice and discrimination, in-group bias, what reduces prejudice, and the debate over measures of implicit bias."
+        },
+        {
+          "id": "l06-aggression-helping-and-attraction",
+          "title": "Aggression, Helping and Attraction",
+          "summary": "Learners will understand the biological, situational and learned causes of aggression, why bystanders do or do not help, including what the Kitty Genovese case really showed, and the basic findings on what draws people together, such as nearness, similarity and liking in return."
+        }
+      ]
+    },
+    {
+      "id": "m11-psychological-disorders",
+      "title": "Psychological Disorders",
+      "summary": "Learners will understand how psychological disorders are defined and diagnosed, and the main features and causes of the major disorders.",
+      "lessons": [
+        {
+          "id": "l01-defining-and-diagnosing-disorders",
+          "title": "Defining and Diagnosing Disorders",
+          "summary": "Learners will understand what makes a pattern of behavior a disorder, how the DSM-5-TR and ICD-11 classify disorders, the biopsychosocial and diathesis-stress views of their causes, and the debates over diagnosis and stigma."
+        },
+        {
+          "id": "l02-anxiety-and-related-disorders",
+          "title": "Anxiety, Obsessive-Compulsive and Trauma Disorders",
+          "summary": "Learners will understand phobias, panic disorder and generalized anxiety disorder, obsessive-compulsive disorder and post-traumatic stress disorder, and what is known about their causes."
+        },
+        {
+          "id": "l03-depression-and-bipolar-disorder",
+          "title": "Depression and Bipolar Disorder",
+          "summary": "Learners will understand major depressive disorder and bipolar disorder, what is known about their biological and psychological causes, the warning signs of suicide, and that help is available, for example by calling or texting nine eight eight in the United States."
+        },
+        {
+          "id": "l04-schizophrenia-and-psychotic-disorders",
+          "title": "Schizophrenia and Psychotic Disorders",
+          "summary": "Learners will understand the symptoms of schizophrenia and related disorders and the evidence on their causes."
+        },
+        {
+          "id": "l05-dissociative-and-personality-disorders",
+          "title": "Dissociative and Personality Disorders",
+          "summary": "Learners will understand dissociative amnesia and dissociative identity disorder and the scientific controversy over the latter, and the personality disorders, especially antisocial and borderline personality disorder, and the debates over how they are diagnosed."
+        },
+        {
+          "id": "l06-neurodevelopmental-disorders",
+          "title": "Neurodevelopmental Disorders",
+          "summary": "Learners will understand attention-deficit hyperactivity disorder, autism spectrum disorder and intellectual disability, how they are diagnosed, why diagnoses have become more common, and what large studies show about their suspected causes, including vaccines."
+        }
+      ]
+    },
+    {
+      "id": "m12-therapy-and-treatment",
+      "title": "Therapy and Treatment",
+      "summary": "Learners will understand how mental health care developed, the main kinds of psychotherapy and biomedical treatment, and what research shows about how well they work.",
+      "lessons": [
+        {
+          "id": "l01-mental-health-care-past-and-present",
+          "title": "Mental Health Care Past and Present",
+          "summary": "Learners will understand how treatment moved from asylums to community care, and who provides mental health care today."
+        },
+        {
+          "id": "l02-psychodynamic-and-humanistic-therapies",
+          "title": "Psychodynamic and Humanistic Therapies",
+          "summary": "Learners will understand the aims and methods of psychodynamic therapy and person-centered therapy."
+        },
+        {
+          "id": "l03-behavioral-and-cognitive-therapies",
+          "title": "Behavioral and Cognitive Therapies",
+          "summary": "Learners will understand exposure therapy, cognitive therapy and cognitive-behavioral therapy, and the problems they treat best."
+        },
+        {
+          "id": "l04-biomedical-treatments",
+          "title": "Biomedical Treatments",
+          "summary": "Learners will understand psychiatric medications, electroconvulsive therapy and newer brain-stimulation treatments, with their benefits and risks."
+        },
+        {
+          "id": "l05-group-family-and-community-approaches",
+          "title": "Group, Family and Community Approaches",
+          "summary": "Learners will understand group and family therapy, self-help and community programs, and how culture affects seeking and receiving care."
+        },
+        {
+          "id": "l06-how-well-treatment-works",
+          "title": "How Well Treatment Works",
+          "summary": "Learners will understand how researchers test treatments, the roles of placebo and common factors, and which therapies have the strongest evidence."
+        }
+      ]
+    }
+  ]
+}

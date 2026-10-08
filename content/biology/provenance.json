@@ -1,0 +1,694 @@
+{
+  "lessons": {
+    "biology/m01-chemistry-of-life/l01-scientific-study-of-life": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3-flash-preview",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 37,
+      "words": 1040
+    },
+    "biology/m01-chemistry-of-life/l02-atoms-and-chemical-bonds": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3-flash-preview",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 32,
+      "words": 1050
+    },
+    "biology/m01-chemistry-of-life/l03-water-and-carbon": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3-flash-preview",
+      "fixes": [],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 20,
+      "words": 1073
+    },
+    "biology/m01-chemistry-of-life/l04-carbohydrates-and-lipids": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3-flash-preview",
+      "fixes": [
+        "groq:openai/gpt-oss-120b"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 10,
+      "review_verdict": "revise",
+      "revise": "groq:openai/gpt-oss-120b",
+      "seconds": 63,
+      "words": 864
+    },
+    "biology/m01-chemistry-of-life/l05-proteins-and-nucleic-acids": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [
+        "groq:openai/gpt-oss-120b"
+      ],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 26,
+      "words": 809
+    },
+    "biology/m02-the-cell/l01-prokaryotic-and-eukaryotic-cells": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 755
+    },
+    "biology/m02-the-cell/l02-endomembrane-system-and-organelles": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 8,
+      "words": 756
+    },
+    "biology/m02-the-cell/l03-cytoskeleton-and-cell-junctions": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 8,
+      "words": 707
+    },
+    "biology/m02-the-cell/l04-cell-membrane-structure": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 75,
+      "words": 772
+    },
+    "biology/m02-the-cell/l05-membrane-transport": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.5-flash",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 268,
+      "words": 851
+    },
+    "biology/m02-the-cell/l06-cell-communication": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 47,
+      "words": 806
+    },
+    "biology/m03-energy-and-metabolism/l01-energy-atp-and-enzymes": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 73,
+      "words": 981
+    },
+    "biology/m03-energy-and-metabolism/l02-glycolysis-and-citric-acid-cycle": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 235,
+      "words": 862
+    },
+    "biology/m03-energy-and-metabolism/l03-oxidative-phosphorylation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 54,
+      "words": 867
+    },
+    "biology/m03-energy-and-metabolism/l04-fermentation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 82,
+      "words": 794
+    },
+    "biology/m03-energy-and-metabolism/l05-light-reactions": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 40,
+      "words": 724
+    },
+    "biology/m03-energy-and-metabolism/l06-calvin-cycle": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 198,
+      "words": 742
+    },
+    "biology/m04-cell-division-and-heredity/l01-cell-cycle-and-mitosis": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 8,
+      "words": 758
+    },
+    "biology/m04-cell-division-and-heredity/l02-cell-cycle-control-and-cancer": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 7,
+      "words": 874
+    },
+    "biology/m04-cell-division-and-heredity/l03-meiosis": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 5,
+      "words": 694
+    },
+    "biology/m04-cell-division-and-heredity/l04-mendelian-inheritance": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 724
+    },
+    "biology/m04-cell-division-and-heredity/l05-chromosomes-and-complex-inheritance": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 786
+    },
+    "biology/m05-molecular-genetics/l01-dna-structure-and-replication": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 58,
+      "words": 888
+    },
+    "biology/m05-molecular-genetics/l02-transcription-and-rna-processing": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 33,
+      "words": 850
+    },
+    "biology/m05-molecular-genetics/l03-translation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 34,
+      "words": 918
+    },
+    "biology/m05-molecular-genetics/l04-gene-regulation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 32,
+      "words": 919
+    },
+    "biology/m05-molecular-genetics/l05-biotechnology-and-genomics": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 45,
+      "words": 862
+    },
+    "biology/m06-evolution/l01-darwin-and-natural-selection": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 77,
+      "words": 822
+    },
+    "biology/m06-evolution/l02-evidence-for-evolution": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 31,
+      "words": 949
+    },
+    "biology/m06-evolution/l03-population-genetics": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 40,
+      "words": 774
+    },
+    "biology/m06-evolution/l04-speciation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 81,
+      "words": 731
+    },
+    "biology/m06-evolution/l05-phylogenetics-and-the-tree-of-life": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 30,
+      "words": 944
+    },
+    "biology/m07-microbes-and-fungi/l01-viruses": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 52,
+      "words": 899
+    },
+    "biology/m07-microbes-and-fungi/l02-bacteria-and-archaea": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite",
+        "gemini:gemini-3.1-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 72,
+      "words": 832
+    },
+    "biology/m07-microbes-and-fungi/l03-protists": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 52,
+      "words": 816
+    },
+    "biology/m07-microbes-and-fungi/l04-fungi": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 71,
+      "words": 899
+    },
+    "biology/m08-plant-and-animal-diversity/l01-seedless-plants": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 48,
+      "words": 887
+    },
+    "biology/m08-plant-and-animal-diversity/l02-seed-plants": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 54,
+      "words": 886
+    },
+    "biology/m08-plant-and-animal-diversity/l03-invertebrates": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 47,
+      "words": 886
+    },
+    "biology/m08-plant-and-animal-diversity/l04-vertebrates": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 220,
+      "words": 775
+    },
+    "biology/m09-how-plants-work/l01-plant-tissues-and-organs": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 57,
+      "words": 781
+    },
+    "biology/m09-how-plants-work/l02-transport-in-plants": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 28,
+      "words": 730
+    },
+    "biology/m09-how-plants-work/l03-plant-nutrition-and-soil": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 35,
+      "words": 875
+    },
+    "biology/m09-how-plants-work/l04-plant-hormones-and-responses": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 38,
+      "words": 886
+    },
+    "biology/m09-how-plants-work/l05-flowering-plant-reproduction": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 16,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 45,
+      "words": 783
+    },
+    "biology/m10-animal-body-and-control-systems/l01-homeostasis": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 47,
+      "words": 836
+    },
+    "biology/m10-animal-body-and-control-systems/l02-nutrition-and-digestion": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 290,
+      "words": 809
+    },
+    "biology/m10-animal-body-and-control-systems/l03-neurons-and-nervous-system": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 86,
+      "words": 839
+    },
+    "biology/m10-animal-body-and-control-systems/l04-sensory-systems": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 86,
+      "words": 732
+    },
+    "biology/m10-animal-body-and-control-systems/l05-endocrine-system": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 78,
+      "words": 977
+    },
+    "biology/m11-animal-organ-systems/l01-muscles-and-skeleton": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 26,
+      "words": 927
+    },
+    "biology/m11-animal-organ-systems/l02-respiratory-system": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 41,
+      "words": 838
+    },
+    "biology/m11-animal-organ-systems/l03-circulatory-system": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 45,
+      "words": 904
+    },
+    "biology/m11-animal-organ-systems/l04-osmoregulation-and-excretion": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.1-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 84,
+      "words": 803
+    },
+    "biology/m11-animal-organ-systems/l05-immune-system": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 59,
+      "words": 775
+    },
+    "biology/m11-animal-organ-systems/l06-reproduction-and-development": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 69,
+      "words": 824
+    },
+    "biology/m12-ecology-and-conservation/l01-climate-biomes-and-biosphere": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.6-flash",
+      "fixes": [],
+      "review": "gemini:gemini-3.5-flash",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 103,
+      "words": 1009
+    },
+    "biology/m12-ecology-and-conservation/l02-population-ecology": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3-flash-preview",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 54,
+      "words": 1057
+    },
+    "biology/m12-ecology-and-conservation/l03-community-ecology": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 141,
+      "words": 704
+    },
+    "biology/m12-ecology-and-conservation/l04-ecosystems-and-nutrient-cycles": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 124,
+      "words": 900
+    },
+    "biology/m12-ecology-and-conservation/l05-conservation-biology": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 25,
+      "words": 731
+    }
+  },
+  "outline": {
+    "date": "2026-10-02",
+    "hand_reviewed": false,
+    "model": "gemini:gemini-3.5-flash",
+    "raw": "outline-raw-biology-20261002-105651.json"
+  }
+}

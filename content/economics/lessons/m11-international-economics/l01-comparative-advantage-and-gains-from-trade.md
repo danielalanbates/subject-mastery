@@ -1,0 +1,26 @@
+# Comparative Advantage and Gains from Trade
+
+Imagine a brilliant lawyer who types twice as fast as any administrative assistant she could possibly hire. Should she write her own legal briefs and type her own letters, or should she focus entirely on arguing cases while hiring someone else to handle the paperwork? Intuition might suggest she should do everything herself since she is better at both tasks. Yet, economic logic reveals that she and her assistant both gain by dividing the labor. This same principle scales up from individuals to entire nations, forming the absolute bedrock of international trade and global prosperity.
+
+In our last module, we explored how governments manage macroeconomic stability through fiscal policy and budgets. But economic activity does not stop at national borders. When countries trade, they rely on principles first mapped out by classical economists like David Ricardo. To understand how nations achieve mutual gains from trade, we have to distinguish between two deeply important concepts: absolute advantage and comparative advantage.
+
+Absolute advantage occurs when a country can produce a good using fewer resources, or at a lower absolute cost, than another country. Suppose the United States can produce a ton of wheat with fewer labor hours than France, while France can produce a bolt of silk with fewer labor hours than the United States. Here the case for trade is easy to see: each nation makes what it is best at and trades for the rest, an argument Adam Smith made in 1776. The harder question, which Ricardo answered in 1817, is whether trade still pays when one country is better at everything.
+
+Comparative advantage changes the entire equation. It focuses not on who is best at producing everything, but on who gives up the least to produce a specific good. We measure this through opportunity cost, which is the value of the next best alternative given up. Even if one nation holds an absolute advantage in producing every single good imaginable, it still faces trade-offs. Its resources are limited. Therefore, it must decide which goods to produce internally and which to import from abroad.
+
+Let us walk through a concrete example using two countries, which we will call Alpha and Beta, and two goods: digital software and agricultural grain. Suppose Alpha can produce ten units of software or five units of grain per worker day. Beta can produce two units of software or four units of grain per worker day. Looking at these numbers, Alpha has an absolute advantage in both sectors. It produces more software per worker day and more grain per worker day than Beta.
+
+Now, let us calculate the opportunity costs. In Alpha, a worker day yields either ten software or five grain, so each unit of grain costs two units of software. Conversely, producing one unit of software in Alpha costs half a unit of grain. In Beta, a worker day yields two software or four grain, so one unit of grain costs half a unit of software, while producing one unit of software costs two units of grain. Notice the divergence. Beta's opportunity cost for producing grain is much lower than Alpha's, while Alpha's opportunity cost for producing software is much lower than Beta's.
+
+This divergence is where comparative advantage lives. Beta has a comparative advantage in grain, and Alpha has a comparative advantage in software. If each country specializes entirely in the good where its opportunity cost is lowest, total production of both goods can rise. Alpha shifts all its labor toward software, and Beta shifts all its labor toward grain.
+
+Once trade begins, the actual terms of trade—the rate at which software and grain are exchanged—will settle somewhere between the two countries' opportunity costs. This rate determines how the total gains from trade are split between Alpha and Beta. Through international trade, both nations can then consume more of both goods than they ever could in total isolation.
+
+Mainstream economic consensus holds that these gains from trade are real, substantial, and accessible to any nation willing to open its doors. Critics and alternative traditions sometimes point out that specialization can cause painful regional dislocations and job losses in specific sectors. Yet, the foundational mathematics of trade remain robust. Nations do not trade because one is universally superior; they trade because their opportunity costs differ. As we move into our next lesson, we will examine how governments sometimes disrupt these natural gains using protectionist policies and tariffs.
+
+## Key ideas
+- Comparative advantage occurs when a country can produce a good at a lower opportunity cost than its trading partners.
+- Absolute advantage means being able to produce a good using fewer resources than another nation, which is distinct from comparative advantage.
+- Even if one nation holds an absolute advantage in every industry, both nations still gain from trade by specializing according to comparative advantage.
+- The terms of trade settle between the opportunity costs of the trading nations, determining how the gains from trade are divided.
+- International trade expands total global output and allows consuming populations to enjoy a wider bundle of goods and services than self-sufficiency permits.

@@ -1,0 +1,23 @@
+# Simple Sorting: Selection and Insertion Sort
+
+Imagine you are standing in front of a long, disorganized shelf of books. You want to arrange them by height, from shortest to tallest. You do not have a magical machine to do this instantly. Instead, you have to pick up the books and move them one by one. This is exactly what a computer does when it performs a sorting algorithm. In our last lesson, we discussed measuring efficiency using big O notation. Today, we will apply that concept to two of the most fundamental sorting methods: selection sort and insertion sort. Both are comparison-based, meaning their cost is driven by the number of comparisons made between elements. Both are also in-place algorithms, which means they require only a constant amount of additional memory, or big O of one, to perform their work.
+
+Let us start with selection sort. Imagine our shelf contains four books with heights of three, one, four, and two. Selection sort works by scanning the entire list to find the smallest item. You look at three, one, four, and two, find that one is the smallest, and swap it with the first book in the list. Now, the first position is correct. Next, you look at the remaining unsorted books to find the smallest among them. You find two and swap it with the second book. You repeat this process until the entire list is sorted.
+
+Selection sort is consistent in its performance. It always performs theta of n squared comparisons, regardless of the initial order of the items. However, it is efficient in terms of movement because it only performs big O of n swaps. One important detail is that basic selection sort is not stable. This means it does not necessarily preserve the original relative order of equal elements.
+
+Insertion sort takes a different approach, one that feels more like how you might organize a hand of playing cards. You start with the first card and consider it sorted. Then, you look at the second card. If it is smaller than the first, you slide it to the left. If it is larger, it stays put. Now you have two sorted cards. You move to the third card and pull it out of the line. You compare it to the cards you have already sorted, moving backward until you find the right spot to insert it. You keep doing this for every card in the deck until the whole hand is in order.
+
+Unlike selection sort, insertion sort is adaptive. If the list is already sorted, the algorithm performs only one comparison per element, leading to a best-case efficiency of big O of n. In the worst-case scenario, where the list is in reverse order, the work grows with the square of the list's length, or big O of n squared. Furthermore, insertion sort is stable, meaning it preserves the relative order of equal elements.
+
+Both algorithms are easy to write and work perfectly for small lists. Because they are efficient for small inputs, they are often used as subroutines within more complex, hybrid sorting algorithms, such as quicksort, to handle small segments of data. However, because they are generally big O of n squared, they become painfully slow as the amount of data increases. If you were sorting a million items, a big O of n squared algorithm would take trillions of operations, which could keep a computer busy for a very long time. This limitation is exactly why computer scientists developed more complex, efficient ways to sort data.
+
+While these two methods are simple, they serve as a perfect foundation for understanding how we can manipulate data structures through iteration. Once we master these step-by-step processes, we can move into more advanced techniques. In our next lesson, we will explore a powerful concept called recursion, which allows us to break down complex sorting problems into much smaller, more manageable pieces.
+
+## Key ideas
+
+- Selection sort functions by repeatedly finding the smallest element in the unsorted portion of a list and swapping it into its correct position, performing theta of n squared comparisons but only big O of n swaps.
+- Insertion sort is an adaptive algorithm that builds a sorted list one item at a time, achieving big O of n efficiency when the input is already sorted.
+- Both algorithms are in-place, requiring only big O of one extra memory, and are primarily useful for small datasets or as subroutines in larger, hybrid sorting algorithms.
+- Insertion sort is stable, preserving the relative order of equal elements, whereas the basic implementation of selection sort is not.
+- Both algorithms have a worst-case efficiency of big O of n squared, meaning the time required grows with the square of the input size.

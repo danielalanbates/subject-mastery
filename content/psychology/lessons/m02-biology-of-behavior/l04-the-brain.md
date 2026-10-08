@@ -1,0 +1,24 @@
+# The Brain and Its Structures
+
+Imagine you are trying to catch a falling glass. Your eyes spot the movement, your brain calculates the trajectory, and your hand snaps out to intercept it before it hits the floor. This rapid sequence is a masterpiece of biological engineering. In our last lesson, we explored the nervous system as the body’s electrical highway. Today, we turn to the command center that processes all that traffic. To understand how this three-pound organ governs our existence, we must look at its hierarchy, from the ancient structures tucked deep inside to the complex outer layers that define human thought.
+
+At the base of the brain, sitting atop the spinal cord, is the brainstem. This is the oldest part of the brain, responsible for vital survival functions like heartbeat and breathing. Evidence for these functions comes largely from lesion studies, where researchers observe how damage to specific areas disrupts basic life support. Tucked behind the brainstem is the cerebellum, the master of coordination and balance. If you have learned to ride a bicycle, you have your cerebellum to thank for the smooth, automatic movements you mastered.
+
+Moving upward, we encounter the limbic system, a collection of structures deep in the middle of the brain that influences emotion and memory. The amygdala acts as a filter for fear and aggression, while the hippocampus is crucial for forming new memories. If you are struggling to remember where you parked your car, you are relying on the hippocampus to retrieve that spatial information. Surrounding these is the cerebral cortex, the wrinkled outer layer. It is divided into four lobes. The frontal lobes at the front are involved in planning and judgment. The parietal lobes at the top and back handle sensory information like touch. The occipital lobes at the back process vision, and the temporal lobes on the sides process sound.
+
+How do we know which parts of the brain do what? Much of our early knowledge came from studying injuries. The famous case of Phineas Gage, a railroad worker who survived a metal rod passing through his frontal lobe in the mid-nineteenth century, taught us that the brain is not a uniform mass. While Gage lived for many years afterward and regained much of his social functioning, his personality shifts provided early evidence that specific regions govern temperament and decision-making.
+
+Today, we use sophisticated technology to gather evidence. Electroencephalograms, or EEGs, record the electrical waves of the brain’s activity. These waves, such as alpha, beta, delta, and theta, change depending on our level of alertness or sleep. To study structure and function, we use various imaging methods. Structural MRIs and CT scans provide detailed images of the brain’s anatomy, while PET scans and functional MRIs allow us to watch the brain in action by tracking blood flow or glucose consumption as it performs tasks.
+
+This leads us to a common myth: the idea of left-brained versus right-brained people. This misconception stems from research on split-brain patients, individuals who had the bundle of fibers connecting the two hemispheres severed to treat severe epilepsy. This research showed that the hemispheres do specialize. For example, the left is often more involved in language, while the right handles spatial tasks. However, in a healthy brain, the two sides are in constant communication. We use our entire brain for almost every complex task.
+
+Perhaps the most remarkable feature is plasticity. This is the brain’s ability to modify itself after damage or to reorganize based on experience. If one area is injured, other regions can sometimes compensate. Plasticity is also why learning is physically possible. Every time you practice a skill, you are changing the strength of the connections between your neurons. Your brain is not a static machine; it is a living, changing landscape that evolves with every thought.
+
+While the brain provides the hardware for behavior, it does not work in isolation. It relies on a chemical signaling system to send long-distance instructions. As we move from the electrical impulses of the brain to the chemical messengers that travel through the blood, we will begin our exploration of the endocrine system.
+
+## Key ideas
+
+- The brain is organized hierarchically, with the brainstem managing vital survival functions and the cerebral cortex handling complex cognitive tasks.
+- Brain research relies on diverse evidence, including clinical case studies, electrical activity recorded via EEGs, and structural or functional imaging like MRIs and PET scans.
+- Neuroplasticity demonstrates that the brain is a dynamic organ capable of reorganizing its neural connections in response to injury or new learning.
+- The concept of left-brained or right-brained personality types is a myth that misinterprets the reality of hemispheric specialization and neural integration.

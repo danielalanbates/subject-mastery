@@ -1,0 +1,236 @@
+From cc5661cba81f14ea7ca0b1d31fe6d503b3c5c474 Mon Sep 17 00:00:00 2001
+From: Daniel Bates <help@batesai.org>
+Date: Fri, 2 Oct 2026 10:59:23 -0700
+Subject: [PATCH 3/8] Google sign-in: optional return_to so other pages can get
+ members back
+
+GET /api/auth/oauth/google?return_to=<path> remembers a validated
+same-site path in a ten-minute HttpOnly cookie (oauth_return_to), because
+Google's redirect_uri is fixed at /membership and cannot carry it. The
+/membership callback then lands on <path>?signed_in=1 after a successful
+exchange, or <path>?signin_error=<reason> on failure, and clears the
+cookie. First user: Subject Mastery (/subjectmastery/).
+
+Accepted paths: one leading "/", only [A-Za-z0-9/_.-], no "//", no
+backslash, no "." or ".." segment, at most 200 characters, not under
+/api/ or /cdn-cgi/. Anything else is ignored. The cookie is re-validated
+on read, since a sibling *.batesai.org host could plant one.
+
+Without the cookie every response from both routes is unchanged
+(checked header-for-header against 7eea212f with a stubbed token
+exchange); DaemonManager's sign-in webview still sees
+/membership/?signed_in=1. Apple's form_post path is untouched.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ functions/_lib/return-to.js    | 50 ++++++++++++++++++++++++++++++++++
+ functions/api/auth/[[path]].js | 23 +++++++++++-----
+ functions/membership.js        | 39 ++++++++++++++++++++++----
+ 3 files changed, 99 insertions(+), 13 deletions(-)
+ create mode 100644 functions/_lib/return-to.js
+
+diff --git a/functions/_lib/return-to.js b/functions/_lib/return-to.js
+new file mode 100644
+index 00000000..01132cb2
+--- /dev/null
++++ b/functions/_lib/return-to.js
+@@ -0,0 +1,50 @@
++/**
++ * Post-sign-in return path, shared by the Google OAuth start route
++ * (functions/api/auth/[[path]].js) and its callback (functions/membership.js).
++ *
++ * A page elsewhere on the site (first user: /subjectmastery/) links to
++ *   /api/auth/oauth/google?return_to=/subjectmastery/
++ * and expects to come back there instead of /membership/. The path rides in a
++ * short-lived HttpOnly cookie because Google's redirect_uri is fixed at
++ * https://batesai.org/membership and cannot carry it.
++ *
++ * Only plain same-site paths are accepted, so this can never become an open
++ * redirect: it must start with exactly one "/", use only [A-Za-z0-9/_.-], hold
++ * no "//", backslash or "."/".." segment, stay within 200 characters, and
++ * not point into /api/ or /cdn-cgi/ (a redirect onto an API route, e.g.
++ * GET /api/auth/logout, would undo the sign-in that just happened). The value
++ * is re-validated when read back, because a sibling *.batesai.org host could
++ * plant a cookie too.
++ *
++ * Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved.
++ * help@batesai.org · https://batesai.org
++ */
++
++export const RETURN_TO_COOKIE = 'oauth_return_to';
++
++// Ten minutes: Google's authorization code lives about that long anyway. If it
++// lapses the member simply lands on /membership/, which is the old behaviour.
++const RETURN_TO_MAX_AGE = 600;
++
++const SAFE_PATH = /^\/[A-Za-z0-9/_.-]*$/;
++
++/** Returns the path if it is a safe same-site return target, else null. */
++export function safeReturnPath(value) {
++  if (typeof value !== 'string' || value.length === 0 || value.length > 200) return null;
++  if (!SAFE_PATH.test(value)) return null;
++  if (value.includes('//') || value.includes('\\')) return null;
++  // "." / ".." segments would let URL resolution walk "/x/../api/…" past the
++  // prefix check below, so they are refused outright.
++  if (value.split('/').some((seg) => seg === '.' || seg === '..')) return null;
++  if (/^\/(api|cdn-cgi)(\/|$)/i.test(value)) return null;
++  return value;
++}
++
++/** Set-Cookie value that remembers a (validated) return path. */
++export function returnToCookie(path) {
++  // The path alphabet is cookie-safe, so no encoding is needed.
++  return `${RETURN_TO_COOKIE}=${path}; Path=/; Max-Age=${RETURN_TO_MAX_AGE}; SameSite=Lax; Secure; HttpOnly`;
++}
++
++/** Set-Cookie value that removes it. */
++export const CLEAR_RETURN_TO_COOKIE = `${RETURN_TO_COOKIE}=; Path=/; Max-Age=0; SameSite=Lax; Secure; HttpOnly`;
+diff --git a/functions/api/auth/[[path]].js b/functions/api/auth/[[path]].js
+index f4607d8e..0656590f 100644
+--- a/functions/api/auth/[[path]].js
++++ b/functions/api/auth/[[path]].js
+@@ -13,6 +13,9 @@
+  *   POST  native/apple     native macOS/iOS Sign in with Apple (identity token)
+  *   POST  native/google    native Google Sign-In (id_token)
+  *
++ * GET oauth/google also takes an optional ?return_to=<same-site path>; see
++ * functions/_lib/return-to.js. Without it nothing about the flow changes.
++ *
+  * SECURITY NOTE: every path that accepts a provider id_token verifies the token's
+  * RS256 signature against the provider's published JWKS, plus issuer, audience and
+  * expiry. A previous revision of this file base64-decoded the token payload without
+@@ -20,6 +23,10 @@
+  * in as any user. Do not reintroduce an unverified decode.
+  */
+ 
++import {
++  RETURN_TO_COOKIE, CLEAR_RETURN_TO_COOKIE, safeReturnPath, returnToCookie,
++} from '../../_lib/return-to.js';
++
+ const APPLE_ISSUER = 'https://appleid.apple.com';
+ const APPLE_JWKS_URL = 'https://appleid.apple.com/auth/keys';
+ const GOOGLE_ISSUERS = ['https://accounts.google.com', 'accounts.google.com'];
+@@ -527,13 +534,15 @@ async function handleOAuth(request, env, url, path) {
+         `&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=code` +
+         `&scope=${encodeURIComponent('email profile openid')}&state=${state}` +
+         `&access_type=offline&prompt=select_account`;
+-      return new Response(null, {
+-        status: 302,
+-        headers: {
+-          Location: authUrl,
+-          'Set-Cookie': `google_oauth_state=${state}; Path=/; Max-Age=300; SameSite=Lax; Secure; HttpOnly`,
+-        },
+-      });
++      const headers = new Headers({ Location: authUrl });
++      headers.append('Set-Cookie', `google_oauth_state=${state}; Path=/; Max-Age=300; SameSite=Lax; Secure; HttpOnly`);
++      // Optional landing page for after the /membership callback (e.g.
++      // /subjectmastery/). An invalid value is ignored, never echoed. A plain
++      // sign-in clears any leftover one, so it cannot hijack this trip.
++      const returnTo = safeReturnPath(url.searchParams.get('return_to'));
++      if (returnTo) headers.append('Set-Cookie', returnToCookie(returnTo));
++      else if (readCookie(request, RETURN_TO_COOKIE) !== null) headers.append('Set-Cookie', CLEAR_RETURN_TO_COOKIE);
++      return new Response(null, { status: 302, headers });
+     }
+ 
+     if (request.method === 'POST') {
+diff --git a/functions/membership.js b/functions/membership.js
+index 2a101d7a..5371056c 100644
+--- a/functions/membership.js
++++ b/functions/membership.js
+@@ -18,30 +18,45 @@
+  * Without a ?code this route reproduces the trailing-slash redirect it
+  * replaces, so /membership keeps behaving exactly as before.
+  *
++ * Return path: if sign-in began at /api/auth/oauth/google?return_to=<path>,
++ * an oauth_return_to cookie names where to land instead of /membership/ —
++ * <path>?signed_in=1 on success, <path>?signin_error=<reason> on failure —
++ * and is cleared on the way out. Without that cookie every response here is
++ * exactly what it was before; DaemonManager's sign-in webview depends on
++ * seeing /membership/?signed_in=1. See functions/_lib/return-to.js.
++ *
+  * Copyright (c) 2026 Bates LLC. All rights reserved.
+  */
+ 
++import { RETURN_TO_COOKIE, CLEAR_RETURN_TO_COOKIE, safeReturnPath } from './_lib/return-to.js';
++
+ export async function onRequestGet(context) {
+   const { request } = context;
+   const url = new URL(request.url);
+   const target = new URL('/membership/', url.origin);
++  // null unless this sign-in started with ?return_to=; then failures go back
++  // to that page rather than to /membership/.
++  const returnTo = safeReturnPath(readCookie(request, RETURN_TO_COOKIE));
++  const fail = (reason) => (returnTo ? bounceBack(url, returnTo, reason) : bounce(target, reason));
+ 
+   const code = url.searchParams.get('code');
+   if (!code) {
++    // A refused consent screen comes back as ?error=… with no code at all.
++    if (returnTo && url.searchParams.get('error')) return fail('access_denied');
+     target.search = url.search;
+     return Response.redirect(target.toString(), 308);
+   }
+ 
+   // Google reports user-facing failures (consent denied, closed window) here.
+   const googleError = url.searchParams.get('error');
+-  if (googleError) return bounce(target, 'access_denied');
++  if (googleError) return fail('access_denied');
+ 
+   // CSRF: the state cookie is set when we send the user to Google. Treat a
+   // missing cookie as acceptable (it expires after 5 minutes, and a slow
+   // sign-in is not an attack) but a *mismatched* one as hostile.
+   const cookieState = readCookie(request, 'google_oauth_state');
+   if (cookieState && cookieState !== url.searchParams.get('state')) {
+-    return bounce(target, 'state_mismatch');
++    return fail('state_mismatch');
+   }
+ 
+   let res;
+@@ -56,22 +71,24 @@ export async function onRequestGet(context) {
+     });
+   } catch (e) {
+     console.error('membership callback: exchange subrequest failed:', e && e.message);
+-    return bounce(target, 'server_error');
++    return fail('server_error');
+   }
+ 
+   if (!res.ok) {
+     const detail = await res.text().catch(() => '');
+     console.error('membership callback: exchange rejected:', res.status, detail);
+-    return bounce(target, detailToReason(detail));
++    return fail(detailToReason(detail));
+   }
+ 
+   // Hand the browser the session cookie the API just minted, then send it to
+   // the real page. The authorization code never appears in a loadable URL.
+-  target.search = '?signed_in=1';
+-  const out = new Response(null, { status: 302, headers: { Location: target.toString() } });
++  const landing = returnTo ? new URL(returnTo, url.origin) : target;
++  landing.search = '?signed_in=1';
++  const out = new Response(null, { status: 302, headers: { Location: landing.toString() } });
+   for (const value of setCookies(res)) out.headers.append('Set-Cookie', value);
+   // The one-shot state cookie has done its job.
+   out.headers.append('Set-Cookie', 'google_oauth_state=; Path=/; Max-Age=0; SameSite=Lax; Secure; HttpOnly');
++  if (returnTo) out.headers.append('Set-Cookie', CLEAR_RETURN_TO_COOKIE);
+   return out;
+ }
+ 
+@@ -156,6 +173,16 @@ function bounce(target, reason) {
+   return Response.redirect(target.toString(), 302);
+ }
+ 
++/** Failure with a return path: back to that page, and drop the cookie. */
++function bounceBack(url, path, reason) {
++  const location = new URL(path, url.origin);
++  location.search = `?signin_error=${encodeURIComponent(reason)}`;
++  return new Response(null, {
++    status: 302,
++    headers: [['Location', location.toString()], ['Set-Cookie', CLEAR_RETURN_TO_COOKIE]],
++  });
++}
++
+ /** Map Google's OAuth error codes onto the reasons the page knows how to explain. */
+ function detailToReason(body) {
+   if (/invalid_grant/.test(body)) return 'code_replayed';
+-- 
+2.51.2
+

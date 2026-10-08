@@ -1,0 +1,15 @@
+{
+  "name": "Subject Mastery",
+  "short_name": "Subjects",
+  "description": "Learn a whole subject, one page at a time. Listen or read, skip what you know, and watch your knowledge grow.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

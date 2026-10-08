@@ -1,0 +1,24 @@
+# Prejudice and Discrimination
+
+Imagine you are walking through a busy airport. You see hundreds of people, and your brain is working constantly to make sense of the scene. Almost instantly, you categorize people based on what they are wearing, their age, or their apparent background. This is a natural cognitive process called social categorization. While it helps us process information efficiently, it can also lead us toward bias. Today, we examine how our perceptions of others can harden into unfair judgments.
+
+To understand this, we must distinguish between three related concepts. Stereotypes are generalized beliefs about a group of people, often ignoring individual differences. Prejudice is an affective, or emotional, component; it is an unjustifiable and usually negative attitude toward a group and its members. Discrimination is the behavioral component; it is the actual action or practice of treating someone differently because of their membership in a specific group. A stereotype is a thought, prejudice is a feeling, and discrimination is the behavior that follows.
+
+Social identity theory helps explain why these divisions occur. This theory suggests that we derive part of our self-concept from the groups to which we belong. To boost our self-esteem, we often favor our own group, known as the in-group, while devaluing out-groups. This leads to the out-group homogeneity effect, where we view our own group as diverse and unique, while perceiving the out-group as a block where everyone is the same. This makes it easier to apply broad, negative stereotypes to people we do not personally know.
+
+Prejudice is also fueled by competition. Realistic conflict theory suggests that prejudice and discrimination often arise from actual competition over limited resources. When groups feel they are in a zero-sum game for jobs, housing, or status, hostility frequently increases.
+
+Psychologists have long studied how to reduce these biases. The contact hypothesis suggests that interaction between members of different groups can reduce prejudice. However, research shows that proximity alone is insufficient. For contact to be effective, it requires specific conditions: equal status between the groups, institutional support, and common goals. When individuals work together toward a shared purpose, called a superordinate goal, their prejudices often diminish. While studies show a modest, positive correlation between these types of cooperative contact and reduced prejudice, we must be careful not to mistake this correlation for direct causation, as many complex social factors are involved.
+
+In recent years, the study of prejudice has moved beyond what people consciously admit. Researchers developed the Implicit Association Test to measure implicit bias, which refers to unconscious associations that may influence our understanding. The test measures how quickly people associate categories with positive or negative concepts. Results often show that people hold biases even when they consciously claim to be egalitarian.
+
+The field is currently in a state of healthy debate regarding these measures. Some critics argue that the test does not strongly predict discriminatory behavior in real-world settings. Others point out that the test-retest reliability, or how consistent a score is over time, is often low. As of the year twenty twenty-four, psychologists generally agree that while implicit biases exist and influence our mental processing, we should be cautious about using these scores to predict how an individual will act in a high-stakes situation. These measures are better understood as tools for studying broad social patterns rather than as definitive psychological fingerprints.
+
+Societal norms also play a role in maintaining prejudice. When environments reward exclusionary behavior, bias persists. Education and exposure to diverse perspectives can help mitigate these tendencies, but it requires a conscious effort to challenge our own cognitive shortcuts. By understanding that our brains are wired to categorize, we can become more vigilant about the stereotypes we hold and the ways those thoughts manifest in our daily interactions.
+
+## Key ideas
+
+- Social identity theory explains that we favor our in-group to boost self-esteem, while realistic conflict theory suggests that competition for resources drives prejudice.
+- The contact hypothesis is most effective at reducing bias when groups share equal status, institutional support, and common, superordinate goals.
+- Stereotypes are generalizations, prejudice is an attitude, and discrimination is the behavior of treating someone unfairly based on group membership.
+- Implicit bias tests provide evidence of unconscious associations, but their ability to predict specific real-world behavior remains a subject of significant scientific debate.

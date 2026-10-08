@@ -1,0 +1,26 @@
+# The War for Independence
+
+Imagine standing in a field in New Jersey in the winter of 1776. You are a soldier in the Continental Army. Your shoes are falling apart, your uniform is a rag, and you have not been paid in months. Across the field sits the British Army, the most disciplined, well-equipped, and experienced fighting force in the world. When the Continental Congress declared independence earlier that year, they committed to a war that, by conventional military logic, they should have lost within months.
+
+The British strategy was to occupy major cities and crush the rebellion through superior firepower. The Americans, led by George Washington, had to adopt a different approach. Washington knew he could not defeat the British in a traditional European-style battle where lines of soldiers fired volleys at one another. Instead, he employed a strategy of attrition. He aimed to keep the army intact, harass British supply lines, and outlast the political will of the British government in London.
+
+The war was not fought by white men alone. African Americans played a vital role, often choosing sides based on the promise of freedom. Thousands of enslaved people fled to British lines, while others fought for the Patriot cause, such as the soldiers of the First Rhode Island Regiment. Women were equally essential. They served as camp followers who cooked and nursed the wounded, worked as spies like the mysterious Agent 355, and some, like Deborah Sampson, even disguised themselves as men to fight in the ranks. Native American nations also faced impossible choices. The Iroquois Confederacy fractured, with the Oneida and Tuscarora siding with the Patriots, while other nations allied with the British to protect their lands from colonial expansion. In the South, Cherokee warriors launched raids against frontier settlements.
+
+Foreign volunteers were critical to the American effort. Officers like the Marquis de Lafayette from France, Baron von Steuben from Prussia, and Kazimierz Pułaski from Poland provided professional military training and leadership that transformed the Continental Army into a disciplined force. Financing this effort was a constant struggle. Robert Morris, the superintendent of finance, worked tirelessly to secure loans from France and the Netherlands, while the army relied on local logistics to survive the harsh winters.
+
+The war’s turning point arrived in 1777 at the Battle of Saratoga in upstate New York. A large British force under General John Burgoyne was trapped by American militias and Continental troops. Burgoyne surrendered his entire force of about 5,800 men. This victory was a diplomatic triumph. It convinced the French government that the Americans were capable of winning. In 1778, France signed a formal alliance with the United States, providing money, troops, and a navy that could challenge Britain at sea.
+
+As the conflict dragged on, the British shifted their focus to the South, hoping to rally Loyalists. They captured Savannah and Charleston, but the occupation turned into a brutal, messy war of attrition. Local militias fought vicious skirmishes against Loyalist forces, making the region impossible to secure. The British commander, Lord Cornwallis, eventually moved his army to the coast at Yorktown, Virginia, hoping to be resupplied by the British fleet.
+
+It was a fatal miscalculation. Washington, working with French commanders, moved his army south from New York with speed. Simultaneously, the French navy arrived at the mouth of the Chesapeake Bay, blocking the British escape route. Cornwallis found himself trapped on a peninsula. In October 1781, he surrendered his army to Washington. While fighting continued in scattered locations, the defeat at Yorktown broke the British will to continue the war.
+
+The war officially concluded with the Treaty of Paris in 1783. Great Britain formally recognized the independence of the United States. The treaty established the nation’s borders, stretching from the Atlantic Ocean to the Mississippi River. It was a stunning geopolitical outcome. A collection of small, disparate colonies had successfully defied the greatest empire of the age.
+
+Yet, the victory was complex. The treaty did not address the fate of the many thousands of enslaved people who had sought freedom behind British lines, nor did it offer protections for the Native nations whose lands were now claimed by the new republic. The struggle for independence was over, but the work of defining who belonged to this new nation, and what their rights would be, was only just beginning.
+
+## Key ideas
+
+- The Continental Army survived through a strategy of attrition, aided significantly by foreign volunteers who provided professional training and international financial support.
+- The war involved diverse participants, including African American soldiers, women in various support and combat roles, and Native American nations navigating their own survival.
+- The 1777 American victory at Saratoga served as the critical turning point that secured a formal military alliance with France.
+- The British surrender at Yorktown in 1781 effectively ended major combat operations, leading to the 1783 Treaty of Paris and the formal recognition of American independence.

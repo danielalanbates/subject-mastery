@@ -1,0 +1,394 @@
+{
+  "id": "computer-science",
+  "title": "Computer Science",
+  "tagline": "How computers work, algorithms, data structures and the limits of computation.",
+  "description": "An introduction to computer science for the ear, with no code to read. It covers computational thinking, how computers work and represent data, algorithms and their efficiency, the core ideas of programming and data structures, and then networks and the internet, security, databases, software engineering, and the basics and ethics of artificial intelligence.",
+  "category": "Mathematics & Computing",
+  "color": "#5f6fb5",
+  "modules": [
+    {
+      "id": "m01-computational-thinking-and-history",
+      "title": "Computational Thinking and History",
+      "summary": "Learners will understand the core problem-solving strategies of computer science and how computing developed from mechanical engines to modern devices.",
+      "lessons": [
+        {
+          "id": "l01-abstraction-and-decomposition",
+          "title": "Abstraction and Decomposition",
+          "summary": "How breaking a complex problem into smaller pieces and hiding unnecessary detail makes large problems manageable."
+        },
+        {
+          "id": "l02-patterns-and-algorithms",
+          "title": "Patterns and Algorithms",
+          "summary": "Recognizing patterns and generalizing from them, and algorithms as precise step-by-step procedures, using everyday examples such as a recipe or directions; the formal properties of algorithms come later."
+        },
+        {
+          "id": "l03-pioneers-of-computing",
+          "title": "Pioneers of Computing",
+          "summary": "Charles Babbage's engines, Ada Lovelace's notes, George Boole's logic, Alan Turing's model of computation and Grace Hopper's compilers, and where historians debate who was first."
+        },
+        {
+          "id": "l04-from-vacuum-tubes-to-smartphones",
+          "title": "From Vacuum Tubes to Smartphones",
+          "summary": "The electronic computers of the 1940s, the transistor and the integrated circuit, Moore's law, the personal computer, the internet and the web, and the smartphone."
+        }
+      ]
+    },
+    {
+      "id": "m02-data-representation-and-compression",
+      "title": "Data Representation and Compression",
+      "summary": "Learners will understand how numbers, text, images and sound become patterns of bits, and how data is compressed.",
+      "lessons": [
+        {
+          "id": "l01-bits-binary-and-hexadecimal",
+          "title": "Bits, Binary and Hexadecimal",
+          "summary": "What a bit and a byte are, why computers use two states, counting in binary and converting between binary and decimal digit by digit, and hexadecimal as a shorthand for groups of four bits."
+        },
+        {
+          "id": "l02-whole-numbers-and-overflow",
+          "title": "Whole Numbers and Overflow",
+          "summary": "How a fixed number of bits limits the range of whole numbers, how negative numbers are stored with two's complement, explained in words, and why overflow causes real bugs."
+        },
+        {
+          "id": "l03-fractions-and-floating-point",
+          "title": "Fractions and Floating Point",
+          "summary": "How computers store fractions in a binary form of scientific notation, why a simple decimal such as one tenth cannot be stored exactly, and the rounding errors that follow."
+        },
+        {
+          "id": "l04-text-encoding",
+          "title": "Text Encoding",
+          "summary": "How characters become numbers, the early seven-bit American standard code, and Unicode, which covers the world's writing systems and emoji, with its common variable-length encoding in brief."
+        },
+        {
+          "id": "l05-images-sound-and-compression",
+          "title": "Images, Sound and Compression",
+          "summary": "How pictures become pixels and sound becomes samples, how resolution and sampling rate trade quality for size, and lossless versus lossy compression."
+        }
+      ]
+    },
+    {
+      "id": "m03-how-computers-work",
+      "title": "How Computers Work",
+      "summary": "Learners will understand how logic gates, the processor, memory and the operating system work together to run programs.",
+      "lessons": [
+        {
+          "id": "l01-boolean-logic-and-logic-gates",
+          "title": "Boolean Logic and Logic Gates",
+          "summary": "True and false values, the and, or and not operations described in words, transistors as switches that build logic gates, and how gates combine into a circuit that adds binary numbers."
+        },
+        {
+          "id": "l02-inside-the-processor",
+          "title": "Inside the Processor",
+          "summary": "The parts of the central processing unit, the arithmetic logic unit, the control unit and registers, the clock and what its speed means, and why modern processors have several cores."
+        },
+        {
+          "id": "l03-fetch-decode-execute-cycle",
+          "title": "The Fetch-Decode-Execute Cycle",
+          "summary": "How a processor repeatedly fetches an instruction from memory, decodes it and carries it out, machine instructions as numbers, and the stored-program idea that instructions and data share memory."
+        },
+        {
+          "id": "l04-memory-hierarchy-and-storage",
+          "title": "The Memory Hierarchy and Storage",
+          "summary": "Registers, cache, main memory and long-term storage compared by speed, size, cost and whether they keep data without power, and how hard drives and solid-state drives store data."
+        },
+        {
+          "id": "l05-operating-systems",
+          "title": "Operating Systems",
+          "summary": "How the operating system shares the processor among programs, manages memory and files, controls devices, and provides the user interface."
+        }
+      ]
+    },
+    {
+      "id": "m04-programming-concepts",
+      "title": "Programming Concepts in Plain Words",
+      "summary": "Learners will understand the basic building blocks of programs, described in words and without code.",
+      "lessons": [
+        {
+          "id": "l01-variables-types-and-expressions",
+          "title": "Variables, Data Types and Expressions",
+          "summary": "How programs store values in named variables, what data types are, and how expressions combine values into new ones."
+        },
+        {
+          "id": "l02-conditionals-and-branching",
+          "title": "Conditionals and Branching",
+          "summary": "How programs make decisions with true-or-false conditions, if-then-else branching, combining conditions with and, or and not, and nested decisions, walked through in sentences."
+        },
+        {
+          "id": "l03-loops-and-iteration",
+          "title": "Loops and Iteration",
+          "summary": "Repeating steps with counting loops and condition-controlled loops, going through every item in a list, and the danger of a loop that never ends."
+        },
+        {
+          "id": "l04-functions-and-parameters",
+          "title": "Functions and Parameters",
+          "summary": "Functions as named, reusable steps that take inputs and return a result, parameters and return values, and why splitting a program into functions mirrors decomposition."
+        },
+        {
+          "id": "l05-objects-and-classes",
+          "title": "Objects and Classes",
+          "summary": "How objects bundle data with the actions that use it, and how classes act as blueprints for making many similar objects."
+        },
+        {
+          "id": "l06-languages-paradigms-and-translation",
+          "title": "Languages, Paradigms and Translation",
+          "summary": "Machine code and high-level languages, compilers and interpreters, and the procedural, object-oriented, functional and declarative styles of programming."
+        }
+      ]
+    },
+    {
+      "id": "m05-algorithms-and-efficiency",
+      "title": "Algorithms and Efficiency",
+      "summary": "Learners will understand how algorithms are designed and compared, and how their running time grows as data grows.",
+      "lessons": [
+        {
+          "id": "l01-what-makes-a-good-algorithm",
+          "title": "What Makes a Good Algorithm",
+          "summary": "The formal properties of an algorithm: clear steps, inputs and outputs, and a guarantee to finish, plus correctness, describing an algorithm in structured plain language, and why one problem can have many algorithms."
+        },
+        {
+          "id": "l02-searching",
+          "title": "Searching Ordered and Unordered Data",
+          "summary": "Linear search through unordered data and binary search through sorted data, walked through step by step, and how many guesses each needs."
+        },
+        {
+          "id": "l03-measuring-efficiency-with-big-o",
+          "title": "Measuring Efficiency with Big O",
+          "summary": "Counting steps instead of seconds, how the work grows as the input grows, and the common classes, constant, logarithmic, linear, n log n, quadratic and exponential, named plainly with examples."
+        },
+        {
+          "id": "l04-selection-and-insertion-sort",
+          "title": "Simple Sorting: Selection and Insertion Sort",
+          "summary": "How selection sort and insertion sort put a list in order, walked through on a short list in words, and why their work grows with the square of the list's length."
+        },
+        {
+          "id": "l05-recursion",
+          "title": "Recursion",
+          "summary": "Functions that call themselves on a smaller version of the same problem, the base case that stops them, and how the computer keeps track of the calls."
+        },
+        {
+          "id": "l06-merge-sort-and-quicksort",
+          "title": "Faster Sorting: Merge Sort and Quicksort",
+          "summary": "How merge sort and quicksort use divide and conquer and recursion to sort in about n log n steps, why quicksort can slow down in its worst case, and why real systems often combine methods."
+        }
+      ]
+    },
+    {
+      "id": "m06-data-structures",
+      "title": "Data Structures",
+      "summary": "Learners will understand how data is organized in memory to make finding, adding and changing it efficient.",
+      "lessons": [
+        {
+          "id": "l01-arrays-and-lists",
+          "title": "Arrays and Lists",
+          "summary": "Arrays as numbered slots stored side by side, why reaching a slot by its position is fast but inserting in the middle is slow, and linked lists as chains of items that make the opposite trade."
+        },
+        {
+          "id": "l02-stacks-and-queues",
+          "title": "Stacks and Queues",
+          "summary": "Stacks, last in first out, and queues, first in first out, with everyday uses such as an undo button and a print queue."
+        },
+        {
+          "id": "l03-hash-tables",
+          "title": "Hash Tables",
+          "summary": "How a hash function turns a key into a position so that lookups are nearly instant, what happens when two keys collide, and why hash tables power dictionaries and caches."
+        },
+        {
+          "id": "l04-trees",
+          "title": "Trees",
+          "summary": "Trees as hierarchies of parent and child nodes, binary search trees and why a balanced tree keeps search fast, and everyday trees such as folders on a disk."
+        },
+        {
+          "id": "l05-graphs",
+          "title": "Graphs",
+          "summary": "Nodes and edges that model connections such as social networks and road maps, exploring a graph level by level or path by path, and how a shortest route is found."
+        }
+      ]
+    },
+    {
+      "id": "m07-limits-of-computation",
+      "title": "Limits of Computation",
+      "summary": "Learners will understand the boundaries of what computers can do, telling hard problems from impossible ones.",
+      "lessons": [
+        {
+          "id": "l01-tractable-and-intractable-problems",
+          "title": "Tractable and Intractable Problems",
+          "summary": "The line between problems computers can solve in polynomial time and those that seem to need exponential time, with the traveling salesperson problem as an example."
+        },
+        {
+          "id": "l02-p-versus-np",
+          "title": "P Versus NP",
+          "summary": "The classes P and NP, problems whose answers are easy to check but seem hard to find, NP-complete problems, and why the question of whether P equals NP is still unsolved."
+        },
+        {
+          "id": "l03-heuristics-and-approximation",
+          "title": "Heuristics and Approximation",
+          "summary": "How rules of thumb and approximation algorithms find good-enough answers to intractable problems, and what is given up."
+        },
+        {
+          "id": "l04-undecidable-problems-and-the-halting-problem",
+          "title": "Undecidable Problems and the Halting Problem",
+          "summary": "That some problems can never be solved by any program, and how Alan Turing proved that no program can always tell whether another program will finish."
+        }
+      ]
+    },
+    {
+      "id": "m08-networks-and-the-internet",
+      "title": "Networks and the Internet",
+      "summary": "Learners will understand how computers exchange data across local links and the global internet.",
+      "lessons": [
+        {
+          "id": "l01-packets-and-protocols",
+          "title": "Packets and Protocols",
+          "summary": "How data travels in small packets over wired and wireless links, why the internet runs on agreed protocols arranged in layers, and bandwidth versus latency."
+        },
+        {
+          "id": "l02-ip-addresses-and-routing",
+          "title": "IP Addresses and Routing",
+          "summary": "Internet protocol addresses, routers passing packets hop by hop, and why the internet was built with many paths so it keeps working when links fail."
+        },
+        {
+          "id": "l03-reliable-delivery-with-tcp",
+          "title": "Reliable Delivery with TCP",
+          "summary": "How the Transmission Control Protocol numbers packets, acknowledges them, resends lost ones and puts them back in order, and when a faster protocol without these guarantees is used instead."
+        },
+        {
+          "id": "l04-domain-name-system",
+          "title": "The Domain Name System",
+          "summary": "How names such as a website's address are translated into internet protocol addresses by a worldwide hierarchy of name servers, and why the answers are cached."
+        },
+        {
+          "id": "l05-the-web-and-cloud-computing",
+          "title": "The Web and Cloud Computing",
+          "summary": "How a browser asks a web server for a page with the hypertext transfer protocol, what the secure version adds, cookies, and how cloud computing rents shared data centers."
+        }
+      ]
+    },
+    {
+      "id": "m09-security-and-cryptography",
+      "title": "Security and Cryptography",
+      "summary": "Learners will understand the main threats to computer systems, how encryption and hashing protect data, and how identity and privacy are protected.",
+      "lessons": [
+        {
+          "id": "l01-threats-and-malware",
+          "title": "Threats and Malware",
+          "summary": "Viruses, worms, trojans, ransomware and spyware, how attackers take advantage of unpatched flaws in general terms, and the main defenses: updates, backups, least privilege and firewalls."
+        },
+        {
+          "id": "l02-social-engineering-and-phishing",
+          "title": "Social Engineering and Phishing",
+          "summary": "How attackers manipulate people rather than machines, the signs of a phishing message, and habits that defeat it."
+        },
+        {
+          "id": "l03-symmetric-and-public-key-encryption",
+          "title": "Symmetric and Public-Key Encryption",
+          "summary": "Symmetric encryption with one shared key, public-key encryption with a matched key pair, how the two are combined to secure web traffic, and digital signatures, explained with analogies."
+        },
+        {
+          "id": "l04-hashing-and-password-security",
+          "title": "Hashing and Password Security",
+          "summary": "One-way hash functions, why sites store salted password hashes instead of passwords, and what makes a password strong."
+        },
+        {
+          "id": "l05-authentication-and-privacy",
+          "title": "Authentication and Privacy",
+          "summary": "Proving who you are with something you know, have or are, multi-factor sign-in and passkeys, and data privacy: what is collected, how tracking works, and how privacy laws and encryption protect it."
+        }
+      ]
+    },
+    {
+      "id": "m10-databases-and-data",
+      "title": "Databases and Data",
+      "summary": "Learners will understand how large amounts of data are stored, queried and analyzed.",
+      "lessons": [
+        {
+          "id": "l01-relational-tables",
+          "title": "Relational Tables and Schemas",
+          "summary": "How data is organized into rows, columns and related tables linked by keys, and why splitting data this way prevents duplication and errors."
+        },
+        {
+          "id": "l02-querying-data",
+          "title": "Querying Data with SQL",
+          "summary": "How the structured query language asks a database to filter, sort, combine and summarize data, with every query described in plain words."
+        },
+        {
+          "id": "l03-data-at-scale",
+          "title": "Data at Scale",
+          "summary": "Why very large data sets are spread across many servers, the trade-offs this forces, and databases that are not built on tables."
+        },
+        {
+          "id": "l04-data-science-basics",
+          "title": "Data Science Basics",
+          "summary": "How raw data is collected, cleaned, explored and turned into conclusions, and the common pitfalls of reading too much into data."
+        }
+      ]
+    },
+    {
+      "id": "m11-software-engineering",
+      "title": "Software Engineering",
+      "summary": "Learners will understand the practices and tools that teams use to build reliable software.",
+      "lessons": [
+        {
+          "id": "l01-development-life-cycle",
+          "title": "The Development Life Cycle",
+          "summary": "The stages of software from planning to retirement, and the waterfall and agile ways of moving through them."
+        },
+        {
+          "id": "l02-requirements-and-design",
+          "title": "Requirements and Design",
+          "summary": "How user needs become written requirements, and how designers divide a system into parts with clear interfaces."
+        },
+        {
+          "id": "l03-version-control-and-teamwork",
+          "title": "Version Control and Teamwork",
+          "summary": "How version control records every change, lets people work in parallel on branches and merge their work, and how code review fits in."
+        },
+        {
+          "id": "l04-testing-and-debugging",
+          "title": "Testing and Debugging",
+          "summary": "How unit, integration and system tests catch mistakes, and how programmers track down and fix bugs."
+        },
+        {
+          "id": "l05-open-source-and-licensing",
+          "title": "Open Source and Licensing",
+          "summary": "What software licenses allow, permissive and copyleft open-source licenses, and how open-source communities work."
+        }
+      ]
+    },
+    {
+      "id": "m12-artificial-intelligence-and-ethics",
+      "title": "Artificial Intelligence and Ethics",
+      "summary": "Learners will understand the main ideas of artificial intelligence as of the mid-2020s and the ethical questions computing raises.",
+      "lessons": [
+        {
+          "id": "l01-search-and-problem-solving",
+          "title": "Search and Problem Solving",
+          "summary": "Early artificial intelligence as search through possible states, game trees for games such as chess, heuristics that guide the search, and how game-playing programs came to beat human champions."
+        },
+        {
+          "id": "l02-machine-learning",
+          "title": "Machine Learning",
+          "summary": "Learning patterns from examples instead of following hand-written rules, supervised, unsupervised and reinforcement learning, training and test data, and overfitting."
+        },
+        {
+          "id": "l03-neural-networks-and-deep-learning",
+          "title": "Neural Networks and Deep Learning",
+          "summary": "Artificial neurons arranged in layers, how training adjusts their connection strengths to reduce errors, and why deep networks transformed image and speech recognition."
+        },
+        {
+          "id": "l04-large-language-models",
+          "title": "Large Language Models",
+          "summary": "How large language models generate text by predicting likely next words, how they are trained, and what they can and cannot do."
+        },
+        {
+          "id": "l05-algorithmic-bias-and-fairness",
+          "title": "Algorithmic Bias and Fairness",
+          "summary": "How bias enters data and algorithms, how fairness is measured and debated, and who is responsible when automated decisions go wrong."
+        },
+        {
+          "id": "l06-computing-and-society",
+          "title": "Computing and Society",
+          "summary": "Intellectual property in software and data, the digital divide, automation and work, and the ethical responsibilities of the people who build technology; privacy was covered in the security module."
+        }
+      ]
+    }
+  ]
+}

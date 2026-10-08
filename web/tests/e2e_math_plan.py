@@ -1,0 +1,103 @@
+#!/usr/bin/env python3
+# Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved.
+# help@batesai.org · https://batesai.org
+"""3 Biology recordings followed by 1 Mathematics speech page, with one Play click.
+
+Uses a deterministic silent speech voice because headless Chromium has no OS voices.
+This verifies fallback completion and plan transitions, not audible pronunciation.
+Run: python3 -B web/tests/e2e_math_plan.py <dist> <screenshots>
+"""
+import functools
+import importlib.util
+from pathlib import Path
+import sys
+import threading
+
+dist = str(Path(sys.argv[1]).resolve())
+shots = str(Path(sys.argv[2]).resolve())
+sys.argv = ["e2e_goal.py", "--dist", dist, "--shots", shots]
+spec = importlib.util.spec_from_file_location("goal_checks", Path(__file__).with_name("e2e_goal.py"))
+g = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(g)
+
+SPEECH = """(() => {
+  const RealAudio = window.Audio;
+  window.__testAudio = [];
+  window.Audio = class extends RealAudio {
+    constructor(...args) { super(...args); window.__testAudio.push(this); }
+  };
+  let timer = null, current = null;
+  const voice = {lang: 'en-US', localService: true, default: true, name: 'Silent test voice'};
+  const synth = {
+    speaking: false, pending: false, paused: false,
+    getVoices: () => [voice], addEventListener() {}, removeEventListener() {},
+    speak(u) {
+      current = u; this.speaking = true;
+      u.onstart?.();
+      timer = setTimeout(() => { this.speaking = false; timer = null; current = null; u.onend?.(); }, 100);
+    },
+    cancel() { clearTimeout(timer); timer = null; current = null; this.speaking = false; },
+    pause() { this.paused = true; clearTimeout(timer); },
+    resume() { this.paused = false; if (current) this.speak(current); }
+  };
+  Object.defineProperty(window, 'speechSynthesis', {value: synth});
+  Object.defineProperty(window, 'SpeechSynthesisUtterance', {value: class {
+    constructor(text) { this.text = text; this.onend = null; this.onstart = null; }
+  }});
+})();"""
+
+server = g.StaticServer(("127.0.0.1", 0), functools.partial(g.QuietHandler, directory=dist))
+threading.Thread(target=server.serve_forever, daemon=True).start()
+base = f"http://127.0.0.1:{server.server_address[1]}/"
+try:
+    catalog = g.fetch_json(base, "data/catalog.json")
+    subjects = [g.Subject(g.fetch_json(base, f"data/subjects/{s['id']}.json"))
+                for s in catalog["subjects"] if s.get("status") == "available"]
+    with g.sync_playwright() as p:
+        browser = p.chromium.launch(headless=True, args=["--autoplay-policy=no-user-gesture-required", "--mute-audio"])
+        try:
+            for width in (1280, 390):
+                r = g.Run(browser, base, width, 900, str(width), subjects)
+                r.ctx.add_init_script(SPEECH)
+                try:
+                    r.fresh()
+                    r.goto("#/profile", ".palette-chip")
+                    g.show_editor(r)
+                    for subject in ["Biology"] * 3 + ["Mathematics"]:
+                        r.page.get_by_role("button", name=f"Add {subject} to the plan", exact=True).click()
+                    r.goto("#/plan", ".plan-item")
+                    r.page.locator(".plan-actions").get_by_role("button", name="Play plan", exact=True).click()
+                    played = []
+                    for i in range(4):
+                        r.page.wait_for_function("location.hash.startsWith('#/l/')", timeout=10000)
+                        r.page.wait_for_selector(".plan-strip")
+                        key = r.hash()[len("#/l/"):]
+                        title = g.fetch_json(base, f"data/lessons/{key}.json")["title"]
+                        r.page.wait_for_function("title => document.querySelector('.lesson-title-row h1')?.textContent === title", arg=title)
+                        played.append(key)
+                        if i < 3:
+                            assert key.startswith("biology/"), key
+                            assert r.wait_playing(10)
+                            r.wait_duration()
+                            r.page.wait_for_function("() => { const a = window.__testAudio.at(-1); return a && a.readyState >= 2 && Number.isFinite(a.duration) && a.seekable.length > 0; }")
+                            r.seek_near_end()
+                            print("SEEK", width, i, r.page.evaluate("() => ({audio: window.__testAudio.map(a => ({t:a.currentTime,d:a.duration,p:a.paused,s:a.seeking,ready:a.readyState})), scrub:document.querySelector('.scrub')?.value})"), flush=True)
+                        else:
+                            assert key.startswith("mathematics/"), key
+                            r.shot("biology_then_math_speech")
+                        if not r.wait_hash_change("#/l/" + key, 30):
+                            r.shot("math_plan_stalled")
+                            raise AssertionError({"block": i, "key": key, "hash": r.hash(),
+                                                  "status": r.status(key), "screen": r.page.locator("#main").inner_text()[-1200:]})
+                    assert r.wait_hash("#/plan", 10)
+                    assert [r.status(k) for k in played] == ["completed"] * 4
+                    assert len(set(played)) == 4
+                    assert not r.errors(), r.errors()
+                    print(f"PASS [{width}] 3 Biology + 1 Mathematics, automatic recording-to-speech transition; all completed")
+                finally:
+                    r.close()
+        finally:
+            browser.close()
+finally:
+    server.shutdown()
+    server.server_close()

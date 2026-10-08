@@ -1,0 +1,691 @@
+{
+  "lessons": {
+    "economics/m01-foundations/l01-scarcity-and-the-economic-way-of-thinking": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3-flash-preview",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 106,
+      "words": 1026
+    },
+    "economics/m01-foundations/l02-opportunity-cost": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "groq:openai/gpt-oss-120b",
+      "seconds": 222,
+      "words": 1074
+    },
+    "economics/m01-foundations/l03-budget-constraint": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "groq:openai/gpt-oss-120b",
+      "seconds": 299,
+      "words": 974
+    },
+    "economics/m01-foundations/l04-production-possibilities-frontier": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [
+        "groq:openai/gpt-oss-120b"
+      ],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 26,
+      "words": 1089
+    },
+    "economics/m01-foundations/l05-specialization-trade-and-markets": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [
+        "groq:qwen/qwen3.8-27b",
+        "gemini:gemini-3.7-flash"
+      ],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "seconds": 525,
+      "words": 824
+    },
+    "economics/m02-supply-and-demand/l01-law-of-demand": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash",
+      "fixes": [],
+      "review": "gemini:gemini-3.5-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 1,
+      "words": 891
+    },
+    "economics/m02-supply-and-demand/l02-law-of-supply": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 41,
+      "words": 791
+    },
+    "economics/m02-supply-and-demand/l03-market-equilibrium": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 793
+    },
+    "economics/m02-supply-and-demand/l04-price-controls-and-surplus": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 778
+    },
+    "economics/m02-supply-and-demand/l05-labor-and-financial-markets": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 10,
+      "words": 815
+    },
+    "economics/m03-elasticity-and-consumer-choice/l01-price-elasticity-of-demand": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 66,
+      "words": 920
+    },
+    "economics/m03-elasticity-and-consumer-choice/l02-other-elasticities": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 110,
+      "words": 968
+    },
+    "economics/m03-elasticity-and-consumer-choice/l03-elasticity-in-the-real-world": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 87,
+      "words": 772
+    },
+    "economics/m03-elasticity-and-consumer-choice/l04-utility-and-consumer-equilibrium": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 51,
+      "words": 794
+    },
+    "economics/m03-elasticity-and-consumer-choice/l05-behavioral-economics": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 86,
+      "words": 785
+    },
+    "economics/m04-costs-and-market-structure/l01-costs-of-production": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 5,
+      "words": 785
+    },
+    "economics/m04-costs-and-market-structure/l02-perfect-competition": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 845
+    },
+    "economics/m04-costs-and-market-structure/l03-monopoly-and-market-power": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 823
+    },
+    "economics/m04-costs-and-market-structure/l04-monopolistic-competition": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 10,
+      "words": 855
+    },
+    "economics/m04-costs-and-market-structure/l05-oligopoly-and-game-theory": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 779
+    },
+    "economics/m05-market-failure-and-policy/l01-negative-externalities": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 56,
+      "words": 807
+    },
+    "economics/m05-market-failure-and-policy/l02-environmental-policy": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 101,
+      "words": 785
+    },
+    "economics/m05-market-failure-and-policy/l03-positive-externalities-and-public-goods": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 55,
+      "words": 914
+    },
+    "economics/m05-market-failure-and-policy/l04-information-risk-and-insurance": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 37,
+      "words": 826
+    },
+    "economics/m05-market-failure-and-policy/l05-antitrust-and-competition-policy": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.6-flash",
+      "seconds": 82,
+      "words": 828
+    },
+    "economics/m06-labor-inequality-and-public-choice/l01-wages-and-labor-markets": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 63,
+      "words": 778
+    },
+    "economics/m06-labor-inequality-and-public-choice/l02-poverty-and-the-safety-net": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 73,
+      "words": 926
+    },
+    "economics/m06-labor-inequality-and-public-choice/l03-income-inequality": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 40,
+      "words": 864
+    },
+    "economics/m06-labor-inequality-and-public-choice/l04-public-choice-theory": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 16,
+      "words": 976
+    },
+    "economics/m06-labor-inequality-and-public-choice/l05-voting-and-government-failure": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 20,
+      "words": 837
+    },
+    "economics/m07-measuring-the-macroeconomy/l01-gross-domestic-product": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 50,
+      "words": 1005
+    },
+    "economics/m07-measuring-the-macroeconomy/l02-economic-growth": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 39,
+      "words": 947
+    },
+    "economics/m07-measuring-the-macroeconomy/l03-unemployment": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 9,
+      "words": 820
+    },
+    "economics/m07-measuring-the-macroeconomy/l04-inflation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 60,
+      "words": 757
+    },
+    "economics/m07-measuring-the-macroeconomy/l05-business-cycle": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite",
+        "gemini:gemini-3.1-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 26,
+      "words": 823
+    },
+    "economics/m08-aggregate-demand-and-supply/l01-ad-as-model": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 74,
+      "words": 850
+    },
+    "economics/m08-aggregate-demand-and-supply/l02-keynesian-perspective": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 82,
+      "words": 756
+    },
+    "economics/m08-aggregate-demand-and-supply/l03-neoclassical-perspective": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 37,
+      "words": 832
+    },
+    "economics/m08-aggregate-demand-and-supply/l04-phillips-curve": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 23,
+      "words": 771
+    },
+    "economics/m08-aggregate-demand-and-supply/l05-keynesian-and-neoclassical-synthesis": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 58,
+      "words": 716
+    },
+    "economics/m09-money-banking-and-monetary-policy/l01-money-and-how-banks-create-it": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 143,
+      "words": 896
+    },
+    "economics/m09-money-banking-and-monetary-policy/l02-financial-markets": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 118,
+      "words": 858
+    },
+    "economics/m09-money-banking-and-monetary-policy/l03-central-banks": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 22,
+      "words": 767
+    },
+    "economics/m09-money-banking-and-monetary-policy/l04-monetary-policy-tools": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 55,
+      "words": 787
+    },
+    "economics/m09-money-banking-and-monetary-policy/l05-monetary-policy-in-action": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 33,
+      "words": 764
+    },
+    "economics/m10-fiscal-policy-and-budgets/l01-government-budgets-and-taxation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 27,
+      "words": 891
+    },
+    "economics/m10-fiscal-policy-and-budgets/l02-discretionary-and-automatic-fiscal-policy": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 102,
+      "words": 961
+    },
+    "economics/m10-fiscal-policy-and-budgets/l03-deficits-and-national-debt": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 55,
+      "words": 962
+    },
+    "economics/m10-fiscal-policy-and-budgets/l04-crowding-out": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 91,
+      "words": 781
+    },
+    "economics/m10-fiscal-policy-and-budgets/l05-policy-coordination": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 185,
+      "words": 801
+    },
+    "economics/m11-international-economics/l01-comparative-advantage-and-gains-from-trade": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 31,
+      "words": 813
+    },
+    "economics/m11-international-economics/l02-protectionism-and-tariffs": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 12,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 56,
+      "words": 1083
+    },
+    "economics/m11-international-economics/l03-balance-of-payments": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 48,
+      "words": 1029
+    },
+    "economics/m11-international-economics/l04-exchange-rates": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 47,
+      "words": 880
+    },
+    "economics/m11-international-economics/l05-globalization-and-its-critics": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 55,
+      "words": 766
+    },
+    "economics/m11-international-economics/l06-international-financial-crises": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 52,
+      "words": 787
+    },
+    "economics/m12-schools-evidence-and-open-questions/l01-schools-of-economic-thought": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 16,
+      "words": 827
+    },
+    "economics/m12-schools-evidence-and-open-questions/l02-how-economists-use-evidence": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 25,
+      "words": 761
+    },
+    "economics/m12-schools-evidence-and-open-questions/l03-institutions-and-development": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 54,
+      "words": 1001
+    },
+    "economics/m12-schools-evidence-and-open-questions/l04-unresolved-questions": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 34,
+      "words": 856
+    },
+    "economics/m12-schools-evidence-and-open-questions/l05-thinking-like-an-economist": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 36,
+      "words": 875
+    }
+  },
+  "outline": {
+    "date": "2026-10-02",
+    "hand_reviewed": false,
+    "model": "gemini:gemini-3.5-flash",
+    "raw": "outline-raw-economics-20261002-105609.json"
+  }
+}

@@ -1,0 +1,735 @@
+{
+  "lessons": {
+    "biblical-studies/m01-foundations-of-theology/l01-what-theology-is": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [],
+      "review": "gemini:gemini-3.5-flash-lite",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 6,
+      "words": 1041
+    },
+    "biblical-studies/m01-foundations-of-theology/l02-general-and-special-revelation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3-flash-preview",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 37,
+      "words": 988
+    },
+    "biblical-studies/m01-foundations-of-theology/l03-sources-of-authority": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [
+        "groq:openai/gpt-oss-120b"
+      ],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "groq:openai/gpt-oss-120b",
+      "seconds": 76,
+      "words": 986
+    },
+    "biblical-studies/m01-foundations-of-theology/l04-faith-and-scholarship": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "groq:openai/gpt-oss-120b",
+      "seconds": 46,
+      "words": 1030
+    },
+    "biblical-studies/m01-foundations-of-theology/l05-branches-of-theology": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash",
+      "seconds": 650,
+      "words": 866
+    },
+    "biblical-studies/m02-the-bible/l01-formation-of-the-canon": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 63,
+      "words": 758
+    },
+    "biblical-studies/m02-the-bible/l02-manuscripts-and-textual-criticism": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 64,
+      "words": 721
+    },
+    "biblical-studies/m02-the-bible/l03-english-bible-translations": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 63,
+      "words": 1032
+    },
+    "biblical-studies/m02-the-bible/l04-reading-by-genre": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 172,
+      "words": 935
+    },
+    "biblical-studies/m02-the-bible/l05-historical-and-cultural-context": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 224,
+      "words": 806
+    },
+    "biblical-studies/m03-torah-and-history-of-israel/l01-genesis-and-beginnings": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 694
+    },
+    "biblical-studies/m03-torah-and-history-of-israel/l02-exodus-sinai-and-the-law": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 811
+    },
+    "biblical-studies/m03-torah-and-history-of-israel/l03-conquest-judges-and-kings": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 12,
+      "words": 699
+    },
+    "biblical-studies/m03-torah-and-history-of-israel/l04-exile-and-return": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 29,
+      "words": 766
+    },
+    "biblical-studies/m03-torah-and-history-of-israel/l05-authorship-and-dating": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 88,
+      "words": 732
+    },
+    "biblical-studies/m04-poetry-wisdom-and-prophets/l01-psalms": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 78,
+      "words": 926
+    },
+    "biblical-studies/m04-poetry-wisdom-and-prophets/l02-wisdom-literature": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 39,
+      "words": 785
+    },
+    "biblical-studies/m04-poetry-wisdom-and-prophets/l03-major-prophets": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 26,
+      "words": 1012
+    },
+    "biblical-studies/m04-poetry-wisdom-and-prophets/l04-book-of-the-twelve": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 58,
+      "words": 779
+    },
+    "biblical-studies/m04-poetry-wisdom-and-prophets/l05-messianic-hope": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 62,
+      "words": 1092
+    },
+    "biblical-studies/m05-gospels-and-jesus/l01-between-the-testaments": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 43,
+      "words": 886
+    },
+    "biblical-studies/m05-gospels-and-jesus/l02-synoptic-gospels": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 83,
+      "words": 850
+    },
+    "biblical-studies/m05-gospels-and-jesus/l03-mark-and-matthew": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 61,
+      "words": 779
+    },
+    "biblical-studies/m05-gospels-and-jesus/l04-luke": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 79,
+      "words": 897
+    },
+    "biblical-studies/m05-gospels-and-jesus/l05-john": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 42,
+      "words": 859
+    },
+    "biblical-studies/m06-acts-and-letters/l01-acts": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 71,
+      "words": 871
+    },
+    "biblical-studies/m06-acts-and-letters/l02-paul-life-and-mission": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 32,
+      "words": 795
+    },
+    "biblical-studies/m06-acts-and-letters/l03-romans-galatians-and-justification": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 57,
+      "words": 910
+    },
+    "biblical-studies/m06-acts-and-letters/l04-prison-and-pastoral-letters": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 177,
+      "words": 797
+    },
+    "biblical-studies/m06-acts-and-letters/l05-hebrews-and-general-letters": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 65,
+      "words": 839
+    },
+    "biblical-studies/m06-acts-and-letters/l06-revelation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 36,
+      "words": 922
+    },
+    "biblical-studies/m07-creeds-and-councils/l01-rule-of-faith-and-early-controversies": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 58,
+      "words": 807
+    },
+    "biblical-studies/m07-creeds-and-councils/l02-apostles-creed": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 56,
+      "words": 871
+    },
+    "biblical-studies/m07-creeds-and-councils/l03-nicene-creed": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 64,
+      "words": 912
+    },
+    "biblical-studies/m07-creeds-and-councils/l04-chalcedon": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 35,
+      "words": 861
+    },
+    "biblical-studies/m07-creeds-and-councils/l05-athanasian-creed": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 59,
+      "words": 956
+    },
+    "biblical-studies/m07-creeds-and-councils/l06-reformation-era-confessions": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 22,
+      "words": 776
+    },
+    "biblical-studies/m08-god-and-creation/l01-attributes-of-god": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 59,
+      "words": 799
+    },
+    "biblical-studies/m08-god-and-creation/l02-trinity": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 30,
+      "words": 747
+    },
+    "biblical-studies/m08-god-and-creation/l03-creation-and-providence": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 126,
+      "words": 736
+    },
+    "biblical-studies/m08-god-and-creation/l04-image-of-god": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 101,
+      "words": 870
+    },
+    "biblical-studies/m08-god-and-creation/l05-fall-and-sin": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 18,
+      "words": 736
+    },
+    "biblical-studies/m09-christ-and-salvation/l01-person-of-christ": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 111,
+      "words": 741
+    },
+    "biblical-studies/m09-christ-and-salvation/l02-atonement": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 45,
+      "words": 861
+    },
+    "biblical-studies/m09-christ-and-salvation/l03-grace-election-and-free-will": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 22,
+      "words": 815
+    },
+    "biblical-studies/m09-christ-and-salvation/l04-justification-across-traditions": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 96,
+      "words": 797
+    },
+    "biblical-studies/m09-christ-and-salvation/l05-sanctification": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 25,
+      "words": 744
+    },
+    "biblical-studies/m10-spirit-church-and-last-things/l01-holy-spirit": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 48,
+      "words": 1046
+    },
+    "biblical-studies/m10-spirit-church-and-last-things/l02-the-church": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 46,
+      "words": 783
+    },
+    "biblical-studies/m10-spirit-church-and-last-things/l03-sacraments-and-ordinances": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 27,
+      "words": 758
+    },
+    "biblical-studies/m10-spirit-church-and-last-things/l04-death-and-intermediate-state": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 57,
+      "words": 772
+    },
+    "biblical-studies/m10-spirit-church-and-last-things/l05-return-of-christ-and-millennium": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 25,
+      "words": 972
+    },
+    "biblical-studies/m10-spirit-church-and-last-things/l06-resurrection-judgment-new-creation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "pass",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 29,
+      "words": 783
+    },
+    "biblical-studies/m11-church-history/l01-early-church-and-monasticism": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 37,
+      "words": 821
+    },
+    "biblical-studies/m11-church-history/l02-medieval-church-and-scholasticism": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 41,
+      "words": 1013
+    },
+    "biblical-studies/m11-church-history/l03-east-west-schism": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 34,
+      "words": 716
+    },
+    "biblical-studies/m11-church-history/l04-reformation-and-catholic-reform": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 35,
+      "words": 846
+    },
+    "biblical-studies/m11-church-history/l05-enlightenment-and-modern-theology": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 27,
+      "words": 957
+    },
+    "biblical-studies/m11-church-history/l06-global-christianity-today": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 47,
+      "words": 732
+    },
+    "biblical-studies/m12-apologetics-and-ethics/l01-arguments-for-god": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 52,
+      "words": 761
+    },
+    "biblical-studies/m12-apologetics-and-ethics/l02-problem-of-evil": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 170,
+      "words": 933
+    },
+    "biblical-studies/m12-apologetics-and-ethics/l03-resurrection-and-history": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 85,
+      "words": 830
+    },
+    "biblical-studies/m12-apologetics-and-ethics/l04-biblical-ethics": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 158,
+      "words": 806
+    },
+    "biblical-studies/m12-apologetics-and-ethics/l05-virtue-ethics": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 26,
+      "words": 762
+    },
+    "biblical-studies/m12-apologetics-and-ethics/l06-contemporary-ethical-issues": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 14,
+      "words": 721
+    }
+  },
+  "outline": {
+    "date": "2026-10-02",
+    "hand_reviewed": false,
+    "model": "gemini:gemini-3-flash-preview",
+    "raw": "outline-raw-biblical-studies-20261002-105801.json"
+  }
+}

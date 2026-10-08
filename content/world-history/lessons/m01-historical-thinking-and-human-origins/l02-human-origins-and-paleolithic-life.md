@@ -1,0 +1,28 @@
+# Human Origins and Paleolithic Life
+
+Imagine standing on a windswept African plain twenty thousand years ago. The sun hangs low, dry grass scents the air, and a small band of people moves silently, eyes scanning for game. Every choice—where to camp, which stone to shape into a spear, how to share the fire—was a matter of survival. This vivid picture captures the Paleolithic, the “Old Stone Age,” when early Homo sapiens depended on hunting, gathering, and intimate knowledge of their environment to thrive.
+
+Our investigative toolkit—artifacts, ancient soils, and fossil bones—lets us read a world without written records. By tracing stone tools, hearths, and skeletal remains, we follow the great migrations that carried our species from its African homeland to every corner of the globe. Fossils from Morocco, Ethiopia and South Africa suggest that Homo sapiens emerged across Africa roughly three hundred thousand years ago.
+
+Small groups crossed into southwest Asia more than once. Fossils in Israel show modern humans in the Levant by around one hundred and eighty thousand years ago, but most of these early ventures seem to have faded out. The expansion that gave rise to nearly all people living outside Africa today came later, roughly sixty to seventy thousand years ago. Moving along coasts and river valleys, these groups reached South and Southeast Asia, crossed open water to Australia by about fifty thousand years ago, and entered Europe by about forty-five thousand years ago. Scholars disagree on the precise timing of each pulse, but they agree that climate fluctuations produced a series of overlapping migrations, creating a mosaic of human presence across continents.
+
+Survival hinged on three core strategies: mobility, adaptability, and mastery of fire. The earliest widespread stone tools, known as Oldowan tools, date to about two and a half million years ago, long before our species, and consist of simple flakes chipped from volcanic rock. By the time Homo sapiens appeared, the Levallois technique was widely used, allowing a prepared stone core to yield a single, predictable flake—sharper and more uniform, ideal for hunting.
+
+Adaptability showed itself in diet, shelter, and social organization. Archaeological sites reveal a varied diet: meat from mammoths, bison, and reindeer; fish from rivers and coasts; and plant foods such as tubers, nuts, and berries. Isotope analysis of bone collagen demonstrates regional differences—coastal groups ate more marine protein, inland groups relied more on terrestrial mammals. This flexibility enabled humans to thrive from the arid Sahara to the icy tundra of Siberia.
+
+Fire transformed daily life. Controlled use provided warmth, protection from predators, and a means to cook food. Cooking made nutrients more accessible and reduced chewing time, a change some scholars link to smaller jaws and larger brains. Hearths found from South Africa to Europe show fire was maintained for long periods, indicating social coordination and the transmission of knowledge across generations.
+
+Shelters evolved with climate. In temperate zones, people built temporary structures from wood, animal hides, and bone, leaving postholes and hearths that archaeologists can detect. In colder regions, semi-subterranean pits covered with skins suggest an early understanding of insulation. These seasonal bases could be abandoned quickly if resources shifted, reflecting the mobile nature of Paleolithic life.
+
+A worked example illustrates how archaeologists reconstruct these lifeways. At Blombos Cave in South Africa, with layers dated to roughly seventy-five thousand years ago, researchers uncovered engraved ochre, shell beads, and finely crafted stone points. The ochre hints at symbolic behavior—perhaps body painting—while the beads indicate personal adornment. Together, these artifacts reveal a community that hunted, gathered, and expressed identity, challenging the outdated notion that symbolic thought emerged only after agriculture.
+
+Interactions with other hominins added complexity. As modern humans spread, they encountered Neanderthals in Europe and Denisovans in Asia. Genetic evidence shows interbreeding, leaving a small percentage of Neanderthal DNA in present-day non-African populations. At the same time, competition for resources likely contributed to the eventual extinction of these relatives. These encounters remind us that human history is marked by both cooperation and conflict.
+
+Humans reached the Americas from Siberia by way of Beringia, a land bridge exposed when sea levels were low. Sites such as Monte Verde in Chile show people in South America by about fourteen and a half thousand years ago, and some evidence points earlier still. From this foothold they spread southward, adapting to ecosystems ranging from Arctic tundra to Amazon rainforest. The breadth of these migrations underscores a central theme: human ingenuity, mobility, and adaptability allowed our species to occupy almost every habitable corner of the planet.
+
+## Key ideas
+- Homo sapiens arose in Africa about three hundred thousand years ago; after earlier, short-lived ventures, the main dispersal out of Africa came roughly sixty to seventy thousand years ago.
+- Mobility, adaptable diets, and controlled fire were essential survival strategies throughout the Paleolithic.
+- Symbolic behavior, complex cooperation, and early forms of language emerged alongside hunting and gathering.
+- Interactions with Neanderthals and Denisovans involved both interbreeding and competition, shaping our evolutionary legacy.
+- By the end of the last Ice Age, humans lived on every continent except Antarctica, setting the stage for the agricultural revolutions to come.

@@ -1,0 +1,120 @@
+From de1f73c65112f907d557f8fe264db40a72664e6f Mon Sep 17 00:00:00 2001
+From: Daniel Bates <help@batesai.org>
+Date: Fri, 2 Oct 2026 10:59:24 -0700
+Subject: [PATCH 5/8] Serve the Subject Mastery player at /subjectmastery/
+
+The player is built by the subject-mastery repo into
+~/Downloads/subject-mastery-build/dist and staged into
+public/subjectmastery/ at deploy time by scripts/stage_subjectmastery.sh,
+the same arrangement as public/play/: gitignored, reproducible from its
+own repo. The script refuses a build without index.html, one containing
+symlinks, any file over Cloudflare Pages' 25 MiB limit, or more than
+15,000 files.
+
+Adds /subjectmastery/ to the sitemap.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ .gitignore                      |  7 +++++
+ scripts/stage_subjectmastery.sh | 53 +++++++++++++++++++++++++++++++++
+ src/pages/sitemap.xml.ts        |  6 ++++
+ 3 files changed, 66 insertions(+)
+ create mode 100755 scripts/stage_subjectmastery.sh
+
+diff --git a/.gitignore b/.gitignore
+index 9799ba67..5a84dbd1 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -5,6 +5,13 @@
+ public/play/
+ dist/play/
+ 
++# Subject Mastery web player (https://batesai.org/subjectmastery/). Built in the
++# subject-mastery repo into ~/Downloads/subject-mastery-build/dist and copied in
++# by scripts/stage_subjectmastery.sh at deploy time, like /play above. Lesson
++# audio makes it large and it is reproducible from that repo.
++public/subjectmastery/
++dist/subjectmastery/
++
+ # Git metadata files in working tree
+ COMMIT_EDITMSG
+ FETCH_HEAD
+diff --git a/scripts/stage_subjectmastery.sh b/scripts/stage_subjectmastery.sh
+new file mode 100755
+index 00000000..d54f2f9e
+--- /dev/null
++++ b/scripts/stage_subjectmastery.sh
+@@ -0,0 +1,53 @@
++#!/usr/bin/env bash
++# Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved.
++# help@batesai.org · https://batesai.org
++#
++# Stage the Subject Mastery web player into public/subjectmastery/ so the next
++# `npm run build` copies it to dist/subjectmastery/ (served at
++# https://batesai.org/subjectmastery/).
++#
++#   scripts/stage_subjectmastery.sh            # from ~/Downloads/subject-mastery-build/dist
++#   scripts/stage_subjectmastery.sh /path/dist # from somewhere else
++#
++# The player is built by the subject-mastery repo, never committed here (see
++# .gitignore), the same arrangement as public/play/. Run this, then build,
++# then deploy — see subject-mastery/site-integration/README.md for the full
++# runbook. The script refuses to stage anything Cloudflare Pages would reject
++# or that is plainly not a finished build.
++set -euo pipefail
++
++cd "$(dirname "$0")/.."
++SITE="$PWD"
++SRC="${1:-$HOME/Downloads/subject-mastery-build/dist}"
++DEST="$SITE/public/subjectmastery"
++
++# Cloudflare Pages limits (free plan): 25 MiB per file, 20,000 files per
++# deployment for the whole site.
++MAX_FILE_BYTES=$((25 * 1024 * 1024))
++MAX_FILES=15000   # leaves room for the rest of the site
++
++fail() { echo "!! $*" >&2; exit 1; }
++
++[ -d "$SRC" ] || fail "no player build at $SRC"
++[ -f "$SRC/index.html" ] || fail "$SRC/index.html is missing — build the player first"
++[ -f "$SRC/data/catalog.json" ] || echo "   warning: $SRC/data/catalog.json is missing; the player will show no subjects"
++
++if [ -n "$(find "$SRC" -type l -print -quit)" ]; then
++  fail "$SRC contains symlinks; stage a real copy (find \"$SRC\" -type l)"
++fi
++
++big="$(find "$SRC" -type f -size +"$MAX_FILE_BYTES"c -print | head -5)"
++[ -z "$big" ] || fail "files over 25 MiB (Cloudflare Pages limit):"$'\n'"$big"
++
++count="$(find "$SRC" -type f | wc -l | tr -d ' ')"
++[ "$count" -le "$MAX_FILES" ] || fail "$count files is too many for one Pages deployment (cap here: $MAX_FILES)"
++
++echo "==> staging $count files from $SRC"
++rm -rf "$DEST"
++mkdir -p "$DEST"
++cp -R "$SRC/." "$DEST/"
++# Finder litter is not part of the build.
++find "$DEST" -name '.DS_Store' -delete
++
++[ -f "$DEST/index.html" ] || fail "copy failed: $DEST/index.html missing"
++echo "==> staged into public/subjectmastery/ ($(du -sh "$DEST" | cut -f1))"
+diff --git a/src/pages/sitemap.xml.ts b/src/pages/sitemap.xml.ts
+index 4efae24a..f7d1e54a 100644
+--- a/src/pages/sitemap.xml.ts
++++ b/src/pages/sitemap.xml.ts
+@@ -31,6 +31,12 @@ export async function GET() {
+     <changefreq>monthly</changefreq>
+     <priority>0.6</priority>
+   </url>
++  <url>
++    <loc>https://batesai.org/subjectmastery/</loc>
++    <lastmod>2026-10-02</lastmod>
++    <changefreq>weekly</changefreq>
++    <priority>0.8</priority>
++  </url>
+ </urlset>`;
+ 
+   return new Response(sitemap, {
+-- 
+2.51.2
+

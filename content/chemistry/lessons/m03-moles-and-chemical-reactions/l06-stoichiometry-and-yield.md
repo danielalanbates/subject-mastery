@@ -1,0 +1,24 @@
+# Stoichiometry, Limiting Reactants and Yield
+
+Imagine you are baking a batch of cookies. You have a recipe that calls for two cups of flour and one egg to make a dozen cookies. If you have plenty of flour but only a single egg, you can only make one batch. The egg is your limiting factor. It runs out first, dictating exactly how many cookies you can produce. In chemistry, we face the same constraint when we carry out reactions. Stoichiometry is the branch of chemistry that uses balanced chemical equations to predict the amounts of substances consumed and produced. It turns the symbols on the page into a precise map for the laboratory.
+
+In our previous lessons, we tracked the movement of electrons. Now, we use the balanced equation to track the movement of mass. Suppose we react hydrogen gas with oxygen gas to form water. The balanced equation tells us that two molecules of hydrogen gas react with one molecule of oxygen gas to form two molecules of water. This gives us a precise mole ratio. We know that two moles of hydrogen always require one mole of oxygen. If we have ten moles of hydrogen, we know we need five moles of oxygen to react completely.
+
+Often, we do not have perfect ratios. We might mix three moles of hydrogen with two moles of oxygen. Looking at our two to one ratio, we see that three moles of hydrogen would only need one and a half moles of oxygen. We have two moles of oxygen available, which is more than we need. Therefore, the hydrogen is the limiting reactant. It will be entirely consumed, while some oxygen will remain as excess.
+
+To find the limiting reactant, first convert the mass of each reactant into moles. Next, divide each mole amount by its stoichiometric coefficient from the balanced equation. The reactant that gives the smallest quotient is the limiting reactant. Once you know the limiting reactant, you can find the amount of excess reactant remaining. Multiply the moles of the limiting reactant by the ratio of the excess reactant to the limiting reactant. This tells you how many moles of the excess reactant were actually consumed. Subtract that amount from your starting moles to find the remainder.
+
+Once we identify the limiting reactant, we can calculate the theoretical yield. This is the maximum amount of product that can be formed if the reaction proceeds perfectly. We determine this by multiplying the moles of our limiting reactant by the mole ratio between the reactant and the product.
+
+In the real world, reactions rarely produce the theoretical yield. Spills occur, side reactions happen, or the reaction might not go to completion. The amount of product we actually collect in the laboratory is called the actual yield. To measure the efficiency of our process, we calculate the percent yield. This is the actual yield divided by the theoretical yield, multiplied by one hundred to get a percentage. If our theoretical yield was three moles of water but we only managed to collect two point seven moles, our percent yield would be ninety percent.
+
+Let us walk through a calculation. Consider the reaction of nitrogen gas with hydrogen gas to form ammonia. The balanced equation states that one mole of nitrogen reacts with three moles of hydrogen to form two moles of ammonia. Suppose we start with twenty-eight grams of nitrogen, which is one mole. We also have six grams of hydrogen, which is three moles. Since one mole of nitrogen requires three moles of hydrogen, both reactants are present in perfect stoichiometric amounts. None is left over. If the reaction is one hundred percent efficient, we should produce two moles of ammonia. Since one mole of ammonia has a mass of seventeen grams, our theoretical yield is thirty-four grams. If we weigh our final product and find only thirty-two grams, our percent yield is thirty-two divided by thirty-four, which is about ninety-four percent.
+
+Mastering these calculations allows chemists to optimize industrial processes, ensuring that expensive reagents are used effectively and waste is minimized. By understanding the relationship between the microscopic mole and the macroscopic gram, we gain control over the material world.
+
+## Key ideas
+- Stoichiometry uses the mole ratios found in balanced chemical equations to predict the exact amounts of reactants needed and products formed.
+- The limiting reactant is the substance that is entirely consumed during a chemical reaction, thereby determining the maximum possible amount of product.
+- The amount of excess reactant remaining is found by subtracting the amount consumed from the initial starting amount.
+- Theoretical yield is the calculated maximum amount of product possible, while actual yield is the amount of product physically collected in an experiment.
+- Percent yield is a measure of reaction efficiency, calculated by dividing the actual yield by the theoretical yield and multiplying by one hundred.

@@ -1,0 +1,85 @@
+From 897f28d51f26930e9bee53414c534212032ce505 Mon Sep 17 00:00:00 2001
+From: Daniel Bates <help@batesai.org>
+Date: Fri, 2 Oct 2026 11:01:10 -0700
+Subject: [PATCH 7/8] Document Subject Mastery's footprint here and the
+ production drift
+
+docs/subjectmastery.md: which files belong to Subject Mastery, the merge
+rule, the D1 limits behind the write path, the migration-before-code
+ordering, and what the 2026-09-26 deploy (a62e742f) left missing on
+production, so the next deploy is checked against it.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ docs/subjectmastery.md | 59 ++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 59 insertions(+)
+ create mode 100644 docs/subjectmastery.md
+
+diff --git a/docs/subjectmastery.md b/docs/subjectmastery.md
+new file mode 100644
+index 00000000..5c0c4943
+--- /dev/null
++++ b/docs/subjectmastery.md
+@@ -0,0 +1,59 @@
++# Subject Mastery on batesai.org
++
++Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved.
++Questions: help@batesai.org · https://batesai.org
++
++Subject Mastery has standardized subject paths you can play as audio or read
++as text, with progress tracking and an "Already know this" skip. It lives at
++`https://batesai.org/subjectmastery/`. Its own repo (`subject-mastery`, in
++Google Drive `My Drive/Code/subject-mastery`) owns the binding contract
++(`docs/CONTRACT.md`), the player and the deploy runbook
++(`site-integration/README.md`). This file covers only what lives in this repo.
++
++## What is here
++
++| Path | Role |
++| --- | --- |
++| `functions/api/subjectmastery/[[path]].js` | `GET me`, `GET/PUT/DELETE progress` |
++| `migrations/0001_sm_progress.sql` | the `sm_progress` table (idempotent) |
++| `functions/_lib/return-to.js` | validates the post-sign-in return path |
++| `functions/api/auth/[[path]].js` | `GET oauth/google?return_to=` sets the cookie; account deletion clears `sm_progress` |
++| `functions/membership.js` | the Google callback lands on the return path when the cookie is set |
++| `scripts/stage_subjectmastery.sh` | copies the built player into `public/subjectmastery/` (gitignored) |
++
++## Rules worth knowing before changing anything
++
++- **Merge rule** (server and player must agree): last write wins on
++  `updatedAt` per lesson key; a tie keeps what is stored; a stored
++  `completed`/`known` is never replaced by `in_progress`. It is enforced in the
++  upsert's `ON CONFLICT … WHERE`, not in JavaScript, so two devices cannot race
++  past it.
++- **D1 limits** shaped the write path: at most 100 bound parameters per query
++  and 50 queries per invocation on the Workers free plan. Rows go 16 per
++  statement, so a full 500-item PUT is 32 statements in one batch.
++- **Migration before code.** Account deletion deletes from `sm_progress` inside
++  one `DB.batch()`. If the table is missing, every account deletion fails.
++- **No return cookie means no change.** `/membership` and
++  `/api/auth/oauth/google` respond exactly as before when `oauth_return_to` is
++  absent. DaemonManager's sign-in webview waits for `/membership/?signed_in=1`.
++  The test that proves this compares the new and old handlers header by
++  header. It is in the subject-mastery repo under `site-integration/tests/`.
++- **Same-origin only.** The API sends no CORS headers. A PUT or DELETE whose
++  `Origin` names another site gets a 403. Requests with no `Origin` header
++  (native apps, curl) still need a valid session.
++
++## Production drift found on 2026-10-02 (read before any deploy)
++
++The live deployment (`a62e742f`, 2026-09-26, uploaded when /qola was removed)
++paired a correct static build of 7eea212f with a stray, older
++`~/functions` folder instead of this repo's `functions/`. As a
++result, production was missing `functions/membership.js`, `/api/auth/me`,
++`/api/daemonmanager/*`, `/api/seahawks/*`, `/ws` and the `/dev` gate. Google
++sign-in on `/membership/` and DaemonManager sync were therefore broken there.
++That stray copy also held one fix that had never been committed: Apple native
++sign-in accepting a raw nonce. Commit `c2922106` carries that fix into source.
++Deploying this branch restores all of the routes listed above. The
++`subjectmastery` branch also commits the two edits that deploy made by hand
++(`/qola` 301 to qolabible.com, and the Qola `_headers` block removed).
++
++Always deploy `dist/` and `functions/` from the same checkout.
+-- 
+2.51.2
+

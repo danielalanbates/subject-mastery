@@ -1,0 +1,399 @@
+{
+  "id": "biology",
+  "title": "Biology",
+  "tagline": "The science of life, from molecules and cells to genes, evolution, bodies and ecosystems.",
+  "description": "A full introductory biology path at college level. It builds from the chemistry of life and the cell through genetics and evolution, the diversity of living things, how plants and animals work, and ecology.",
+  "category": "Natural Sciences",
+  "color": "#2da44e",
+  "modules": [
+    {
+      "id": "m01-chemistry-of-life",
+      "title": "Chemical Foundations of Life",
+      "summary": "Learners will understand the chemical foundations of life, from atomic interactions to the structure of biological macromolecules.",
+      "lessons": [
+        {
+          "id": "l01-scientific-study-of-life",
+          "title": "The Scientific Study of Life",
+          "summary": "Learners will understand how the scientific method is used to study the defining characteristics of living organisms."
+        },
+        {
+          "id": "l02-atoms-and-chemical-bonds",
+          "title": "Atomic Structure and Chemical Bonds",
+          "summary": "Learners will understand how atomic structure and chemical bonds determine how molecules form and interact."
+        },
+        {
+          "id": "l03-water-and-carbon",
+          "title": "Water and the Chemistry of Carbon",
+          "summary": "Learners will understand how the unique properties of water and carbon enable the chemistry of life."
+        },
+        {
+          "id": "l04-carbohydrates-and-lipids",
+          "title": "Carbohydrates and Lipids",
+          "summary": "How sugars, starches, fats, phospholipids and steroids are built from smaller units and what cells use each one for."
+        },
+        {
+          "id": "l05-proteins-and-nucleic-acids",
+          "title": "Proteins and Nucleic Acids",
+          "summary": "How amino acids fold into working proteins and how nucleotides build DNA and RNA, the molecules that store and use genetic information."
+        }
+      ]
+    },
+    {
+      "id": "m02-the-cell",
+      "title": "The Cell and Its Membrane",
+      "summary": "Learners will understand how cells are structured and how they regulate the movement of substances across their membranes.",
+      "lessons": [
+        {
+          "id": "l01-prokaryotic-and-eukaryotic-cells",
+          "title": "Prokaryotic and Eukaryotic Cells",
+          "summary": "Learners will understand the structural differences between simple prokaryotic cells and complex eukaryotic cells."
+        },
+        {
+          "id": "l02-endomembrane-system-and-organelles",
+          "title": "The Endomembrane System and Organelles",
+          "summary": "Learners will understand how the endomembrane system and specialized organelles compartmentalize cellular functions."
+        },
+        {
+          "id": "l03-cytoskeleton-and-cell-junctions",
+          "title": "The Cytoskeleton and Cell Junctions",
+          "summary": "How protein fibers give cells their shape and movement, and how cells attach to and talk through their neighbors and the extracellular matrix."
+        },
+        {
+          "id": "l04-cell-membrane-structure",
+          "title": "Structure of the Cell Membrane",
+          "summary": "Learners will understand how the fluid mosaic model explains the selective permeability of cell membranes."
+        },
+        {
+          "id": "l05-membrane-transport",
+          "title": "Moving Materials Across Membranes",
+          "summary": "How diffusion, osmosis, pumps and bulk transport move substances into and out of cells."
+        },
+        {
+          "id": "l06-cell-communication",
+          "title": "Cell Communication and Signaling",
+          "summary": "How cells send and receive chemical signals, and how receptors and signaling pathways turn a message into a response."
+        }
+      ]
+    },
+    {
+      "id": "m03-energy-and-metabolism",
+      "title": "Cellular Energetics and Metabolism",
+      "summary": "Learners will understand how cells harvest, transform, and utilize energy through metabolic pathways.",
+      "lessons": [
+        {
+          "id": "l01-energy-atp-and-enzymes",
+          "title": "Energy, ATP and Enzymes",
+          "summary": "How the laws of energy apply to living things, how ATP powers cell work, and how enzymes speed up reactions by lowering activation energy."
+        },
+        {
+          "id": "l02-glycolysis-and-citric-acid-cycle",
+          "title": "Glycolysis and the Citric Acid Cycle",
+          "summary": "Learners will understand how cells break down glucose to generate electron carriers in glycolysis and the citric acid cycle."
+        },
+        {
+          "id": "l03-oxidative-phosphorylation",
+          "title": "Oxidative Phosphorylation and ATP Synthesis",
+          "summary": "Learners will understand how the electron transport chain and chemiosmosis generate the majority of cellular ATP."
+        },
+        {
+          "id": "l04-fermentation",
+          "title": "Anaerobic Respiration and Fermentation",
+          "summary": "Learners will understand how cells generate energy when oxygen is scarce using fermentation and anaerobic pathways."
+        },
+        {
+          "id": "l05-light-reactions",
+          "title": "Light Reactions of Photosynthesis",
+          "summary": "Learners will understand how chloroplasts capture light energy to produce ATP and NADPH during the light-dependent reactions."
+        },
+        {
+          "id": "l06-calvin-cycle",
+          "title": "The Calvin Cycle and Carbon Fixation",
+          "summary": "Learners will understand how the Calvin cycle uses carbon dioxide to synthesize stable sugars."
+        }
+      ]
+    },
+    {
+      "id": "m04-cell-division-and-heredity",
+      "title": "Cell Division and Heredity",
+      "summary": "Learners will understand how cells divide and how genetic traits are inherited across generations.",
+      "lessons": [
+        {
+          "id": "l01-cell-cycle-and-mitosis",
+          "title": "The Cell Cycle and Mitosis",
+          "summary": "Learners will understand how eukaryotic cells replicate their DNA and divide chromosomes during mitosis."
+        },
+        {
+          "id": "l02-cell-cycle-control-and-cancer",
+          "title": "Cell Cycle Control and Cancer",
+          "summary": "How checkpoints and regulatory proteins control when cells divide, and how failures of that control lead to cancer."
+        },
+        {
+          "id": "l03-meiosis",
+          "title": "Meiosis and Sexual Reproduction",
+          "summary": "Learners will understand how meiosis produces genetically unique haploid gametes for sexual reproduction."
+        },
+        {
+          "id": "l04-mendelian-inheritance",
+          "title": "Mendelian Patterns of Inheritance",
+          "summary": "Learners will understand how Mendel's laws predict the inheritance of dominant and recessive traits."
+        },
+        {
+          "id": "l05-chromosomes-and-complex-inheritance",
+          "title": "Complex Inheritance and Chromosomal Theory",
+          "summary": "Learners will understand how non-Mendelian patterns and chromosome behavior complicate classical inheritance."
+        }
+      ]
+    },
+    {
+      "id": "m05-molecular-genetics",
+      "title": "Molecular Genetics and Gene Expression",
+      "summary": "Learners will understand how genetic information is stored, replicated, expressed, and manipulated.",
+      "lessons": [
+        {
+          "id": "l01-dna-structure-and-replication",
+          "title": "DNA Structure and Replication",
+          "summary": "Learners will understand how DNA's double-helix structure allows it to be accurately replicated."
+        },
+        {
+          "id": "l02-transcription-and-rna-processing",
+          "title": "Transcription and RNA Processing",
+          "summary": "Learners will understand how cells transcribe DNA into messenger RNA and process it for translation."
+        },
+        {
+          "id": "l03-translation",
+          "title": "Translation and Protein Synthesis",
+          "summary": "Learners will understand how ribosomes translate mRNA sequences into functional polypeptide chains."
+        },
+        {
+          "id": "l04-gene-regulation",
+          "title": "Regulation of Gene Expression",
+          "summary": "Learners will understand how prokaryotes and eukaryotes regulate gene expression to respond to environmental cues."
+        },
+        {
+          "id": "l05-biotechnology-and-genomics",
+          "title": "Biotechnology and Genomics",
+          "summary": "Learners will understand how modern biotechnology tools allow scientists to analyze and edit genomes."
+        }
+      ]
+    },
+    {
+      "id": "m06-evolution",
+      "title": "Evolution",
+      "summary": "Learners will understand the mechanisms of evolution, the evidence for it, and how biologists reconstruct the history of life.",
+      "lessons": [
+        {
+          "id": "l01-darwin-and-natural-selection",
+          "title": "Darwin and Natural Selection",
+          "summary": "Learners will understand how natural selection drives adaptation and evolutionary change in populations."
+        },
+        {
+          "id": "l02-evidence-for-evolution",
+          "title": "Evidence for Evolution",
+          "summary": "Learners will understand the diverse lines of evidence that support the common ancestry of life."
+        },
+        {
+          "id": "l03-population-genetics",
+          "title": "Microevolution and Population Genetics",
+          "summary": "Learners will understand how genetic drift, gene flow, and mutation alter allele frequencies in populations."
+        },
+        {
+          "id": "l04-speciation",
+          "title": "Speciation and the Origin of Species",
+          "summary": "Learners will understand how reproductive barriers lead to the formation of new species."
+        },
+        {
+          "id": "l05-phylogenetics-and-the-tree-of-life",
+          "title": "Phylogenetics and the Tree of Life",
+          "summary": "Learners will understand how biologists reconstruct and interpret the evolutionary history of life using phylogenetic trees."
+        }
+      ]
+    },
+    {
+      "id": "m07-microbes-and-fungi",
+      "title": "Microbial and Fungal Diversity",
+      "summary": "Learners will understand the diversity, structure, and ecological importance of viruses, prokaryotes, protists, and fungi.",
+      "lessons": [
+        {
+          "id": "l01-viruses",
+          "title": "Viruses and Subviral Agents",
+          "summary": "Learners will understand how viruses replicate by hijacking the cellular machinery of their hosts."
+        },
+        {
+          "id": "l02-bacteria-and-archaea",
+          "title": "Bacteria and Archaea",
+          "summary": "Learners will understand the metabolic diversity and critical ecological roles of bacteria and archaea."
+        },
+        {
+          "id": "l03-protists",
+          "title": "Protists and Eukaryotic Origins",
+          "summary": "Learners will understand how endosymbiosis gave rise to the diverse lineages of eukaryotic protists."
+        },
+        {
+          "id": "l04-fungi",
+          "title": "Fungal Structure and Ecology",
+          "summary": "Learners will understand how fungi obtain nutrients and interact symbiotically with other organisms."
+        }
+      ]
+    },
+    {
+      "id": "m08-plant-and-animal-diversity",
+      "title": "Plant and Animal Diversity",
+      "summary": "Learners will understand the evolutionary transitions that shaped plant and animal diversity.",
+      "lessons": [
+        {
+          "id": "l01-seedless-plants",
+          "title": "Evolution of Seedless Plants",
+          "summary": "Learners will understand how early seedless plants adapted to life on dry land."
+        },
+        {
+          "id": "l02-seed-plants",
+          "title": "Evolution of Seed Plants",
+          "summary": "Learners will understand how seeds and pollen allowed gymnosperms and angiosperms to dominate terrestrial environments."
+        },
+        {
+          "id": "l03-invertebrates",
+          "title": "Invertebrate Diversity and Body Plans",
+          "summary": "Learners will understand the evolutionary relationships and structural innovations of major invertebrate phyla."
+        },
+        {
+          "id": "l04-vertebrates",
+          "title": "Vertebrate Evolution and Diversity",
+          "summary": "Learners will understand the key adaptations that enabled vertebrate diversification in water and on land."
+        }
+      ]
+    },
+    {
+      "id": "m09-how-plants-work",
+      "title": "How Plants Work",
+      "summary": "Learners will understand how plants function, transport nutrients, and reproduce.",
+      "lessons": [
+        {
+          "id": "l01-plant-tissues-and-organs",
+          "title": "Plant Anatomy and Tissue Systems",
+          "summary": "Learners will understand how specialized plant tissues and organs support growth and survival."
+        },
+        {
+          "id": "l02-transport-in-plants",
+          "title": "Water and Solute Transport in Plants",
+          "summary": "Learners will understand how transpiration and pressure flow move water and sugars through vascular tissues."
+        },
+        {
+          "id": "l03-plant-nutrition-and-soil",
+          "title": "Plant Nutrition and Soil Interactions",
+          "summary": "Learners will understand how plants acquire essential nutrients from the soil with the help of microbes."
+        },
+        {
+          "id": "l04-plant-hormones-and-responses",
+          "title": "Plant Hormones and Responses",
+          "summary": "Learners will understand how plant hormones and sensory systems coordinate growth responses to environmental stimuli."
+        },
+        {
+          "id": "l05-flowering-plant-reproduction",
+          "title": "Flowering Plant Reproduction",
+          "summary": "Learners will understand the mechanisms of pollination, double fertilization, and seed development in flowering plants."
+        }
+      ]
+    },
+    {
+      "id": "m10-animal-body-and-control-systems",
+      "title": "The Animal Body and Its Control Systems",
+      "summary": "Learners will understand the fundamental principles of animal physiology, neural control, and chemical regulation.",
+      "lessons": [
+        {
+          "id": "l01-homeostasis",
+          "title": "Animal Body Organization and Homeostasis",
+          "summary": "Learners will understand how animal tissues coordinate to maintain internal homeostasis through feedback loops."
+        },
+        {
+          "id": "l02-nutrition-and-digestion",
+          "title": "Animal Nutrition and Digestive Systems",
+          "summary": "Learners will understand how animals digest food and absorb nutrients to power cellular processes."
+        },
+        {
+          "id": "l03-neurons-and-nervous-system",
+          "title": "Nervous System and Neural Signaling",
+          "summary": "Learners will understand how neurons generate and transmit electrical signals throughout the body."
+        },
+        {
+          "id": "l04-sensory-systems",
+          "title": "Sensory Systems and Perception",
+          "summary": "Learners will understand how sensory receptors detect environmental stimuli and transmit information to the brain."
+        },
+        {
+          "id": "l05-endocrine-system",
+          "title": "The Endocrine System and Hormones",
+          "summary": "Learners will understand how hormones regulate long-term physiological processes and maintain systemic balance."
+        }
+      ]
+    },
+    {
+      "id": "m11-animal-organ-systems",
+      "title": "Animal Organ Systems and Defense",
+      "summary": "Learners will understand how animal organ systems facilitate movement, gas exchange, excretion, defense, and reproduction.",
+      "lessons": [
+        {
+          "id": "l01-muscles-and-skeleton",
+          "title": "Musculoskeletal System and Movement",
+          "summary": "Learners will understand how skeletal muscles contract at the molecular level to produce movement."
+        },
+        {
+          "id": "l02-respiratory-system",
+          "title": "The Respiratory System",
+          "summary": "How lungs, gills and airways bring oxygen in and carbon dioxide out, and how blood carries both gases."
+        },
+        {
+          "id": "l03-circulatory-system",
+          "title": "The Circulatory System",
+          "summary": "How the heart, blood vessels and blood work together to deliver oxygen and nutrients and carry away wastes."
+        },
+        {
+          "id": "l04-osmoregulation-and-excretion",
+          "title": "Osmoregulation and Excretory Systems",
+          "summary": "Learners will understand how kidneys filter blood, conserve water, and excrete nitrogenous wastes."
+        },
+        {
+          "id": "l05-immune-system",
+          "title": "The Immune System and Defense",
+          "summary": "Learners will understand how the innate and adaptive immune systems defend the body against pathogens."
+        },
+        {
+          "id": "l06-reproduction-and-development",
+          "title": "Animal Reproduction and Development",
+          "summary": "Learners will understand the cellular and tissue-level changes that occur during animal fertilization and development."
+        }
+      ]
+    },
+    {
+      "id": "m12-ecology-and-conservation",
+      "title": "Ecology and Conservation Biology",
+      "summary": "Learners will understand how organisms interact with each other and their environments, and how biodiversity is conserved.",
+      "lessons": [
+        {
+          "id": "l01-climate-biomes-and-biosphere",
+          "title": "Climate, Biomes and the Biosphere",
+          "summary": "Learners will understand how climate and physical geography shape the distribution of Earth's biomes."
+        },
+        {
+          "id": "l02-population-ecology",
+          "title": "Population Ecology and Growth Models",
+          "summary": "Learners will understand the factors that regulate population size, density, and growth rates."
+        },
+        {
+          "id": "l03-community-ecology",
+          "title": "Community Ecology and Species Interactions",
+          "summary": "Learners will understand how species interactions and ecological succession shape community structure."
+        },
+        {
+          "id": "l04-ecosystems-and-nutrient-cycles",
+          "title": "Ecosystem Ecology and Nutrient Cycling",
+          "summary": "Learners will understand how energy flows and nutrients cycle through ecosystems."
+        },
+        {
+          "id": "l05-conservation-biology",
+          "title": "Conservation Biology and Biodiversity",
+          "summary": "Learners will understand the primary threats to global biodiversity and the strategies used to conserve ecosystems."
+        }
+      ]
+    }
+  ]
+}

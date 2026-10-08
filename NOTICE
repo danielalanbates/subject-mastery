@@ -1,0 +1,66 @@
+Subject Mastery
+Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved.
+help@batesai.org · https://batesai.org
+
+Licensed under the PolyForm Noncommercial License 1.0.0 with a commercial-use rider; see LICENSE.
+
+Required Notice: Copyright (c) 2026 Daniel Bates / Bates LLC (https://batesai.org)
+
+This file credits third-party work that Subject Mastery uses or builds on. None of the
+third-party programs below are included in this repository unless stated.
+
+------------------------------------------------------------------------------------
+1. Piper text-to-speech (used as a local tool; not included here)
+
+   The lesson audio is rendered with piper-tts 1.7.0 (https://github.com/OHF-Voice/piper1-gpl),
+   licensed GPL-3.0-or-later. (The original rhasspy/piper, versions up to 1.2, is MIT; the
+   build used here is the newer GPL one.) pipeline/tts.py runs it in a separate process;
+   pipeline/piper_worker.py runs inside Piper's own Python environment and imports the
+   `piper` module. That adapter is separately licensed under GPL-3.0-or-later, matching the tool it imports;
+   see its SPDX header and LICENSES/GPL-3.0.txt. Piper itself is not distributed here.
+
+2. Narrator voice model and its training data   (chosen 2026-10-02; details in docs/VOICE.md)
+
+   Voice: en_US-john-medium ("John", US English male) by Bryce Beattie, from
+   https://huggingface.co/rhasspy/piper-voices (en/en_US/john/medium) and
+   https://brycebeattie.com/files/tts/
+   Model licence: public domain per its MODEL_CARD and the author's page ("Feel free to use
+   these for any legal and ethical purpose"); the piper-voices repository is MIT.
+   Dataset: about 12.5 hours of LibriVox recordings (https://librivox.org), fine-tuned from the
+   author's "Kristin" voice, itself trained from scratch on LibriVox. Dataset licence: public domain.
+   This applies to audio rendered with that voice (~/Downloads/subject-mastery-build/audio-en_US-john-medium).
+   Audio rendered earlier with en_US-lessac-medium (research-only Blizzard 2013 data) must not
+   be published.
+
+3. Bible translations quoted in lessons (public domain)
+
+   - King James Version (1611/1769). Public domain, except in the United Kingdom, where the
+     Crown's letters patent apply.
+   - World English Bible (WEB). Public domain (dedicated by its publisher, eBible.org).
+   - American Standard Version (1901). Public domain.
+   Lessons name the translation whenever they quote; pipeline/check_quotes.py checks every
+   quotation word for word against these texts.
+
+4. Icons
+
+   web/js/icons.js is a small inline SVG set. Some of its path data (for example "download"
+   and "log out") is identical to icons from Lucide (https://lucide.dev), ISC License:
+     Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of
+     Feather (MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2022.
+     Permission to use, copy, modify, and/or distribute this software for any purpose with
+     or without fee is hereby granted, provided that the above copyright notice and this
+     permission notice appear in all copies.
+   The complete current upstream ISC and Feather MIT notices are reproduced in
+   LICENSES/Lucide.txt and apply to all reused icon paths. Remaining icons were drawn for this project.
+
+5. Reference sources (not reused)
+
+   Subject outlines follow the scope and order of standard syllabi, such as the OpenStax
+   textbooks (CC BY-NC-SA 4.0 since March 2026), used as references only. No text from them
+   is copied; see docs/SOURCES.md.
+
+6. Reused code
+
+   None besides the icon path data above. The player has no third-party JavaScript, CSS or
+   fonts (it uses system fonts). Test tooling (Node's test runner, Python Playwright with
+   Chromium) is used at development time and is not included.

@@ -1,0 +1,24 @@
+# Energy, Heat and Work
+
+Imagine you are holding an ice cube in the palm of your hand. Almost immediately, you feel a sharp chill. That sensation is not the ice moving coldness into your skin. Instead, it is the rapid transfer of energy from your warm hand into the ice. In our previous module, we focused on the quantitative relationships between atoms and molecules during reactions. Now, we must shift our focus to the invisible engine driving those reactions: energy.
+
+Energy is defined as the capacity to do work or to produce heat. We define the internal energy of a system, which we represent with the letter U, as the sum of all kinetic and potential energies of the particles within that system. Internal energy is a state function, meaning its value depends only on the current state of the system, not on the history of how the system arrived at that state. In chemistry, we divide the universe into two parts: the system and the surroundings. The system is the specific chemical reaction or physical process we are studying. The surroundings include everything else, such as your hand, the air in the room, and the laboratory bench.
+
+The first law of thermodynamics states that the total energy of the universe is constant. Energy cannot be created or destroyed, only transferred or transformed. We express this law by saying that the change in internal energy is equal to the sum of heat and work. In our sign convention, heat absorbed by the system is positive, and work done on the system is positive. Conversely, heat released by the system or work done by the system is negative.
+
+We categorize energy into two primary forms: kinetic and potential. Kinetic energy is the energy of motion. In a beaker of water, the individual molecules are constantly vibrating, rotating, and moving past one another. The faster they move, the higher their kinetic energy. Potential energy, by contrast, is stored energy. In chemistry, this is often associated with the arrangement of atoms and the strength of the chemical bonds holding them together. When a reaction occurs, bonds break and new ones form, causing a shift in the potential energy of the system.
+
+Energy enters or leaves a system as heat or as work. Heat is the transfer of energy caused by a difference in temperature. Work, in the chemical sense, is the energy required to move an object against a force. For a chemical system, this often involves the expansion or contraction of a gas. If a reaction produces a gas that pushes back the atmosphere, the system is performing work on the surroundings.
+
+We describe these energy shifts using two terms: exothermic and endothermic. An exothermic process releases energy into the surroundings. Think of a campfire. As the wood burns, chemical bonds with high potential energy are replaced by more stable bonds in carbon dioxide and water. The excess energy is released as heat. Conversely, an endothermic process absorbs energy from the surroundings. The melting ice cube is an excellent example. To transition from a solid to a liquid, the water molecules must absorb enough energy to overcome the forces holding them in a rigid lattice.
+
+Let us look at a calculation to understand this energy balance. Suppose a chemical reaction releases five hundred joules of heat to the surroundings, and the system also performs one hundred joules of work by expanding a gas. Because heat is released, we represent it as negative five hundred joules. Because the system performs work on the surroundings, we represent that work as negative one hundred joules. To find the total change in internal energy, we add these two values together. Negative five hundred joules plus negative one hundred joules equals a total change of negative six hundred joules. The system has lost six hundred joules of internal energy to its surroundings.
+
+Understanding these fundamentals is vital because chemical reactions are always interacting with the world around them. Whether a reaction warms your hands or powers a combustion engine, the underlying principles of heat, work, and conservation remain the same. By tracking these energy flows, we can predict how substances will behave under different conditions. Now that we have established how energy enters and leaves a system, our next step is to learn how to measure these quantities precisely.
+
+## Key ideas
+
+- The first law of thermodynamics states that energy is conserved, and the change in a system's internal energy is the sum of heat and work.
+- Internal energy is a state function representing the total kinetic and potential energy of all particles within a system.
+- Heat and work are the two primary ways energy is exchanged between a system and its surroundings, with specific sign conventions defining whether energy enters or leaves.
+- Exothermic processes release energy to the surroundings, whereas endothermic processes absorb energy from the surroundings.

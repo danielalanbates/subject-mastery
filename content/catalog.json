@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "subjects": [
+    {
+      "id": "economics",
+      "title": "Economics",
+      "tagline": "How people, firms and nations choose under scarcity, from supply and demand to growth, money and trade.",
+      "category": "Social Sciences",
+      "status": "available"
+    },
+    {
+      "id": "biology",
+      "title": "Biology",
+      "tagline": "The science of life, from molecules and cells to genes, evolution, bodies and ecosystems.",
+      "category": "Natural Sciences",
+      "status": "available"
+    },
+    {
+      "id": "world-history",
+      "title": "World History",
+      "tagline": "The human story from the first farmers to the global present, region by region and era by era.",
+      "category": "History",
+      "status": "available"
+    },
+    {
+      "id": "biblical-studies",
+      "title": "Biblical Studies & Theology",
+      "tagline": "The Bible, the historic creeds and the major Christian doctrines, traditions and debates.",
+      "category": "Theology & Religion",
+      "status": "available"
+    },
+    {
+      "id": "mathematics",
+      "title": "Mathematics",
+      "tagline": "Algebra, functions and proof, building toward calculus and beyond.",
+      "category": "Mathematics & Computing",
+      "status": "available"
+    },
+    {
+      "id": "calculus",
+      "title": "Calculus",
+      "tagline": "Limits, derivatives, integrals and the mathematics of change.",
+      "category": "Mathematics & Computing",
+      "status": "planned"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "tagline": "Data, probability, inference and how to reason with uncertainty.",
+      "category": "Mathematics & Computing",
+      "status": "planned"
+    },
+    {
+      "id": "logic",
+      "title": "Logic",
+      "tagline": "Valid reasoning, fallacies, propositional and predicate logic.",
+      "category": "Mathematics & Computing",
+      "status": "planned"
+    },
+    {
+      "id": "computer-science",
+      "title": "Computer Science",
+      "tagline": "How computers work, algorithms, data structures and the limits of computation.",
+      "category": "Mathematics & Computing",
+      "status": "planned"
+    },
+    {
+      "id": "artificial-intelligence",
+      "title": "Artificial Intelligence",
+      "tagline": "Search, learning, neural networks and the ideas behind modern AI.",
+      "category": "Mathematics & Computing",
+      "status": "planned"
+    },
+    {
+      "id": "physics",
+      "title": "Physics",
+      "tagline": "Motion, energy, waves, electricity, magnetism and the modern physics of atoms and light.",
+      "category": "Natural Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemistry",
+      "tagline": "Atoms, bonds, reactions and the matter that makes up everything.",
+      "category": "Natural Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "astronomy",
+      "title": "Astronomy",
+      "tagline": "The sky, the solar system, stars, galaxies and the history of the universe.",
+      "category": "Natural Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "geology",
+      "title": "Geology",
+      "tagline": "Rocks, plate tectonics, deep time and the forces that shape the Earth.",
+      "category": "Natural Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "environmental-science",
+      "title": "Environmental Science",
+      "tagline": "Ecosystems, resources, climate and how human activity shapes the planet.",
+      "category": "Natural Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "anatomy-and-physiology",
+      "title": "Anatomy & Physiology",
+      "tagline": "How the human body is built and how its systems work together.",
+      "category": "Health & Medicine",
+      "status": "planned"
+    },
+    {
+      "id": "medicine-basics",
+      "title": "Medicine Basics",
+      "tagline": "How disease works, how doctors diagnose, and how treatments are tested.",
+      "category": "Health & Medicine",
+      "status": "planned"
+    },
+    {
+      "id": "nutrition",
+      "title": "Nutrition",
+      "tagline": "Nutrients, digestion, energy balance and the evidence behind healthy eating.",
+      "category": "Health & Medicine",
+      "status": "planned"
+    },
+    {
+      "id": "public-health",
+      "title": "Public Health",
+      "tagline": "Epidemiology, prevention and the health of whole populations.",
+      "category": "Health & Medicine",
+      "status": "planned"
+    },
+    {
+      "id": "psychology",
+      "title": "Psychology",
+      "tagline": "Mind and behavior: perception, memory, learning, development and personality.",
+      "category": "Social Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "sociology",
+      "title": "Sociology",
+      "tagline": "How societies are organized: groups, institutions, culture and change.",
+      "category": "Social Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "political-science",
+      "title": "Political Science",
+      "tagline": "Power, government, political systems and how public decisions are made.",
+      "category": "Social Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "law-basics",
+      "title": "Law Basics",
+      "tagline": "How legal systems work: contracts, torts, property, criminal and constitutional law.",
+      "category": "Social Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "geography",
+      "title": "Geography",
+      "tagline": "Places, landscapes, populations and how people and environments interact.",
+      "category": "Social Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "linguistics",
+      "title": "Linguistics",
+      "tagline": "How language works: sounds, words, grammar, meaning and change.",
+      "category": "Social Sciences",
+      "status": "planned"
+    },
+    {
+      "id": "accounting",
+      "title": "Accounting",
+      "tagline": "Recording, reporting and reading the financial life of a business.",
+      "category": "Business",
+      "status": "planned"
+    },
+    {
+      "id": "finance",
+      "title": "Finance",
+      "tagline": "Time value of money, risk, markets and how companies and households invest.",
+      "category": "Business",
+      "status": "planned"
+    },
+    {
+      "id": "business-management",
+      "title": "Business Management",
+      "tagline": "Strategy, organizations, operations and leading people.",
+      "category": "Business",
+      "status": "planned"
+    },
+    {
+      "id": "us-history",
+      "title": "US History",
+      "tagline": "The United States from the first peoples of North America to the present.",
+      "category": "History",
+      "status": "planned"
+    },
+    {
+      "id": "ancient-civilizations",
+      "title": "Ancient Civilizations",
+      "tagline": "Mesopotamia, Egypt, Greece, Rome, India and China in depth.",
+      "category": "History",
+      "status": "planned"
+    },
+    {
+      "id": "philosophy",
+      "title": "Philosophy",
+      "tagline": "The big questions of knowledge, reality, mind and the good life, and how philosophers argue.",
+      "category": "Humanities",
+      "status": "planned"
+    },
+    {
+      "id": "ethics",
+      "title": "Ethics",
+      "tagline": "Major moral theories and how they apply to real decisions.",
+      "category": "Humanities",
+      "status": "planned"
+    },
+    {
+      "id": "literature",
+      "title": "Literature",
+      "tagline": "Reading the great works of world literature and how stories mean.",
+      "category": "Humanities",
+      "status": "planned"
+    },
+    {
+      "id": "art-history",
+      "title": "Art History",
+      "tagline": "Painting, sculpture and architecture from the caves to the modern era.",
+      "category": "Humanities",
+      "status": "planned"
+    },
+    {
+      "id": "music-theory",
+      "title": "Music Theory",
+      "tagline": "Notes, scales, harmony, rhythm and form, explained for the ear.",
+      "category": "Arts",
+      "status": "planned"
+    },
+    {
+      "id": "rhetoric-and-writing",
+      "title": "Rhetoric & Writing",
+      "tagline": "How to argue, persuade and write clearly.",
+      "category": "Humanities",
+      "status": "planned"
+    },
+    {
+      "id": "latin",
+      "title": "Latin",
+      "tagline": "The language of Rome, the church and centuries of scholarship.",
+      "category": "Languages",
+      "status": "planned"
+    },
+    {
+      "id": "koine-greek",
+      "title": "Koine Greek",
+      "tagline": "The Greek of the New Testament and the early church.",
+      "category": "Languages",
+      "status": "planned"
+    },
+    {
+      "id": "biblical-hebrew",
+      "title": "Biblical Hebrew",
+      "tagline": "The language of the Hebrew Bible, from alphabet to reading.",
+      "category": "Languages",
+      "status": "planned"
+    },
+    {
+      "id": "church-history",
+      "title": "Church History",
+      "tagline": "Two thousand years of Christian history, from the apostles to the global church.",
+      "category": "Theology & Religion",
+      "status": "planned"
+    },
+    {
+      "id": "christian-apologetics",
+      "title": "Christian Apologetics",
+      "tagline": "The classic arguments and evidence offered for the Christian faith.",
+      "category": "Theology & Religion",
+      "status": "planned"
+    },
+    {
+      "id": "world-religions",
+      "title": "World Religions",
+      "tagline": "The beliefs, practices and histories of the world's major religions.",
+      "category": "Theology & Religion",
+      "status": "planned"
+    },
+    {
+      "id": "engineering-basics",
+      "title": "Engineering Basics",
+      "tagline": "Forces, materials, circuits and how engineers design things that work.",
+      "category": "Engineering & Technology",
+      "status": "planned"
+    },
+    {
+      "id": "electronics",
+      "title": "Electronics",
+      "tagline": "Current, voltage, components and the circuits inside every device.",
+      "category": "Engineering & Technology",
+      "status": "planned"
+    }
+  ]
+}

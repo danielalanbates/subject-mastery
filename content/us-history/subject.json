@@ -1,0 +1,424 @@
+{
+  "id": "us-history",
+  "title": "US History",
+  "tagline": "The United States from the first peoples of North America to the present.",
+  "description": "A standard two-semester United States history survey, told chronologically. It runs from the peoples of North America before 1492 through colonization, the Revolution and the Constitution, expansion, slavery and the Civil War, Reconstruction, industrialization, the world wars, the Cold War and civil rights, to the present. Where historians disagree, it names the interpretations and states each fairly.",
+  "category": "History",
+  "color": "#b35c1e",
+  "modules": [
+    {
+      "id": "m01-native-america-and-the-atlantic-world",
+      "title": "Native America and the Atlantic World",
+      "summary": "Learners will understand the societies of North America before 1492, the worlds of Europe and West Africa, and the first century of contact and colonization.",
+      "lessons": [
+        {
+          "id": "l01-native-societies-before-contact",
+          "title": "Native American Societies Before Contact",
+          "summary": "Learners will understand the variety of Native North American societies, their farming, trade, government and beliefs, and why population estimates differ so widely."
+        },
+        {
+          "id": "l02-europe-and-west-africa-before-1492",
+          "title": "Europe and West Africa Before 1492",
+          "summary": "Learners will understand the West African kingdoms and the European states, trade and technology that set the stage for Atlantic voyages."
+        },
+        {
+          "id": "l03-columbus-and-the-columbian-exchange",
+          "title": "Columbus and the Columbian Exchange",
+          "summary": "Learners will understand Columbus's voyages, the first encounters with the Taíno of the Caribbean and the collapse of their population, and the exchange of plants, animals and diseases between the hemispheres."
+        },
+        {
+          "id": "l04-new-spain-and-the-borderlands",
+          "title": "New Spain and the Spanish Borderlands",
+          "summary": "Learners will understand the Spanish conquest, the encomienda and mission systems, and Spanish settlement in Florida and the Southwest, including the Pueblo Revolt of 1680."
+        },
+        {
+          "id": "l05-new-france-and-new-netherland",
+          "title": "New France and New Netherland",
+          "summary": "Learners will understand how the French and Dutch colonies were built on the fur trade, alliances with Native nations and missionary work."
+        }
+      ]
+    },
+    {
+      "id": "m02-the-english-colonies",
+      "title": "The English Colonies",
+      "summary": "Learners will understand how the English colonies were founded, how racial slavery took root, and how colonial society and imperial rivalry had changed by 1763.",
+      "lessons": [
+        {
+          "id": "l01-jamestown-and-the-chesapeake",
+          "title": "Jamestown and the Chesapeake",
+          "summary": "Learners will understand the founding of Virginia and Maryland, the Powhatan peoples, tobacco, indentured servants and Bacon's Rebellion."
+        },
+        {
+          "id": "l02-puritan-new-england",
+          "title": "Puritan New England",
+          "summary": "Learners will understand the Pilgrims and Puritans, their religious aims and their dissenters, their relations with Native peoples, and King Philip's War."
+        },
+        {
+          "id": "l03-middle-and-southern-colonies",
+          "title": "The Middle and Southern Colonies",
+          "summary": "Learners will understand the founding of New York, New Jersey and Quaker Pennsylvania and their mix of peoples and faiths, and the rice-growing plantation colonies of the Carolinas and Georgia, modeled in part on English Barbados."
+        },
+        {
+          "id": "l04-rise-of-racial-slavery",
+          "title": "The Rise of Racial Slavery",
+          "summary": "Learners will understand the Atlantic slave trade and the Middle Passage, and the legal shift from indentured servitude to hereditary racial slavery in British America."
+        },
+        {
+          "id": "l05-colonial-society-in-the-1700s",
+          "title": "Colonial Society in the 1700s",
+          "summary": "Learners will understand the colonial economy and Britain's trade laws, the spread of Enlightenment ideas, the religious revivals of the Great Awakening, and how these shaped British-American life by the mid-1700s."
+        },
+        {
+          "id": "l06-imperial-wars-and-the-seven-years-war",
+          "title": "Imperial Wars and the Seven Years' War",
+          "summary": "Learners will understand the wars between Britain and France for North America, the role of Native nations, and the war's costly outcome in 1763."
+        }
+      ]
+    },
+    {
+      "id": "m03-the-road-to-revolution",
+      "title": "The Road to Revolution",
+      "summary": "Learners will understand how British imperial reforms after 1763 led to resistance, independence and a long war, and how different Americans experienced the Revolution.",
+      "lessons": [
+        {
+          "id": "l01-imperial-reforms-and-colonial-protests",
+          "title": "Imperial Reforms and Colonial Protests",
+          "summary": "Learners will understand why Britain tightened control after 1763, from the Proclamation Line to the Sugar, Stamp and Townshend Acts, the colonists' arguments about taxation and representation, and the boycotts and protests that followed, including the Boston Massacre."
+        },
+        {
+          "id": "l02-from-protest-to-independence",
+          "title": "From Protest to Independence",
+          "summary": "Learners will understand the path from the Boston Tea Party and the Coercive Acts to Lexington and Concord, the Continental Congresses and Thomas Paine's Common Sense, and how historians explain the Revolution's causes."
+        },
+        {
+          "id": "l03-declaration-of-independence",
+          "title": "The Declaration of Independence",
+          "summary": "Learners will understand the ideas behind the Declaration of 1776, how it was drafted and argued, and the contradiction between its words and the reality of slavery."
+        },
+        {
+          "id": "l04-war-for-independence",
+          "title": "The War for Independence",
+          "summary": "Learners will understand the two armies and their strategies, the turning point at Saratoga and the French alliance, the war in the South, the victory at Yorktown, and the Treaty of Paris of 1783."
+        },
+        {
+          "id": "l05-the-revolutions-people",
+          "title": "The Revolution's People",
+          "summary": "Learners will understand how Loyalists, women, enslaved and free Black Americans and Native nations took part in the Revolution and were affected by it."
+        }
+      ]
+    },
+    {
+      "id": "m04-creating-a-nation",
+      "title": "Creating a Nation",
+      "summary": "Learners will understand how Americans built a national government, from the Articles of Confederation to the Constitution, and how the first parties, the War of 1812 and the first crisis over slavery's expansion tested it.",
+      "lessons": [
+        {
+          "id": "l01-articles-of-confederation",
+          "title": "The Articles of Confederation",
+          "summary": "Learners will understand the first national government, its achievements such as the Northwest Ordinance, its weaknesses, and Shays's Rebellion."
+        },
+        {
+          "id": "l02-constitutional-convention",
+          "title": "The Constitutional Convention",
+          "summary": "Learners will understand the debates and compromises of 1787, including representation and slavery, and how historians have interpreted the framers' motives."
+        },
+        {
+          "id": "l03-ratification-and-the-bill-of-rights",
+          "title": "Ratification and the Bill of Rights",
+          "summary": "Learners will understand the debate between Federalists and Antifederalists, including the Federalist Papers, how the Constitution was ratified, and why the Bill of Rights was added in 1791."
+        },
+        {
+          "id": "l04-washington-hamilton-and-the-first-parties",
+          "title": "Washington, Hamilton and the First Parties",
+          "summary": "Learners will understand Washington's presidency, Hamilton's financial plan and the Whiskey Rebellion, the split into Federalists and Jeffersonian Republicans over policy at home and toward Britain and France, and John Adams's presidency and the Alien and Sedition Acts."
+        },
+        {
+          "id": "l05-jefferson-and-the-war-of-1812",
+          "title": "Jefferson's Republic and the War of 1812",
+          "summary": "Learners will understand the election of 1800, the Louisiana Purchase, the Marshall Court, and the causes and results of the War of 1812."
+        },
+        {
+          "id": "l06-missouri-compromise-and-monroe-doctrine",
+          "title": "The Missouri Compromise and the Monroe Doctrine",
+          "summary": "Learners will understand the nationalism that followed the War of 1812, the Panic of 1819, the Missouri Compromise of 1820 as the first great national crisis over slavery's expansion, and the Monroe Doctrine of 1823."
+        }
+      ]
+    },
+    {
+      "id": "m05-markets-democracy-and-reform",
+      "title": "Markets, Democracy and Reform",
+      "summary": "Learners will understand the economic and political changes of the early 1800s, Indian removal, slavery in the cotton South, and the reform movements of the age.",
+      "lessons": [
+        {
+          "id": "l01-market-revolution",
+          "title": "The Market Revolution",
+          "summary": "Learners will understand how canals, steamboats, railroads and the telegraph, and early factories such as the Lowell mills, changed American work, transportation and commerce in the early 1800s."
+        },
+        {
+          "id": "l02-jacksonian-democracy",
+          "title": "Jacksonian Democracy",
+          "summary": "Learners will understand the spread of voting rights for white men, the mass politics of Andrew Jackson's era, the Bank War and the nullification crisis."
+        },
+        {
+          "id": "l03-indian-removal",
+          "title": "Indian Removal and the Trail of Tears",
+          "summary": "Learners will understand the Indian Removal Act of 1830, the Cherokee cases in the Supreme Court, and the forced removals of the Southeastern nations."
+        },
+        {
+          "id": "l04-slavery-and-the-cotton-south",
+          "title": "Slavery and the Cotton South",
+          "summary": "Learners will understand the cotton economy, the domestic slave trade, the planters' defense of slavery, and how enslaved people built families, faith and forms of resistance."
+        },
+        {
+          "id": "l05-religion-and-reform",
+          "title": "Religion and Reform",
+          "summary": "Learners will understand the Second Great Awakening and the reform movements it inspired, from temperance and public schools to the women's rights movement at Seneca Falls."
+        }
+      ]
+    },
+    {
+      "id": "m06-expansion-and-sectional-crisis",
+      "title": "Expansion and Sectional Crisis",
+      "summary": "Learners will understand the abolition movement, westward expansion and the Mexican-American War, and the crises over the spread of slavery in the 1850s.",
+      "lessons": [
+        {
+          "id": "l01-abolition-movement",
+          "title": "The Abolition Movement",
+          "summary": "Learners will understand the abolitionists, Black and white, from Garrison and Douglass to the Underground Railroad, and the strong opposition they faced."
+        },
+        {
+          "id": "l02-manifest-destiny-and-the-west",
+          "title": "Manifest Destiny and the West",
+          "summary": "Learners will understand the idea of Manifest Destiny, Texas independence, the Oregon question and the overland migrations."
+        },
+        {
+          "id": "l03-mexican-american-war",
+          "title": "The Mexican-American War",
+          "summary": "Learners will understand the causes, course and results of the war with Mexico, and how its territorial gains reopened the question of slavery."
+        },
+        {
+          "id": "l04-compromise-of-1850-and-fugitive-slaves",
+          "title": "The Compromise of 1850 and Fugitive Slaves",
+          "summary": "Learners will understand the Wilmot Proviso and the fight over slavery in the lands taken from Mexico, the Compromise of 1850, the Fugitive Slave Act and Northern resistance to it, and the impact of Uncle Tom's Cabin."
+        },
+        {
+          "id": "l05-kansas-dred-scott-and-lincoln",
+          "title": "Bleeding Kansas, Dred Scott and Lincoln",
+          "summary": "Learners will understand the Kansas-Nebraska Act, the violence in Kansas, the Dred Scott decision, the rise of the Republican Party and the Lincoln-Douglas debates."
+        }
+      ]
+    },
+    {
+      "id": "m07-civil-war-and-reconstruction",
+      "title": "Civil War and Reconstruction",
+      "summary": "Learners will understand secession and the Civil War, emancipation, and the promise, achievements and defeat of Reconstruction.",
+      "lessons": [
+        {
+          "id": "l01-secession-and-the-coming-of-war",
+          "title": "Secession and the Coming of War",
+          "summary": "Learners will understand John Brown's raid, the election of 1860, the secession of the Deep South and the crisis at Fort Sumter, and how historians explain why the conflict over slavery ended in war."
+        },
+        {
+          "id": "l02-course-of-the-war",
+          "title": "The Course of the War",
+          "summary": "Learners will understand the strengths of each side, the major campaigns and turning points from Bull Run and Antietam to Gettysburg, Vicksburg and Sherman's march, and why the Union won."
+        },
+        {
+          "id": "l03-emancipation-and-the-home-fronts",
+          "title": "Emancipation and the Home Fronts",
+          "summary": "Learners will understand how enslaved people's flight to Union lines, the Emancipation Proclamation and the service of Black soldiers turned the war into a war against slavery, the debate over who deserves the credit for emancipation, and life on the Northern and Southern home fronts."
+        },
+        {
+          "id": "l04-reconstruction-in-washington",
+          "title": "Presidential and Congressional Reconstruction",
+          "summary": "Learners will understand the clash between Andrew Johnson and the Republicans in Congress, and the Thirteenth, Fourteenth and Fifteenth Amendments."
+        },
+        {
+          "id": "l05-reconstruction-in-the-south-and-its-end",
+          "title": "Reconstruction in the South and Its End",
+          "summary": "Learners will understand Black political life and freedom after slavery, sharecropping, the violent campaigns against Reconstruction, the settlement of 1877, and how historians' judgments of the era have changed."
+        },
+        {
+          "id": "l06-jim-crow-and-the-new-south",
+          "title": "Jim Crow and the New South",
+          "summary": "Learners will understand segregation, disenfranchisement and lynching after Reconstruction, Plessy versus Ferguson, and the responses of Ida B. Wells, Booker T. Washington and W. E. B. Du Bois."
+        }
+      ]
+    },
+    {
+      "id": "m08-the-west-and-the-gilded-age",
+      "title": "The West and the Gilded Age",
+      "summary": "Learners will understand the conquest and settlement of the West and the rise of industrial capitalism, organized labor and the immigrant city.",
+      "lessons": [
+        {
+          "id": "l01-plains-wars-and-native-nations",
+          "title": "The Plains Wars and Native Nations",
+          "summary": "Learners will understand the wars on the Great Plains, the reservation system, the Dawes Act and boarding schools, and Native resistance and survival."
+        },
+        {
+          "id": "l02-railroads-and-the-settlement-of-the-west",
+          "title": "Railroads and the Settlement of the West",
+          "summary": "Learners will understand the transcontinental railroad, homesteading, mining and ranching, and the Chinese workers whose exclusion became law in 1882."
+        },
+        {
+          "id": "l03-industrial-capitalism",
+          "title": "Industrial Capitalism and Its Titans",
+          "summary": "Learners will understand the rise of big business, figures such as Carnegie and Rockefeller, and the debate over whether they were robber barons or captains of industry."
+        },
+        {
+          "id": "l04-workers-and-the-labor-movement",
+          "title": "Workers and the Labor Movement",
+          "summary": "Learners will understand industrial work and its dangers, the Knights of Labor and the American Federation of Labor, and the great strikes and clashes of the late 1800s, from the railroad strike of 1877 to Haymarket, Homestead and Pullman."
+        },
+        {
+          "id": "l05-immigration-and-the-growth-of-cities",
+          "title": "Immigration and the Growth of Cities",
+          "summary": "Learners will understand the new immigration from southern and eastern Europe, life and work in the fast-growing cities, the political machines, and the nativist reaction against the newcomers."
+        }
+      ]
+    },
+    {
+      "id": "m09-populism-empire-and-progressivism",
+      "title": "Populism, Empire and Progressivism",
+      "summary": "Learners will understand Gilded Age politics and the Populist revolt, the turn to overseas empire, the Progressive reforms and the First World War.",
+      "lessons": [
+        {
+          "id": "l01-gilded-age-politics-and-populism",
+          "title": "Gilded Age Politics and Populism",
+          "summary": "Learners will understand Gilded Age party politics, patronage and civil service reform, the farmers' grievances behind the Populist Party, and the election of 1896."
+        },
+        {
+          "id": "l02-american-empire",
+          "title": "American Empire",
+          "summary": "Learners will understand the annexation of Hawaii, the Spanish-American War of 1898, the Philippine-American War and the debate over empire."
+        },
+        {
+          "id": "l03-progressive-reformers",
+          "title": "Progressive Reformers",
+          "summary": "Learners will understand the muckrakers, settlement houses, the campaigns for women's suffrage and prohibition, and Black activism including the founding of the NAACP."
+        },
+        {
+          "id": "l04-progressive-presidents",
+          "title": "The Progressive Presidents",
+          "summary": "Learners will understand Theodore Roosevelt's Square Deal and conservation, William Howard Taft, and Woodrow Wilson's New Freedom."
+        },
+        {
+          "id": "l05-the-first-world-war",
+          "title": "The United States in World War One",
+          "summary": "Learners will understand why the United States stayed neutral and then entered the war in 1917, how the government mobilized the economy and public opinion and restricted dissent, the start of the Great Migration, and Wilson's failed fight for the League of Nations."
+        }
+      ]
+    },
+    {
+      "id": "m10-boom-depression-and-world-war",
+      "title": "Boom, Depression and World War",
+      "summary": "Learners will understand the 1920s, the Great Depression and the New Deal, and the United States in the Second World War.",
+      "lessons": [
+        {
+          "id": "l01-prosperity-and-conflict-in-the-1920s",
+          "title": "Prosperity and Conflict in the 1920s",
+          "summary": "Learners will understand the consumer economy and mass culture of the 1920s, the Harlem Renaissance, and the decade's conflicts over immigration, Prohibition, religion and race, from the Red Scare and the Scopes trial to the revived Ku Klux Klan."
+        },
+        {
+          "id": "l02-great-depression",
+          "title": "The Great Depression",
+          "summary": "Learners will understand the crash of 1929, the competing explanations of why it became a decade-long depression, from bank failures and a shrinking money supply to collapsing spending and trade barriers, Hoover's response, and the human toll, including the Dust Bowl."
+        },
+        {
+          "id": "l03-new-deal",
+          "title": "The New Deal",
+          "summary": "Learners will understand Franklin Roosevelt's New Deal, from relief and banking reform to Social Security and the right to organize unions, whom it helped and whom it left out, the fight over the Supreme Court, and the debate over its economic effects."
+        },
+        {
+          "id": "l04-the-road-to-world-war-two",
+          "title": "The Road to World War Two",
+          "summary": "Learners will understand American isolationism and the Neutrality Acts of the 1930s, the turn toward aiding Britain through Lend-Lease, and the Japanese attack on Pearl Harbor in December 1941."
+        },
+        {
+          "id": "l05-fighting-world-war-two",
+          "title": "Fighting World War Two",
+          "summary": "Learners will understand the American part in the war in Europe and the Pacific, what Americans knew and did about the Holocaust, and the decision to use atomic bombs on Hiroshima and Nagasaki and the debate over it."
+        },
+        {
+          "id": "l06-the-home-front",
+          "title": "The Home Front",
+          "summary": "Learners will understand wartime production and women's war work, the migrations to war jobs, the Double V campaign for Black civil rights, and the forced removal and incarceration of Japanese Americans, for which the government formally apologized in 1988."
+        }
+      ]
+    },
+    {
+      "id": "m11-cold-war-and-civil-rights",
+      "title": "Cold War and Civil Rights",
+      "summary": "Learners will understand the early Cold War abroad and at home, postwar society, the civil rights movement, the Great Society and the Vietnam War.",
+      "lessons": [
+        {
+          "id": "l01-origins-of-the-cold-war",
+          "title": "Origins of the Cold War",
+          "summary": "Learners will understand how the wartime alliance broke down, containment, the Truman Doctrine, the Marshall Plan, the Berlin airlift and NATO, and the main interpretations historians give of how the Cold War began."
+        },
+        {
+          "id": "l02-korea-and-the-nuclear-age",
+          "title": "Korea and the Nuclear Age",
+          "summary": "Learners will understand the Korean War from 1950 to 1953, the nuclear arms race with the Soviet Union, Eisenhower's Cold War strategy, including covert operations abroad, and the shock of Sputnik."
+        },
+        {
+          "id": "l03-postwar-society-and-the-red-scare",
+          "title": "Postwar Society and the Red Scare",
+          "summary": "Learners will understand the postwar boom, the suburbs and the baby boom, and the anticommunist fears and investigations of the McCarthy era."
+        },
+        {
+          "id": "l04-civil-rights-movement",
+          "title": "The Civil Rights Movement",
+          "summary": "Learners will understand the civil rights movement from Brown versus Board of Education in 1954 through the Montgomery bus boycott, the sit-ins, the Freedom Rides, Birmingham and Selma to the Civil Rights Act of 1964 and the Voting Rights Act of 1965, and the roles of local people as well as leaders such as Martin Luther King Jr."
+        },
+        {
+          "id": "l05-kennedy-johnson-and-the-great-society",
+          "title": "Kennedy, Johnson and the Great Society",
+          "summary": "Learners will understand Kennedy's presidency and the Cuban missile crisis, and Johnson's Great Society programs and the debate over their results."
+        },
+        {
+          "id": "l06-vietnam-war",
+          "title": "The Vietnam War",
+          "summary": "Learners will understand how the United States became involved in Vietnam, how the war was fought, the antiwar movement and the counterculture at home, and how Nixon withdrew American forces before the fall of Saigon in 1975."
+        }
+      ]
+    },
+    {
+      "id": "m12-recent-america",
+      "title": "Recent America",
+      "summary": "Learners will understand American politics, society and foreign policy from the protest movements of the late 1960s to the present.",
+      "lessons": [
+        {
+          "id": "l01-protest-and-new-rights-movements",
+          "title": "Protest and New Rights Movements",
+          "summary": "Learners will understand Black Power, the women's movement, Mexican American and American Indian activism, the gay rights movement and the environmental movement of the late 1960s and 1970s, and the opposition each one met."
+        },
+        {
+          "id": "l02-watergate-and-the-1970s",
+          "title": "Watergate and the 1970s",
+          "summary": "Learners will understand Nixon's opening to China and détente with the Soviet Union, the Watergate scandal and his resignation, stagflation and the energy crisis, and the presidencies of Ford and Carter."
+        },
+        {
+          "id": "l03-the-conservative-turn",
+          "title": "The Conservative Turn",
+          "summary": "Learners will understand the rise of a new conservative coalition, Ronald Reagan's presidency and the debates over its economic policies."
+        },
+        {
+          "id": "l04-end-of-the-cold-war-and-the-1990s",
+          "title": "The Cold War's End and the 1990s",
+          "summary": "Learners will understand the collapse of the Soviet Union, the Gulf War, the economy and politics of the 1990s, and growing partisan division."
+        },
+        {
+          "id": "l05-september-11-and-the-war-on-terror",
+          "title": "September 11 and the War on Terror",
+          "summary": "Learners will understand the terrorist attacks of 2001, the creation of the Department of Homeland Security, and the wars in Iraq and Afghanistan."
+        },
+        {
+          "id": "l06-the-twenty-first-century",
+          "title": "The Twenty-First Century",
+          "summary": "Learners will understand the financial crisis of 2008 and the Great Recession, the presidencies of Barack Obama, Donald Trump and Joe Biden, the COVID-19 pandemic, and the main political debates of these years, presented without taking sides, ending with the 2024 election, which returned Donald Trump to the presidency in January 2025."
+        }
+      ]
+    }
+  ]
+}

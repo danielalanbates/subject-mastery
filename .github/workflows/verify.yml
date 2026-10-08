@@ -1,0 +1,25 @@
+name: Verify public source
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Player behavior
+        run: node --test web/tests/*.test.mjs
+      - name: Ten-minute recording gate
+        run: python3 -B -m unittest discover -s pipeline/tests
+      - name: Build published curriculum
+        run: python3 -B pipeline/build.py
+      - name: Privacy scan
+        run: python3 -B tools/privacy_scan.py .

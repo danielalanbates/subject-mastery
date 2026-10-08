@@ -1,0 +1,6 @@
+<!-- Subject Mastery mark. Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <rect x="1.5" y="1.5" width="21" height="21" rx="6" fill="#0f766e"/>
+  <path d="M6.5 16.5 10 12l3 2.5 4.5-6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="17.5" cy="8.5" r="1.6" fill="#fff"/>
+</svg>

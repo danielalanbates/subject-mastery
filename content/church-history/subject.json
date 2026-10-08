@@ -1,0 +1,424 @@
+{
+  "id": "church-history",
+  "title": "Church History",
+  "tagline": "Two thousand years of Christian history, from the apostles to the global church.",
+  "description": "Two thousand years of Christian history at college level, from the apostles to the global church of today. It covers the early church, the councils and creeds, Christianity East and West, the medieval church, the Protestant and Catholic Reformations, missions and revivals, and modern and global Christianity, describing Orthodox, Catholic and Protestant views fairly and naming disagreements plainly.",
+  "category": "Theology & Religion",
+  "color": "#6d7f12",
+  "modules": [
+    {
+      "id": "m01-the-apostolic-church",
+      "title": "The Apostolic Church",
+      "summary": "Learners will understand the Jewish roots of the Jesus movement, the first churches in Jerusalem and the Gentile world, their worship and leadership, and the parting of the ways with Judaism.",
+      "lessons": [
+        {
+          "id": "l01-jewish-world-of-jesus",
+          "title": "The Jewish World of Jesus",
+          "summary": "Learners will understand Judea under Roman rule, the Temple, the Pharisees, Sadducees and Essenes, the hope for a messiah, and the ministry of Jesus of Nazareth within the Judaism of his day."
+        },
+        {
+          "id": "l02-pentecost-and-the-jerusalem-church",
+          "title": "Pentecost and the Jerusalem Church",
+          "summary": "Learners will understand Pentecost as the book of Acts describes it, and the shared life, worship and leaders of the first community of Jesus' followers in Jerusalem."
+        },
+        {
+          "id": "l03-paul-and-the-gentile-mission",
+          "title": "Paul and the Gentile Mission",
+          "summary": "Learners will understand Paul's conversion, his arguments for welcoming Gentiles without circumcision, the meeting of apostles and elders in Jerusalem over that question, and his missionary journeys across the Roman world."
+        },
+        {
+          "id": "l04-early-worship-and-leadership",
+          "title": "Early Worship and Leadership",
+          "summary": "Learners will understand how the first Christians worshiped, baptized and shared the Lord's Supper, and how elders, bishops, deacons and women served in the early churches."
+        },
+        {
+          "id": "l05-parting-of-the-ways",
+          "title": "The Parting of the Ways",
+          "summary": "Learners will understand the Jewish revolts against Rome and the destruction of the Temple in 70 CE, the gradual parting of the ways between the church and rabbinic Judaism, and the debate over when that parting really happened."
+        }
+      ]
+    },
+    {
+      "id": "m02-the-church-of-the-martyrs",
+      "title": "The Church of the Martyrs",
+      "summary": "Learners will understand the church from about 100 to 313 CE: Roman persecution, the apologists, early controversies, and the growth of the rule of faith, the bishops and the New Testament canon.",
+      "lessons": [
+        {
+          "id": "l01-persecution-under-rome",
+          "title": "Persecution Under Rome",
+          "summary": "Learners will understand why Rome persecuted Christians, how often and how severely, and how the martyrs' witness shaped the church."
+        },
+        {
+          "id": "l02-the-apologists",
+          "title": "The Apologists",
+          "summary": "Learners will understand how second-century writers such as Justin Martyr defended Christianity against pagan charges and explained it to the wider world."
+        },
+        {
+          "id": "l03-gnosticism-and-marcion",
+          "title": "Gnosticism and Marcion",
+          "summary": "Learners will understand the Gnostic movements and Marcion's teaching, and why the wider church rejected them."
+        },
+        {
+          "id": "l04-rule-of-faith-bishops-and-canon",
+          "title": "The Rule of Faith, Bishops and Canon",
+          "summary": "Learners will understand the rule of faith, the rise of a single bishop as leader of each city's church and how Catholic, Orthodox and Protestant Christians read that development differently, and how the New Testament canon took shape over several centuries."
+        },
+        {
+          "id": "l05-irenaeus-tertullian-origen-and-cyprian",
+          "title": "Irenaeus, Tertullian, Origen and Cyprian",
+          "summary": "Learners will understand Irenaeus on tradition and the unity of Scripture, Tertullian's Latin theology and his turn to Montanism, Origen's scholarship and the later controversy over his ideas, and Cyprian on the unity of the church and the lapsed."
+        }
+      ]
+    },
+    {
+      "id": "m03-constantine-and-the-imperial-church",
+      "title": "Constantine and the Imperial Church",
+      "summary": "Learners will understand Constantine's conversion and its effects, the Arian controversy, the councils of Nicaea and Constantinople, and the birth of monasticism.",
+      "lessons": [
+        {
+          "id": "l01-constantine-and-the-edict-of-milan",
+          "title": "Constantine and the Edict of Milan",
+          "summary": "Learners will understand the Great Persecution under Diocletian, Constantine's conversion and the agreement at Milan in 313 CE, what changed for the church, and the debate over whether imperial favor helped or harmed it."
+        },
+        {
+          "id": "l02-arius-and-the-council-of-nicaea",
+          "title": "Arius and the Council of Nicaea",
+          "summary": "Learners will understand what Arius taught about the Son and why his bishop opposed him, what the Council of Nicaea decided in 325 CE, including the phrase 'of one being with the Father', and popular myths about the council, such as the claim that it chose the books of the Bible."
+        },
+        {
+          "id": "l03-athanasius-cappadocians-and-constantinople",
+          "title": "Athanasius, the Cappadocians and Constantinople",
+          "summary": "Learners will understand Athanasius's long defense of Nicaea, how Basil of Caesarea, Gregory of Nazianzus and Gregory of Nyssa clarified the doctrine of the Trinity, the emperor Theodosius making Nicene Christianity the faith of the empire, and the Council of Constantinople in 381 CE."
+        },
+        {
+          "id": "l04-rise-of-monasticism",
+          "title": "The Rise of Monasticism",
+          "summary": "Learners will understand the desert fathers and mothers, Antony and Pachomius in Egypt, Basil's communities in the East, and how monasticism spread to the West."
+        }
+      ]
+    },
+    {
+      "id": "m04-fathers-councils-and-divisions",
+      "title": "Fathers, Councils and Divisions",
+      "summary": "Learners will understand the great teachers of the late Roman church, the councils of Ephesus and Chalcedon and the churches that parted over them, and the church after Rome's fall in the West.",
+      "lessons": [
+        {
+          "id": "l01-augustine-of-hippo",
+          "title": "Augustine of Hippo",
+          "summary": "Learners will understand Augustine's life and conversion, his part in the Donatist and Pelagian controversies, and the lasting influence of the Confessions and the City of God."
+        },
+        {
+          "id": "l02-jerome-ambrose-and-chrysostom",
+          "title": "Jerome, Ambrose and John Chrysostom",
+          "summary": "Learners will understand Jerome's Latin Bible, Ambrose's leadership in Milan, and John Chrysostom's preaching in Antioch and Constantinople."
+        },
+        {
+          "id": "l03-ephesus-and-chalcedon",
+          "title": "Ephesus and Chalcedon",
+          "summary": "Learners will understand the dispute between Nestorius and Cyril of Alexandria over how Christ is both divine and human, the title Theotokos, God-bearer, for Mary, and the councils of Ephesus in 431 CE and Chalcedon in 451 CE."
+        },
+        {
+          "id": "l04-churches-beyond-chalcedon",
+          "title": "The Churches Beyond Chalcedon",
+          "summary": "Learners will understand the Oriental Orthodox churches of Egypt, Ethiopia, Armenia and Syria and the Church of the East, how they describe their own faith in place of the labels 'Monophysite' and 'Nestorian' that others gave them, and modern agreements that have narrowed the old divisions."
+        },
+        {
+          "id": "l05-fall-of-rome-benedict-and-gregory",
+          "title": "The Fall of Rome, Benedict and Gregory",
+          "summary": "Learners will understand the end of Roman rule in the West, Benedict's Rule for monks, and the leadership of Pope Gregory the Great."
+        }
+      ]
+    },
+    {
+      "id": "m05-the-early-medieval-church",
+      "title": "The Early Medieval Church",
+      "summary": "Learners will understand how Christianity spread across Europe and Asia between about 450 and 1000 CE, Christian life under Islam, the Byzantine church and its controversy over images, and the mission to the Slavs.",
+      "lessons": [
+        {
+          "id": "l01-missions-to-ireland-britain-and-germany",
+          "title": "Missions to Ireland, Britain and the Germans",
+          "summary": "Learners will understand Patrick's mission to Ireland, Irish monks such as Columba, the Roman mission of Augustine of Canterbury to the English, and Boniface's work among the Germanic peoples."
+        },
+        {
+          "id": "l02-the-papacy-and-charlemagne",
+          "title": "The Papacy and Charlemagne",
+          "summary": "Learners will understand the alliance between the popes and the Frankish kings, Charlemagne's coronation as emperor in 800 CE, and the Carolingian renewal of learning and church life."
+        },
+        {
+          "id": "l03-christians-under-islam",
+          "title": "Christians Under Islam",
+          "summary": "Learners will understand the Arab conquests of the 600s, the protected but unequal status of Christians and Jews under Muslim rule, Christian life and scholarship in Arabic, such as John of Damascus, and the slow change, over centuries, of the Middle East's Christian majorities into minorities."
+        },
+        {
+          "id": "l04-church-of-the-east-in-asia",
+          "title": "The Church of the East in Asia",
+          "summary": "Learners will understand how the Church of the East spread across Persia, Central Asia, India and Tang China, and what the Xi'an stele of 781 CE records."
+        },
+        {
+          "id": "l05-byzantium-and-iconoclasm",
+          "title": "Byzantium and Iconoclasm",
+          "summary": "Learners will understand the Byzantine church, the controversy over icons in the 700s and 800s, the Second Council of Nicaea in 787 CE, and the final restoration of icons in 843 CE, which Orthodox Christians still celebrate as the Triumph of Orthodoxy."
+        },
+        {
+          "id": "l06-cyril-methodius-and-the-slavs",
+          "title": "Cyril, Methodius and the Slavs",
+          "summary": "Learners will understand the mission of Cyril and Methodius, the Slavonic liturgy, and the baptism of Kievan Rus in 988 CE."
+        }
+      ]
+    },
+    {
+      "id": "m06-the-high-medieval-church",
+      "title": "The High Medieval Church",
+      "summary": "Learners will understand the reform of the papacy, the East-West schism, the Crusades, the friars and the universities, and how the church treated dissent between about 1000 and 1300.",
+      "lessons": [
+        {
+          "id": "l01-monastic-and-papal-reform",
+          "title": "Monastic and Papal Reform",
+          "summary": "Learners will understand the monastic reform that began at Cluny, Pope Gregory the Seventh's reforms and his conflict with Emperor Henry the Fourth over who appointed bishops, and the height of papal power under Innocent the Third."
+        },
+        {
+          "id": "l02-east-west-schism-of-1054",
+          "title": "The East-West Schism of 1054",
+          "summary": "Learners will understand the growing distance between the Latin West and the Greek East, the disputes over papal authority, the filioque and the bread of the Eucharist, the mutual excommunications of 1054, and why most historians see the split as a long process rather than a single event."
+        },
+        {
+          "id": "l03-the-crusades",
+          "title": "The Crusades",
+          "summary": "Learners will understand why the Crusades were called and fought, what happened in them, including violence against Jews and Eastern Christians, and how historians judge them."
+        },
+        {
+          "id": "l04-francis-dominic-and-the-friars",
+          "title": "Francis, Dominic and the Friars",
+          "summary": "Learners will understand the new orders of Francis of Assisi and Dominic, their poverty and preaching, and women's religious movements such as the Beguines."
+        },
+        {
+          "id": "l05-universities-and-scholasticism",
+          "title": "Universities and Scholasticism",
+          "summary": "Learners will understand the rise of medieval universities and the scholastic method of Anselm, Abelard and Thomas Aquinas."
+        },
+        {
+          "id": "l06-dissent-and-the-inquisition",
+          "title": "Dissent and the Inquisition",
+          "summary": "Learners will understand the Cathars and Waldensians, the Albigensian Crusade, the medieval inquisitions and their methods, and how historians' picture of them differs from popular myth."
+        }
+      ]
+    },
+    {
+      "id": "m07-the-late-medieval-church",
+      "title": "The Late Medieval Church",
+      "summary": "Learners will understand the crises of the papacy, the dissent of Wycliffe and Hus, late medieval devotion and humanism, and the fall of Constantinople.",
+      "lessons": [
+        {
+          "id": "l01-avignon-and-the-western-schism",
+          "title": "Avignon and the Western Schism",
+          "summary": "Learners will understand the papacy's residence at Avignon, which critics called its Babylonian captivity, the Western Schism of two and then three rival popes, and how the Council of Constance ended it and raised the question of whether a council stands above a pope."
+        },
+        {
+          "id": "l02-wycliffe-hus-and-dissent",
+          "title": "Wycliffe, Hus and Dissent",
+          "summary": "Learners will understand John Wycliffe and the Lollards in England and Jan Hus in Bohemia, their criticisms of the church, the execution of Hus at the Council of Constance in 1415, and why Protestants later saw them as forerunners."
+        },
+        {
+          "id": "l03-mystics-and-lay-devotion",
+          "title": "Mystics and Lay Devotion",
+          "summary": "Learners will understand late medieval faith in the age of the Black Death, mystics such as Julian of Norwich and Catherine of Siena, and the lay movement called the Modern Devotion, with Thomas à Kempis's Imitation of Christ."
+        },
+        {
+          "id": "l04-renaissance-humanism-and-erasmus",
+          "title": "Renaissance Humanism and Erasmus",
+          "summary": "Learners will understand the return to ancient sources, the printing press, and Erasmus's Greek New Testament and his calls for reform."
+        },
+        {
+          "id": "l05-fall-of-constantinople-and-russia",
+          "title": "The Fall of Constantinople and Russian Orthodoxy",
+          "summary": "Learners will understand the failed attempt at reunion with Rome at the Council of Florence, the Ottoman conquest of Constantinople in 1453, and the rise of Moscow as the leading Orthodox power, which some Russians called the Third Rome."
+        }
+      ]
+    },
+    {
+      "id": "m08-the-protestant-reformations",
+      "title": "The Protestant Reformations",
+      "summary": "Learners will understand the Lutheran, Reformed, Anabaptist and English Reformations: what each taught, how each spread, and what each cost.",
+      "lessons": [
+        {
+          "id": "l01-luther-and-wittenberg",
+          "title": "Martin Luther and Wittenberg",
+          "summary": "Learners will understand Luther's spiritual struggle, the indulgence controversy and the Ninety-five Theses of 1517, his teaching of justification by faith, and his break with Rome up to the Diet of Worms in 1521."
+        },
+        {
+          "id": "l02-the-lutheran-reformation-spreads",
+          "title": "The Lutheran Reformation Spreads",
+          "summary": "Learners will understand how Lutheran reform spread through German cities and princes and into Scandinavia, the Peasants' War of 1525 and Luther's response, the Augsburg Confession of 1530, the Peace of Augsburg in 1555, and Luther's late writings against the Jews."
+        },
+        {
+          "id": "l03-zwingli-and-reformed-beginnings",
+          "title": "Zwingli and Reformed Beginnings",
+          "summary": "Learners will understand Zwingli's reform in Zurich, his break with Luther over the Lord's Supper at Marburg in 1529, and the founding principles of the Reformed tradition."
+        },
+        {
+          "id": "l04-calvin-and-geneva",
+          "title": "Calvin and Geneva",
+          "summary": "Learners will understand Calvin's Institutes, his teaching on God's sovereignty and predestination, the church order of Geneva, the execution of Michael Servetus, and the spread of Reformed churches to France, the Netherlands, Scotland and beyond."
+        },
+        {
+          "id": "l05-anabaptists-and-radical-reformers",
+          "title": "Anabaptists and Radical Reformers",
+          "summary": "Learners will understand the Swiss Brethren and the first believers' baptisms of 1525, the Schleitheim Confession, the violent episode at Münster and how it differed from the peaceful majority, Menno Simons, and the persecution of Anabaptists by Catholics and Protestants alike."
+        },
+        {
+          "id": "l06-english-and-scottish-reformations",
+          "title": "The English and Scottish Reformations",
+          "summary": "Learners will understand how England broke with Rome under Henry the Eighth, moved toward Protestantism under Edward the Sixth, returned to Rome under Mary and reached a settlement under Elizabeth the First, and how John Knox led the Scottish Reformation toward Presbyterian church order."
+        }
+      ]
+    },
+    {
+      "id": "m09-catholic-reform-and-the-confessional-age",
+      "title": "Catholic Reform and the Confessional Age",
+      "summary": "Learners will understand Catholic reform and worldwide missions, the wars of religion, the Puritan and Pietist movements within Protestantism, and the Orthodox churches under the Ottomans and the tsars.",
+      "lessons": [
+        {
+          "id": "l01-council-of-trent",
+          "title": "The Council of Trent",
+          "summary": "Learners will understand why historians speak of both a Catholic Reformation and a Counter-Reformation, what the Council of Trent decided on Scripture and tradition, justification and the sacraments, and how it reformed the training and discipline of clergy."
+        },
+        {
+          "id": "l02-jesuits-and-catholic-spirituality",
+          "title": "The Jesuits and Catholic Spirituality",
+          "summary": "Learners will understand Ignatius of Loyola, the founding of the Jesuits and the Spiritual Exercises, other new orders, and the mystical writings of Teresa of Avila and John of the Cross."
+        },
+        {
+          "id": "l03-catholic-missions-worldwide",
+          "title": "Catholic Missions Worldwide",
+          "summary": "Learners will understand Catholic missions in the Americas, Africa and Asia, figures such as Francis Xavier and Matteo Ricci, the debate over conquest and native rights led by Bartolomé de las Casas, and the controversy over adapting the faith to Chinese customs."
+        },
+        {
+          "id": "l04-wars-of-religion-and-westphalia",
+          "title": "The Wars of Religion and Westphalia",
+          "summary": "Learners will understand the French wars of religion and the Thirty Years' War, and how the Peace of Westphalia in 1648 settled religion in the empire."
+        },
+        {
+          "id": "l05-puritans-and-pietists",
+          "title": "Puritans and Pietists",
+          "summary": "Learners will understand the Puritans' push to reform the Church of England further, their part in the English Civil War and the Westminster Confession, and the Pietist movement of Spener, Francke and the Moravians, which stressed a living personal faith."
+        },
+        {
+          "id": "l06-orthodoxy-under-ottomans-and-tsars",
+          "title": "Orthodoxy Under the Ottomans and Tsars",
+          "summary": "Learners will understand how the Orthodox churches lived under Ottoman rule, the founding of the Moscow patriarchate in 1589, the Old Believer schism, and Peter the Great's replacement of the patriarch with a state-run synod."
+        }
+      ]
+    },
+    {
+      "id": "m10-enlightenment-revival-and-missions",
+      "title": "Enlightenment, Revival and Missions",
+      "summary": "Learners will understand the Enlightenment's challenge to faith, the evangelical revivals, the modern missionary movement, Christianity's part in slavery and abolition, and the Catholic revival of the 1800s.",
+      "lessons": [
+        {
+          "id": "l01-science-enlightenment-and-faith",
+          "title": "Science, the Enlightenment and Faith",
+          "summary": "Learners will understand the Galileo affair and what actually happened in it, the deism and skepticism of Enlightenment thinkers, the growth of religious toleration, and how Christian thinkers responded."
+        },
+        {
+          "id": "l02-wesley-and-methodism",
+          "title": "Wesley and Methodism",
+          "summary": "Learners will understand John Wesley's spiritual awakening, the rise of Methodism, and its emphasis on Christian perfection and social holiness."
+        },
+        {
+          "id": "l03-the-great-awakenings",
+          "title": "The Great Awakenings",
+          "summary": "Learners will understand the First Great Awakening of Jonathan Edwards and George Whitefield, the Second Great Awakening of camp meetings and Charles Finney, and how revivalism reshaped American churches and public life."
+        },
+        {
+          "id": "l04-the-modern-missionary-movement",
+          "title": "The Modern Missionary Movement",
+          "summary": "Learners will understand William Carey, Hudson Taylor and other missionaries, the African and Asian Christians who did much of the actual work of evangelism, and the movement's ties to colonialism and the debate over them."
+        },
+        {
+          "id": "l05-slavery-abolition-and-the-black-church",
+          "title": "Slavery, Abolition and the Black Church",
+          "summary": "Learners will understand how churches both defended slavery and led the fight against it, from the Quakers and William Wilberforce to the splits of American denominations in the 1840s, and the founding of independent Black churches such as Richard Allen's African Methodist Episcopal Church."
+        },
+        {
+          "id": "l06-vatican-i-and-catholic-revival",
+          "title": "The First Vatican Council and Catholic Revival",
+          "summary": "Learners will understand how the Catholic Church recovered from the French Revolution's attack on it, the Oxford Movement and John Henry Newman, the definition of papal infallibility at the First Vatican Council in 1870, and Leo the Thirteenth's Rerum Novarum, the start of modern Catholic social teaching."
+        }
+      ]
+    },
+    {
+      "id": "m11-the-church-in-the-modern-world",
+      "title": "The Church in the Modern World",
+      "summary": "Learners will understand how the churches met modern thought and politics from about 1800 to the 1960s, from liberal theology and Pentecostalism to totalitarian persecution, the ecumenical movement and the struggle for civil rights.",
+      "lessons": [
+        {
+          "id": "l01-liberal-theology-and-its-critics",
+          "title": "Liberal Theology and Its Critics",
+          "summary": "Learners will understand Schleiermacher and the liberal Protestant tradition, historical criticism of the Bible, and the critics who answered them, including Karl Barth."
+        },
+        {
+          "id": "l02-birth-of-pentecostalism",
+          "title": "The Birth of Pentecostalism",
+          "summary": "Learners will understand the Holiness movement, the Azusa Street Revival of 1906 led by William Seymour, and the rapid worldwide growth of Pentecostal and, later, charismatic Christianity."
+        },
+        {
+          "id": "l03-fundamentalist-modernist-controversy",
+          "title": "The Fundamentalist-Modernist Controversy",
+          "summary": "Learners will understand the conflict in American Protestantism in the early 1900s over biblical criticism, evolution and the Social Gospel, the booklets called The Fundamentals, the Scopes trial of 1925, and how the conflict divided denominations and seminaries."
+        },
+        {
+          "id": "l04-churches-under-nazism-and-communism",
+          "title": "Churches Under Nazism and Communism",
+          "summary": "Learners will understand how the churches responded to Nazi rule, from the German Christians' support to the Confessing Church, the Barmen Declaration and Dietrich Bonhoeffer, the debate over Pope Pius the Twelfth's response to the Holocaust, and the persecution of Christians under Soviet communism."
+        },
+        {
+          "id": "l05-the-ecumenical-movement",
+          "title": "The Ecumenical Movement",
+          "summary": "Learners will understand the Edinburgh missionary conference of 1910, the founding of the World Council of Churches in 1948, and how Protestant, Orthodox and later Catholic Christians have sought visible unity, and where they still disagree."
+        },
+        {
+          "id": "l06-civil-rights-and-the-church",
+          "title": "Civil Rights and the Church",
+          "summary": "Learners will understand the Black church's leadership in the American civil rights movement, Martin Luther King Jr.'s Christian case for nonviolence, and the divided response of white churches, from support to resistance."
+        }
+      ]
+    },
+    {
+      "id": "m12-global-christianity-today",
+      "title": "Global Christianity Today",
+      "summary": "Learners will understand the major changes in world Christianity since about 1960, from Vatican II and the evangelical movement to the growth of the church in Africa, Asia and Latin America.",
+      "lessons": [
+        {
+          "id": "l01-second-vatican-council",
+          "title": "The Second Vatican Council",
+          "summary": "Learners will understand why Pope John the Twenty-third called the Second Vatican Council, its main teachings on the church, worship in local languages, religious freedom, other Christians and other religions, and the continuing debate over how to interpret it."
+        },
+        {
+          "id": "l02-evangelicals-and-lausanne",
+          "title": "Evangelicals and the Lausanne Movement",
+          "summary": "Learners will understand the postwar rise of evangelicalism, from Billy Graham's preaching to the Lausanne Congress of 1974, and the growing voice of evangelicals from the global South, such as the call for integral mission."
+        },
+        {
+          "id": "l03-christianity-in-africa",
+          "title": "Christianity in Africa",
+          "summary": "Learners will understand the rapid growth of African Christianity since 1900, the African-initiated churches, the churches' part both for and against apartheid in South Africa, and African leadership in the world church."
+        },
+        {
+          "id": "l04-christianity-in-latin-america",
+          "title": "Christianity in Latin America",
+          "summary": "Learners will understand the Catholic Church in Latin America after the Second Vatican Council, liberation theology and the Vatican's response to it, the rapid growth of Pentecostal churches, and the election of the first Latin American pope in 2013."
+        },
+        {
+          "id": "l05-christianity-in-asia",
+          "title": "Christianity in Asia",
+          "summary": "Learners will understand the growth of the churches in South Korea, Christianity in China from the missionary era to the registered churches and the unregistered house churches, the ancient and modern churches of India, and the mainly Catholic Philippines."
+        },
+        {
+          "id": "l06-the-church-today",
+          "title": "The Church Today",
+          "summary": "Learners will understand, as of the mid-2020s, Orthodoxy's revival after communism, secularization in the West, the abuse crisis and how churches have responded to it, and the persecution of Christians in parts of the world today."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+# Subject Mastery: files that must never reach the public repo.
+# Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved. · help@batesai.org · https://batesai.org
+# Builds, audio and logs live in ~/Downloads/subject-mastery-build/, not here; these rules
+# are the safety net if a copy ever lands in the repo.
+
+# --- macOS and editors ---
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon?
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# --- build outputs ---
+dist/
+dist.new/
+dist-*/
+fixture-dist/
+build/
+.build/
+out/
+
+# --- audio: regenerable with pipeline/tts.py, and too big for git ---
+*.mp3
+*.wav
+*.m4a
+*.aiff
+*.flac
+*.part
+
+# --- dependencies, caches and test browsers ---
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+pw-browsers/
+ms-playwright/
+test-results/
+playwright-report/
+
+# --- Cloudflare / wrangler local state ---
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# --- logs and run state ---
+logs/
+logs-*/
+*.log
+*.out
+*.pid
+llm_state.json
+tmp/
+
+# --- secrets: never commit ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+secrets.json
+secrets.*.json
+CREDENTIALS.md
+credentials.json
+*.local.txt
+
+# --- local-only notes, machine paths, private scan terms ---
+LOCAL_*.md
+local/
+local_paths.py
+
+# --- macOS app build products (app/build_app.sh builds in ~/Downloads) ---
+*.app/
+*.icns
+*.iconset/
+app-build/
+*.o
+*.dSYM/
+DerivedData/
+xcuserdata/
+
+# Private learner data and recovery exports
+sm-progress-*.json
+subject-mastery-progress-*.json
+learner-exports/

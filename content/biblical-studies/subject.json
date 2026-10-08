@@ -1,0 +1,419 @@
+{
+  "id": "biblical-studies",
+  "title": "Biblical Studies & Theology",
+  "tagline": "The Bible, the historic creeds and the major Christian doctrines, traditions and debates.",
+  "description": "A college-level path through the Bible and Christian theology. It surveys the Old and New Testaments, teaches how to read Scripture well, walks through the historic creeds and the main doctrines of systematic theology, and traces church history, apologetics and ethics, describing where Catholic, Orthodox and Protestant traditions agree and differ.",
+  "category": "Theology & Religion",
+  "color": "#8250df",
+  "modules": [
+    {
+      "id": "m01-foundations-of-theology",
+      "title": "Foundations of Theology",
+      "summary": "Learners will understand the basic methods, sources, and purposes of studying theology within the Christian tradition.",
+      "lessons": [
+        {
+          "id": "l01-what-theology-is",
+          "title": "What Theology Is",
+          "summary": "Learners will understand theology as the disciplined reflection on God's self-revelation and its implications for human life."
+        },
+        {
+          "id": "l02-general-and-special-revelation",
+          "title": "General and Special Revelation",
+          "summary": "Learners will distinguish between God's self-disclosure through the natural world and specific communication through Scripture and Christ."
+        },
+        {
+          "id": "l03-sources-of-authority",
+          "title": "Scripture, Tradition, Reason and Experience",
+          "summary": "Learners will explore the four primary sources of theological authority and how different traditions prioritize them."
+        },
+        {
+          "id": "l04-faith-and-scholarship",
+          "title": "Faith and Scholarship",
+          "summary": "Learners will understand the relationship between personal devotion and the scholarly study of biblical and theological texts."
+        },
+        {
+          "id": "l05-branches-of-theology",
+          "title": "The Branches of Theology",
+          "summary": "How biblical, historical, systematic and practical theology divide the work, and the key terms each one uses."
+        }
+      ]
+    },
+    {
+      "id": "m02-the-bible",
+      "title": "The Bible: Canon, Text and Interpretation",
+      "summary": "Learners will understand how the Bible was formed, preserved, and translated throughout history.",
+      "lessons": [
+        {
+          "id": "l01-formation-of-the-canon",
+          "title": "Formation of the Canon",
+          "summary": "How Jewish and Christian communities recognized the books of the Old and New Testaments, and why Catholic, Orthodox and Protestant Bibles differ in the deuterocanonical books."
+        },
+        {
+          "id": "l02-manuscripts-and-textual-criticism",
+          "title": "Manuscript Transmission and Textual Criticism",
+          "summary": "Learners will understand how ancient manuscripts were copied and how scholars work to reconstruct the original biblical text."
+        },
+        {
+          "id": "l03-english-bible-translations",
+          "title": "History of English Bible Translations",
+          "summary": "How the English Bible developed from Wycliffe and Tyndale to the King James Version and modern translations, and the difference between word-for-word and thought-for-thought translation."
+        },
+        {
+          "id": "l04-reading-by-genre",
+          "title": "Reading the Bible by Genre",
+          "summary": "Learners will understand the rules of interpretation based on the specific literary genres found within the Bible."
+        },
+        {
+          "id": "l05-historical-and-cultural-context",
+          "title": "Historical and Cultural Context",
+          "summary": "Learners will understand how the ancient Near Eastern and Greco-Roman worlds influence the meaning of biblical texts."
+        }
+      ]
+    },
+    {
+      "id": "m03-torah-and-history-of-israel",
+      "title": "The Torah and the Story of Israel",
+      "summary": "Learners will understand the foundational narrative of Israel from creation through the establishment of the monarchy.",
+      "lessons": [
+        {
+          "id": "l01-genesis-and-beginnings",
+          "title": "Genesis: Creation and the Patriarchs",
+          "summary": "Learners will understand the themes of creation, fall, and the patriarchal promises in the first five books of the Bible."
+        },
+        {
+          "id": "l02-exodus-sinai-and-the-law",
+          "title": "Exodus, Sinai and the Law",
+          "summary": "Learners will understand the structure and purpose of the Sinai covenant and the various types of biblical law."
+        },
+        {
+          "id": "l03-conquest-judges-and-kings",
+          "title": "Conquest, Judges and Kings",
+          "summary": "Learners will understand the transition of Israel from a tribal confederacy to a centralized kingdom under David and Solomon."
+        },
+        {
+          "id": "l04-exile-and-return",
+          "title": "Exile and the Post-Exilic Return",
+          "summary": "Learners will understand the theological impact of the Babylonian captivity and the restoration of the Jewish community."
+        },
+        {
+          "id": "l05-authorship-and-dating",
+          "title": "Authorship and Dating Debates",
+          "summary": "Learners will understand the scholarly debates regarding the authorship and dating of the Pentateuch and historical books."
+        }
+      ]
+    },
+    {
+      "id": "m04-poetry-wisdom-and-prophets",
+      "title": "Poetry, Wisdom and the Prophets",
+      "summary": "Learners will understand the poetic and prophetic voices that shaped Israel's spiritual and social life.",
+      "lessons": [
+        {
+          "id": "l01-psalms",
+          "title": "The Psalms and Hebrew Poetry",
+          "summary": "Learners will understand the different types of Hebrew poetry and how the Psalms functioned in Israel's liturgical life."
+        },
+        {
+          "id": "l02-wisdom-literature",
+          "title": "Job, Proverbs and Ecclesiastes",
+          "summary": "Learners will understand the philosophical reflections on suffering, morality, and meaning found in Job, Proverbs, and Ecclesiastes."
+        },
+        {
+          "id": "l03-major-prophets",
+          "title": "The Major Prophets",
+          "summary": "The core messages of Isaiah, Jeremiah, Ezekiel and Daniel: judgment, repentance, exile and hope."
+        },
+        {
+          "id": "l04-book-of-the-twelve",
+          "title": "The Book of the Twelve",
+          "summary": "Learners will understand the distinct themes of the Book of the Twelve and their calls for ethical and religious reform."
+        },
+        {
+          "id": "l05-messianic-hope",
+          "title": "Messianic Expectations in the Old Testament",
+          "summary": "Learners will understand the various hopes for a future redeemer or king as expressed in the Hebrew Scriptures."
+        }
+      ]
+    },
+    {
+      "id": "m05-gospels-and-jesus",
+      "title": "The Gospels and the Life of Jesus",
+      "summary": "Learners will understand the historical and theological portrayals of Jesus Christ in the four Gospels.",
+      "lessons": [
+        {
+          "id": "l01-between-the-testaments",
+          "title": "The World Between the Testaments",
+          "summary": "Learners will understand the political and religious developments in the Second Temple period that set the stage for the New Testament."
+        },
+        {
+          "id": "l02-synoptic-gospels",
+          "title": "The Synoptic Gospels and Their Sources",
+          "summary": "Learners will understand the literary relationship between Matthew, Mark, and Luke and the theories regarding their sources."
+        },
+        {
+          "id": "l03-mark-and-matthew",
+          "title": "The Kingdom of God in Mark and Matthew",
+          "summary": "Learners will understand how the earliest Gospels present Jesus's proclamation of God's reigning presence."
+        },
+        {
+          "id": "l04-luke",
+          "title": "Luke's Gospel",
+          "summary": "Learners will understand Luke's emphasis on the Holy Spirit and the inclusion of the marginalized in the mission of Jesus."
+        },
+        {
+          "id": "l05-john",
+          "title": "John: The Word Made Flesh",
+          "summary": "Learners will understand the unique high Christology and symbolic language used in the Fourth Gospel."
+        }
+      ]
+    },
+    {
+      "id": "m06-acts-and-letters",
+      "title": "Acts and the Letters",
+      "summary": "Learners will understand the expansion of the early church and the theological instruction provided by the apostles.",
+      "lessons": [
+        {
+          "id": "l01-acts",
+          "title": "The Birth of the Church in Acts",
+          "summary": "Learners will understand the narrative of the early church's growth from Jerusalem to Rome under the guidance of the Spirit."
+        },
+        {
+          "id": "l02-paul-life-and-mission",
+          "title": "Paul: Life, Mission and Letters",
+          "summary": "Who Paul was, how his missionary journeys unfolded, and how his letters to young churches such as Corinth and Thessalonica were written and read."
+        },
+        {
+          "id": "l03-romans-galatians-and-justification",
+          "title": "Romans, Galatians and Justification",
+          "summary": "Learners will understand Paul's central arguments regarding faith, law, and righteousness in his letters to the Romans and Galatians."
+        },
+        {
+          "id": "l04-prison-and-pastoral-letters",
+          "title": "The Prison and Pastoral Letters",
+          "summary": "Learners will understand the instructions for church leadership and the theological reflections written during Paul's various imprisonments."
+        },
+        {
+          "id": "l05-hebrews-and-general-letters",
+          "title": "Hebrews and the General Letters",
+          "summary": "The message of Hebrews and the letters of James, Peter, John and Jude, including their teaching on faith, works and endurance."
+        },
+        {
+          "id": "l06-revelation",
+          "title": "The Book of Revelation",
+          "summary": "Learners will understand the symbolic imagery and historical context of the New Testament's final book."
+        }
+      ]
+    },
+    {
+      "id": "m07-creeds-and-councils",
+      "title": "The Historic Creeds and Councils",
+      "summary": "Learners will understand the foundational definitions of Christian orthodoxy established by the early ecumenical councils.",
+      "lessons": [
+        {
+          "id": "l01-rule-of-faith-and-early-controversies",
+          "title": "The Rule of Faith and Early Controversies",
+          "summary": "How the second- and third-century church summarized its faith and answered Gnosticism, Marcion and other early challenges."
+        },
+        {
+          "id": "l02-apostles-creed",
+          "title": "The Apostles' Creed",
+          "summary": "Learners will understand the origins and structure of the most widely used summary of the Christian faith."
+        },
+        {
+          "id": "l03-nicene-creed",
+          "title": "Nicaea, Constantinople and the Nicene Creed",
+          "summary": "How the Arian controversy led to the councils of Nicaea in 325 and Constantinople in 381, and what the Nicene Creed confesses about the Son and the Spirit."
+        },
+        {
+          "id": "l04-chalcedon",
+          "title": "The Chalcedonian Definition",
+          "summary": "Learners will understand the classic formulation of how Jesus is both fully God and fully man in one person."
+        },
+        {
+          "id": "l05-athanasian-creed",
+          "title": "The Athanasian Creed",
+          "summary": "Learners will understand the detailed articulation of the Trinity and the co-equality of the Father, Son, and Spirit."
+        },
+        {
+          "id": "l06-reformation-era-confessions",
+          "title": "Confessions of the Reformation Era",
+          "summary": "How the Augsburg Confession, the Council of Trent, the Thirty-Nine Articles, the Heidelberg Catechism and the Westminster Confession defined the churches of the West."
+        }
+      ]
+    },
+    {
+      "id": "m08-god-and-creation",
+      "title": "God, Creation and Humanity",
+      "summary": "Learners will understand the classic theological doctrines regarding the nature of God and the origin of the world.",
+      "lessons": [
+        {
+          "id": "l01-attributes-of-god",
+          "title": "The Attributes and Nature of God",
+          "summary": "Learners will understand the traditional descriptions of God's character, including his holiness, love, and sovereignty."
+        },
+        {
+          "id": "l02-trinity",
+          "title": "The Trinity",
+          "summary": "Learners will understand the relationship between the three persons of the Godhead according to historic orthodoxy."
+        },
+        {
+          "id": "l03-creation-and-providence",
+          "title": "Creation and Providence",
+          "summary": "What the doctrines of creation out of nothing and of God's ongoing providence teach, and how the traditions understand God's governance of the world."
+        },
+        {
+          "id": "l04-image-of-god",
+          "title": "The Image of God and Human Nature",
+          "summary": "Learners will understand the theological concept of the Imago Dei and what it means to be human."
+        },
+        {
+          "id": "l05-fall-and-sin",
+          "title": "The Fall and the Doctrine of Sin",
+          "summary": "Learners will understand the nature of human rebellion and its effects on the relationship between God and creation."
+        }
+      ]
+    },
+    {
+      "id": "m09-christ-and-salvation",
+      "title": "Christ and Salvation",
+      "summary": "Learners will understand the person and work of Jesus Christ and how humans experience redemption.",
+      "lessons": [
+        {
+          "id": "l01-person-of-christ",
+          "title": "The Person of Christ",
+          "summary": "Learners will understand the biblical and theological evidence for the incarnation of the Son of God."
+        },
+        {
+          "id": "l02-atonement",
+          "title": "Models of the Atonement",
+          "summary": "Learners will understand the different ways traditions explain how the death of Christ achieves salvation for humanity."
+        },
+        {
+          "id": "l03-grace-election-and-free-will",
+          "title": "Grace, Election and Free Will",
+          "summary": "How Augustine and Pelagius, Calvinists and Arminians, and Catholic and Orthodox theologians relate God's grace to human freedom."
+        },
+        {
+          "id": "l04-justification-across-traditions",
+          "title": "Justification Across the Traditions",
+          "summary": "How Catholic, Orthodox, Lutheran, Reformed and Wesleyan traditions describe how a person is made right with God, including the Orthodox idea of theosis."
+        },
+        {
+          "id": "l05-sanctification",
+          "title": "Sanctification and the Christian Life",
+          "summary": "How the traditions understand growth in holiness, the role of the Spirit and spiritual disciplines, and the hope of Christian maturity."
+        }
+      ]
+    },
+    {
+      "id": "m10-spirit-church-and-last-things",
+      "title": "The Spirit, the Church and Last Things",
+      "summary": "Learners will understand the work of the Holy Spirit, the nature of the church, and the final destiny of all things.",
+      "lessons": [
+        {
+          "id": "l01-holy-spirit",
+          "title": "The Person and Work of the Holy Spirit",
+          "summary": "Learners will understand the role of the Spirit in the life of the believer and the empowerment of the church."
+        },
+        {
+          "id": "l02-the-church",
+          "title": "The Nature and Mission of the Church",
+          "summary": "Learners will understand the different models of church government and the purpose of the Christian community."
+        },
+        {
+          "id": "l03-sacraments-and-ordinances",
+          "title": "Sacraments and Ordinances in Diverse Traditions",
+          "summary": "Learners will understand how Catholic, Orthodox, and Protestant groups view baptism and the Lord's Supper."
+        },
+        {
+          "id": "l04-death-and-intermediate-state",
+          "title": "Death and the Intermediate State",
+          "summary": "Learners will understand the various views on what happens to the soul after death and before the final resurrection."
+        },
+        {
+          "id": "l05-return-of-christ-and-millennium",
+          "title": "The Return of Christ and the Millennium",
+          "summary": "The major interpretations of the end times, including premillennial, amillennial and postmillennial views."
+        },
+        {
+          "id": "l06-resurrection-judgment-new-creation",
+          "title": "Resurrection, Judgment and New Creation",
+          "summary": "What the creeds mean by the resurrection of the body, the final judgment and the life of the world to come."
+        }
+      ]
+    },
+    {
+      "id": "m11-church-history",
+      "title": "Church History",
+      "summary": "Learners will understand the major movements and turning points in the history of the Christian church.",
+      "lessons": [
+        {
+          "id": "l01-early-church-and-monasticism",
+          "title": "The Early Church and Monasticism",
+          "summary": "Learners will understand the growth of the church under persecution and the rise of the monastic movement."
+        },
+        {
+          "id": "l02-medieval-church-and-scholasticism",
+          "title": "The Medieval Church and Scholasticism",
+          "summary": "How Augustine, Gregory the Great, the monasteries and the scholastics such as Anselm and Thomas Aquinas shaped medieval Christianity."
+        },
+        {
+          "id": "l03-east-west-schism",
+          "title": "The Great Schism of East and West",
+          "summary": "Learners will understand the theological and political factors that led to the split between Roman Catholicism and Eastern Orthodoxy."
+        },
+        {
+          "id": "l04-reformation-and-catholic-reform",
+          "title": "The Reformation and Catholic Reform",
+          "summary": "Learners will understand the 16th-century movements that reshaped the religious landscape of Europe."
+        },
+        {
+          "id": "l05-enlightenment-and-modern-theology",
+          "title": "The Enlightenment and Modern Theological Shifts",
+          "summary": "Learners will understand how the rise of modern science and philosophy challenged and changed Christian thought."
+        },
+        {
+          "id": "l06-global-christianity-today",
+          "title": "Global Christianity Today",
+          "summary": "How Christianity's center of gravity moved to the Global South, the rise of Pentecostalism, and the major traditions as they stand today."
+        }
+      ]
+    },
+    {
+      "id": "m12-apologetics-and-ethics",
+      "title": "Apologetics and Christian Ethics",
+      "summary": "Learners will understand how to defend the Christian faith and apply its teachings to moral life.",
+      "lessons": [
+        {
+          "id": "l01-arguments-for-god",
+          "title": "Classical Arguments for the Existence of God",
+          "summary": "Learners will understand the cosmological, teleological, and moral arguments used in philosophical theology."
+        },
+        {
+          "id": "l02-problem-of-evil",
+          "title": "The Problem of Evil",
+          "summary": "The logical and evidential problems of evil and suffering, and the main Christian responses, from free will to soul-making to the cross."
+        },
+        {
+          "id": "l03-resurrection-and-history",
+          "title": "The Resurrection and History",
+          "summary": "How historians and apologists weigh the evidence about Jesus' death, the empty tomb and the resurrection appearances, and how skeptics respond."
+        },
+        {
+          "id": "l04-biblical-ethics",
+          "title": "Biblical Foundations of Ethics",
+          "summary": "Learners will understand how the Bible provides a framework for determining right and wrong."
+        },
+        {
+          "id": "l05-virtue-ethics",
+          "title": "Virtue Ethics and the Christian Life",
+          "summary": "Learners will understand the importance of character formation and the fruit of the Spirit in ethical living."
+        },
+        {
+          "id": "l06-contemporary-ethical-issues",
+          "title": "Christian Ethics in Today's World",
+          "summary": "Learners will understand how different Christian traditions apply biblical principles to modern social challenges."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": "chemistry",
+  "title": "Chemistry",
+  "tagline": "Atoms, bonds, reactions and the matter that makes up everything.",
+  "description": "A full general chemistry path at college level. It builds from matter, measurement and atoms through the periodic table, bonding and stoichiometry, then gases, energy, solutions, reaction rates, equilibrium, acids and bases, and electrochemistry, and ends with introductions to organic and nuclear chemistry. Formulas and equations are spoken in words, and worked examples go step by step.",
+  "category": "Natural Sciences",
+  "color": "#0e7c86",
+  "modules": [
+    {
+      "id": "m01-matter-and-measurement",
+      "title": "Matter and Measurement",
+      "summary": "Learners will understand what chemistry studies, how matter is classified, and how chemists measure and convert quantities.",
+      "lessons": [
+        {
+          "id": "l01-what-chemistry-studies",
+          "title": "What Chemistry Studies",
+          "summary": "Chemistry as the study of matter and its changes, the link between what we can see and the atoms and molecules beneath it, and how chemists use hypotheses, laws and theories."
+        },
+        {
+          "id": "l02-classifying-matter",
+          "title": "Classifying Matter",
+          "summary": "The states of matter, elements, compounds and mixtures, and the difference between physical and chemical properties and changes."
+        },
+        {
+          "id": "l03-measurement-and-significant-figures",
+          "title": "Measurement and Significant Figures",
+          "summary": "The base units of the International System of Units and the metric prefixes, measurement uncertainty, accuracy versus precision, and significant figures: how to count them and how to round a calculated result."
+        },
+        {
+          "id": "l04-unit-conversions",
+          "title": "Unit Conversions",
+          "summary": "Converting units step by step with conversion factors, also called dimensional analysis, multi-step conversions, density as a bridge between mass and volume, and converting between Celsius, kelvin and Fahrenheit temperatures."
+        }
+      ]
+    },
+    {
+      "id": "m02-atoms-molecules-and-ions",
+      "title": "Atoms, Molecules and Ions",
+      "summary": "Learners will understand atomic structure, the periodic table, and how compounds are formed, written and named.",
+      "lessons": [
+        {
+          "id": "l01-development-of-atomic-theory",
+          "title": "The Development of Atomic Theory",
+          "summary": "Dalton's atomic theory and the laws of definite and multiple proportions, and the experiments of Thomson, Millikan and Rutherford that revealed the electron and the nucleus."
+        },
+        {
+          "id": "l02-atomic-structure-and-isotopes",
+          "title": "Atomic Structure and Isotopes",
+          "summary": "Protons, neutrons and electrons, atomic number and mass number, isotopes, and how the average atomic mass on the periodic table is calculated."
+        },
+        {
+          "id": "l03-the-periodic-table",
+          "title": "The Periodic Table",
+          "summary": "How Mendeleev arranged the elements, groups and periods, metals, nonmetals and metalloids, and the main families such as the alkali metals, the halogens and the noble gases."
+        },
+        {
+          "id": "l04-ionic-and-molecular-compounds",
+          "title": "Ionic and Molecular Compounds",
+          "summary": "How atoms gain or lose electrons to form ions, predicting common ion charges from the periodic table, polyatomic ions, writing ionic formulas whose charges balance, and telling ionic from molecular compounds; the theory of bonding comes in a later module."
+        },
+        {
+          "id": "l05-naming-compounds",
+          "title": "Naming Compounds",
+          "summary": "Naming ionic compounds, including metals with more than one possible charge and polyatomic ions, naming binary molecular compounds with Greek prefixes, and naming common acids."
+        }
+      ]
+    },
+    {
+      "id": "m03-moles-and-chemical-reactions",
+      "title": "Moles and Chemical Reactions",
+      "summary": "Learners will understand the mole and chemical formulas, how to write and balance equations, the main kinds of reactions, and how balanced equations predict amounts.",
+      "lessons": [
+        {
+          "id": "l01-formula-mass-and-the-mole",
+          "title": "Formula Mass and the Mole",
+          "summary": "Formula mass and molar mass, the mole as a counting unit, and converting between mass, moles and numbers of particles with Avogadro's number."
+        },
+        {
+          "id": "l02-empirical-and-molecular-formulas",
+          "title": "Empirical and Molecular Formulas",
+          "summary": "Percent composition by mass, finding an empirical formula from percent composition, and finding the molecular formula from the molar mass."
+        },
+        {
+          "id": "l03-balancing-chemical-equations",
+          "title": "Balancing Chemical Equations",
+          "summary": "Reading a chemical equation as a sentence, states of matter, the difference between coefficients and subscripts, and balancing equations atom by atom so that mass is conserved."
+        },
+        {
+          "id": "l04-precipitation-and-acid-base-reactions",
+          "title": "Precipitation and Acid-Base Reactions",
+          "summary": "Electrolytes and ions in water, precipitation reactions and simple solubility rules, molecular, complete ionic and net ionic equations, and acid-base neutralization; the full theory of acids and bases comes later."
+        },
+        {
+          "id": "l05-oxidation-reduction-reactions",
+          "title": "Oxidation-Reduction Reactions",
+          "summary": "Oxidation as loss of electrons and reduction as gain, assigning oxidation numbers, identifying what is oxidized and what is reduced, and common redox reactions such as combustion and metals reacting with acids; balancing harder redox equations comes later."
+        },
+        {
+          "id": "l06-stoichiometry-and-yield",
+          "title": "Stoichiometry, Limiting Reactants and Yield",
+          "summary": "Using a balanced equation to find the masses of reactants and products, finding which reactant runs out first, and theoretical, actual and percent yield."
+        }
+      ]
+    },
+    {
+      "id": "m04-thermochemistry",
+      "title": "Thermochemistry",
+      "summary": "Learners will understand how energy flows in chemical changes, and how calorimetry, enthalpy and Hess's law measure and predict it.",
+      "lessons": [
+        {
+          "id": "l01-energy-heat-and-work",
+          "title": "Energy, Heat and Work",
+          "summary": "Kinetic and potential energy, heat and work, conservation of energy, system and surroundings, and exothermic and endothermic processes."
+        },
+        {
+          "id": "l02-calorimetry-and-specific-heat",
+          "title": "Calorimetry and Specific Heat",
+          "summary": "Heat capacity and specific heat, calculating the heat gained or lost from mass, specific heat and temperature change, and how simple coffee-cup and bomb calorimeters measure heat."
+        },
+        {
+          "id": "l03-enthalpy",
+          "title": "Enthalpy and Thermochemical Equations",
+          "summary": "Enthalpy change as the heat of a process at constant pressure, reading thermochemical equations, the signs for endothermic and exothermic changes, and scaling the enthalpy change with the amount that reacts."
+        },
+        {
+          "id": "l04-hess-law-and-enthalpies-of-formation",
+          "title": "Hess's Law and Enthalpies of Formation",
+          "summary": "Hess's law as adding reaction steps and their enthalpy changes, standard enthalpies of formation, and calculating a reaction's enthalpy change from them."
+        }
+      ]
+    },
+    {
+      "id": "m05-electronic-structure-and-periodic-trends",
+      "title": "Electronic Structure and Periodic Trends",
+      "summary": "Learners will connect light, quantized energy, atomic orbitals and electron configurations to the trends of the periodic table.",
+      "lessons": [
+        {
+          "id": "l01-light-and-electromagnetic-energy",
+          "title": "Light and Electromagnetic Energy",
+          "summary": "Light as a wave with wavelength and frequency, the electromagnetic spectrum, light as photons whose energy depends on frequency, and the photoelectric effect."
+        },
+        {
+          "id": "l02-bohr-model-and-line-spectra",
+          "title": "The Bohr Model and Line Spectra",
+          "summary": "Why heated elements give off only certain colors, the Bohr model's quantized energy levels for hydrogen, and why the model fails for other atoms and was replaced by quantum mechanics."
+        },
+        {
+          "id": "l03-quantum-numbers-and-orbitals",
+          "title": "Quantum Numbers and Atomic Orbitals",
+          "summary": "Electrons as waves, orbitals as regions of probability, the four quantum numbers, and the shapes of s, p and d orbitals described in words."
+        },
+        {
+          "id": "l04-electron-configurations",
+          "title": "Electron Configurations",
+          "summary": "How electrons fill orbitals by the aufbau order, the Pauli exclusion principle and Hund's rule, how to say an electron configuration aloud, valence electrons, and well-known exceptions such as chromium and copper."
+        },
+        {
+          "id": "l05-periodic-trends",
+          "title": "Periodic Trends",
+          "summary": "Atomic radius, ionization energy and electron affinity across periods and down groups, and why each trend follows from nuclear charge and shielding."
+        }
+      ]
+    },
+    {
+      "id": "m06-chemical-bonding-and-molecular-shape",
+      "title": "Chemical Bonding and Molecular Shape",
+      "summary": "Learners will understand ionic and covalent bonds, Lewis structures, molecular shape and polarity, and the orbital theories that explain bonding.",
+      "lessons": [
+        {
+          "id": "l01-ionic-and-covalent-bonding",
+          "title": "Ionic and Covalent Bonding",
+          "summary": "How ions form ionic solids, how atoms share electrons, how electronegativity decides whether a bond is ionic, polar covalent or nonpolar covalent, and bond strength in brief."
+        },
+        {
+          "id": "l02-lewis-structures-and-resonance",
+          "title": "Lewis Structures, Formal Charge and Resonance",
+          "summary": "Counting valence electrons and building Lewis structures described in words, the octet rule and its exceptions, how formal charge picks the best structure, and what resonance means."
+        },
+        {
+          "id": "l03-molecular-shape-and-vsepr",
+          "title": "Molecular Shape and VSEPR Theory",
+          "summary": "Valence shell electron pair repulsion theory, the difference between electron-pair geometry and molecular shape, and the common shapes and bond angles described in words with everyday comparisons."
+        },
+        {
+          "id": "l04-molecular-polarity",
+          "title": "Molecular Polarity",
+          "summary": "How bond polarities and molecular shape together decide whether a molecule is polar, with water, carbon dioxide and ammonia as examples."
+        },
+        {
+          "id": "l05-valence-bond-theory-and-hybridization",
+          "title": "Valence Bond Theory and Hybridization",
+          "summary": "Bonds as overlapping atomic orbitals, sigma and pi bonds, and hybrid orbitals that explain the shapes of methane, ethylene and acetylene, described in words."
+        },
+        {
+          "id": "l06-molecular-orbital-theory",
+          "title": "Molecular Orbital Theory",
+          "summary": "Molecular orbitals spread over a whole molecule, bonding and antibonding orbitals, bond order, and how the theory explains why oxygen is attracted to a magnet when its Lewis structure suggests it should not be."
+        }
+      ]
+    },
+    {
+      "id": "m07-gases",
+      "title": "Gases",
+      "summary": "Learners will understand gas behavior through the gas laws, gas stoichiometry and kinetic-molecular theory.",
+      "lessons": [
+        {
+          "id": "l01-pressure-and-the-gas-laws",
+          "title": "Pressure and the Gas Laws",
+          "summary": "Pressure and its units, and how the laws of Boyle, Charles, Gay-Lussac (also credited to Amontons) and Avogadro relate pressure, volume, temperature and amount, with temperatures always in kelvins."
+        },
+        {
+          "id": "l02-the-ideal-gas-law",
+          "title": "The Ideal Gas Law",
+          "summary": "The ideal gas law and the gas constant, standard temperature and pressure (noting that two definitions are in use), and finding the density and molar mass of a gas."
+        },
+        {
+          "id": "l03-gas-mixtures-and-gas-stoichiometry",
+          "title": "Gas Mixtures and Gas Stoichiometry",
+          "summary": "Dalton's law of partial pressures, collecting a gas over water, and reaction stoichiometry problems involving gas volumes."
+        },
+        {
+          "id": "l04-kinetic-molecular-theory-and-real-gases",
+          "title": "Kinetic-Molecular Theory and Real Gases",
+          "summary": "How the motion of molecules explains pressure and temperature, diffusion and effusion and Graham's law, and why real gases depart from ideal behavior at high pressure and low temperature."
+        }
+      ]
+    },
+    {
+      "id": "m08-liquids-solids-and-solutions",
+      "title": "Liquids, Solids and Solutions",
+      "summary": "Learners will understand intermolecular forces, phase changes, the solid state, and how solutions form and how their concentration is measured.",
+      "lessons": [
+        {
+          "id": "l01-intermolecular-forces-and-liquids",
+          "title": "Intermolecular Forces and Liquids",
+          "summary": "Dispersion forces, dipole-dipole attractions and hydrogen bonding, and how they explain boiling points, viscosity, surface tension and vapor pressure."
+        },
+        {
+          "id": "l02-phase-changes-and-phase-diagrams",
+          "title": "Phase Changes and Phase Diagrams",
+          "summary": "Melting, boiling and sublimation, the energy of phase changes along a heating curve, and phase diagrams with the triple point and critical point, all described in words."
+        },
+        {
+          "id": "l03-the-solid-state",
+          "title": "The Solid State",
+          "summary": "Ionic, molecular, covalent network and metallic solids, crystalline versus amorphous solids, and how the kind of solid explains its hardness, melting point and conductivity."
+        },
+        {
+          "id": "l04-dissolution-and-solubility",
+          "title": "Dissolution and Solubility",
+          "summary": "Why substances dissolve, 'like dissolves like', electrolytes and nonelectrolytes, saturated solutions, and how temperature and pressure affect the solubility of solids and gases, including Henry's law."
+        },
+        {
+          "id": "l05-molarity-and-dilution",
+          "title": "Molarity and Dilution",
+          "summary": "Concentration as moles of solute per liter of solution, calculating molarity, preparing and diluting solutions, and other measures such as mass percent and parts per million."
+        },
+        {
+          "id": "l06-colligative-properties",
+          "title": "Colligative Properties",
+          "summary": "How dissolved particles lower vapor pressure and freezing point, raise boiling point and create osmotic pressure, using molality and mole fraction, and why salt counts more than sugar."
+        }
+      ]
+    },
+    {
+      "id": "m09-reaction-rates-and-equilibrium",
+      "title": "Reaction Rates and Equilibrium",
+      "summary": "Learners will understand how fast reactions go and why, and how reversible reactions reach a balance described by the equilibrium constant.",
+      "lessons": [
+        {
+          "id": "l01-reaction-rates-and-rate-laws",
+          "title": "Reaction Rates and Rate Laws",
+          "summary": "How reaction rates are measured, what affects them, and how rate laws, reaction orders and rate constants describe them."
+        },
+        {
+          "id": "l02-integrated-rate-laws-and-half-life",
+          "title": "Integrated Rate Laws and Half-Life",
+          "summary": "How reactant concentration changes over time for zero-, first- and second-order reactions, with the focus on first order, and the half-life of a reaction."
+        },
+        {
+          "id": "l03-collision-theory-and-activation-energy",
+          "title": "Collision Theory and Activation Energy",
+          "summary": "Why molecules must collide with enough energy and the right orientation, activation energy, and the Arrhenius equation for how temperature speeds up reactions."
+        },
+        {
+          "id": "l04-mechanisms-and-catalysis",
+          "title": "Reaction Mechanisms and Catalysis",
+          "summary": "Elementary steps and the rate-determining step, and how catalysts, including enzymes, speed reactions by offering a path with lower activation energy."
+        },
+        {
+          "id": "l05-dynamic-equilibrium-and-the-constant",
+          "title": "Dynamic Equilibrium and the Equilibrium Constant",
+          "summary": "Reversible reactions and dynamic equilibrium, writing the equilibrium constant expression in words, what a large or small constant means, the reaction quotient for predicting direction, and one simple equilibrium calculation."
+        },
+        {
+          "id": "l06-le-chateliers-principle",
+          "title": "Le Chatelier's Principle",
+          "summary": "Predicting how an equilibrium shifts when concentration, pressure or temperature changes, and why a catalyst does not shift it."
+        }
+      ]
+    },
+    {
+      "id": "m10-acids-bases-and-solubility",
+      "title": "Acids, Bases and Solubility Equilibria",
+      "summary": "Learners will understand acids and bases, the pH scale, acid and base strength, buffers and titrations, and the equilibria of slightly soluble salts.",
+      "lessons": [
+        {
+          "id": "l01-acids-bases-and-ph",
+          "title": "Acids, Bases and pH",
+          "summary": "Bronsted-Lowry acids and bases and conjugate pairs, the self-ionization of water, and the pH and pOH scales, with the logarithm explained simply."
+        },
+        {
+          "id": "l02-strong-and-weak-acids-and-bases",
+          "title": "Strong and Weak Acids and Bases",
+          "summary": "Acid and base strength, the acid and base ionization constants named in words, percent ionization, and why some salt solutions are acidic or basic."
+        },
+        {
+          "id": "l03-buffers",
+          "title": "Buffers",
+          "summary": "How a weak acid and its conjugate base resist changes in pH, calculating a buffer's pH, buffer capacity, and the buffer that keeps human blood near pH seven point four."
+        },
+        {
+          "id": "l04-acid-base-titrations",
+          "title": "Acid-Base Titrations",
+          "summary": "Titration as a way to measure an unknown concentration, the equivalence point, titration curves for strong and weak acids described in words, and how an indicator is chosen."
+        },
+        {
+          "id": "l05-solubility-equilibria",
+          "title": "Solubility Equilibria",
+          "summary": "The solubility product constant, calculating molar solubility and ion concentrations, the common ion effect, and predicting whether a precipitate forms."
+        }
+      ]
+    },
+    {
+      "id": "m11-thermodynamics-and-electrochemistry",
+      "title": "Thermodynamics and Electrochemistry",
+      "summary": "Learners will understand entropy and free energy, how they decide whether reactions happen, and how redox reactions produce and consume electricity.",
+      "lessons": [
+        {
+          "id": "l01-entropy-and-spontaneity",
+          "title": "Entropy and Spontaneity",
+          "summary": "What a spontaneous process is, entropy as the spreading of energy and matter, and the second and third laws of thermodynamics."
+        },
+        {
+          "id": "l02-gibbs-free-energy",
+          "title": "Gibbs Free Energy and Equilibrium",
+          "summary": "Gibbs free energy as the balance of enthalpy and entropy, how temperature can change whether a reaction is spontaneous, and how the standard free energy change relates to the equilibrium constant."
+        },
+        {
+          "id": "l03-balancing-redox-reactions",
+          "title": "Balancing Redox Reactions",
+          "summary": "Balancing oxidation-reduction reactions in acidic and basic solutions with the half-reaction method, spoken step by step."
+        },
+        {
+          "id": "l04-galvanic-cells-and-cell-potentials",
+          "title": "Galvanic Cells and Cell Potentials",
+          "summary": "How galvanic cells turn a chemical reaction into electric current, anode and cathode, standard electrode potentials and a cell's voltage, and how voltage connects to free energy."
+        },
+        {
+          "id": "l05-batteries-fuel-cells-and-corrosion",
+          "title": "Batteries, Fuel Cells and Corrosion",
+          "summary": "How common batteries and fuel cells work, why a battery's voltage falls as it runs down, and corrosion as a redox process that can be prevented."
+        },
+        {
+          "id": "l06-electrolysis",
+          "title": "Electrolysis",
+          "summary": "How an electric current drives nonspontaneous reactions in electrolytic cells, as in refining metals and electroplating, and relating the charge passed to the amount of substance produced."
+        }
+      ]
+    },
+    {
+      "id": "m12-organic-and-nuclear-chemistry",
+      "title": "Organic and Nuclear Chemistry",
+      "summary": "Learners will understand the main families of carbon compounds and the changes that happen inside atomic nuclei.",
+      "lessons": [
+        {
+          "id": "l01-hydrocarbons",
+          "title": "Hydrocarbons",
+          "summary": "Alkanes, alkenes, alkynes and aromatic compounds, how they are named, and the idea of isomers."
+        },
+        {
+          "id": "l02-oxygen-containing-functional-groups",
+          "title": "Oxygen-Containing Functional Groups",
+          "summary": "Alcohols, ethers, aldehydes, ketones, carboxylic acids and esters, and how their functional groups shape their properties."
+        },
+        {
+          "id": "l03-amines-amides-and-polymers",
+          "title": "Amines, Amides and Polymers",
+          "summary": "Amines and amides, how small molecules join into polymers by addition and condensation, and the large molecules of life in brief."
+        },
+        {
+          "id": "l04-nuclear-stability-and-radioactive-decay",
+          "title": "Nuclear Stability and Radioactive Decay",
+          "summary": "What holds a nucleus together, the neutron-to-proton ratio, alpha, beta and gamma decay and positron emission, and balancing nuclear equations by mass number and atomic number, spoken in words."
+        },
+        {
+          "id": "l05-half-life-and-radiometric-dating",
+          "title": "Half-Life and Radiometric Dating",
+          "summary": "Radioactive half-life and first-order decay, half-life calculations, and how carbon dating and other radiometric methods date once-living things and rocks, with the assumptions each method relies on and how they are checked."
+        },
+        {
+          "id": "l06-fission-fusion-and-radiation",
+          "title": "Fission, Fusion and Radiation",
+          "summary": "Nuclear fission and fusion as sources of energy, mass converted to energy, and the uses and biological effects of radiation."
+        }
+      ]
+    }
+  ]
+}

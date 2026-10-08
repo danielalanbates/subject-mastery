@@ -1,0 +1,40 @@
+# The Antediluvia browser build (~100 MB of wasm engine + game assets) is
+# produced by adv-src/scripts/build_web.sh and copied in at deploy time. It is
+# deployed but deliberately not committed — it would bloat this repo on every
+# rebuild, and it is reproducible from the game's own source repo.
+public/play/
+dist/play/
+
+# Subject Mastery web player (https://batesai.org/subjectmastery/). Built in the
+# subject-mastery repo into ~/Downloads/subject-mastery-build/dist and copied in
+# by scripts/stage_subjectmastery.sh at deploy time, like /play above. Lesson
+# audio makes it large and it is reproducible from that repo.
+public/subjectmastery/
+dist/subjectmastery/
+
+# Git metadata files in working tree
+COMMIT_EDITMSG
+FETCH_HEAD
+HEAD
+ORIG_HEAD
+config
+description
+index
+index.lock
+info/
+logs/
+objects/
+packed-refs
+refs/
+hooks/
+node_modules/
+.astro/
+.wrangler/
+dist/
+schema.sql
+
+.wrangler/state/
+StockAnalyzer.dmg
+*.dmg
+!public/downloads/*.dmg
+!dist/downloads/*.dmg

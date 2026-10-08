@@ -1,0 +1,55 @@
+From c2922106add370a8bbeb18b07b5a76740fcff656 Mon Sep 17 00:00:00 2001
+From: Daniel Bates <help@batesai.org>
+Date: Fri, 2 Oct 2026 10:58:56 -0700
+Subject: [PATCH 2/8] Carry production's Apple native-sign-in nonce fix into
+ source
+
+The functions live on production (deployment a62e742f) were uploaded from a
+stray ~/functions copy whose auth router has a fix that was never
+committed: Endgame Fitness app builds <= 6 sent the raw nonce to this API
+while giving Apple its SHA-256, so every real-device Sign in with Apple
+returned 401 "Nonce mismatch". The check now accepts either form.
+
+That copy predates 51a288a7 and still lists the old audience
+org.batesai.endgamefitness; this keeps it next to the corrected
+com.batesllc.EndgameFitnessMobile so nothing production accepts today
+starts failing when this branch is deployed.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ functions/api/auth/[[path]].js | 12 +++++++++---
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+
+diff --git a/functions/api/auth/[[path]].js b/functions/api/auth/[[path]].js
+index 97fac7dc..f4607d8e 100644
+--- a/functions/api/auth/[[path]].js
++++ b/functions/api/auth/[[path]].js
+@@ -97,8 +97,11 @@ async function handleNative(request, env, path) {
+     });
+     if (!claims) return json({ error: 'Invalid Apple identity token' }, 401);
+ 
+-    // Apple echoes back the nonce we sent. If the client supplied one, it must match.
+-    if (nonce && claims.nonce && claims.nonce !== nonce) {
++    // Apple echoes back the nonce we sent. If the client supplied one, it must
++    // match either verbatim (client sent the hashed nonce, correct behaviour) or
++    // after hashing (app build <=6 sent the RAW nonce while setting the SHA-256
++    // on the Apple request, which made every real-device sign-in 401 here).
++    if (nonce && claims.nonce && claims.nonce !== nonce && claims.nonce !== (await sha256Hex(nonce))) {
+       return json({ error: 'Nonce mismatch' }, 401);
+     }
+ 
+@@ -142,7 +145,10 @@ function appleAudiences(env) {
+   const configured = [env.OAUTH_APPLE_CLIENT_ID, env.APPLE_CLIENT_ID, env.APPLE_NATIVE_CLIENT_IDS];
+   const list = configured.filter(Boolean).flatMap((v) => String(v).split(','));
+   if (!list.length) list.push('org.batesai.membership');
+-  list.push('com.batesllc.EndgameFitnessMobile');
++  // The Endgame Fitness iOS bundle id. The older guess is kept as well: the
++  // auth code live on production since 2026-09-26 accepts it, and dropping it
++  // here could only ever turn a working sign-in into a 401.
++  list.push('com.batesllc.EndgameFitnessMobile', 'org.batesai.endgamefitness');
+   return [...new Set(list.map((s) => s.trim()).filter(Boolean))];
+ }
+ 
+-- 
+2.51.2
+

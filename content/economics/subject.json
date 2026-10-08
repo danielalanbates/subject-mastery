@@ -1,0 +1,399 @@
+{
+  "id": "economics",
+  "title": "Economics",
+  "tagline": "How people, firms and nations choose under scarcity, from supply and demand to growth, money and trade.",
+  "description": "A complete path through introductory and intermediate economics. It starts with scarcity, markets and prices, moves through firms, competition and public policy, and ends with the big questions of growth, unemployment, inflation, money and the global economy.",
+  "category": "Social Sciences",
+  "color": "#1f6feb",
+  "modules": [
+    {
+      "id": "m01-foundations",
+      "title": "Foundations of Economic Thinking",
+      "summary": "Learners will understand the foundational concepts of scarcity, opportunity cost, and trade-offs that govern all economic decision-making.",
+      "lessons": [
+        {
+          "id": "l01-scarcity-and-the-economic-way-of-thinking",
+          "title": "Scarcity and the Economic Way of Thinking",
+          "summary": "What economics studies, why scarcity forces every society to choose, and how economists use models, marginal thinking, and the difference between positive and normative claims."
+        },
+        {
+          "id": "l02-opportunity-cost",
+          "title": "Opportunity Cost and Decision Making",
+          "summary": "Learners will understand how to calculate and apply opportunity cost when evaluating trade-offs in daily decisions."
+        },
+        {
+          "id": "l03-budget-constraint",
+          "title": "The Budget Constraint",
+          "summary": "Learners will understand how budget constraints illustrate the trade-offs consumers face within fixed financial limits."
+        },
+        {
+          "id": "l04-production-possibilities-frontier",
+          "title": "Production Possibilities Frontier",
+          "summary": "Learners will understand how the production possibilities frontier models societal trade-offs, efficiency, and economic growth."
+        },
+        {
+          "id": "l05-specialization-trade-and-markets",
+          "title": "Specialization, Trade and Markets",
+          "summary": "Why dividing up work makes people more productive, why voluntary trade can benefit both sides, and how markets and prices coordinate millions of strangers."
+        }
+      ]
+    },
+    {
+      "id": "m02-supply-and-demand",
+      "title": "Supply, Demand and Markets",
+      "summary": "Learners will understand how supply and demand interact to determine prices and allocate resources in competitive markets.",
+      "lessons": [
+        {
+          "id": "l01-law-of-demand",
+          "title": "The Law of Demand",
+          "summary": "How price changes move us along a demand curve, and how income, tastes, related goods and expectations shift the whole curve."
+        },
+        {
+          "id": "l02-law-of-supply",
+          "title": "The Law of Supply",
+          "summary": "How price changes move producers along a supply curve, and how costs, technology and the number of sellers shift it."
+        },
+        {
+          "id": "l03-market-equilibrium",
+          "title": "Market Equilibrium and Price Discovery",
+          "summary": "How shortages and surpluses push prices toward equilibrium, and how to predict what happens to price and quantity when supply or demand shifts."
+        },
+        {
+          "id": "l04-price-controls-and-surplus",
+          "title": "Price Controls, Surplus and Efficiency",
+          "summary": "How consumer and producer surplus measure the gains from trade, and why price ceilings and floors create shortages, surpluses and deadweight loss."
+        },
+        {
+          "id": "l05-labor-and-financial-markets",
+          "title": "Labor and Financial Markets",
+          "summary": "Learners will understand how the laws of supply and demand apply directly to labor and financial markets."
+        }
+      ]
+    },
+    {
+      "id": "m03-elasticity-and-consumer-choice",
+      "title": "Elasticity and Consumer Choice",
+      "summary": "Learners will understand how consumers make choices to maximize utility and how sensitive those choices are to price changes.",
+      "lessons": [
+        {
+          "id": "l01-price-elasticity-of-demand",
+          "title": "Price Elasticity of Demand",
+          "summary": "Learners will understand how price elasticity of demand measures consumer responsiveness to changes in price."
+        },
+        {
+          "id": "l02-other-elasticities",
+          "title": "Other Types of Elasticity",
+          "summary": "Learners will understand how income and cross-price elasticities measure demand sensitivity to other economic variables."
+        },
+        {
+          "id": "l03-elasticity-in-the-real-world",
+          "title": "Elasticity in the Real World",
+          "summary": "How elasticity explains who really pays a tax, why farm prices swing, and how firms and governments use it to set prices and taxes."
+        },
+        {
+          "id": "l04-utility-and-consumer-equilibrium",
+          "title": "Utility and Consumer Equilibrium",
+          "summary": "Learners will understand how consumers allocate their budgets to maximize total utility based on marginal utility."
+        },
+        {
+          "id": "l05-behavioral-economics",
+          "title": "Behavioral Economics and Choice",
+          "summary": "Learners will understand how behavioral economics challenges traditional models of rational consumer choice."
+        }
+      ]
+    },
+    {
+      "id": "m04-costs-and-market-structure",
+      "title": "Production Costs and Market Structure",
+      "summary": "Learners will understand how firms make production decisions and how market structures influence prices and output.",
+      "lessons": [
+        {
+          "id": "l01-costs-of-production",
+          "title": "Costs of Production",
+          "summary": "How fixed, variable, average and marginal costs behave in the short run and the long run, and what economies of scale mean for industry structure."
+        },
+        {
+          "id": "l02-perfect-competition",
+          "title": "Perfect Competition",
+          "summary": "Learners will understand how perfectly competitive firms operate as price takers in highly efficient markets."
+        },
+        {
+          "id": "l03-monopoly-and-market-power",
+          "title": "Monopoly and Market Power",
+          "summary": "Learners will understand how monopolies exercise market power to restrict output and raise prices."
+        },
+        {
+          "id": "l04-monopolistic-competition",
+          "title": "Monopolistic Competition",
+          "summary": "Learners will understand how monopolistically competitive firms compete through product differentiation and advertising."
+        },
+        {
+          "id": "l05-oligopoly-and-game-theory",
+          "title": "Oligopoly and Game Theory",
+          "summary": "Learners will understand how oligopolistic firms use strategic game theory to navigate mutual interdependence."
+        }
+      ]
+    },
+    {
+      "id": "m05-market-failure-and-policy",
+      "title": "Market Failures and Government Policy",
+      "summary": "Learners will understand why markets sometimes fail to allocate resources efficiently and how government policies attempt to correct these failures.",
+      "lessons": [
+        {
+          "id": "l01-negative-externalities",
+          "title": "Negative Externalities and Pollution",
+          "summary": "Learners will understand how negative externalities like pollution lead to overproduction and social harm."
+        },
+        {
+          "id": "l02-environmental-policy",
+          "title": "Environmental Policy Instruments",
+          "summary": "Learners will understand how market-based environmental policies like carbon taxes compare to command-and-control regulations."
+        },
+        {
+          "id": "l03-positive-externalities-and-public-goods",
+          "title": "Positive Externalities and Public Goods",
+          "summary": "Learners will understand why private markets underproduce public goods and positive externalities like education."
+        },
+        {
+          "id": "l04-information-risk-and-insurance",
+          "title": "Information, Risk and Insurance",
+          "summary": "Learners will understand how asymmetric information leads to adverse selection and moral hazard in insurance markets."
+        },
+        {
+          "id": "l05-antitrust-and-competition-policy",
+          "title": "Antitrust and Competition Policy",
+          "summary": "Learners will understand how antitrust laws and competition policies prevent anti-competitive mergers and monopolistic practices."
+        }
+      ]
+    },
+    {
+      "id": "m06-labor-inequality-and-public-choice",
+      "title": "Labor, Inequality and Public Choice",
+      "summary": "Learners will understand how labor markets function, how inequality is measured, and how public choice theory explains government decision-making.",
+      "lessons": [
+        {
+          "id": "l01-wages-and-labor-markets",
+          "title": "Wages and Labor Market Dynamics",
+          "summary": "Learners will understand how labor productivity, unions, and discrimination interact to determine market wages."
+        },
+        {
+          "id": "l02-poverty-and-the-safety-net",
+          "title": "Poverty and the Safety Net",
+          "summary": "Learners will understand how governments define and measure poverty and the design of safety net programs."
+        },
+        {
+          "id": "l03-income-inequality",
+          "title": "Income Inequality and Redistribution",
+          "summary": "How income and wealth inequality are measured with the Lorenz curve and Gini coefficient, what drives them, and the trade-offs of redistribution."
+        },
+        {
+          "id": "l04-public-choice-theory",
+          "title": "Public Choice Theory",
+          "summary": "Learners will understand how public choice theory applies economic analysis to the behavior of politicians and bureaucrats."
+        },
+        {
+          "id": "l05-voting-and-government-failure",
+          "title": "Voting and Government Failure",
+          "summary": "Learners will understand why democratic voting systems can lead to economically inefficient government failures."
+        }
+      ]
+    },
+    {
+      "id": "m07-measuring-the-macroeconomy",
+      "title": "Measuring the Macroeconomy",
+      "summary": "Learners will understand how macroeconomists measure the overall health, growth, and stability of a national economy.",
+      "lessons": [
+        {
+          "id": "l01-gross-domestic-product",
+          "title": "Gross Domestic Product",
+          "summary": "Learners will understand how gross domestic product measures the total economic output of a nation."
+        },
+        {
+          "id": "l02-economic-growth",
+          "title": "Economic Growth and Productivity",
+          "summary": "Learners will understand how productivity growth drives long-term increases in a nation's standard of living."
+        },
+        {
+          "id": "l03-unemployment",
+          "title": "Unemployment and Its Types",
+          "summary": "Learners will understand the differences between frictional, structural, and cyclical unemployment."
+        },
+        {
+          "id": "l04-inflation",
+          "title": "Inflation and Purchasing Power",
+          "summary": "Learners will understand how inflation is measured and how it impacts purchasing power and interest rates."
+        },
+        {
+          "id": "l05-business-cycle",
+          "title": "The Business Cycle",
+          "summary": "How economies move through expansions and recessions, how economists date and measure them, and why fluctuations matter for people's lives."
+        }
+      ]
+    },
+    {
+      "id": "m08-aggregate-demand-and-supply",
+      "title": "Aggregate Demand and Supply",
+      "summary": "Learners will understand how aggregate demand and supply interact and how Keynesian and neoclassical perspectives interpret economic fluctuations.",
+      "lessons": [
+        {
+          "id": "l01-ad-as-model",
+          "title": "The Aggregate Demand and Supply Model",
+          "summary": "Learners will understand how the aggregate demand and aggregate supply model determines national output and price levels."
+        },
+        {
+          "id": "l02-keynesian-perspective",
+          "title": "The Keynesian Perspective",
+          "summary": "Learners will understand why the Keynesian perspective emphasizes demand-side policies to cure short-run recessions."
+        },
+        {
+          "id": "l03-neoclassical-perspective",
+          "title": "The Neoclassical Perspective",
+          "summary": "Learners will understand why the neoclassical perspective focuses on aggregate supply and long-run market self-correction."
+        },
+        {
+          "id": "l04-phillips-curve",
+          "title": "The Phillips Curve",
+          "summary": "Learners will understand the short-run and long-run trade-offs between inflation and unemployment represented by the Phillips curve."
+        },
+        {
+          "id": "l05-keynesian-and-neoclassical-synthesis",
+          "title": "Balancing Keynesian and Neoclassical Views",
+          "summary": "Learners will understand how modern macroeconomics synthesizes Keynesian short-run and neoclassical long-run frameworks."
+        }
+      ]
+    },
+    {
+      "id": "m09-money-banking-and-monetary-policy",
+      "title": "Money, Banking and Monetary Policy",
+      "summary": "Learners will understand the role of money, the banking system, and how central banks conduct monetary policy.",
+      "lessons": [
+        {
+          "id": "l01-money-and-how-banks-create-it",
+          "title": "Money and How Banks Create It",
+          "summary": "Learners will understand the functions of money and how the fractional reserve banking system creates money."
+        },
+        {
+          "id": "l02-financial-markets",
+          "title": "Financial Markets: Stocks, Bonds and Saving",
+          "summary": "How saving flows to borrowers through banks, bonds and stocks, and how risk, return and interest rates are linked."
+        },
+        {
+          "id": "l03-central-banks",
+          "title": "Central Banks and the Federal Reserve",
+          "summary": "How central banks like the Federal Reserve are organized and why they act as the lender of last resort."
+        },
+        {
+          "id": "l04-monetary-policy-tools",
+          "title": "Monetary Policy Tools",
+          "summary": "How central banks use interest-rate targets, open market operations, reserve rules and lending facilities to steer the money supply."
+        },
+        {
+          "id": "l05-monetary-policy-in-action",
+          "title": "Monetary Policy in Action",
+          "summary": "Learners will understand how monetary policy actions influence interest rates, aggregate demand, and inflation."
+        }
+      ]
+    },
+    {
+      "id": "m10-fiscal-policy-and-budgets",
+      "title": "Fiscal Policy and Government Budgets",
+      "summary": "Learners will understand how government budgets, taxation, and fiscal policy are used to manage macroeconomic performance.",
+      "lessons": [
+        {
+          "id": "l01-government-budgets-and-taxation",
+          "title": "Government Budgets and Taxation",
+          "summary": "Learners will understand how governments generate revenue through taxation and allocate spending across budgets."
+        },
+        {
+          "id": "l02-discretionary-and-automatic-fiscal-policy",
+          "title": "Discretionary and Automatic Fiscal Policy",
+          "summary": "Learners will understand how discretionary spending and automatic stabilizers are used to combat recessions and inflation."
+        },
+        {
+          "id": "l03-deficits-and-national-debt",
+          "title": "Government Borrowing and National Debt",
+          "summary": "Learners will understand the relationship between annual budget deficits and the accumulated national debt."
+        },
+        {
+          "id": "l04-crowding-out",
+          "title": "Crowding Out and Capital Markets",
+          "summary": "Learners will understand how government borrowing can crowd out private investment by raising interest rates."
+        },
+        {
+          "id": "l05-policy-coordination",
+          "title": "Macroeconomic Policy Coordination",
+          "summary": "Learners will understand the challenges of coordinating fiscal and monetary policies to achieve economic stability."
+        }
+      ]
+    },
+    {
+      "id": "m11-international-economics",
+      "title": "International Trade and Finance",
+      "summary": "Learners will understand the mechanics of international trade, protectionist policies, and global financial flows.",
+      "lessons": [
+        {
+          "id": "l01-comparative-advantage-and-gains-from-trade",
+          "title": "Comparative Advantage and Gains from Trade",
+          "summary": "Learners will understand how comparative advantage allows nations to achieve mutual gains from international trade."
+        },
+        {
+          "id": "l02-protectionism-and-tariffs",
+          "title": "Protectionism and Tariffs",
+          "summary": "Learners will understand the economic consequences of protectionist policies like tariffs and import quotas."
+        },
+        {
+          "id": "l03-balance-of-payments",
+          "title": "Balance of Payments",
+          "summary": "Learners will understand how the balance of payments tracks trade balances and international capital flows."
+        },
+        {
+          "id": "l04-exchange-rates",
+          "title": "Exchange Rates and Capital Flows",
+          "summary": "How exchange rates are set in currency markets, why they move, and how they affect trade and international capital flows."
+        },
+        {
+          "id": "l05-globalization-and-its-critics",
+          "title": "Globalization and Its Critics",
+          "summary": "The economic benefits of globalization, the costs it can impose on some workers and communities, and the main criticisms of it."
+        },
+        {
+          "id": "l06-international-financial-crises",
+          "title": "International Financial Crises",
+          "summary": "Learners will understand how currency fluctuations and debt defaults trigger international financial crises."
+        }
+      ]
+    },
+    {
+      "id": "m12-schools-evidence-and-open-questions",
+      "title": "Schools, Evidence and Open Questions",
+      "summary": "Learners will understand the major schools of economic thought, empirical methods, and the open questions facing modern economists.",
+      "lessons": [
+        {
+          "id": "l01-schools-of-economic-thought",
+          "title": "Major Schools of Economic Thought",
+          "summary": "How classical, Keynesian, monetarist, Austrian, new classical and new Keynesian economists differ, and where they agree."
+        },
+        {
+          "id": "l02-how-economists-use-evidence",
+          "title": "How Economists Use Evidence",
+          "summary": "Learners will understand how economists use empirical data, natural experiments, and statistical models to test theories."
+        },
+        {
+          "id": "l03-institutions-and-development",
+          "title": "Institutions and Economic Development",
+          "summary": "Why some nations are rich and others poor, and how property rights, the rule of law and institutions shape development."
+        },
+        {
+          "id": "l04-unresolved-questions",
+          "title": "Great Unresolved Questions",
+          "summary": "Learners will understand the primary unresolved debates in modern economics regarding inequality, growth, and automation."
+        },
+        {
+          "id": "l05-thinking-like-an-economist",
+          "title": "Thinking Like an Economist",
+          "summary": "How to bring the whole toolkit together to analyze a policy question or a personal decision clearly and fairly."
+        }
+      ]
+    }
+  ]
+}

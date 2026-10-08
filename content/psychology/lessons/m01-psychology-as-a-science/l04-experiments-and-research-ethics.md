@@ -1,0 +1,26 @@
+# Experiments and Research Ethics
+
+Imagine you want to know if listening to classical music improves a student’s ability to solve math problems. In our last lesson, we looked at descriptive and correlational research. These methods tell us if two things happen together, but they do not prove that one causes the other. To move from correlation to causation, we rely on the experiment. This is the gold standard of scientific inquiry, supported by decades of evidence showing that controlled manipulation is the most reliable way to isolate cause and effect.
+
+An experiment allows a researcher to isolate a specific factor and observe its effect while keeping other factors constant. We use two primary types of variables here. The independent variable is the one the researcher manipulates, such as the presence or absence of music. The dependent variable is the outcome we measure, such as the score on a math test. By changing the independent variable, we test if it triggers a change in the dependent variable.
+
+To draw a valid conclusion, we must address internal validity. This refers to how well an experiment is designed to ensure that the independent variable truly causes the observed change in the dependent variable. A major threat to internal validity is the confounding variable. A confounding variable is any factor other than the independent variable that might influence the results. For example, if the music group takes their test in a quiet room while the control group takes it in a noisy hallway, the noise level becomes a confound.
+
+To minimize these threats, we use random assignment. This means every participant has an equal chance of being placed in the experimental group or the control group. Evidence from experimental design research shows that random assignment is highly effective at spreading individual differences, such as prior math ability or personal preference, evenly across both groups. Without it, we might accidentally put all the math experts in one group, which would ruin our results.
+
+Sometimes, a participant’s expectations can interfere with the data. If a student knows they are in the music group and believes it will help them, they might try harder just because of that belief. To prevent this, researchers use blinding. In a single-blind study, the participants do not know whether they are receiving the treatment or a neutral substitute. In a double-blind study, even the researchers interacting with the participants do not know who is in which group. Research consistently shows that blinding is a powerful tool for preventing both participant expectancy effects and researcher bias, where an investigator might inadvertently influence the results through their own expectations.
+
+Designing an experiment is only half the battle; we must also ensure that the research is conducted ethically. The history of psychology includes studies that were deeply problematic, failing to protect the dignity and safety of those involved. Today, strict guidelines exist to prevent this. The cornerstone of modern research is informed consent. Before a study begins, participants must be told what the research involves, what risks they might face, and that they are free to withdraw at any time without penalty.
+
+To ensure these rules are followed, almost every academic institution has an Institutional Review Board. This is a committee of experts and community members who review research proposals before they begin. They weigh the potential benefits of the research against the potential risks. If a study is deemed too risky or fails to protect participant privacy, the board will block it from moving forward.
+
+These ethical protections extend to animal research as well. While animals are used to study processes that would be unethical to test on humans, researchers are required to minimize discomfort and ensure that the housing and care of these animals meet high standards of welfare. The goal is always to maximize scientific knowledge while strictly upholding the safety and rights of every participant.
+
+By controlling variables and following these ethical safeguards, psychologists can draw meaningful conclusions about human behavior that are both reliable and responsible. Even the most well-designed experiment is subject to the influence of chance. Once we have gathered our data, we must use specific mathematical tools to determine if our findings are truly significant or if they are simply the result of random noise. That transition from raw observation to meaningful conclusion is exactly what we will explore in our next lesson.
+
+## Key ideas
+
+- Experiments establish cause-and-effect relationships by manipulating an independent variable while controlling for confounding variables to ensure high internal validity.
+- Random assignment is a proven method for distributing individual differences across groups, which helps ensure that observed effects are due to the experimental treatment.
+- Blinding techniques, especially double-blind designs, are essential for preventing bias from both participants and researchers, which strengthens the accuracy of the data.
+- Ethical oversight, including informed consent and the review of all studies by an Institutional Review Board, is mandatory to protect the welfare and rights of human and animal participants.

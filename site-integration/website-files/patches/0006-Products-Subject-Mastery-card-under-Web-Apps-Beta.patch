@@ -1,0 +1,35 @@
+From 8fb90240ec97e2a5c60dbd24a48a6f0e10d99e04 Mon Sep 17 00:00:00 2001
+From: Daniel Bates <help@batesai.org>
+Date: Fri, 2 Oct 2026 10:59:24 -0700
+Subject: [PATCH 6/8] Products: Subject Mastery card under Web Apps (Beta)
+
+Kept as its own commit so it can be dropped without touching the rest if
+the product should go live unlisted first.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ src/components/ProductShowcase.tsx | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/src/components/ProductShowcase.tsx b/src/components/ProductShowcase.tsx
+index 6bc5a78a..ddc7250e 100644
+--- a/src/components/ProductShowcase.tsx
++++ b/src/components/ProductShowcase.tsx
+@@ -27,6 +27,14 @@ const categories = [
+         status: 'Live',
+         link: 'https://batesai.org/tri-citiesutilitymonitor'
+       },
++      {
++        name: 'Subject Mastery',
++        description: 'Standardized subject paths you can play as audio or read as text. Progress is tracked lesson by lesson, anything you already know is one tap to skip, and Google sign-in keeps your place on every device. Not a tutor, not accredited.',
++        icon: '🎧',
++        tags: ['Web App', 'Audio', 'Learning'],
++        status: 'Beta',
++        link: 'https://batesai.org/subjectmastery/'
++      },
+     ]
+   },
+   {
+-- 
+2.51.2
+

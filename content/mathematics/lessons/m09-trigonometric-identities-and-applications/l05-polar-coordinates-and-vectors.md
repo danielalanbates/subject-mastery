@@ -1,0 +1,24 @@
+# Polar Coordinates and Vectors
+
+Imagine you are standing in the center of a wide, flat field. Up until now, we have located every point by moving left or right, then up or down. We call this the rectangular coordinate system. But what if you were navigating by a compass and a distance gauge instead? You would turn to a specific heading and walk a certain number of paces. In mathematics, this is exactly what we do with polar coordinates. Instead of using horizontal and vertical distances, we identify a point by its distance from the origin, which we call the radius, and the angle it makes with the positive horizontal axis.
+
+To see why the conversion formulas work, imagine a right triangle formed by dropping a perpendicular line from your point to the horizontal axis. The radius is the hypotenuse. The horizontal distance is the side adjacent to the angle, and the vertical distance is the side opposite the angle. By the definition of cosine as adjacent over hypotenuse, the horizontal coordinate equals the radius times the cosine of the angle. Similarly, since sine is opposite over hypotenuse, the vertical coordinate equals the radius times the sine of the angle.
+
+Let us put this into practice. Suppose we have a point with a radius of four and an angle of sixty degrees. To find the horizontal coordinate, we calculate four times the cosine of sixty degrees. Since the cosine of sixty degrees is one half, four times one half equals two. For the vertical coordinate, we calculate four times the sine of sixty degrees. The sine of sixty degrees is the square root of three, all divided by two. Multiplying four by that quantity gives us two times the square root of three, which is roughly three point four six. So, the point at four units and sixty degrees in polar coordinates is the same as the point at two and three point four six in rectangular coordinates.
+
+Polar coordinates are not unique. You can reach the same location by adding any multiple of three hundred sixty degrees to the angle. Furthermore, if you use a negative radius, you move in the opposite direction of the angle. Thus, a radius of negative two at an angle of thirty degrees lands you at the same spot as a radius of two at an angle of two hundred ten degrees.
+
+Beyond just locating points, we often need to describe quantities that have both a size and a direction. These are called vectors. Think of wind blowing across our field. It has a speed, which is its magnitude, and a direction. We represent a vector as an arrow. We can break a vector down into horizontal and vertical components by projecting it onto the axes. If a vector has a magnitude of ten and points at an angle of forty-five degrees, its horizontal component is ten times the cosine of forty-five degrees, and its vertical component is ten times the sine of forty-five degrees.
+
+You can also recover a vector’s magnitude and direction from its components. If you know the horizontal component is three and the vertical component is four, the magnitude is the square root of the sum of three squared and four squared. Three squared is nine, and four squared is sixteen. Nine plus sixteen is twenty-five, and the square root of twenty-five is five. To find the angle, we use the inverse tangent function of the vertical component divided by the horizontal component.
+
+Adding vectors is a powerful way to understand how multiple forces interact. Because vectors add tip to tail, the horizontal and vertical displacements add independently. This is why we simply add the corresponding horizontal and vertical components. If one vector has a horizontal component of three and a vertical component of two, and a second vector has a horizontal component of one and a vertical component of four, the sum is the sum of the horizontal parts and the sum of the vertical parts. Three plus one is four, and two plus four is six. Your resulting vector has a horizontal component of four and a vertical component of six.
+
+By mastering these components, we can solve complex problems involving motion, forces, and navigation. We have moved from simple lines on a grid to describing the very nature of movement in space. This ability to break down complex systems into manageable parts is a foundational skill that will serve us well as we move toward solving systems of equations and exploring the geometry of curves.
+
+## Key ideas
+
+- Polar coordinates locate a point using a radius and an angle, though the same point can be described by multiple radius and angle pairs.
+- We convert from polar to rectangular coordinates using the definitions of sine and cosine in a right triangle.
+- A vector's magnitude and direction can be determined from its components using the Pythagorean theorem and the inverse tangent function.
+- Vectors are added by summing their horizontal and vertical components independently because these displacements function along independent axes.

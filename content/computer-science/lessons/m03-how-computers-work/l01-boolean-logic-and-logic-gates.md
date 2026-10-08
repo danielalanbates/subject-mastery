@@ -1,0 +1,22 @@
+# Boolean Logic and Logic Gates
+
+Imagine you are trying to decide whether to go for a hike. You have a simple rule: you will go only if the sun is shining and you have finished your work. If either of those conditions is not met, you stay home. This kind of decision-making process is the bedrock of all computing. In our last lesson, we looked at how data like images and sounds are represented as patterns of ones and zeros. But how does a computer actually process those patterns to make decisions? The answer lies in the elegant, rigid world of Boolean logic.
+
+Boolean logic is a branch of algebra where the values are restricted to just two states: true and false. In the physical realm of a computer, these values correspond to electricity being either on or off. A high voltage represents true, while a low voltage represents false. To manipulate these values, we use logic gates. A logic gate is a physical device, built from tiny electronic switches called transistors, that takes one or more input signals and produces a single output based on a specific logical rule.
+
+The simplest gate is the not gate. It acts like a logical inverter. If you feed it a true signal, it outputs false. If you feed it a false signal, it outputs true. Think of it like a light switch that is wired to always do the opposite of what you want; when you flip it up for on, the light goes off. Because transistors can be arranged to physically block or allow the flow of current based on the voltage at their control terminal, they are the perfect building blocks for these gates. By etching millions of these microscopic transistors onto a piece of silicon, we create the complex circuitry that powers modern technology.
+
+Beyond the not gate, we have the and gate and the or gate. An and gate requires all of its inputs to be true to output a true signal. If you have two inputs, the only way to get a true result is to provide a true signal to both. The or gate is more flexible. It outputs true if at least one of its inputs is true. It only produces a false result if every single input is false. These three operations—not, and, or—are the fundamental building blocks of all computer logic.
+
+You might wonder how these simple gates can perform actual math. The secret is that we can combine them into more complex circuits. Consider the task of adding two binary digits. When you add zero plus zero, you get zero. Zero plus one is one. One plus one is one, zero, which is two in decimal. This requires two outputs: a sum and a carry. By connecting specific combinations of and, or, and not gates, we can build what engineers call a half adder. This circuit calculates the sum and the carry for two individual bits. However, a half adder cannot handle a carry from a previous addition. To add large binary numbers, we must use full adders. A full adder includes an extra input for a carry from a previous bit, which allows us to chain these circuits together to compute multi-bit sums correctly.
+
+It is truly remarkable that the complex programs we use today, from word processors to video games, are built upon these simple, binary decisions. Every time you click a button or type a character, your computer is firing millions of these gates in sequence. They are constantly evaluating logical expressions, shifting bits, and adding values in a rhythmic, high-speed dance of electricity. The transistors are the muscles of the machine, while the logic gates provide the structure that turns raw voltage into meaningful information.
+
+As we move forward, we will leave the individual gates behind to look at how these massive collections of circuits are organized into the brain of the computer. Understanding these gates is the first step toward peering inside the central processing unit to see how it orchestrates the flow of data through the entire system.
+
+## Key ideas
+
+- Boolean logic uses two states, true and false, which are represented in hardware by the presence or absence of electrical voltage.
+- Transistors serve as the fundamental physical switches that, when arranged in specific patterns, form logic gates.
+- The three primary logic operations are the not gate, which inverts a signal, the and gate, which requires all inputs to be true, and the or gate, which requires at least one input to be true.
+- Full adders are necessary for multi-bit addition because they include a carry-in input that allows them to process carries from previous bit positions.

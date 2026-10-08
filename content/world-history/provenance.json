@@ -1,0 +1,711 @@
+{
+  "lessons": {
+    "world-history/m01-historical-thinking-and-human-origins/l01-historians-craft": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 31,
+      "words": 929
+    },
+    "world-history/m01-historical-thinking-and-human-origins/l02-human-origins-and-paleolithic-life": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [
+        "groq:openai/gpt-oss-120b"
+      ],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "groq:openai/gpt-oss-120b",
+      "seconds": 73,
+      "words": 797
+    },
+    "world-history/m01-historical-thinking-and-human-origins/l03-neolithic-revolution": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [
+        "groq:openai/gpt-oss-120b"
+      ],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "groq:openai/gpt-oss-120b",
+      "seconds": 62,
+      "words": 797
+    },
+    "world-history/m01-historical-thinking-and-human-origins/l04-first-villages-and-social-hierarchy": {
+      "date": "2026-10-02",
+      "draft": "groq:openai/gpt-oss-120b",
+      "fixes": [],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 22,
+      "words": 957
+    },
+    "world-history/m02-first-civilizations/l01-mesopotamia": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 33,
+      "words": 826
+    },
+    "world-history/m02-first-civilizations/l02-ancient-egypt": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 26,
+      "words": 847
+    },
+    "world-history/m02-first-civilizations/l03-indus-valley": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 71,
+      "words": 763
+    },
+    "world-history/m02-first-civilizations/l04-early-china": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 156,
+      "words": 897
+    },
+    "world-history/m02-first-civilizations/l05-early-americas": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.6-flash",
+      "seconds": 162,
+      "words": 804
+    },
+    "world-history/m03-classical-mediterranean-and-persia/l01-persian-empire": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 66,
+      "words": 919
+    },
+    "world-history/m03-classical-mediterranean-and-persia/l02-greece-and-the-hellenistic-world": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 164,
+      "words": 989
+    },
+    "world-history/m03-classical-mediterranean-and-persia/l03-rise-of-rome": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 40,
+      "words": 835
+    },
+    "world-history/m03-classical-mediterranean-and-persia/l04-judaism-and-early-christianity": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 78,
+      "words": 978
+    },
+    "world-history/m03-classical-mediterranean-and-persia/l05-transformation-of-the-roman-world": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 375,
+      "words": 726
+    },
+    "world-history/m04-classical-asia-africa-americas/l01-classical-asian-religions-and-philosophies": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 718
+    },
+    "world-history/m04-classical-asia-africa-americas/l02-mauryan-and-gupta-india": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 11,
+      "words": 779
+    },
+    "world-history/m04-classical-asia-africa-americas/l03-qin-and-han-china": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 784
+    },
+    "world-history/m04-classical-asia-africa-americas/l04-silk-roads": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 19,
+      "words": 751
+    },
+    "world-history/m04-classical-asia-africa-americas/l05-kush-and-aksum": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 14,
+      "words": 858
+    },
+    "world-history/m04-classical-asia-africa-americas/l06-maya-and-teotihuacan": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 11,
+      "words": 755
+    },
+    "world-history/m05-age-of-faiths/l01-byzantine-empire": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 170,
+      "words": 752
+    },
+    "world-history/m05-age-of-faiths/l02-muhammad-and-early-islam": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 57,
+      "words": 1031
+    },
+    "world-history/m05-age-of-faiths/l03-umayyad-and-abbasid-caliphates": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 52,
+      "words": 803
+    },
+    "world-history/m05-age-of-faiths/l04-spread-of-buddhism": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 66,
+      "words": 1027
+    },
+    "world-history/m06-post-classical-states/l01-tang-and-song-china": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 51,
+      "words": 754
+    },
+    "world-history/m06-post-classical-states/l02-japan-korea-and-southeast-asia": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 51,
+      "words": 756
+    },
+    "world-history/m06-post-classical-states/l03-feudal-europe": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 10,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 98,
+      "words": 932
+    },
+    "world-history/m06-post-classical-states/l04-medieval-church-and-crusades": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 47,
+      "words": 852
+    },
+    "world-history/m06-post-classical-states/l05-ghana-and-mali": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 37,
+      "words": 956
+    },
+    "world-history/m06-post-classical-states/l06-swahili-coast-and-indian-ocean": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 32,
+      "words": 710
+    },
+    "world-history/m07-global-middle-ages/l01-mongol-empire": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 122,
+      "words": 846
+    },
+    "world-history/m07-global-middle-ages/l02-pax-mongolica": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 50,
+      "words": 817
+    },
+    "world-history/m07-global-middle-ages/l03-black-death": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 35,
+      "words": 752
+    },
+    "world-history/m07-global-middle-ages/l04-renaissance-europe": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 47,
+      "words": 877
+    },
+    "world-history/m07-global-middle-ages/l05-aztec-and-inca": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 55,
+      "words": 913
+    },
+    "world-history/m08-connections-across-continents/l01-european-exploration": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 56,
+      "words": 921
+    },
+    "world-history/m08-connections-across-continents/l02-conquest-of-the-americas": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 71,
+      "words": 866
+    },
+    "world-history/m08-connections-across-continents/l03-columbian-exchange": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 47,
+      "words": 846
+    },
+    "world-history/m08-connections-across-continents/l04-atlantic-slave-trade": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 64,
+      "words": 782
+    },
+    "world-history/m08-connections-across-continents/l05-ottoman-and-safavid-empires": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 31,
+      "words": 920
+    },
+    "world-history/m08-connections-across-continents/l06-mughal-india-and-ming-china": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 13,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 57,
+      "words": 904
+    },
+    "world-history/m09-early-modern-transformations/l01-reformation": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 64,
+      "words": 1005
+    },
+    "world-history/m09-early-modern-transformations/l02-scientific-revolution": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 75,
+      "words": 951
+    },
+    "world-history/m09-early-modern-transformations/l03-absolute-monarchy": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 43,
+      "words": 864
+    },
+    "world-history/m09-early-modern-transformations/l04-qing-china": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 40,
+      "words": 952
+    },
+    "world-history/m09-early-modern-transformations/l05-tokugawa-japan": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 47,
+      "words": 854
+    },
+    "world-history/m10-age-of-revolution/l01-enlightenment": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 9,
+      "words": 790
+    },
+    "world-history/m10-age-of-revolution/l02-american-and-french-revolutions": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 13,
+      "words": 982
+    },
+    "world-history/m10-age-of-revolution/l03-haitian-revolution-and-abolition": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 146,
+      "words": 729
+    },
+    "world-history/m10-age-of-revolution/l04-latin-american-independence": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 31,
+      "words": 886
+    },
+    "world-history/m10-age-of-revolution/l05-industrial-revolution": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 63,
+      "words": 828
+    },
+    "world-history/m10-age-of-revolution/l06-industrial-society-and-new-ideologies": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 48,
+      "words": 937
+    },
+    "world-history/m11-nationalism-and-imperialism/l01-nationalism-and-unification": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 45,
+      "words": 859
+    },
+    "world-history/m11-nationalism-and-imperialism/l02-new-imperialism": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 210,
+      "words": 820
+    },
+    "world-history/m11-nationalism-and-imperialism/l03-qing-decline-and-opium-wars": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 38,
+      "words": 819
+    },
+    "world-history/m11-nationalism-and-imperialism/l04-meiji-japan": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 78,
+      "words": 759
+    },
+    "world-history/m11-nationalism-and-imperialism/l05-resistance-to-colonial-rule": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 44,
+      "words": 840
+    },
+    "world-history/m12-modern-world/l01-world-war-one": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.8-flash",
+      "seconds": 134,
+      "words": 784
+    },
+    "world-history/m12-modern-world/l02-interwar-years": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 68,
+      "words": 871
+    },
+    "world-history/m12-modern-world/l03-world-war-two-and-the-holocaust": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 37,
+      "words": 855
+    },
+    "world-history/m12-modern-world/l04-cold-war": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 85,
+      "words": 961
+    },
+    "world-history/m12-modern-world/l05-decolonization": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 37,
+      "words": 934
+    },
+    "world-history/m12-modern-world/l06-globalization-and-the-present": {
+      "date": "2026-10-02",
+      "draft": "gemini:gemini-3.1-flash-lite",
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.1-flash-lite",
+      "seconds": 59,
+      "words": 911
+    }
+  },
+  "outline": {
+    "date": "2026-10-02",
+    "hand_reviewed": false,
+    "model": "gemini:gemini-3-flash-preview",
+    "raw": "outline-raw-world-history-20261002-105741.json"
+  }
+}

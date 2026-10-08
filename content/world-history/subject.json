@@ -1,0 +1,409 @@
+{
+  "id": "world-history",
+  "title": "World History",
+  "tagline": "The human story from the first farmers to the global present, region by region and era by era.",
+  "description": "A standard global history survey, told chronologically. It runs from early humans and the first civilizations through the classical empires, the age of faiths, the connected medieval world, early modern empires, the age of revolutions and the modern world.",
+  "category": "History",
+  "color": "#bf8700",
+  "modules": [
+    {
+      "id": "m01-historical-thinking-and-human-origins",
+      "title": "Historical Thinking and Human Origins",
+      "summary": "Learners will understand the methods of historical inquiry and the foundational shift from foraging to sedentary agricultural life.",
+      "lessons": [
+        {
+          "id": "l01-historians-craft",
+          "title": "The Historian's Craft and Evidence",
+          "summary": "Learners will understand how historians use primary sources, secondary sources, and periodization to construct narratives of the past."
+        },
+        {
+          "id": "l02-human-origins-and-paleolithic-life",
+          "title": "Human Origins and Paleolithic Life",
+          "summary": "Learners will understand the migration patterns and survival strategies of early Homo sapiens during the Stone Age."
+        },
+        {
+          "id": "l03-neolithic-revolution",
+          "title": "The Neolithic Revolution and Agriculture",
+          "summary": "How the domestication of plants and animals, beginning about twelve thousand years ago in several regions, transformed human life."
+        },
+        {
+          "id": "l04-first-villages-and-social-hierarchy",
+          "title": "First Villages and Social Hierarchy",
+          "summary": "Learners will understand how agricultural surpluses led to specialized labor, hierarchy, and the first permanent villages."
+        }
+      ]
+    },
+    {
+      "id": "m02-first-civilizations",
+      "title": "The First Urban Civilizations",
+      "summary": "Learners will understand the development of complex societies in the river valleys of Afro-Eurasia and the early Americas.",
+      "lessons": [
+        {
+          "id": "l01-mesopotamia",
+          "title": "Mesopotamian City-States and Law",
+          "summary": "Learners will understand the rise of Sumerian cities and the significance of written legal codes like Hammurabi's."
+        },
+        {
+          "id": "l02-ancient-egypt",
+          "title": "The Nile Valley and Pharaonic Power",
+          "summary": "Learners will understand the political unification of Egypt and the role of religion in maintaining state authority."
+        },
+        {
+          "id": "l03-indus-valley",
+          "title": "The Indus Valley Civilization",
+          "summary": "Learners will understand the sophisticated infrastructure and mysterious decline of the Harappan civilization in South Asia."
+        },
+        {
+          "id": "l04-early-china",
+          "title": "Early Dynastic China and the Yellow River",
+          "summary": "Learners will understand the emergence of the Shang and Zhou dynasties and the concept of the Mandate of Heaven."
+        },
+        {
+          "id": "l05-early-americas",
+          "title": "Formative Cultures of the Americas",
+          "summary": "Learners will understand the early complex societies of the Olmec in Mesoamerica and the Chavin in the Andes."
+        }
+      ]
+    },
+    {
+      "id": "m03-classical-mediterranean-and-persia",
+      "title": "The Classical Mediterranean and Persia",
+      "summary": "Learners will understand Persia, Greece and Rome, and the religious traditions that grew up in their world, from about 1000 BCE to 500 CE.",
+      "lessons": [
+        {
+          "id": "l01-persian-empire",
+          "title": "The Persian Empire and Imperial Administration",
+          "summary": "Learners will understand how the Achaemenid Empire managed a vast, multi-ethnic territory through satrapies and infrastructure."
+        },
+        {
+          "id": "l02-greece-and-the-hellenistic-world",
+          "title": "Greek City-States and the Hellenistic World",
+          "summary": "Learners will understand the development of Athenian democracy and the subsequent spread of Greek culture under Alexander the Great."
+        },
+        {
+          "id": "l03-rise-of-rome",
+          "title": "The Rise and Governance of Rome",
+          "summary": "Learners will understand the transition of Rome from a republic to an empire and its methods of maintaining Mediterranean hegemony."
+        },
+        {
+          "id": "l04-judaism-and-early-christianity",
+          "title": "Judaism and the Rise of Christianity",
+          "summary": "How the faith of ancient Israel developed, and how Christianity emerged from it and spread through the Roman world until it became the empire's religion."
+        },
+        {
+          "id": "l05-transformation-of-the-roman-world",
+          "title": "The Transformation of the Roman World",
+          "summary": "Learners will understand the internal and external pressures that led to the division and eventual fall of the Western Roman Empire."
+        }
+      ]
+    },
+    {
+      "id": "m04-classical-asia-africa-americas",
+      "title": "Classical Asia, Africa and the Americas",
+      "summary": "Learners will understand the great traditions of thought and the empires of India, China, Africa and Mesoamerica in the classical era.",
+      "lessons": [
+        {
+          "id": "l01-classical-asian-religions-and-philosophies",
+          "title": "Classical Asian Religions and Philosophies",
+          "summary": "How Hinduism, Buddhism, Jainism, Confucianism and Daoism took shape and what each taught about the good life and society."
+        },
+        {
+          "id": "l02-mauryan-and-gupta-india",
+          "title": "Mauryan and Gupta India",
+          "summary": "Learners will understand the political unification of the Indian subcontinent and the flourishing of science and art during the Gupta era."
+        },
+        {
+          "id": "l03-qin-and-han-china",
+          "title": "The Qin and Han Unification",
+          "summary": "Learners will understand how the Qin established legalism and the Han created a lasting Confucian bureaucratic model for China."
+        },
+        {
+          "id": "l04-silk-roads",
+          "title": "The Silk Roads and Early Exchange",
+          "summary": "Learners will understand how trade networks connected the Han, Kushan, Parthian, and Roman empires through Central Asia."
+        },
+        {
+          "id": "l05-kush-and-aksum",
+          "title": "Kush and Aksum",
+          "summary": "Learners will understand the power of East African trading states and their connections to the Red Sea and Indian Ocean."
+        },
+        {
+          "id": "l06-maya-and-teotihuacan",
+          "title": "The Maya and Teotihuacan",
+          "summary": "Learners will understand the mathematical achievements and urban complexity of classical civilizations in Mesoamerica."
+        }
+      ]
+    },
+    {
+      "id": "m05-age-of-faiths",
+      "title": "An Age of Faiths, 500 to 1200",
+      "summary": "Learners will understand how Byzantine Christianity, Islam and Buddhism spread and shaped states and cultures from about 500 to 1200 CE.",
+      "lessons": [
+        {
+          "id": "l01-byzantine-empire",
+          "title": "The Byzantine Empire and Orthodox Christianity",
+          "summary": "Learners will understand how the Eastern Roman Empire preserved classical knowledge and spread Christianity to Eastern Europe."
+        },
+        {
+          "id": "l02-muhammad-and-early-islam",
+          "title": "The Prophet Muhammad and Early Islam",
+          "summary": "Learners will understand the origins of Islam in the Arabian Peninsula and the core tenets of the faith."
+        },
+        {
+          "id": "l03-umayyad-and-abbasid-caliphates",
+          "title": "The Umayyad and Abbasid Caliphates",
+          "summary": "Learners will understand the rapid expansion of the Islamic empire and the subsequent Golden Age of science and philosophy."
+        },
+        {
+          "id": "l04-spread-of-buddhism",
+          "title": "The Spread of Buddhism in Asia",
+          "summary": "Learners will understand how Buddhism traveled from India to East and Southeast Asia, adapting to local cultures."
+        }
+      ]
+    },
+    {
+      "id": "m06-post-classical-states",
+      "title": "Post-Classical States and Networks",
+      "summary": "Learners will understand the regional developments in Europe, Africa, and Asia between 500 and 1200 CE.",
+      "lessons": [
+        {
+          "id": "l01-tang-and-song-china",
+          "title": "Tang and Song China",
+          "summary": "Learners will understand the technological innovations and economic prosperity of medieval China."
+        },
+        {
+          "id": "l02-japan-korea-and-southeast-asia",
+          "title": "Japan, Korea and Southeast Asia",
+          "summary": "How Japan, Korea, Vietnam and the Khmer and island kingdoms adapted Chinese and Indian influences into distinct states and cultures."
+        },
+        {
+          "id": "l03-feudal-europe",
+          "title": "Lords, Peasants and Manors in Europe",
+          "summary": "Learners will understand the decentralized political and economic systems that emerged in Western Europe after Rome's collapse."
+        },
+        {
+          "id": "l04-medieval-church-and-crusades",
+          "title": "The Medieval Church and the Crusades",
+          "summary": "How the Latin church shaped medieval European life and why the Crusades were launched, and what they changed."
+        },
+        {
+          "id": "l05-ghana-and-mali",
+          "title": "The Ghana and Mali Empires",
+          "summary": "Learners will understand the wealth and influence of West African states built on the trans-Saharan gold and salt trade."
+        },
+        {
+          "id": "l06-swahili-coast-and-indian-ocean",
+          "title": "The Swahili Coast and Indian Ocean",
+          "summary": "Learners will understand the cosmopolitan merchant culture that linked East Africa to Arabia, India, and China."
+        }
+      ]
+    },
+    {
+      "id": "m07-global-middle-ages",
+      "title": "A Global Middle Ages, 1200 to 1500",
+      "summary": "Learners will understand the impact of the Mongol conquests and the intensification of global trade and disease from 1200 to 1500 CE.",
+      "lessons": [
+        {
+          "id": "l01-mongol-empire",
+          "title": "The Rise of the Mongol Empire",
+          "summary": "Learners will understand how Chinggis Khan and his successors created the largest contiguous land empire in history."
+        },
+        {
+          "id": "l02-pax-mongolica",
+          "title": "Pax Mongolica and Cultural Exchange",
+          "summary": "Learners will understand how Mongol rule facilitated unprecedented contact and transfer of technology across Eurasia."
+        },
+        {
+          "id": "l03-black-death",
+          "title": "The Black Death and Global Consequences",
+          "summary": "Learners will understand the origins of the bubonic plague and its devastating social and economic effects on Afro-Eurasia."
+        },
+        {
+          "id": "l04-renaissance-europe",
+          "title": "Renaissance Europe",
+          "summary": "How Italian city-states revived classical learning, how printing spread new ideas, and how the Renaissance changed art, politics and education."
+        },
+        {
+          "id": "l05-aztec-and-inca",
+          "title": "The Aztec and Inca Empires",
+          "summary": "Learners will understand the sophisticated administrative and agricultural systems of the major American empires before European contact."
+        }
+      ]
+    },
+    {
+      "id": "m08-connections-across-continents",
+      "title": "Connections Across Continents, 1450 to 1750",
+      "summary": "Learners will understand the consequences of European maritime expansion and the rise of powerful land-based empires between 1500 and 1800 CE.",
+      "lessons": [
+        {
+          "id": "l01-european-exploration",
+          "title": "European Maritime Exploration and Technology",
+          "summary": "Learners will understand the motivations and navigational advancements that led to the permanent linking of the Afro-Eurasian and American hemispheres."
+        },
+        {
+          "id": "l02-conquest-of-the-americas",
+          "title": "Conquest and Colonial Societies in the Americas",
+          "summary": "How the Spanish and Portuguese conquered the Aztec and Inca and built colonial societies, and how Indigenous peoples endured and resisted."
+        },
+        {
+          "id": "l03-columbian-exchange",
+          "title": "The Columbian Exchange",
+          "summary": "Learners will understand the global transfer of plants, animals, and diseases and their impact on world populations."
+        },
+        {
+          "id": "l04-atlantic-slave-trade",
+          "title": "The Atlantic Slave Trade and Plantation Economy",
+          "summary": "Learners will understand the forced migration of millions of Africans and the creation of racialized labor systems in the Americas."
+        },
+        {
+          "id": "l05-ottoman-and-safavid-empires",
+          "title": "The Ottoman and Safavid Empires",
+          "summary": "Learners will understand the political and military strength of the Islamic gunpowder empires in the Near East."
+        },
+        {
+          "id": "l06-mughal-india-and-ming-china",
+          "title": "Mughal India and Ming China",
+          "summary": "Learners will understand the peak of imperial power and cultural production in South and East Asia."
+        }
+      ]
+    },
+    {
+      "id": "m09-early-modern-transformations",
+      "title": "Early Modern Transformations",
+      "summary": "Learners will understand the religious, scientific, and political shifts that challenged traditional authority in the early modern era.",
+      "lessons": [
+        {
+          "id": "l01-reformation",
+          "title": "The Reformation and Religious Conflict",
+          "summary": "Learners will understand how the challenge to the Catholic Church's authority led to new Christian denominations and prolonged warfare."
+        },
+        {
+          "id": "l02-scientific-revolution",
+          "title": "The Scientific Revolution",
+          "summary": "Learners will understand the shift toward observation and mathematics as the primary tools for understanding the natural world."
+        },
+        {
+          "id": "l03-absolute-monarchy",
+          "title": "The Rise of Absolute Monarchy",
+          "summary": "Learners will understand the centralization of state power in Europe, exemplified by rulers like Louis XIV and Peter the Great."
+        },
+        {
+          "id": "l04-qing-china",
+          "title": "The Qing Dynasty and Territorial Expansion",
+          "summary": "Learners will understand how the Manchu rulers consolidated power in China and expanded its borders to their modern extent."
+        },
+        {
+          "id": "l05-tokugawa-japan",
+          "title": "Tokugawa Japan",
+          "summary": "Learners will understand the unification of Japan under the Shogunate and its restricted engagement with the outside world."
+        }
+      ]
+    },
+    {
+      "id": "m10-age-of-revolution",
+      "title": "The Age of Revolution, 1750 to 1900",
+      "summary": "Learners will understand the political and economic upheavals between 1750 and 1914 that birthed the modern state and industrial society.",
+      "lessons": [
+        {
+          "id": "l01-enlightenment",
+          "title": "The Enlightenment and Political Philosophy",
+          "summary": "Learners will understand the ideas of liberty, equality, and natural rights that underpinned the Atlantic revolutions."
+        },
+        {
+          "id": "l02-american-and-french-revolutions",
+          "title": "The American and French Revolutions",
+          "summary": "Learners will understand the causes and outcomes of the radical political transformations in the United States and France."
+        },
+        {
+          "id": "l03-haitian-revolution-and-abolition",
+          "title": "The Haitian Revolution and Abolition",
+          "summary": "How enslaved people in Saint-Domingue overthrew slavery and colonial rule to found Haiti, and how the wider movement to abolish slavery unfolded."
+        },
+        {
+          "id": "l04-latin-american-independence",
+          "title": "Latin American Wars of Independence",
+          "summary": "Learners will understand the collapse of Spanish and Portuguese colonial rule and the challenges of nation-building in South America."
+        },
+        {
+          "id": "l05-industrial-revolution",
+          "title": "The Industrial Revolution in Britain",
+          "summary": "Learners will understand the transition to machine manufacturing and its profound impact on urbanization and social classes."
+        },
+        {
+          "id": "l06-industrial-society-and-new-ideologies",
+          "title": "Industrial Society and New Ideologies",
+          "summary": "How industry spread beyond Britain, how workers organized, and how liberalism, socialism and other ideologies answered the industrial age."
+        }
+      ]
+    },
+    {
+      "id": "m11-nationalism-and-imperialism",
+      "title": "Nationalism and Global Imperialism",
+      "summary": "Learners will understand the rise of the nation-state and the aggressive expansion of industrial powers across the globe.",
+      "lessons": [
+        {
+          "id": "l01-nationalism-and-unification",
+          "title": "Nationalism and the Unification of States",
+          "summary": "Learners will understand how shared identity led to the creation of modern Germany and Italy and the destabilization of multi-ethnic empires."
+        },
+        {
+          "id": "l02-new-imperialism",
+          "title": "The New Imperialism and Scramble for Africa",
+          "summary": "Learners will understand the motivations for the late 19th-century European partition of Africa and parts of Asia."
+        },
+        {
+          "id": "l03-qing-decline-and-opium-wars",
+          "title": "Qing Decline and the Opium Wars",
+          "summary": "How the Opium Wars, unequal treaties and the Taiping Rebellion weakened Qing China in the nineteenth century."
+        },
+        {
+          "id": "l04-meiji-japan",
+          "title": "The Meiji Restoration and Japanese Expansion",
+          "summary": "Learners will understand Japan's rapid modernization and its emergence as an imperial power in the Pacific."
+        },
+        {
+          "id": "l05-resistance-to-colonial-rule",
+          "title": "Resistance Movements to Colonial Rule",
+          "summary": "Learners will understand the various ways indigenous populations in India, Africa, and China resisted foreign domination."
+        }
+      ]
+    },
+    {
+      "id": "m12-modern-world",
+      "title": "The Modern World, 1914 to the Present",
+      "summary": "Learners will understand the global conflicts of the 20th century and the interconnected nature of the 21st-century world.",
+      "lessons": [
+        {
+          "id": "l01-world-war-one",
+          "title": "The Origins and Impact of World War One",
+          "summary": "Learners will understand the causes of the Great War and how it redrew the map of the world and ended several empires."
+        },
+        {
+          "id": "l02-interwar-years",
+          "title": "Revolution, Depression and Dictators",
+          "summary": "How the Russian Revolution, the Great Depression and the rise of fascist and communist dictatorships set the stage for a second world war."
+        },
+        {
+          "id": "l03-world-war-two-and-the-holocaust",
+          "title": "World War Two and the Holocaust",
+          "summary": "Learners will understand the total nature of the war and the systematic atrocities committed during the conflict."
+        },
+        {
+          "id": "l04-cold-war",
+          "title": "The Cold War",
+          "summary": "Learners will understand the ideological struggle between the United States and the Soviet Union and its global proxy wars."
+        },
+        {
+          "id": "l05-decolonization",
+          "title": "Decolonization and New Nations",
+          "summary": "Learners will understand the process by which nations in Africa and Asia gained independence and the legacies of colonial rule."
+        },
+        {
+          "id": "l06-globalization-and-the-present",
+          "title": "Globalization and the Present",
+          "summary": "Learners will understand the contemporary trends of economic integration, technological change, and environmental challenges."
+        }
+      ]
+    }
+  ]
+}

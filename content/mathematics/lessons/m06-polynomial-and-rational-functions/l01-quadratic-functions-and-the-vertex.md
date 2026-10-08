@@ -1,0 +1,26 @@
+# Quadratic Functions and the Vertex
+
+Imagine standing on a sports field and launching a heavy ball into the air. The ball climbs steeply at first, slows down as gravity pulls against it, hangs suspended for a fleeting moment at its absolute highest point, and then plunges back down to the turf. If you traced the path of that ball on a grid, you would see a smooth, symmetric curve called a parabola. Last time, we explored how transforming basic graphs through shifts and stretches changes their positions. Today, we turn our attention from those general transformations to mapping these graceful, turning curves known as quadratic functions.
+
+A quadratic function is any function where the highest power of the input variable is two. While textbooks traditionally write the standard form using the coefficients a, b, and c, we will use the letters m, n, and p for our coefficients. We write the standard form as f of x equals m times x squared plus n times x plus p, where m, n, and p are ordinary numbers, and the leading coefficient m cannot be zero. When m is positive, the parabola opens upward like a smiling bowl, meaning it has a lowest point. When m is negative, it opens downward like an umbrella, meaning it has a highest point. That single turning point is called the vertex, and it stands as the most vital feature of any parabola.
+
+The vertical line passing right through the vertex, with the equation x equals h, forms the axis of symmetry. If you folded the graph along this line, the left and right branches of the parabola would land perfectly on top of each other. To see how standard form connects to graph transformations, we can rewrite the standard form into vertex form by completing the square, a technique you learned previously. This process rearranges our expression into vertex form, written as f of x equals m times the quantity x minus h squared plus k. In this arrangement, the horizontal shift is h and the vertical shift is k, making the coordinates of the vertex simply the numbers h and k.
+
+We can derive the formula for the horizontal coordinate h directly by completing the square on our general standard form expression. When you carry out that algebraic process, the resulting horizontal coordinate h is always equal to the opposite of n divided by two times m.
+
+Let us examine a concrete example to see how this works. Consider the function f of x equals two times x squared minus eight times x plus five. Here, our leading coefficient m is two, the middle coefficient is negative eight, and the constant term is five. The horizontal coordinate of the vertex, h, is found by taking the opposite of negative eight, which is eight, and dividing it by two times two, which gives eight divided by four, equaling two.
+
+To find the vertical coordinate, k, we substitute this two back into our original function. Two times two squared minus eight times two plus five becomes two times four minus sixteen plus five, which evaluates to eight minus sixteen plus five, resulting in negative three. Thus, our vertex sits at the point two and negative three. The axis of symmetry is the line x equals two. Because our leading coefficient two is positive, this vertex represents the minimum value of the entire function. Furthermore, because the curve opens upward from this minimum value of negative three, the range of this function is every number greater than or equal to negative three.
+
+We can also discover where the graph crosses the axes. The vertical intercept occurs where x equals zero, which simply leaves our constant term five, so the graph crosses the vertical axis at five. Horizontal intercepts occur where f of x equals zero. Setting our expression equal to zero allows us to use factoring skills from earlier modules, or the quadratic formula when factoring fails, to find where the curve touches the horizontal axis.
+
+These curves are not merely abstract exercises; they govern the real world. Suppose a local business wants to maximize profit. If profit is modeled by a downward-opening parabola with a negative leading coefficient, the vertex represents the exact production level that yields the highest possible profit. By locating the vertex, managers can avoid both under-production and costly over-production.
+
+As we move forward into our next lesson, we will expand beyond parabolas of degree two and investigate how polynomial functions of higher degrees twist and turn across the coordinate plane.
+
+## Key ideas
+- Famous formulas like the standard quadratic form are often written with a, b, and c, but any distinct letters such as m, n, and p serve just as well.
+- The graph of any quadratic function is a symmetric curve called a parabola that opens upward to reveal a minimum vertex or downward to reveal a maximum vertex, with a range determined by that vertical coordinate.
+- The vertex formula for the horizontal coordinate, h equals the opposite of n divided by two times m, can be derived by completing the square on the standard form.
+- Rewriting the standard form into vertex form connects directly to our previous work with graph shifts and stretches.
+- Quadratic functions provide powerful tools for solving optimization problems in business and physics by locating the maximum or minimum values at the vertex.

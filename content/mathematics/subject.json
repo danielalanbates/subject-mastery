@@ -1,0 +1,424 @@
+{
+  "id": "mathematics",
+  "title": "Mathematics",
+  "tagline": "Algebra, functions and proof, building toward calculus and beyond.",
+  "description": "Entry-level college mathematics made for listening, from college algebra through precalculus. It builds number sense and algebra, then equations, functions and their graphs described in words, polynomials, exponentials and logarithms and trigonometry, and ends with systems, sequences, counting and probability and an introduction to proof. Every expression is spoken in words and every worked example is walked through step by step.",
+  "category": "Mathematics & Computing",
+  "color": "#cf222e",
+  "modules": [
+    {
+      "id": "m01-numbers-and-mathematical-thinking",
+      "title": "Numbers and Mathematical Thinking",
+      "summary": "Learners will understand how mathematicians reason, how the number systems fit together on the real number line, and the rules of arithmetic that all of algebra rests on.",
+      "lessons": [
+        {
+          "id": "l01-how-mathematicians-think",
+          "title": "How Mathematicians Think",
+          "summary": "What mathematics is and how it works: precise definitions, noticing patterns, making and testing conjectures, and why a proof is stronger than any number of examples, plus habits for learning mathematics by ear such as naming quantities, estimating and checking answers."
+        },
+        {
+          "id": "l02-number-systems-and-the-number-line",
+          "title": "The Number Systems and the Number Line",
+          "summary": "The natural numbers, integers, rational and irrational numbers and the real numbers as sets that sit inside one another, why each new system was needed, how decimals show whether a number is rational, the real number line and ordering, and absolute value as distance from zero."
+        },
+        {
+          "id": "l03-order-of-operations-and-properties",
+          "title": "Order of Operations and the Properties of Arithmetic",
+          "summary": "The agreed order of operations and why it is needed, and the commutative, associative and distributive properties, identities and inverses, with spoken examples showing how these properties justify each step of simplifying an expression."
+        },
+        {
+          "id": "l04-fractions-percents-and-ratios",
+          "title": "Fractions, Decimals, Percents and Ratios",
+          "summary": "Multiplying, dividing and adding fractions and why the rules work, moving between fractions, decimals and percents, percent increase and decrease, and ratios and proportions, with every calculation worked aloud in words."
+        },
+        {
+          "id": "l05-exponents-and-scientific-notation",
+          "title": "Exponents and Scientific Notation",
+          "summary": "Whole-number exponents as repeated multiplication, the product, quotient and power rules and why they work, zero and negative exponents, and scientific notation for very large and very small numbers; roots are left to the lesson on radicals."
+        }
+      ]
+    },
+    {
+      "id": "m02-algebraic-expressions",
+      "title": "Algebraic Expressions",
+      "summary": "Learners will understand how to build, simplify, multiply and factor algebraic expressions, from polynomials to rational expressions and radicals.",
+      "lessons": [
+        {
+          "id": "l01-variables-and-expressions",
+          "title": "Variables and Algebraic Expressions",
+          "summary": "What a variable is, translating spoken phrases into algebraic expressions and back, evaluating an expression by substituting values, and combining like terms."
+        },
+        {
+          "id": "l02-polynomial-arithmetic",
+          "title": "Polynomials and Their Arithmetic",
+          "summary": "Terms, coefficients and degree, adding and subtracting polynomials, multiplying them with the distributive property, and the special products: the square of a sum or difference and the product of a sum and a difference."
+        },
+        {
+          "id": "l03-factoring-common-factors-and-grouping",
+          "title": "Factoring: Common Factors and Grouping",
+          "summary": "Factoring as multiplication in reverse, finding and pulling out the greatest common factor, and factoring four-term polynomials by grouping, each result checked by multiplying back."
+        },
+        {
+          "id": "l04-factoring-trinomials-and-special-forms",
+          "title": "Factoring Trinomials and Special Forms",
+          "summary": "Factoring trinomials whose squared term has a coefficient of one, then those with a larger leading coefficient, and recognizing perfect square trinomials, the difference of two squares and the sum and difference of two cubes."
+        },
+        {
+          "id": "l05-rational-expressions",
+          "title": "Rational Expressions",
+          "summary": "Fractions whose numerator and denominator are polynomials: the values that are not allowed, simplifying by cancelling common factors but never common terms, multiplying and dividing, and adding and subtracting over a common denominator."
+        },
+        {
+          "id": "l06-radicals-and-rational-exponents",
+          "title": "Radicals and Rational Exponents",
+          "summary": "Square roots and higher roots, simplifying, combining and multiplying radicals, rationalizing a denominator, and writing a root as a fractional exponent so that the exponent rules still apply."
+        }
+      ]
+    },
+    {
+      "id": "m03-equations-and-inequalities",
+      "title": "Equations and Inequalities",
+      "summary": "Learners will solve linear, rational, quadratic, radical and absolute value equations and inequalities, and turn word problems into equations.",
+      "lessons": [
+        {
+          "id": "l01-linear-and-rational-equations",
+          "title": "Solving Linear and Rational Equations",
+          "summary": "Solving linear equations in one variable by doing the same thing to both sides, clearing fractions by multiplying through, simple rational equations, and why an answer that makes a denominator zero must be rejected."
+        },
+        {
+          "id": "l02-modeling-with-word-problems",
+          "title": "Modeling with Word Problems",
+          "summary": "A step-by-step method for turning a spoken situation into an equation: name the unknown, write the relationship, solve, and check that the answer makes sense, applied to distance-rate-time, mixture and percent problems, and rearranging a formula to solve for one quantity."
+        },
+        {
+          "id": "l03-quadratics-by-factoring-and-square-roots",
+          "title": "Solving Quadratics by Factoring and Square Roots",
+          "summary": "What a quadratic equation is, putting it in standard form, solving by factoring with the zero product property, and solving by taking square roots, remembering both the positive and the negative root."
+        },
+        {
+          "id": "l04-completing-the-square-and-quadratic-formula",
+          "title": "Completing the Square and the Quadratic Formula",
+          "summary": "Completing the square, how it produces the quadratic formula, solving any quadratic with the formula, and how the discriminant tells whether there are two real solutions, one or none; complex solutions come in a later lesson."
+        },
+        {
+          "id": "l05-radical-and-absolute-value-equations",
+          "title": "Radical and Absolute Value Equations",
+          "summary": "Solving an equation with a square root by isolating the root and squaring, why squaring can create extraneous solutions that must be checked, equations that are quadratic in form, and absolute value equations split into two cases."
+        },
+        {
+          "id": "l06-linear-and-absolute-value-inequalities",
+          "title": "Linear and Absolute Value Inequalities",
+          "summary": "Solving linear inequalities and why multiplying or dividing by a negative number reverses the inequality, compound inequalities, absolute value inequalities read as statements about distance, and describing solution sets in words and in interval notation spoken aloud."
+        }
+      ]
+    },
+    {
+      "id": "m04-coordinates-and-lines",
+      "title": "Coordinates and Lines",
+      "summary": "Learners will understand the coordinate plane described in words, distance and midpoint, slope as a rate of change, and how equations of lines model real situations.",
+      "lessons": [
+        {
+          "id": "l01-coordinate-plane",
+          "title": "The Coordinate Plane",
+          "summary": "Locating points with ordered pairs, the two axes and the four quadrants described in words, the graph of an equation as every point that satisfies it, and finding where a graph crosses the axes."
+        },
+        {
+          "id": "l02-distance-and-midpoint",
+          "title": "Distance and Midpoint",
+          "summary": "The Pythagorean theorem, stated and explained, the distance formula that follows from it, and the midpoint of two points as the average of their coordinates, each with a worked example."
+        },
+        {
+          "id": "l03-slope-as-a-rate-of-change",
+          "title": "Slope as a Rate of Change",
+          "summary": "Slope as rise over run, the change in output for each one-unit change in input, positive, negative, zero and undefined slopes described as a walk along the line, and slope as a rate with units such as miles per hour."
+        },
+        {
+          "id": "l04-equations-of-lines",
+          "title": "Equations of Lines",
+          "summary": "Slope-intercept and point-slope forms, writing the equation of a line through two points, horizontal and vertical lines, and how slopes show whether two lines are parallel or perpendicular."
+        },
+        {
+          "id": "l05-linear-models",
+          "title": "Linear Models in Context",
+          "summary": "Building a linear model from a starting value and a constant rate, interpreting slope and intercept in context, predicting with the model and knowing its limits, direct variation, and the idea of a line of best fit for real data, described in words."
+        }
+      ]
+    },
+    {
+      "id": "m05-functions",
+      "title": "Functions",
+      "summary": "Learners will understand what a function is, how to describe its graph in words, and how functions are transformed, combined and inverted.",
+      "lessons": [
+        {
+          "id": "l01-what-a-function-is",
+          "title": "What a Function Is",
+          "summary": "A function as a rule that gives each input exactly one output, function notation spoken as 'f of x', evaluating functions given by formulas, tables and descriptions, and the vertical line test explained in words."
+        },
+        {
+          "id": "l02-domain-range-and-piecewise-functions",
+          "title": "Domain, Range and Piecewise Functions",
+          "summary": "Finding the allowed inputs and possible outputs of a function, stated in words and in interval notation spoken aloud, and functions defined by different rules on different intervals, such as a tax or shipping schedule."
+        },
+        {
+          "id": "l03-graph-behavior-and-rates-of-change",
+          "title": "Graph Behavior and Rates of Change",
+          "summary": "Describing a graph in words: where it crosses the axes, where it rises and falls, its local highs and lows, and how the average rate of change measures its steepness between two points."
+        },
+        {
+          "id": "l04-transforming-graphs",
+          "title": "Transforming Graphs",
+          "summary": "The basic graphs of x squared, the square root, the absolute value and one over x described in words, and how adding, multiplying and changing signs shift, stretch, compress and reflect them."
+        },
+        {
+          "id": "l05-combining-and-composing-functions",
+          "title": "Combining and Composing Functions",
+          "summary": "Adding, subtracting, multiplying and dividing functions, and composition, in which one function's output becomes the next one's input, including the domain of a composition and taking a function apart."
+        },
+        {
+          "id": "l06-inverse-functions",
+          "title": "Inverse Functions",
+          "summary": "When a function can be undone, the one-to-one test in words, finding an inverse by swapping input and output, checking it by composition, and how the graphs of a function and its inverse mirror each other across the line y equals x."
+        }
+      ]
+    },
+    {
+      "id": "m06-polynomial-and-rational-functions",
+      "title": "Polynomial and Rational Functions",
+      "summary": "Learners will understand quadratic and polynomial functions, the complex numbers their zeros may need, and how rational functions behave near their asymptotes.",
+      "lessons": [
+        {
+          "id": "l01-quadratic-functions-and-the-vertex",
+          "title": "Quadratic Functions and the Vertex",
+          "summary": "The graph of a quadratic as a parabola described in words, standard and vertex forms, finding the vertex, axis of symmetry and intercepts, and using the vertex to solve maximum and minimum problems."
+        },
+        {
+          "id": "l02-polynomial-functions-and-graphs",
+          "title": "Polynomial Functions and Their Graphs",
+          "summary": "Power functions, how the degree and leading coefficient decide a polynomial's end behavior, the most turning points it can have, and how the multiplicity of a zero decides whether the graph crosses the horizontal axis or only touches it."
+        },
+        {
+          "id": "l03-dividing-polynomials-and-the-factor-theorem",
+          "title": "Dividing Polynomials and the Factor Theorem",
+          "summary": "Polynomial long division spoken step by step, and how the remainder and factor theorems connect division to the zeros of a polynomial."
+        },
+        {
+          "id": "l04-complex-numbers",
+          "title": "Complex Numbers",
+          "summary": "The imaginary unit i, whose square is negative one, complex numbers as a real part plus an imaginary part, adding, multiplying and dividing them with the conjugate, and the complex solutions of quadratic equations whose discriminant is negative."
+        },
+        {
+          "id": "l05-zeros-of-polynomials",
+          "title": "Zeros of Polynomial Functions",
+          "summary": "Finding the real and complex zeros of a polynomial with the rational zero test and the factor theorem, the fundamental theorem of algebra, and why the complex zeros of a polynomial with real coefficients come in conjugate pairs."
+        },
+        {
+          "id": "l06-rational-functions-and-asymptotes",
+          "title": "Rational Functions and Asymptotes",
+          "summary": "Rational functions and their domains, vertical asymptotes and holes, horizontal and slant asymptotes found by comparing degrees, and describing in words how the graph behaves near each asymptote."
+        }
+      ]
+    },
+    {
+      "id": "m07-exponential-and-logarithmic-functions",
+      "title": "Exponential and Logarithmic Functions",
+      "summary": "Learners will understand exponential growth and decay, the number e, logarithms and their laws, and how these functions model the real world.",
+      "lessons": [
+        {
+          "id": "l01-exponential-growth-and-decay",
+          "title": "Exponential Growth and Decay",
+          "summary": "Exponential functions as repeated multiplication by a constant factor, growth and decay factors and percent rates, how exponential growth outruns linear growth, and the graph's shape, intercept and horizontal asymptote in words."
+        },
+        {
+          "id": "l02-the-number-e-and-continuous-growth",
+          "title": "The Number e and Continuous Growth",
+          "summary": "Compound interest compounded more and more often, how this leads to the number e, about two point seven one eight, and continuous growth and decay models."
+        },
+        {
+          "id": "l03-logarithms-as-inverses",
+          "title": "Logarithms as Inverses",
+          "summary": "The logarithm as the exponent that answers 'what power gives this number', converting between exponential and logarithmic form, common and natural logarithms, and the shape of the logarithm graph in words."
+        },
+        {
+          "id": "l04-laws-of-logarithms",
+          "title": "The Laws of Logarithms",
+          "summary": "The product, quotient and power rules and why they follow from the exponent rules, expanding and condensing logarithmic expressions, and the change of base formula."
+        },
+        {
+          "id": "l05-solving-exponential-and-log-equations",
+          "title": "Solving Exponential and Logarithmic Equations",
+          "summary": "Solving equations with the unknown in an exponent by taking logarithms, solving logarithmic equations by rewriting them in exponential form, and checking for answers outside the domain."
+        },
+        {
+          "id": "l06-exponential-models",
+          "title": "Exponential Models in the Real World",
+          "summary": "Doubling time and half-life, radioactive decay, cooling, and logistic growth that levels off at a carrying capacity, using logarithms to solve for time."
+        }
+      ]
+    },
+    {
+      "id": "m08-trigonometric-functions",
+      "title": "Trigonometric Functions",
+      "summary": "Learners will understand angles and radians, the trigonometric ratios of right triangles, the unit circle, the sine and cosine waves, and the inverse trigonometric functions.",
+      "lessons": [
+        {
+          "id": "l01-angles-and-radian-measure",
+          "title": "Angles and Radian Measure",
+          "summary": "Angles in degrees and radians, converting between them, and finding arc length and the area of a sector of a circle."
+        },
+        {
+          "id": "l02-right-triangle-trigonometry",
+          "title": "Right Triangle Trigonometry",
+          "summary": "Sine, cosine and tangent as ratios of the sides of a right triangle, their reciprocals cosecant, secant and cotangent, exact values for thirty, forty-five and sixty degrees from two special triangles, and finding unknown sides and angles."
+        },
+        {
+          "id": "l03-the-unit-circle",
+          "title": "The Unit Circle",
+          "summary": "The unit circle as every point one unit from the origin, so by the distance formula x squared plus y squared equals one, cosine and sine as the coordinates of a point on it, reference angles, signs in each quadrant, and exact values at the special angles."
+        },
+        {
+          "id": "l04-graphs-of-sine-and-cosine",
+          "title": "Graphs of Sine and Cosine",
+          "summary": "The sine and cosine waves described in words, their amplitude, period, midline and phase shift, how changing each number changes the wave, periodic models such as tides and daylight, and the tangent graph in brief."
+        },
+        {
+          "id": "l05-inverse-trigonometric-functions",
+          "title": "Inverse Trigonometric Functions",
+          "summary": "Why sine, cosine and tangent must be restricted before they have inverses, the inverse sine, cosine and tangent and their ranges of output angles, and using them to find angles."
+        }
+      ]
+    },
+    {
+      "id": "m09-trigonometric-identities-and-applications",
+      "title": "Trigonometric Identities and Applications",
+      "summary": "Learners will understand the main trigonometric identities, how to solve trigonometric equations, how to solve any triangle, and polar coordinates and vectors in brief.",
+      "lessons": [
+        {
+          "id": "l01-fundamental-trigonometric-identities",
+          "title": "Fundamental Trigonometric Identities",
+          "summary": "What an identity is, the reciprocal, quotient and Pythagorean identities and where they come from, even and odd properties, and how to verify an identity by working on one side only."
+        },
+        {
+          "id": "l02-sum-difference-and-double-angle-formulas",
+          "title": "Sum, Difference and Double-Angle Formulas",
+          "summary": "The sum and difference formulas for sine and cosine, the double-angle formulas that follow from them, and using them to find exact values and to simplify expressions."
+        },
+        {
+          "id": "l03-solving-trigonometric-equations",
+          "title": "Solving Trigonometric Equations",
+          "summary": "Finding every solution of a trigonometric equation in one cycle and then all solutions using the period, including equations solved by factoring or with an identity."
+        },
+        {
+          "id": "l04-laws-of-sines-and-cosines",
+          "title": "The Laws of Sines and Cosines",
+          "summary": "Solving triangles that have no right angle with the law of sines and the law of cosines, choosing which law fits the given facts, and the ambiguous case in which two triangles fit."
+        },
+        {
+          "id": "l05-polar-coordinates-and-vectors",
+          "title": "Polar Coordinates and Vectors",
+          "summary": "Locating points by distance and angle in polar coordinates and converting to rectangular coordinates, and vectors as quantities with size and direction, their components, and adding them, in brief."
+        }
+      ]
+    },
+    {
+      "id": "m10-systems-and-conic-sections",
+      "title": "Systems of Equations and Conic Sections",
+      "summary": "Learners will solve linear and nonlinear systems, use matrices for larger systems, and describe circles, parabolas, ellipses and hyperbolas by their defining distances.",
+      "lessons": [
+        {
+          "id": "l01-systems-of-two-linear-equations",
+          "title": "Systems of Two Linear Equations",
+          "summary": "Solving two linear equations in two unknowns by substitution and by elimination, what one solution, no solution and infinitely many solutions mean for two lines, and an applied problem."
+        },
+        {
+          "id": "l02-three-variables-matrices-and-row-reduction",
+          "title": "Three Variables, Matrices and Row Reduction",
+          "summary": "Systems of three equations in three unknowns, writing a system as an augmented matrix read aloud row by row, and solving it with row operations, which are the elimination steps in a shorter form."
+        },
+        {
+          "id": "l03-circles-and-parabolas",
+          "title": "Circles and Parabolas",
+          "summary": "The circle as every point at a fixed distance from a center and its equation from the distance formula, finding the center and radius by completing the square, and the parabola as every point equally distant from a focus and a directrix."
+        },
+        {
+          "id": "l04-ellipses-and-hyperbolas",
+          "title": "Ellipses and Hyperbolas",
+          "summary": "The ellipse as every point whose distances to two foci add to a constant, the hyperbola as every point whose distances to two foci differ by a constant, their standard equations and key features in words, and where these curves appear in orbits and navigation."
+        },
+        {
+          "id": "l05-nonlinear-systems-and-inequalities",
+          "title": "Nonlinear Systems and Systems of Inequalities",
+          "summary": "Solving systems that involve curves as well as lines, such as a line meeting a circle or a parabola, and describing in words the region that satisfies a system of inequalities."
+        }
+      ]
+    },
+    {
+      "id": "m11-sequences-counting-and-probability",
+      "title": "Sequences, Series, Counting and Probability",
+      "summary": "Learners will understand arithmetic and geometric patterns and their sums, how to count arrangements and selections, and the basic rules of probability.",
+      "lessons": [
+        {
+          "id": "l01-sequences-and-summation",
+          "title": "Sequences and Summation",
+          "summary": "Sequences defined by a formula or by a rule from the previous term, factorial notation, and summation notation spoken aloud as adding up the terms."
+        },
+        {
+          "id": "l02-arithmetic-sequences-and-series",
+          "title": "Arithmetic Sequences and Series",
+          "summary": "Sequences with a constant difference, the formula for any term, and the pairing method for adding up their terms quickly."
+        },
+        {
+          "id": "l03-geometric-sequences-and-series",
+          "title": "Geometric Sequences and Series",
+          "summary": "Sequences with a constant ratio, the formula for any term and for a finite sum, and when an infinite geometric series adds up to a finite number."
+        },
+        {
+          "id": "l04-counting-permutations-and-combinations",
+          "title": "Counting, Permutations and Combinations",
+          "summary": "The multiplication principle for counting, factorials, permutations when order matters and combinations when it does not, with each count reasoned aloud."
+        },
+        {
+          "id": "l05-binomial-theorem",
+          "title": "The Binomial Theorem",
+          "summary": "Expanding a power of a sum, the binomial coefficients as combinations, Pascal's triangle described row by row in words, and finding a single term of an expansion."
+        },
+        {
+          "id": "l06-basic-probability",
+          "title": "Basic Probability",
+          "summary": "Sample spaces and equally likely outcomes, probability as a number from zero to one, the complement rule, the addition rule for 'or', the multiplication rule for independent events, and using counting to find probabilities; statistics is a separate subject."
+        }
+      ]
+    },
+    {
+      "id": "m12-proof-and-mathematical-reasoning",
+      "title": "Proof and Mathematical Reasoning",
+      "summary": "Learners will understand how mathematicians prove statements by direct argument, contradiction and induction, and how sets and functions form the shared language of mathematics.",
+      "lessons": [
+        {
+          "id": "l01-logic-and-direct-proof",
+          "title": "Logic, Implication and Direct Proof",
+          "summary": "Statements and the words and, or and not, conditional statements and their converse and contrapositive, counterexamples, and a direct proof, such as that the sum of two even numbers is even."
+        },
+        {
+          "id": "l02-proof-by-contradiction",
+          "title": "Proof by Contradiction",
+          "summary": "Proving a statement by showing that its negation leads to an impossibility, with two classic examples: the square root of two is irrational, and there are infinitely many prime numbers."
+        },
+        {
+          "id": "l03-mathematical-induction",
+          "title": "Mathematical Induction",
+          "summary": "Proving a statement for every natural number with a base case and an inductive step, the falling-dominoes picture, and an induction proof of a summation formula from the sequences module."
+        },
+        {
+          "id": "l04-sets-and-functions",
+          "title": "Sets and Functions as a Language",
+          "summary": "The formal language of sets, elements, subsets, union, intersection and complement, and functions between sets that are one-to-one or onto, building on the informal uses earlier in the course."
+        },
+        {
+          "id": "l05-where-mathematics-goes-next",
+          "title": "Where Mathematics Goes Next",
+          "summary": "How the ideas of this course lead on to calculus, statistics and abstract mathematics, and what each of those fields studies, without yet learning their methods."
+        }
+      ]
+    }
+  ]
+}

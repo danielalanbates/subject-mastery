@@ -1,0 +1,26 @@
+# Wycliffe, Hus and Dissent
+
+Imagine a courtroom where the judge is also the person accusing you of a crime. This was the reality for many dissenters in the late fourteenth and early fifteenth centuries. As we saw in our last lesson, the papacy was deeply fractured by the Western Schism, with competing popes claiming the seat of Saint Peter in Rome. This crisis of leadership weakened the authority of the institutional church and created a vacuum in which new voices began to question not just who was in charge, but how the church should function at all.
+
+In England, a scholar named John Wycliffe emerged as a leading critic. Wycliffe was a master at Oxford University who became increasingly troubled by the wealth and political power of the clergy. He argued that the true church consisted of the body of the elect—those chosen by God—rather than the hierarchy of bishops and popes. Most radically, Wycliffe insisted that the Bible was the ultimate authority for the Christian life. He believed that ordinary people should be able to read the scriptures in their own language. Under his influence, his followers, known as the Lollards, began to circulate English translations of the Bible and preach against clerical corruption.
+
+Wycliffe’s ideas were considered dangerous because they challenged the essential role of the priesthood as the necessary mediators between God and the people. Though he died of natural causes in 1384, his influence continued to spread. The Council of Constance, which met between 1414 and 1418, eventually condemned Wycliffe’s teachings posthumously. The council ordered that his remains be exhumed and burned, a final attempt to erase his influence. Despite this, the Lollards maintained a grassroots movement that emphasized personal faith and scriptural study over the elaborate rituals of the medieval church.
+
+Across Europe in Bohemia, which is modern-day Czechia, these ideas found a receptive audience in the priest and reformer Jan Hus. Hus was a popular preacher in Prague who was deeply influenced by Wycliffe’s writings. Like Wycliffe, Hus criticized the moral failings of the clergy and the sale of indulgences, which were payments made to the church to reduce the temporal punishment for sins. Hus was not merely echoing Wycliffe; he was a gifted theologian in his own right who insisted that Christ, not the pope, was the true head of the church.
+
+The Council of Constance, which aimed to end the Western Schism, also turned its attention to rooting out what it labeled as heresy. Jan Hus was summoned to the council under a promise of safe conduct. However, when he arrived, he was arrested and interrogated. The council demanded that he recant his teachings. When Hus refused to renounce views that he believed were grounded in the Bible and the early church fathers, he was condemned. In July 1415, he was burned at the stake.
+
+The execution of Jan Hus sent a shockwave through Bohemia. Rather than silencing his followers, it turned him into a national martyr. The Hussite wars followed, a series of conflicts where his supporters fought to defend their right to celebrate the Eucharist by offering the cup to all believers, not just the priests. This practice, known as utraquism, became a symbol of their belief in the spiritual equality of all Christians.
+
+Why do these figures matter so much to the story of the church? Later Protestants, including Martin Luther, looked back at Wycliffe and Hus as essential forerunners. Luther famously remarked that he had been a Hussite without knowing it. For these later reformers, Wycliffe and Hus represented the true church struggling to survive beneath the surface of a corrupted medieval hierarchy. They highlighted the shift toward individual conscience, the authority of scripture, and the critique of institutional power that would define the Reformation a century later.
+
+It is important to remember that Wycliffe and Hus saw themselves as faithful reformers, not as creators of new religions. They were trying to purify the church from within, even if the result was a permanent fracture in Western Christendom. Their courage under fire forced the church to confront difficult questions about the nature of authority and the accessibility of the gospel.
+
+As the institutional church grappled with these external challenges and internal divisions, many believers began to look for a more intimate, personal connection with God. This shift toward inward spirituality and the pursuit of holiness outside of the formal structures of the priesthood would become the defining characteristic of the next movement in our study.
+
+## Key ideas
+
+- John Wycliffe challenged the medieval church by asserting that the Bible is the final authority for Christians and that the church is defined by the elect rather than the clergy.
+- Jan Hus carried these ideas into Bohemia, emphasizing that Christ is the true head of the church and criticizing clerical corruption and the sale of indulgences.
+- The Council of Constance condemned Wycliffe posthumously and executed Jan Hus in 1415, which transformed Hus into a martyr and sparked significant resistance in Bohemia.
+- Later Protestant reformers viewed Wycliffe and Hus as vital predecessors who anticipated the core Reformation emphases on scripture and individual conscience.

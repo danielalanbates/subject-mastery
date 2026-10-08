@@ -1,0 +1,27 @@
+# Europe and West Africa Before 1492
+
+Imagine standing on a dock in the fourteen hundreds, looking out across a horizon that seemed to hold nothing but mystery. In our last lesson, we explored the complex, thriving societies of the Americas before 1492. Today, we turn our gaze toward the other side of the Atlantic. To understand why European ships eventually sailed toward the Americas, we must look at the pressures, ambitions, and technological shifts occurring within Europe and West Africa at the dawn of the early modern era.
+
+In the fourteen hundreds, Europe was beginning to emerge from a long period of localized, feudal stagnation. It was a continent defined by fragmented kingdoms, religious fervor, and a desperate desire for trade goods. European elites were obsessed with the luxuries of the East—silks, spices, and precious metals. However, the land routes to Asia were expensive, dangerous, and controlled by intermediaries in the Middle East. This bottleneck became critical in 1453, when the fall of Constantinople to the Ottoman Empire tightened control over eastern trade routes. This created a powerful economic incentive for European powers to find a direct water route to the riches of the Indian Ocean.
+
+Portugal led this effort, largely due to the vision of Prince Henry the Navigator. He established a maritime center at Sagres, where he gathered cartographers, astronomers, and shipbuilders to synthesize the best available knowledge. They drew heavily upon Islamic scholarship, which had preserved and advanced ancient sciences. From these sources, European navigators adopted the astrolabe for measuring latitude and the magnetic compass for direction, while relying on portolan charts that mapped coastlines with newfound precision.
+
+This ambition was fueled by innovative ship design and navigation. Shipbuilders created the caravel, a nimble vessel with triangular lateen sails that could sail against the wind. Crucially, mariners mastered the volta do mar, a technique of sailing into the open ocean to catch reliable circular wind patterns. This allowed them to return home from the West African coast, transforming the ocean from a wall into a highway.
+
+While Europe looked outward, West Africa was already a hub of sophisticated trade and political power. Contrary to outdated views that Africa was isolated, the region was deeply connected to the wider world through trans-Saharan trade routes. Great empires, such as the Mali Empire and later the Songhai Empire, presided over vast territories. These states grew wealthy by controlling the movement of gold, ivory, and salt across the desert. Cities like Timbuktu became legendary centers of learning, housing massive libraries and attracting scholars from across the Islamic world.
+
+When Portuguese mariners began probing the West African coast in the fourteen hundreds, they did not find a primitive landscape. They encountered organized states with their own diplomatic protocols and established commercial systems. To facilitate trade, the Portuguese established feitorias, or fortified trading posts, along the coast. The most significant was Elmina, built in present-day Ghana. These posts functioned as warehouses and diplomatic hubs where Europeans exchanged manufactured goods, such as textiles and copper, for African gold and human labor.
+
+The social structures within these African kingdoms were as varied as those in Europe. Many societies were organized around complex kinship systems, where lineage and community obligations dictated political power. As Europeans established these factories, they had to negotiate with local rulers. These early encounters were often defined by a delicate balance of power, as neither side possessed the military technology to dominate the other entirely.
+
+It is critical to see this era not as a one-sided expansion, but as a collision of different worlds, each with its own history and logic. Europe was a society in transition, driven by a quest for capital and the consolidation of state power. West Africa was a region of established empires and deep-rooted commercial networks. The existing European hunger for gold and the infrastructure of trade they built along the African coast provided the blueprints for the maritime expansion that was about to follow.
+
+As these European powers mastered the winds of the Atlantic and deepened their reach into African markets, they began to look further west. The knowledge gained from these coastal voyages gave them the confidence to attempt even more daring crossings. The stage was set for a voyage that would bring the two sides of the Atlantic together in a way that changed the trajectory of human history.
+
+## Key ideas
+
+- The fall of Constantinople in 1453 forced European powers to seek new maritime routes to Asia to bypass Middle Eastern trade monopolies.
+- Prince Henry the Navigator’s maritime school at Sagres synthesized Islamic and classical knowledge to advance European cartography and navigation.
+- The development of the caravel and the mastery of wind patterns like the volta do mar enabled Europeans to navigate the open Atlantic.
+- Portuguese feitorias, such as Elmina, served as essential hubs for trade and diplomacy in the early exchange of gold and human labor.
+- West African empires like Mali and Songhai were sophisticated, wealthy, and deeply integrated into global trade networks long before European arrival.

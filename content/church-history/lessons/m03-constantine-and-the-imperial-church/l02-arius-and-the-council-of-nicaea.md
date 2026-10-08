@@ -1,0 +1,25 @@
+# Arius and the Council of Nicaea
+
+Imagine you are living in the city of Alexandria in the early fourth century. It is a bustling center of trade and learning, located in what is now Egypt. Suddenly, the local churches are thrown into a heated, public debate that spills out into the marketplaces. People are arguing not about politics or taxes, but about the very nature of God and the relationship between the Father and the Son. This was the reality when a popular priest named Arius began to teach a specific view of Jesus Christ that sparked a firestorm throughout the Roman world.
+
+Arius was a man of logic. He wanted to preserve the idea that God the Father is absolutely unique and indivisible. To Arius, if the Son were truly equal to the Father, it would imply there were two gods, which he felt compromised monotheism. His solution was to argue that the Son was the first and greatest of all created beings. He famously claimed that there was a time when the Son was not. In other words, Arius taught that the Son was created by the Father out of nothing, rather than being eternal and divine in the same sense as the Father.
+
+His bishop, Alexander of Alexandria, strongly disagreed. Alexander argued that if Christ were a created being, he could not truly save humanity, because only God has the power to bridge the gap between the divine and the human. The conflict grew so intense that it caught the attention of the Emperor Constantine. Having just legalized Christianity through the Edict of Milan, Constantine was deeply concerned that this theological split would fracture the unity of his empire. He needed the church to be a cohesive force, not a source of civil unrest.
+
+To resolve the dispute, Constantine summoned bishops from across the empire to meet in the city of Nicaea, located in what is now western Turkey, in 325 CE. This was the first ecumenical council, meaning a gathering that represented the entire inhabited world. The bishops debated the teachings of Arius extensively. They were looking for a way to describe the relationship between the Father and the Son that was biblically faithful and logically precise.
+
+The council eventually rejected the teachings of Arius. To clarify their position, they used the Greek term homoousios, which means of the same being or of one substance with the Father. This term was controversial for some bishops because it was not found in the Bible. They feared it might introduce philosophical speculation that could obscure the simplicity of the gospel. However, the majority concluded that the term was necessary to safeguard the belief that the Son is fully divine, sharing the exact same nature as the Father.
+
+The council formulated a creed to formalize this teaching. It explicitly stated that the Son is begotten, not made, and is of one substance with the Father. To ensure there was no ambiguity, the council attached anathemas, or formal condemnations, to the end of the creed. These condemned those who claimed there was a time when the Son was not, or that the Son was created, or that he was of a different substance or essence than the Father.
+
+It is important to address some common misconceptions about this council. You may have heard it claimed that the Council of Nicaea was responsible for choosing which books belong in the Bible. This is a popular myth, often repeated in modern fiction and media, but it is historically inaccurate. The bishops at Nicaea were focused on the nature of Christ, not on compiling the canon of scripture. The process of recognizing the books of the New Testament was a gradual development that occurred over several centuries, involving broad consensus across many different churches, rather than a single vote at a council.
+
+The Council of Nicaea was a turning point in history. It marked the first time that an emperor intervened directly in a theological dispute, setting a precedent for the relationship between the state and the church. While the council provided a clear definition of the faith, it did not immediately end the conflict. Many followers of Arius remained active, and the debate over the exact nature of the divinity of Christ would continue to stir the church for decades to come.
+
+## Key ideas
+
+- Arius taught that the Son was a created being who was not eternal, while his bishop, Alexander, argued that the Son was fully divine and eternally one with the Father.
+- The Council of Nicaea in 325 CE rejected Arianism by adopting the term homoousios, affirming that the Son is begotten, not made, and of one substance with the Father.
+- Some bishops initially objected to the term homoousios because it was not a biblical word, yet the council concluded it was essential to defend the full divinity of Christ.
+- The council issued formal anathemas against those who claimed the Son was a created being or that there was a time when he did not exist.
+- The Council of Nicaea did not choose the books of the Bible, as the development of the biblical canon was a long process that happened independently of this gathering.

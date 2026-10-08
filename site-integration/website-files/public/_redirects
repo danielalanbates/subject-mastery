@@ -1,0 +1,6 @@
+# /membership was parked at /products while the tab was archived. It is a real
+# page again (Sign in with Apple), so the redirect has to go — left in place it
+# would swallow the sign-in return trip.
+
+/qola https://qolabible.com/ 301
+/qola/* https://qolabible.com/ 301

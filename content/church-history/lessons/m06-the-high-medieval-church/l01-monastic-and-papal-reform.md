@@ -12,7 +12,7 @@ The papacy reached the absolute height of its political and spiritual power unde
 
 Under Innocent, the church was not just a spiritual institution; it was a centralized government with a reach that touched every village in the West. He used the power of interdict, which could suspend all church services in an entire kingdom, to force disobedient rulers to submit. By the early thirteenth century, the papacy had successfully carved out a space of independence from secular rulers, yet this power brought its own set of dangers. The church now faced the challenge of managing a vast, complex bureaucracy while trying to remain faithful to its mission.
 
-This centralization of power in Rome followed centuries of growing friction between the Latin-speaking church in the West and the Greek-speaking church in the East. These tensions over leadership, theology, and culture had already culminated in the Great Schism of 1054 CE, a formal fracture that divided Christendom into the Roman Catholic and Eastern Orthodox traditions.
+This centralization of power in Rome followed centuries of growing friction between the Latin-speaking church in the West and the Greek-speaking church in the East. These tensions over leadership, theology, and culture had already come to a head in 1054 CE, in the mutual excommunications that became the traditional date of the Great Schism between what would become the Roman Catholic and Eastern Orthodox traditions.
 
 ## Key ideas
 

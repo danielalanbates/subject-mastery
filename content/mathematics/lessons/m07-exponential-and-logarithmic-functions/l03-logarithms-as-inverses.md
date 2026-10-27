@@ -16,6 +16,8 @@ We can also state two key algebraic inverse properties that connect exponents an
 
 To see this in action with a worked example, let us evaluate the logarithm with base three of eighty-one without using a calculator. We want to find the exponent, let us call it y, such that three raised to the power y equals eighty-one. We test powers of three in our heads. Three to the first is three, three squared is nine, three cubed is twenty-seven, and three to the fourth power is eighty-one. Therefore, the logarithm with base three of eighty-one equals four.
 
+We can also describe the graph of a logarithm in words. Because the logarithm with base two undoes two to the power x, its graph is the mirror image of the exponential graph across the line y equals x. It exists only for positive inputs. It crosses the horizontal axis at one comma zero, passes through two comma one and eight comma three, and keeps rising, but ever more slowly. As the input shrinks toward zero, the graph plunges toward negative infinity, so the vertical axis is an asymptote.
+
 Two particular bases show up so often in mathematics that they receive special notation and names. The first is the base ten logarithm, which we call the common logarithm. When scientists or engineers write a logarithm with no base written at all, they usually mean base ten. The second is the base e logarithm, which we call the natural logarithm, honoring the number e we studied previously. Instead of writing log with a small e, mathematicians write the natural logarithm as l n. The natural logarithm answers the question of what power of e gives us our target number.
 
 ## Key ideas

@@ -16,5 +16,5 @@ Despite these diverse expressions, Christianity in Asia faces a common set of ch
 
 - The rise of Christianity in South Korea is marked by rapid expansion since the mid-20th century and a strong commitment to global missionary work, alongside the growth of Pentecostal movements.
 - In China, the church has persisted through a dual structure of government-registered congregations and unregistered house churches, with significant growth in Pentecostal and Charismatic movements.
-- India represents a unique blend of ancient traditions, dating back to the arrival of the apostle Thomas in the 1st century CE, and modern movements that emphasize social equality.
+- India represents a unique blend of ancient traditions, which by long local tradition go back to the apostle Thomas in the 1st century CE, and modern movements that emphasize social equality.
 - The Philippines maintains a distinct identity as a predominantly Catholic nation, where the church provides essential education and social services and exists alongside a notable minority of Protestant and independent churches.

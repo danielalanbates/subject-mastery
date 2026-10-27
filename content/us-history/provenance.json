@@ -3,6 +3,12 @@
     "us-history/m01-native-america-and-the-atlantic-world/l01-native-societies-before-contact": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -14,6 +20,14 @@
     "us-history/m01-native-america-and-the-atlantic-world/l02-europe-and-west-africa-before-1492": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -25,6 +39,14 @@
     "us-history/m01-native-america-and-the-atlantic-world/l03-columbus-and-the-columbian-exchange": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -36,6 +58,14 @@
     "us-history/m01-native-america-and-the-atlantic-world/l04-new-spain-and-the-borderlands": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -47,6 +77,12 @@
     "us-history/m01-native-america-and-the-atlantic-world/l05-new-france-and-new-netherland": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -58,6 +94,14 @@
     "us-history/m02-the-english-colonies/l01-jamestown-and-the-chesapeake": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -69,6 +113,14 @@
     "us-history/m02-the-english-colonies/l02-puritan-new-england": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -80,6 +132,12 @@
     "us-history/m02-the-english-colonies/l03-middle-and-southern-colonies": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 10,
@@ -91,6 +149,15 @@
     "us-history/m02-the-english-colonies/l04-rise-of-racial-slavery": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [
         "gemini:gemini-3.1-flash-lite"
       ],
@@ -104,6 +171,12 @@
     "us-history/m02-the-english-colonies/l05-colonial-society-in-the-1700s": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -115,6 +188,14 @@
     "us-history/m02-the-english-colonies/l06-imperial-wars-and-the-seven-years-war": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -126,6 +207,12 @@
     "us-history/m03-the-road-to-revolution/l01-imperial-reforms-and-colonial-protests": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -137,6 +224,12 @@
     "us-history/m03-the-road-to-revolution/l02-from-protest-to-independence": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 0,
@@ -148,6 +241,14 @@
     "us-history/m03-the-road-to-revolution/l03-declaration-of-independence": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -159,6 +260,15 @@
     "us-history/m03-the-road-to-revolution/l04-war-for-independence": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -170,6 +280,12 @@
     "us-history/m03-the-road-to-revolution/l05-the-revolutions-people": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -181,6 +297,14 @@
     "us-history/m04-creating-a-nation/l01-articles-of-confederation": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -192,6 +316,14 @@
     "us-history/m04-creating-a-nation/l02-constitutional-convention": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -203,6 +335,12 @@
     "us-history/m04-creating-a-nation/l03-ratification-and-the-bill-of-rights": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -214,6 +352,14 @@
     "us-history/m04-creating-a-nation/l04-washington-hamilton-and-the-first-parties": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -225,6 +371,12 @@
     "us-history/m04-creating-a-nation/l05-jefferson-and-the-war-of-1812": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -236,6 +388,14 @@
     "us-history/m04-creating-a-nation/l06-missouri-compromise-and-monroe-doctrine": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -247,6 +407,14 @@
     "us-history/m05-markets-democracy-and-reform/l01-market-revolution": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -258,6 +426,12 @@
     "us-history/m05-markets-democracy-and-reform/l02-jacksonian-democracy": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -269,6 +443,14 @@
     "us-history/m05-markets-democracy-and-reform/l03-indian-removal": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -280,6 +462,14 @@
     "us-history/m05-markets-democracy-and-reform/l04-slavery-and-the-cotton-south": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -291,6 +481,12 @@
     "us-history/m05-markets-democracy-and-reform/l05-religion-and-reform": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 1,
@@ -302,6 +498,12 @@
     "us-history/m06-expansion-and-sectional-crisis/l01-abolition-movement": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -313,6 +515,14 @@
     "us-history/m06-expansion-and-sectional-crisis/l02-manifest-destiny-and-the-west": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -324,6 +534,14 @@
     "us-history/m06-expansion-and-sectional-crisis/l03-mexican-american-war": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -335,6 +553,14 @@
     "us-history/m06-expansion-and-sectional-crisis/l04-compromise-of-1850-and-fugitive-slaves": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -346,6 +572,12 @@
     "us-history/m06-expansion-and-sectional-crisis/l05-kansas-dred-scott-and-lincoln": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -357,6 +589,14 @@
     "us-history/m07-civil-war-and-reconstruction/l01-secession-and-the-coming-of-war": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -368,6 +608,14 @@
     "us-history/m07-civil-war-and-reconstruction/l02-course-of-the-war": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -379,6 +627,12 @@
     "us-history/m07-civil-war-and-reconstruction/l03-emancipation-and-the-home-fronts": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -390,6 +644,14 @@
     "us-history/m07-civil-war-and-reconstruction/l04-reconstruction-in-washington": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -401,6 +663,12 @@
     "us-history/m07-civil-war-and-reconstruction/l05-reconstruction-in-the-south-and-its-end": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -412,6 +680,12 @@
     "us-history/m07-civil-war-and-reconstruction/l06-jim-crow-and-the-new-south": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -423,6 +697,14 @@
     "us-history/m08-the-west-and-the-gilded-age/l01-plains-wars-and-native-nations": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -434,6 +716,14 @@
     "us-history/m08-the-west-and-the-gilded-age/l02-railroads-and-the-settlement-of-the-west": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 10,
@@ -445,6 +735,12 @@
     "us-history/m08-the-west-and-the-gilded-age/l03-industrial-capitalism": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -456,6 +752,14 @@
     "us-history/m08-the-west-and-the-gilded-age/l04-workers-and-the-labor-movement": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 0,
@@ -467,6 +771,14 @@
     "us-history/m08-the-west-and-the-gilded-age/l05-immigration-and-the-growth-of-cities": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 0,
@@ -478,6 +790,14 @@
     "us-history/m09-populism-empire-and-progressivism/l01-gilded-age-politics-and-populism": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 5,
@@ -489,6 +809,14 @@
     "us-history/m09-populism-empire-and-progressivism/l02-american-empire": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 7,
@@ -500,6 +828,14 @@
     "us-history/m09-populism-empire-and-progressivism/l03-progressive-reformers": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 0,
@@ -511,6 +847,12 @@
     "us-history/m09-populism-empire-and-progressivism/l04-progressive-presidents": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
@@ -522,6 +864,14 @@
     "us-history/m09-populism-empire-and-progressivism/l05-the-first-world-war": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
@@ -533,6 +883,14 @@
     "us-history/m10-boom-depression-and-world-war/l01-prosperity-and-conflict-in-the-1920s": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 4,
@@ -544,6 +902,14 @@
     "us-history/m10-boom-depression-and-world-war/l02-great-depression": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 2,
@@ -555,6 +921,12 @@
     "us-history/m10-boom-depression-and-world-war/l03-new-deal": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
@@ -566,6 +938,15 @@
     "us-history/m10-boom-depression-and-world-war/l04-the-road-to-world-war-two": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -577,6 +958,15 @@
     "us-history/m10-boom-depression-and-world-war/l05-fighting-world-war-two": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -588,6 +978,15 @@
     "us-history/m10-boom-depression-and-world-war/l06-the-home-front": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 5
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -599,6 +998,14 @@
     "us-history/m11-cold-war-and-civil-rights/l01-origins-of-the-cold-war": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -610,6 +1017,14 @@
     "us-history/m11-cold-war-and-civil-rights/l02-korea-and-the-nuclear-age": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -621,6 +1036,12 @@
     "us-history/m11-cold-war-and-civil-rights/l03-postwar-society-and-the-red-scare": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 10,
@@ -632,6 +1053,14 @@
     "us-history/m11-cold-war-and-civil-rights/l04-civil-rights-movement": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -643,6 +1072,12 @@
     "us-history/m11-cold-war-and-civil-rights/l05-kennedy-johnson-and-the-great-society": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 1,
@@ -654,6 +1089,15 @@
     "us-history/m11-cold-war-and-civil-rights/l06-vietnam-war": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -665,6 +1109,14 @@
     "us-history/m12-recent-america/l01-protest-and-new-rights-movements": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -676,6 +1128,14 @@
     "us-history/m12-recent-america/l02-watergate-and-the-1970s": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -687,6 +1147,14 @@
     "us-history/m12-recent-america/l03-the-conservative-turn": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 4,
@@ -698,6 +1166,16 @@
     "us-history/m12-recent-america/l04-end-of-the-cold-war-and-the-1990s": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual",
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 8,
@@ -709,6 +1187,16 @@
     "us-history/m12-recent-america/l05-september-11-and-the-war-on-terror": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 5,
@@ -720,6 +1208,16 @@
     "us-history/m12-recent-america/l06-the-twenty-first-century": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,

@@ -8,7 +8,7 @@ Moving upward, we encounter the limbic system, a collection of structures deep i
 
 How do we know which parts of the brain do what? Much of our early knowledge came from studying injuries. The famous case of Phineas Gage, a railroad worker who survived a metal rod passing through his frontal lobe in the mid-nineteenth century, taught us that the brain is not a uniform mass. While Gage lived for many years afterward and regained much of his social functioning, his personality shifts provided early evidence that specific regions govern temperament and decision-making.
 
-Today, we use sophisticated technology to gather evidence. Electroencephalograms, or EEGs, record the electrical waves of the brain’s activity. These waves, such as alpha, beta, delta, and theta, change depending on our level of alertness or sleep. To study structure and function, we use various imaging methods. Structural MRIs and CT scans provide detailed images of the brain’s anatomy, while PET scans and functional MRIs allow us to watch the brain in action by tracking blood flow or glucose consumption as it performs tasks.
+Today, we use sophisticated technology to gather evidence. Electroencephalography, or EEG, records the electrical waves of the brain’s activity. These waves, such as alpha, beta, delta, and theta, change depending on our level of alertness or sleep. To study structure and function, we use various imaging methods. Structural MRI and CT scans provide detailed images of the brain’s anatomy, while PET scans and functional MRI scans allow us to watch the brain in action by tracking blood flow or glucose consumption as it performs tasks.
 
 This leads us to a common myth: the idea of left-brained versus right-brained people. This misconception stems from research on split-brain patients, individuals who had the bundle of fibers connecting the two hemispheres severed to treat severe epilepsy. This research showed that the hemispheres do specialize. For example, the left is often more involved in language, while the right handles spatial tasks. However, in a healthy brain, the two sides are in constant communication. We use our entire brain for almost every complex task.
 
@@ -19,6 +19,6 @@ While the brain provides the hardware for behavior, it does not work in isolatio
 ## Key ideas
 
 - The brain is organized hierarchically, with the brainstem managing vital survival functions and the cerebral cortex handling complex cognitive tasks.
-- Brain research relies on diverse evidence, including clinical case studies, electrical activity recorded via EEGs, and structural or functional imaging like MRIs and PET scans.
+- Brain research relies on diverse evidence, including clinical case studies, electrical activity recorded by EEG, and structural or functional imaging like MRI and PET scans.
 - Neuroplasticity demonstrates that the brain is a dynamic organ capable of reorganizing its neural connections in response to injury or new learning.
 - The concept of left-brained or right-brained personality types is a myth that misinterprets the reality of hemispheric specialization and neural integration.

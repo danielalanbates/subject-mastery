@@ -17,6 +17,6 @@ By organizing data in these hierarchies, we gain the ability to navigate complex
 ## Key ideas
 
 - A tree is a hierarchical data structure consisting of nodes connected by edges, starting from a single root node and branching out to leaves.
-- Binary search trees organize data such that every left child is smaller than its parent and every right child is larger, allowing for efficient big O of log n search times when the tree is balanced.
+- Binary search trees organize data such that every value in a node's left subtree is smaller than the node and every value in its right subtree is larger, allowing for efficient big O of log n search times when the tree is balanced.
 - If a tree becomes unbalanced, the search efficiency degrades from logarithmic to linear, which is big O of n.
 - Trees are used throughout computing to manage hierarchical data, such as file systems on a disk, the structure of web pages, and the syntax of programming languages.

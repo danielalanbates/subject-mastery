@@ -14,7 +14,7 @@ The council formulated a creed to formalize this teaching. It explicitly stated 
 
 It is important to address some common misconceptions about this council. You may have heard it claimed that the Council of Nicaea was responsible for choosing which books belong in the Bible. This is a popular myth, often repeated in modern fiction and media, but it is historically inaccurate. The bishops at Nicaea were focused on the nature of Christ, not on compiling the canon of scripture. The process of recognizing the books of the New Testament was a gradual development that occurred over several centuries, involving broad consensus across many different churches, rather than a single vote at a council.
 
-The Council of Nicaea was a turning point in history. It marked the first time that an emperor intervened directly in a theological dispute, setting a precedent for the relationship between the state and the church. While the council provided a clear definition of the faith, it did not immediately end the conflict. Many followers of Arius remained active, and the debate over the exact nature of the divinity of Christ would continue to stir the church for decades to come.
+The Council of Nicaea was a turning point in history. It was the first time an emperor gathered bishops from across the whole empire to settle a question of doctrine, setting a precedent for the relationship between the state and the church. While the council provided a clear definition of the faith, it did not immediately end the conflict. Many followers of Arius remained active, and the debate over the exact nature of the divinity of Christ would continue to stir the church for decades to come.
 
 ## Key ideas
 

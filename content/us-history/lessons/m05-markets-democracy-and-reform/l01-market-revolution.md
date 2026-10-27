@@ -21,5 +21,5 @@ The Market Revolution created enormous wealth and expanded the variety of goods 
 - The Market Revolution transformed the United States from a collection of isolated local economies into an interconnected, commercial nation between 1815 and 1850.
 - Advances in transportation, including the Erie Canal, steamboats, and early railroads, relied on immigrant labor and facilitated the expansion of the market into Native American lands.
 - The invention of the telegraph allowed for the near-instantaneous transmission of information, which was essential for managing the growing national market.
-- The factory system, exemplified by the Lowell mills, shifted production from the home to centralized workplaces and introduced the concept of wage labor.
+- The factory system, exemplified by the Lowell mills, shifted production from the home to centralized workplaces and made wage labor far more common.
 - While the Market Revolution increased productivity and consumer access to goods, it also created new economic instabilities and deepened the divide between the North and the South.

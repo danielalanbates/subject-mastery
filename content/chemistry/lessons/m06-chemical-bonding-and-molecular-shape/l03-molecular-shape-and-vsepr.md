@@ -4,7 +4,7 @@ Imagine you are holding a handful of balloons. If you tie four of them together 
 
 The tool we use to predict these shapes is called the valence shell electron pair repulsion theory, or VSEPR. The core idea is elegant and intuitive. Electrons are negatively charged, and like charges repel each other. Whether those electrons are busy forming a chemical bond or just sitting as a lone pair on a central atom, they want as much personal space as possible. They will position themselves around the central atom to get as far away from one another as they can.
 
-To predict these shapes systematically, we use the steric number, which is the sum of the number of atoms bonded to the central atom and the number of lone pairs on that central atom. We also use AXE notation, where A represents the central atom, X represents a bonded atom, and E represents a lone pair.
+To predict these shapes systematically, we use the steric number, which is the sum of the number of atoms bonded to the central atom and the number of lone pairs on that central atom.
 
 When a central atom has a steric number of two, the electron groups arrange themselves linearly with a bond angle of one hundred eighty degrees, such as in carbon dioxide. With a steric number of three, the groups form a trigonal planar geometry with bond angles of one hundred twenty degrees, seen in boron trifluoride. A steric number of four results in a tetrahedral electron geometry with bond angles of one hundred nine point five degrees.
 

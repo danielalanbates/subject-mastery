@@ -4,7 +4,7 @@ Imagine standing on a dock in the fourteen hundreds, looking out across a horizo
 
 In the fourteen hundreds, Europe was beginning to emerge from a long period of localized, feudal stagnation. It was a continent defined by fragmented kingdoms, religious fervor, and a desperate desire for trade goods. European elites were obsessed with the luxuries of the East—silks, spices, and precious metals. However, the land routes to Asia were expensive, dangerous, and controlled by intermediaries in the Middle East. This bottleneck became critical in 1453, when the fall of Constantinople to the Ottoman Empire tightened control over eastern trade routes. This created a powerful economic incentive for European powers to find a direct water route to the riches of the Indian Ocean.
 
-Portugal led this effort, largely due to the vision of Prince Henry the Navigator. He established a maritime center at Sagres, where he gathered cartographers, astronomers, and shipbuilders to synthesize the best available knowledge. They drew heavily upon Islamic scholarship, which had preserved and advanced ancient sciences. From these sources, European navigators adopted the astrolabe for measuring latitude and the magnetic compass for direction, while relying on portolan charts that mapped coastlines with newfound precision.
+Portugal led this effort, largely due to the vision of Prince Henry the Navigator, whose voyages down the African coast had begun decades before 1453. He drew cartographers, astronomers, and shipbuilders into Portuguese service to synthesize the best available knowledge, though historians now doubt the old story that he founded a formal school of navigation at Sagres. They drew heavily upon Islamic scholarship, which had preserved and advanced ancient sciences. From these sources, European navigators adopted the astrolabe for measuring latitude and the magnetic compass for direction, while relying on portolan charts that mapped coastlines with newfound precision.
 
 This ambition was fueled by innovative ship design and navigation. Shipbuilders created the caravel, a nimble vessel with triangular lateen sails that could sail against the wind. Crucially, mariners mastered the volta do mar, a technique of sailing into the open ocean to catch reliable circular wind patterns. This allowed them to return home from the West African coast, transforming the ocean from a wall into a highway.
 
@@ -20,8 +20,8 @@ As these European powers mastered the winds of the Atlantic and deepened their r
 
 ## Key ideas
 
-- The fall of Constantinople in 1453 forced European powers to seek new maritime routes to Asia to bypass Middle Eastern trade monopolies.
-- Prince Henry the Navigator’s maritime school at Sagres synthesized Islamic and classical knowledge to advance European cartography and navigation.
+- The fall of Constantinople in 1453 strengthened European incentives, already driving Portuguese voyages, to seek sea routes to Asia that bypassed Middle Eastern intermediaries.
+- Prince Henry the Navigator sponsored Portuguese voyages that drew on Islamic and classical knowledge to advance European cartography and navigation.
 - The development of the caravel and the mastery of wind patterns like the volta do mar enabled Europeans to navigate the open Atlantic.
 - Portuguese feitorias, such as Elmina, served as essential hubs for trade and diplomacy in the early exchange of gold and human labor.
 - West African empires like Mali and Songhai were sophisticated, wealthy, and deeply integrated into global trade networks long before European arrival.

@@ -3,6 +3,14 @@
     "psychology/m01-psychology-as-a-science/l01-origins-of-psychology": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -14,6 +22,14 @@
     "psychology/m01-psychology-as-a-science/l02-schools-and-modern-perspectives": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -25,6 +41,14 @@
     "psychology/m01-psychology-as-a-science/l03-descriptive-and-correlational-research": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -36,6 +60,14 @@
     "psychology/m01-psychology-as-a-science/l04-experiments-and-research-ethics": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -47,6 +79,12 @@
     "psychology/m01-psychology-as-a-science/l05-statistics-reliability-and-validity": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 13,
@@ -58,6 +96,14 @@
     "psychology/m01-psychology-as-a-science/l06-replication-crisis-and-open-science": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -69,6 +115,15 @@
     "psychology/m02-biology-of-behavior/l01-genes-evolution-and-behavior": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -80,6 +135,14 @@
     "psychology/m02-biology-of-behavior/l02-neurons-and-neural-communication": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -91,6 +154,14 @@
     "psychology/m02-biology-of-behavior/l03-the-nervous-system": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -102,6 +173,14 @@
     "psychology/m02-biology-of-behavior/l04-the-brain": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -113,6 +192,14 @@
     "psychology/m02-biology-of-behavior/l05-endocrine-system": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -124,6 +211,12 @@
     "psychology/m03-states-of-consciousness/l01-biological-rhythms-and-sleep-stages": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -135,6 +228,12 @@
     "psychology/m03-states-of-consciousness/l02-why-we-sleep-and-dream": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -146,6 +245,14 @@
     "psychology/m03-states-of-consciousness/l03-sleep-disorders": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -157,6 +264,14 @@
     "psychology/m03-states-of-consciousness/l04-psychoactive-drugs": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -168,6 +283,15 @@
     "psychology/m03-states-of-consciousness/l05-hypnosis-and-meditation": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -179,6 +303,14 @@
     "psychology/m04-sensation-and-perception/l01-thresholds-and-signal-detection": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -190,6 +322,12 @@
     "psychology/m04-sensation-and-perception/l02-vision": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -201,6 +339,12 @@
     "psychology/m04-sensation-and-perception/l03-hearing": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -212,6 +356,12 @@
     "psychology/m04-sensation-and-perception/l04-taste-and-smell": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -223,6 +373,15 @@
     "psychology/m04-sensation-and-perception/l05-touch-pain-and-body-senses": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -234,6 +393,12 @@
     "psychology/m04-sensation-and-perception/l06-perceptual-organization": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -245,6 +410,14 @@
     "psychology/m05-learning-and-memory/l01-classical-conditioning": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 5,
@@ -256,6 +429,12 @@
     "psychology/m05-learning-and-memory/l02-operant-conditioning": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 4,
@@ -267,6 +446,12 @@
     "psychology/m05-learning-and-memory/l03-observational-and-cognitive-learning": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -278,6 +463,14 @@
     "psychology/m05-learning-and-memory/l04-how-memory-works": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -289,6 +482,14 @@
     "psychology/m05-learning-and-memory/l05-forgetting-and-false-memories": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
@@ -300,6 +501,14 @@
     "psychology/m05-learning-and-memory/l06-improving-memory-and-learning": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -311,6 +520,14 @@
     "psychology/m06-thinking-language-and-intelligence/l01-concepts-and-problem-solving": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -322,6 +539,14 @@
     "psychology/m06-thinking-language-and-intelligence/l02-heuristics-and-biases": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -333,6 +558,12 @@
     "psychology/m06-thinking-language-and-intelligence/l03-language-and-its-development": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -344,6 +575,14 @@
     "psychology/m06-thinking-language-and-intelligence/l04-theories-of-intelligence": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -355,6 +594,12 @@
     "psychology/m06-thinking-language-and-intelligence/l05-measuring-intelligence": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -366,6 +611,15 @@
     "psychology/m06-thinking-language-and-intelligence/l06-genes-environment-and-intelligence": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
@@ -377,6 +631,12 @@
     "psychology/m07-lifespan-development/l01-prenatal-development-and-infancy": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -388,6 +648,14 @@
     "psychology/m07-lifespan-development/l02-attachment-and-early-relationships": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -399,6 +667,14 @@
     "psychology/m07-lifespan-development/l03-cognitive-development": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
@@ -410,6 +686,14 @@
     "psychology/m07-lifespan-development/l04-moral-and-psychosocial-development": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 2,
@@ -421,6 +705,14 @@
     "psychology/m07-lifespan-development/l05-adolescence": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 11,
@@ -432,6 +724,14 @@
     "psychology/m07-lifespan-development/l06-adulthood-aging-and-death": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 12,
@@ -443,6 +743,14 @@
     "psychology/m08-motivation-emotion-and-stress/l01-theories-of-motivation": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -454,6 +762,14 @@
     "psychology/m08-motivation-emotion-and-stress/l02-hunger-and-eating": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
@@ -465,6 +781,14 @@
     "psychology/m08-motivation-emotion-and-stress/l03-sexual-behavior": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -476,6 +800,14 @@
     "psychology/m08-motivation-emotion-and-stress/l04-emotion": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -487,6 +819,14 @@
     "psychology/m08-motivation-emotion-and-stress/l05-stress-coping-and-health": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -498,6 +838,15 @@
     "psychology/m09-personality/l01-freud-and-the-psychodynamic-tradition": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
@@ -509,6 +858,14 @@
     "psychology/m09-personality/l02-humanistic-and-social-cognitive-approaches": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 2,
@@ -520,6 +877,16 @@
     "psychology/m09-personality/l03-trait-theories-and-the-big-five": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -531,6 +898,12 @@
     "psychology/m09-personality/l04-biology-culture-and-personality": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [
         "gemini:gemini-3.1-flash-lite"
       ],
@@ -544,6 +917,15 @@
     "psychology/m09-personality/l05-personality-assessment": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
@@ -555,6 +937,15 @@
     "psychology/m10-social-psychology/l01-attribution-and-self-presentation": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -566,6 +957,12 @@
     "psychology/m10-social-psychology/l02-attitudes-and-persuasion": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -577,6 +974,16 @@
     "psychology/m10-social-psychology/l03-conformity-compliance-and-obedience": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "quotation",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -588,6 +995,12 @@
     "psychology/m10-social-psychology/l04-behavior-in-groups": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -599,6 +1012,14 @@
     "psychology/m10-social-psychology/l05-prejudice-and-discrimination": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -610,6 +1031,14 @@
     "psychology/m10-social-psychology/l06-aggression-helping-and-attraction": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 11,
@@ -621,6 +1050,14 @@
     "psychology/m11-psychological-disorders/l01-defining-and-diagnosing-disorders": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -632,6 +1069,14 @@
     "psychology/m11-psychological-disorders/l02-anxiety-and-related-disorders": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 10,
@@ -643,6 +1088,14 @@
     "psychology/m11-psychological-disorders/l03-depression-and-bipolar-disorder": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -654,6 +1107,12 @@
     "psychology/m11-psychological-disorders/l04-schizophrenia-and-psychotic-disorders": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -665,6 +1124,15 @@
     "psychology/m11-psychological-disorders/l05-dissociative-and-personality-disorders": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -676,6 +1144,12 @@
     "psychology/m11-psychological-disorders/l06-neurodevelopmental-disorders": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -687,6 +1161,14 @@
     "psychology/m12-therapy-and-treatment/l01-mental-health-care-past-and-present": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -698,6 +1180,12 @@
     "psychology/m12-therapy-and-treatment/l02-psychodynamic-and-humanistic-therapies": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 13,
@@ -709,6 +1197,12 @@
     "psychology/m12-therapy-and-treatment/l03-behavioral-and-cognitive-therapies": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -720,6 +1214,12 @@
     "psychology/m12-therapy-and-treatment/l04-biomedical-treatments": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -731,6 +1231,14 @@
     "psychology/m12-therapy-and-treatment/l05-group-family-and-community-approaches": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
@@ -742,6 +1250,14 @@
     "psychology/m12-therapy-and-treatment/l06-how-well-treatment-works": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,

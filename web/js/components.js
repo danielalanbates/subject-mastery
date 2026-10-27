@@ -113,3 +113,25 @@ export function toggle(label, checked, onChange, { id, hint } = {}) {
   input.addEventListener('change', () => onChange(input.checked));
   return h('label', { class: 'switch' }, input, h('span', { class: 'switch-track', 'aria-hidden': 'true' }), h('span', { class: 'switch-label' }, label, hint ? h('span', { class: 'hint' }, hint) : null));
 }
+
+/**
+ * A labelled search field: <form role="search"> with a <label>, an icon and an
+ * <input type="search">. The form never submits (callers listen for "submit").
+ * The label is visible with visibleLabel, otherwise screen-reader only.
+ */
+export function searchBox({ id, label, landmark = label, placeholder = '', hint = '', visibleLabel = false, className = '', shortcut = false } = {}) {
+  const hintId = hint ? `${id}-hint` : null;
+  const input = h('input', {
+    id, type: 'search', class: 'search-input', name: 'q', placeholder,
+    autocomplete: 'off', autocapitalize: 'off', autocorrect: 'off', spellcheck: 'false', enterkeyhint: 'search',
+    maxlength: '200', 'aria-describedby': hintId, 'aria-keyshortcuts': shortcut ? '/' : null,
+  });
+  const form = h('form', { class: `search-box ${className}`.trim(), role: 'search', 'aria-label': landmark, onSubmit: (e) => e.preventDefault() },
+    h('label', { for: id, class: visibleLabel ? 'search-label' : 'sr-only' }, label),
+    h('div', { class: 'search-field' },
+      icon('search'),
+      input,
+      shortcut ? h('kbd', { class: 'search-kbd', 'aria-hidden': 'true' }, '/') : null),
+    hint ? h('p', { id: hintId, class: 'search-hint' }, hint) : null);
+  return { form, input };
+}

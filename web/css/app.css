@@ -1095,6 +1095,110 @@ body.is-dragging-any, body.is-dragging-any * { cursor: grabbing !important; user
 .credit p { margin: 0; }
 .credit-name { font-weight: 700; }
 
+/* ---------- search (v3) ---------- */
+
+.search-field { position: relative; display: flex; align-items: center; min-width: 0; }
+.search-field > .icon {
+  position: absolute; left: 15px; top: 50%; transform: translateY(-50%);
+  width: 18px; height: 18px; color: var(--muted); pointer-events: none;
+}
+.search-input {
+  width: 100%; min-width: 0; min-height: 48px; margin: 0;
+  padding: 10px 16px 10px 42px;
+  border: 1px solid var(--border-strong); border-radius: 999px;
+  background: var(--surface); color: var(--text);
+  font-size: 16px; /* 16px keeps iOS from zooming on focus */
+  -webkit-appearance: none; appearance: none;
+}
+.search-input::placeholder { color: var(--muted); opacity: 1; }
+.search-input:hover { border-color: var(--muted); }
+.search-input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 999px; border-color: var(--focus); }
+.search-input::-webkit-search-cancel-button { cursor: pointer; }
+.search-label { display: block; margin: 0 0 10px; font-size: 15px; font-weight: 750; }
+.search-hint { margin: 8px 2px 0; font-size: 13px; color: var(--muted); }
+.search-kbd {
+  position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+  min-width: 22px; padding: 0 6px; text-align: center;
+  border: 1px solid var(--border-strong); border-radius: 6px; background: var(--surface-2);
+  font: 600 12px/20px var(--mono); color: var(--muted); pointer-events: none;
+}
+.search-input:focus ~ .search-kbd, .search-input:not(:placeholder-shown) ~ .search-kbd { display: none; }
+
+/* header: an icon link to #/search on narrow screens, a field from 1024 px */
+.header-row > .header-search { display: none; }
+.header-search-link { margin-left: auto; color: var(--text); }
+.header-search-link:hover { color: var(--text); }
+.header-search-link[aria-current="page"] { color: var(--accent); background: var(--accent-soft); }
+.header-search-link ~ .account-slot { margin-left: 0; }
+@media (max-width: 380px) { .header-row { gap: 8px; } .header-search-link { width: 40px; height: 40px; } }
+@media (min-width: 760px) {
+  .header-search-link ~ .tabs { margin-left: 4px; }
+  .header-search-link ~ .account-slot { margin-left: 8px; }
+}
+@media (min-width: 1024px) {
+  .header-search-link { display: none; }
+  .header-row > .header-search { display: block; flex: 0 1 300px; min-width: 200px; margin-left: auto; }
+  .header-search .search-input { min-height: 40px; padding: 6px 40px 6px 38px; background: var(--surface); }
+  .header-search .search-field > .icon { left: 13px; }
+  .on-search .header-row > .header-search { visibility: hidden; }
+}
+
+/* catalog field */
+.catalog-find {
+  margin: 28px 0 0; padding: 16px 18px 14px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+}
+
+/* search screen */
+.search-page { max-width: 820px; }
+.search-page .page-head { margin-bottom: 14px; }
+.search-page .page-head p { margin: 0; }
+.search-status { margin: 16px 2px 0; min-height: 1.5em; font-size: 14px; font-weight: 600; color: var(--text); overflow-wrap: anywhere; }
+.search-results { margin: 0 0 40px; }
+.search-group { margin: 18px 0 0; }
+.search-group-head { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 0 0 10px; font-size: 18px; letter-spacing: -0.01em; }
+.search-group-count { font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: 0; }
+.search-list {
+  list-style: none; margin: 0; padding: 4px 8px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+}
+.search-list > li + li { border-top: 1px solid var(--border); }
+.search-hit {
+  display: grid; grid-template-columns: 22px minmax(0, 1fr); align-items: start; gap: 2px 12px;
+  padding: 12px 8px; border-radius: 10px;
+  color: var(--text); text-decoration: none;
+}
+.search-hit:hover { background: var(--surface-2); color: var(--text); }
+.search-hit > .status, .search-hit > .monogram, .hit-kind-icon { margin-top: 1px; }
+.hit-kind-icon { display: inline-flex; width: 22px; height: 22px; color: var(--accent); }
+.hit-kind-icon .icon { width: 22px; height: 22px; }
+.search-hit > .monogram { border-radius: 7px; }
+.hit-main { display: grid; gap: 3px; min-width: 0; }
+.hit-title { font-weight: 650; overflow-wrap: anywhere; }
+.hit-title .badge { margin-left: 8px; }
+.hit-context { display: flex; flex-wrap: wrap; gap: 0 8px; font-size: 13px; color: var(--muted); }
+.hit-context > span { overflow-wrap: anywhere; }
+.hit-context > span + span::before { content: "·"; margin-right: 8px; color: var(--muted); }
+.hit-status-in_progress { color: var(--progress); font-weight: 650; }
+.hit-status-completed { color: var(--accent); font-weight: 650; }
+.hit-status-known { color: var(--known); font-weight: 650; }
+.hit-summary {
+  font-size: 14px; color: var(--muted); overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden;
+}
+.search-hit mark { background: var(--accent-soft); color: inherit; border-radius: 3px; padding: 0 1px; }
+.search-intro { margin: 8px 0 0; color: var(--muted); }
+.search-intro > p { margin: 0 0 18px; max-width: 62ch; }
+.search-intro .small-h { margin-bottom: 8px; }
+a.chip-link { display: inline-flex; align-items: center; min-height: 36px; padding: 4px 14px; color: var(--text); text-decoration: none; font-weight: 600; }
+a.chip-link:hover { color: var(--text); border-color: var(--accent); background: var(--accent-soft); }
+.search-empty { margin: 18px 0 0; padding: 28px 18px; text-align: center; background: var(--surface); border: 1px dashed var(--border-strong); border-radius: var(--radius); }
+.search-empty > .icon { width: 30px; height: 30px; margin: 0 auto 8px; color: var(--muted); }
+.search-empty p { margin: 0 0 8px; }
+.search-empty .state-title { overflow-wrap: anywhere; }
+.search-empty .btn { margin-top: 8px; }
+
 /* ---------- toasts ---------- */
 
 .toasts {

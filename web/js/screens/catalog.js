@@ -3,11 +3,12 @@
 //
 // Catalog (#/): the one-line promise, a live sample of how a path looks, the
 // available subjects as cards with their knowledge %, "Continue where you left
-// off", the Study Plan shortcut, and the planned library grouped by field.
+// off", the Study Plan shortcut, a search field for the whole library, and the
+// planned library grouped by field.
 
 import { h, clear, formatMinutes, plural, redrawKeepingFocus } from '../dom.js';
 import { icon, STATUS_ICON } from '../icons.js';
-import { button, linkButton, progressBar, errorState, exactPct, monogram } from '../components.js';
+import { button, linkButton, progressBar, errorState, exactPct, monogram, searchBox } from '../components.js';
 import { href } from '../router.js';
 import { getAllSubjects } from '../data.js';
 import { knowledge, latestInProgress, resumeKey, safeColor, textKeys } from '../tree.js';
@@ -35,6 +36,17 @@ export async function renderCatalog(ctx) {
   const planSlot = h('div', { class: 'plan-slot' });
   const sampleSlot = h('div', { class: 'hero-sample', 'aria-hidden': 'true' });
   const grid = h('div', { class: 'subject-grid' });
+  // Library search: typing here opens #/search, which carries on from what was typed.
+  const finder = available.length ? searchBox({
+    id: 'catalog-q',
+    label: 'Find a page or topic',
+    landmark: 'Find a page or topic',
+    placeholder: pages ? `Search ${plural(pages, 'page')}` : 'Search the library',
+    hint: `Searches page titles, topics and summaries in ${plural(available.length, 'subject')}.`,
+    visibleLabel: true,
+    className: 'catalog-find',
+  }) : null;
+  const stopFinder = finder ? ctx.searchLauncher(finder.input) : () => {};
   const heroBtn = available.length ? button('Start learning', { kind: 'primary', iconName: 'play', 'data-fid': 'hero-start', onClick: () => startSomewhere() }) : null;
 
   const el = h('div', { class: 'wrap catalog' },
@@ -56,6 +68,7 @@ export async function renderCatalog(ctx) {
       sampleSlot),
     continueSlot,
     planSlot,
+    finder ? finder.form : null,
     h('section', { class: 'section', 'aria-labelledby': 'avail-h' },
       h('div', { class: 'section-head' },
         h('h2', { id: 'avail-h' }, 'Start a subject'),
@@ -179,7 +192,7 @@ export async function renderCatalog(ctx) {
     ctx.sync.subscribe(drawNudge),
     ctx.planStore.subscribe(drawPlan),
   ];
-  return { el, title: 'Subjects', cleanup: () => unsub.forEach((u) => u()) };
+  return { el, title: 'Subjects', cleanup: () => { stopFinder(); unsub.forEach((u) => u()); } };
 }
 
 function stat(value, label) {

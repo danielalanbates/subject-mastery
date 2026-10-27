@@ -4,7 +4,7 @@ Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved. · help@batesa
 
 A static web app with no build step: plain HTML, CSS and vanilla ES modules. No framework,
 bundler or CDN. It plays and tracks the subject paths described in `../docs/CONTRACT.md`
-(v1 and v2). It runs live at `https://batesai.org/subjectmastery/` and at `/` under any local
+(v1, v2 and the v3 search index). It runs live at `https://batesai.org/subjectmastery/` and at `/` under any local
 static server, because every asset and data URL is relative. The only absolute URLs are
 the site APIs (`/api/subjectmastery/*`, `/api/auth/*`).
 
@@ -17,9 +17,10 @@ web/
   favicon.svg, icons/   mark, 192/512 PNGs (lock-screen artwork, apple-touch-icon), og-image.png (1200x630 social card)
   css/app.css           all styles; colour tokens on :root, dark mode via prefers-color-scheme
   js/
-    app.js              shell: stores, sync, API-probe rule, header/tab bar, sticky knowledge bar, footer, toasts, router, plan runs
+    app.js              shell: stores, sync, API-probe rule, header/tab bar + header search, "/" shortcut, sticky knowledge bar, footer, toasts, router, plan runs
     router.js           hash routes -> {name, …} (pure)
-    data.js             fetch + cache of data/catalog.json, data/subjects/<id>.json, data/lessons/<key>.json
+    data.js             fetch + cache of data/catalog.json, data/subjects/<id>.json, data/lessons/<key>.json, data/search.json (with fallback)
+    search.js           library search: normalise, match, rank, group, highlight; index validation and the in-browser index builder (pure)
     tree.js             nested topic tree: index, knowledge %, resume point, next/prev (pure)
     progress.js         progress model, merge rules, localStorage store, account sync (pure core + factories)
     docsync.js          profile / study-plan documents: local store + whole-document LWW sync
@@ -32,11 +33,12 @@ web/
     image.js            client-side avatar resize to <= 64 KB
     credits.js          lesson "voice" id -> narration credit (voice, dataset, licence); unknown ids fall back to the id
     dom.js, icons.js, components.js   small helpers, inline SVG icon set, shared UI pieces
-    screens/            catalog, topic (subject path), lesson (player), plan-tab, profile-page, account, about, notfound
+    screens/            catalog, topic (subject path), lesson (player), plan-tab, profile-page, account, about, search, notfound
   tests/
     *.test.mjs          unit tests: `node --test 'web/tests/*.test.mjs'`
     make_fixture.py     builds a small contract-shaped fixture site (+ ffmpeg tone MP3s)
     e2e_playwright.py   headless Chromium end-to-end run against the fixture, with screenshots
+    e2e_search.py       headless search check on the fixture (1280 + 390/360 + dark, keyboard, no results, HTML characters, fallback, slow index, long links)
     e2e_goal.py         docs/GOAL.md conformance checks against a real build (or the live site with --base-url)
     make_icons.py, make_og_image.py   re-render icons/*.png with headless Chromium
 ```
@@ -55,8 +57,45 @@ Deploy copies only `index.html`, `favicon.svg`, `icons/`, `css/` and `js/`, plus
 | `#/profile` | Profile with Estimated IQ, featured subjects, and the drag-and-drop plan editor |
 | `#/account` | Google sign-in/out, sync status, preferences, export, reset |
 | `#/about` | What Subject Mastery is and is not, how lessons are made, privacy, credits (narration voices from the lessons' `voice` field), copyright. `#/about?credits` scrolls to the credits |
+| `#/search?q=<text>` | Library search (CONTRACT v3): live results grouped by subject; each page shows its status, minutes and breadcrumb, each topic its page count and % known. `q` is URL-encoded, at most 200 characters |
 
 Every id is checked against the contract regexes before anything is fetched.
+
+## Search
+
+`data/search.json` (CONTRACT v3, written by `pipeline/build.py`) lists every available subject,
+topic and written page with its title, summary, breadcrumb and minutes, but no lesson text:
+about 130 KB (28 KB gzipped) for 316 pages. If a host has no such file, `data.js` builds the
+same list in the browser from the subject files, and the e2e check confirms both lists are
+identical.
+
+- **Where.** A field in the header from 1024 px (a search icon linking to `#/search` below
+  that), a "Find a page or topic" field on the catalog, and `/` from any screen when you are
+  not typing. Typing in the header or catalog field opens `#/search` after 200 ms (Enter opens
+  it at once), and the search screen continues from what you typed. Focusing either field
+  preloads the index, and the hand-over waits for it, so no key is lost even on a slow
+  connection. On `#/search` the header field is
+  hidden but keeps its space.
+- **Matching** (`search.js`). Case, diacritics and punctuation are normalised, `&` counts as
+  "and", apostrophes are dropped (`newton’s` = `newtons`), and common plurals fold (`cells` =
+  `cell`). Every query word must match the start of a word in the entry's title, summary or
+  breadcrumb, or the start of several words run together (`postexilic` finds `Post-Exilic`).
+  Small words (`the`, `of`, …) are ignored unless the query has nothing else, and a one-letter
+  word only matches titles.
+- **Ranking.** An exact title comes first, ignoring small words and plurals. After that the
+  order is: more query words in the title, more in the summary, more whole-word matches,
+  titles that start with the query, subjects before topics before pages, and finally path
+  order. A page that matches only through its breadcrumb (it sits inside a matching topic)
+  ranks last. The best 50 are shown, and the full count is announced.
+- **Screen.** Live results (150 ms debounce) are grouped by subject in the order of each
+  group's best result. A page shows Not started / In progress / Completed / Already known
+  from local progress; a topic or subject shows its page count and % known. Matched words
+  are wrapped in `<mark>`. Every string is a text node, never HTML. The URL follows the query
+  through `history.replaceState`, so Back from a result returns to the same query with focus
+  on the result you opened.
+- **Keyboard and screen readers.** The field has a visible label. `↓` moves into the
+  results, `↑`/`↓` move between them, Enter in the field jumps to the first result, `Esc`
+  returns to the field or clears it. The count line is a polite `role="status"` region.
 
 ## Run locally
 
@@ -67,6 +106,10 @@ python3 web/tests/make_fixture.py ~/Downloads/subject-mastery-build/fixture-dist
 python3 -m http.server 8765 --bind 127.0.0.1 --directory ~/Downloads/subject-mastery-build/fixture-dist
 # open http://127.0.0.1:8765/
 ```
+
+`make_fixture.py` copies `web/icons/`. On a case-insensitive checkout the `.gitignore` rule `Icon?`
+also ignores `icons/`, so a fresh clone may not have it. Recreate the PNGs with
+`python3 web/tests/make_icons.py web/icons` (needs Playwright's Chromium).
 
 The API is absent locally, and the player knows it: on a loopback host (`127.0.0.1`,
 `localhost`, `*.local`) and on non-http pages it never calls `/api/subjectmastery/me`, so the
@@ -85,9 +128,11 @@ the mini-player scrubber all need byte ranges. Cloudflare Pages and the .app's s
 Tests:
 
 ```sh
-node --test 'web/tests/*.test.mjs'                      # unit tests (merge rules, markdown, tree, IQ, plan, router, profile, doc sync)
+node --test 'web/tests/*.test.mjs'                      # unit tests (merge rules, markdown, tree, IQ, plan, router, profile, doc sync, search)
 PLAYWRIGHT_BROWSERS_PATH=~/Downloads/subject-mastery-build/pw-browsers \
   python3 web/tests/e2e_playwright.py ~/Downloads/subject-mastery-build/fixture-dist ~/Downloads/subject-mastery-build/screens
+PLAYWRIGHT_BROWSERS_PATH=~/Downloads/subject-mastery-build/pw-browsers \
+  python3 web/tests/e2e_search.py ~/Downloads/subject-mastery-build/fixture-dist ~/Downloads/subject-mastery-build/screens-search
 ```
 
 GOAL conformance against a real build (serves the folder itself, with Range support; about
@@ -206,6 +251,6 @@ and motion is reduced when `prefers-reduced-motion` is set. `e2e_goal.py` measur
 text contrast on eight screens in both themes, the focus ring on every Tab stop to
 "Already Known", reduced motion, and 360 px overflow.
 
-Size (2026-10-02): about 215 KB of JS (61 KB gzipped) in 26 modules and 54 KB of CSS
-(11 KB gzipped), unminified, no dependencies and no build step. Only
+Size (2026-10-27, with search): about 244 KB of JS (71 KB gzipped) in 28 modules and 60 KB of CSS
+(12 KB gzipped), unminified, no dependencies and no build step. Only
 the system font stack; no CDN, font service, analytics or tracker.

@@ -1,0 +1,27 @@
+# Action and Reaction Pairs
+
+Imagine you are standing on a pair of heavy ice skates on a smooth frozen pond, facing a friend who is also wearing skates. If you reach out and push your friend away, two things happen immediately. Your friend slides backward across the ice. But at the same time, you slide backward too, in the opposite direction. Something pushed back on you. This everyday experience reveals a profound rule about the structure of our physical universe. Forces never happen in isolation. They always come in pairs.
+
+Sir Isaac Newton captured this truth in his third law of motion. The law states that whenever one object exerts a force on a second object, the second object exerts an equal and opposite force on the first. Action and reaction forces always act along the exact same straight line. Generations of students have summarized this rule by saying that for every action, there is an equal and opposite reaction. While catchy, those words can mislead us into thinking one force causes the other in time. In reality, these forces appear simultaneously. Physicists call them action and reaction pairs, or mutual interaction forces.
+
+It is vital to understand that Newton's third law applies universally to all interactions in nature. This includes contact forces, such as your hands pushing a friend or a boot pressing against the floor. But it applies just as strongly to noncontact forces across a distance, such as gravitational and electromagnetic forces. The Earth pulls the Moon toward itself with gravity, and the Moon pulls the Earth toward itself with an equal and opposite gravitational force.
+
+Let us trace how this works with a heavy book resting on a wooden table. Gravity pulls downward on the book with a certain force measured in newtons. Because the book is at rest, the net force on it must be zero. The table pushes upward on the book with an equal force. That upward push from the table and the downward push of the book against the table form an action and reaction pair. One force acts on the book, supporting its weight, while the other force acts on the table.
+
+This distinction is crucial for solving physics problems. Beginners often make the mistake of confusing action and reaction pairs with balanced forces acting on a single object. If two forces act on the same object and cancel each other out, the net force is zero and the object does not accelerate. But action and reaction pairs always involve two different bodies interacting with one another. Because each force in the pair acts on a separate body, they never cancel each other out to create a zero net force on a single object.
+
+Consider a swimmer pushing off the wall of a swimming pool to start a race. The swimmer exerts a muscular backward push against the concrete wall with her feet. By Newton's third law, the wall simultaneously exerts an equal and opposite forward push against the swimmer's feet. It is that forward force from the wall acting on the swimmer that propels her body across the pool. The wall does not move noticeably because its mass is enormous compared to the swimmer, but the force on it is real.
+
+Let us walk through a concrete example with numbers to see how mass changes the resulting motion. Suppose a skater with a mass of fifty kilograms stands facing a much heavier skater with a mass of one hundred kilograms. They place their palms together and push apart. Let us assume the mutual force they exert on one another during the push is three hundred newtons.
+
+For the lighter skater, we take the force of three hundred newtons and divide it by the mass of fifty kilograms. This gives an acceleration of six meters per second squared. For the heavier skater, we take that same mutual force of three hundred newtons and divide it by the mass of one hundred kilograms. This gives an acceleration of three meters per second squared. Both experience the exact same magnitude of force, but the lighter skater accelerates twice as fast as the heavier skater because of that mass difference.
+
+Rockets in space rely entirely on these mutual interaction pairs to travel through the void where there is no air to push against. Inside the engine chamber, burning fuel creates high pressure gases that rush violently out of the exhaust nozzle. The rocket exerts a forward force on those exhaust gases, pushing them backward. By reaction, the exhaust gases exert an equal and forward force on the rocket itself, accelerating it higher into the sky. As you prepare to explore how gravity and the ground interact with solid objects beneath our feet in our next lesson, keep in mind how every touch involves a dual push.
+
+## Key ideas
+
+- Newton's third law states that whenever one object exerts a force on a second object, the second object exerts an equal and opposite force on the first.
+- Action and reaction forces always occur simultaneously, act along the same straight line, and involve two different objects interacting with each other.
+- Newton's third law applies universally to all interactions in nature, including contact forces as well as noncontact gravitational and electromagnetic forces.
+- Because the two forces in an interaction pair act on separate objects, they never cancel each other out to produce a zero net force on a single body.
+- When two objects experience the same interaction force, the object with the smaller mass will undergo a proportionally larger acceleration.

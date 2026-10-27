@@ -1,0 +1,27 @@
+# The Two Problems of Calculus
+
+Imagine you are driving and glance at your speedometer. At that frozen instant, the needle points to sixty miles per hour. This seems simple, but it is actually mysterious. Speed is distance divided by time. Yet, at one single moment, you have traveled zero distance and zero seconds have passed. Dividing zero by zero is mathematically impossible. How can we have a definite speed at one point in time? This mystery introduces the first great challenge of calculus: the tangent line problem, which seeks the slope of a curve.
+
+In algebra, the slope of a straight line is a constant rate of change. You find it by dividing the "rise" by the "run." However, most real-world functions are curves where the steepness changes constantly. To find the exact slope at one specific point, we imagine a tangent line that just touches the curve. We approximate this by drawing a secant line through two nearby points. As we move the second point closer to the first, the secant line's slope approaches the tangent line's slope. This process is called a limit.
+
+Mathematically, we define the change in horizontal values as delta x and the change in the function as delta f. The ratio of these changes is called the difference quotient, and we ask what it approaches as delta x shrinks toward zero. For a function like f of x equals x squared, we calculate the limit of the quantity x plus delta x, all squared, minus x squared, with that whole difference divided by delta x. After simplifying the algebra, we find the slope is two x. At the point where x equals three, the instantaneous slope is exactly six. This process is known as differentiation.
+
+The second great challenge is the area problem. You likely know how to find the area of a rectangle or a triangle, but curves are different. Suppose you want to find the area under the curve y equals x squared between zero and two. Because the height of the curve is always changing, you cannot simply multiply the base by a single height. This problem is the heart of integral calculus. To solve it, we use a strategy of approximation by filling the space under the curve with many thin, vertical rectangles.
+
+If we use only two rectangles, our area estimate is very rough. However, if we increase the number to four, ten, or one hundred, the rectangles fit the curve more tightly. The sum of these rectangular areas gets closer to the true area as the width of each rectangle shrinks toward zero. The area problem is solved by finding the value this sum approaches as the number of rectangles becomes infinite. For the curve y equals x squared from zero to two, the exact area is eight thirds square units.
+
+For much of history, the tangent line problem and the area problem were seen as unrelated. One is about division and steepness, while the other is about multiplication and accumulation. However, in the late seventeenth century, Isaac Newton and Gottfried Wilhelm Leibniz reached a stunning conclusion. They independently discovered that these two problems are actually two sides of the same coin. They realized that finding an area is the inverse of finding a slope. This discovery is called the Fundamental Theorem of Calculus, and it unified the study of change.
+
+This discovery led to a bitter dispute over who deserved credit, but today we honor both mathematicians. Newton, working in England, used a notation with dots above variables to represent rates of change. Leibniz, in Germany, introduced the d y over d x notation for derivatives and the elongated letter s for integrals. Leibniz’s notation is widely used today because it clearly shows the variables involved. Their work allows us to use derivatives to find rates of change and integrals to find total accumulation, forming the basis of modern physics.
+
+Both problems rely on the revolutionary concept of a limit. A limit allows us to describe the behavior of a function as it gets closer and closer to a specific value, even if it never reaches it. It is the mathematical bridge that lets us cross from the finite world of algebra into the infinite world of calculus. By using limits, we can turn approximations into exact values. This conceptual leap transformed mathematics from a study of static shapes into a powerful tool for analyzing a world that is constantly in motion.
+
+Calculus is the language of change, and mastering these two problems opens the door to advanced science and engineering. Whether you are calculating the path of a planet or the rate of a chemical reaction, you are applying the principles of the tangent line and the area under a curve. In our next lesson, we will begin to explore limits, starting with tables of values. We will see how limits provide the rigorous foundation needed to solve these problems with precision, moving beyond simple approximations to find the exact truths of the universe.
+
+## Key ideas
+
+- The tangent line problem is the basis of differential calculus and seeks the instantaneous rate of change at a single point.
+- The area problem is the basis of integral calculus and seeks the total accumulation under a curve using infinite rectangles.
+- The Fundamental Theorem of Calculus proves that differentiation and integration are inverse operations.
+- The concept of a limit is the essential mathematical tool that allows us to solve both problems by approaching a value.
+- Isaac Newton and Gottfried Wilhelm Leibniz independently developed calculus and created the notations we still use today.

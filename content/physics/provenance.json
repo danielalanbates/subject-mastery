@@ -1,0 +1,1099 @@
+{
+  "lessons": {
+    "physics/m01-foundations-of-physical-measurement/l01-models-and-the-scientific-method": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash",
+      "seconds": 49,
+      "words": 765
+    },
+    "physics/m01-foundations-of-physical-measurement/l02-units-and-the-international-system": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3-flash-preview",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash",
+      "seconds": 89,
+      "words": 916
+    },
+    "physics/m01-foundations-of-physical-measurement/l03-significant-figures-and-estimation": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 64,
+      "words": 1077
+    },
+    "physics/m01-foundations-of-physical-measurement/l04-introduction-to-scalars-and-vectors": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [
+        "gemini:gemini-3-flash-preview"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 62,
+      "words": 870
+    },
+    "physics/m02-motion-in-one-dimension/l01-displacement-and-velocity": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-2.5-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-2.5-flash",
+      "seconds": 31,
+      "words": 974
+    },
+    "physics/m02-motion-in-one-dimension/l02-defining-acceleration": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 34,
+      "words": 846
+    },
+    "physics/m02-motion-in-one-dimension/l03-equations-of-constant-acceleration": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash",
+      "seconds": 43,
+      "words": 897
+    },
+    "physics/m02-motion-in-one-dimension/l04-gravity-and-free-fall": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 48,
+      "words": 1037
+    },
+    "physics/m02-motion-in-one-dimension/l05-interpreting-motion-graphs": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 13,
+      "words": 851
+    },
+    "physics/m03-motion-in-two-dimensions/l01-vector-addition-and-components": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-2.5-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [
+        "gemini:gemini-2.5-flash"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-2.5-flash",
+      "seconds": 69,
+      "words": 1090
+    },
+    "physics/m03-motion-in-two-dimensions/l02-physics-of-projectiles": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-2.5-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [
+        "gemini:gemini-2.5-flash"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-2.5-flash",
+      "seconds": 79,
+      "words": 772
+    },
+    "physics/m03-motion-in-two-dimensions/l03-relative-velocity-and-frames": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 21,
+      "words": 807
+    },
+    "physics/m03-motion-in-two-dimensions/l04-uniform-circular-motion": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 18,
+      "words": 964
+    },
+    "physics/m04-forces-and-newtons-laws/l01-inertia-and-the-first-law": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 22,
+      "words": 1077
+    },
+    "physics/m04-forces-and-newtons-laws/l02-force-mass-and-acceleration": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 50,
+      "words": 880
+    },
+    "physics/m04-forces-and-newtons-laws/l03-action-and-reaction-pairs": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 16,
+      "words": 918
+    },
+    "physics/m04-forces-and-newtons-laws/l04-weight-and-normal-force": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 13,
+      "words": 989
+    },
+    "physics/m04-forces-and-newtons-laws/l05-friction-and-drag": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 17,
+      "words": 948
+    },
+    "physics/m04-forces-and-newtons-laws/l06-free-body-reasoning": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 8,
+      "words": 812
+    },
+    "physics/m05-work-and-energy/l01-work-and-kinetic-energy": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 11,
+      "words": 858
+    },
+    "physics/m05-work-and-energy/l02-potential-energy-and-storage": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 11,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 14,
+      "words": 906
+    },
+    "physics/m05-work-and-energy/l03-conservation-of-mechanical-energy": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 1022
+    },
+    "physics/m05-work-and-energy/l04-nonconservative-forces-and-power": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 846
+    },
+    "physics/m05-work-and-energy/l05-energy-in-living-systems": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 32,
+      "words": 845
+    },
+    "physics/m06-momentum-and-rotational-motion/l01-impulse-and-linear-momentum": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 156,
+      "words": 722
+    },
+    "physics/m06-momentum-and-rotational-motion/l02-collisions-and-conservation": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 120,
+      "words": 916
+    },
+    "physics/m06-momentum-and-rotational-motion/l03-rotational-kinematics-and-torque": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 175,
+      "words": 853
+    },
+    "physics/m06-momentum-and-rotational-motion/l04-angular-momentum-and-equilibrium": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 116,
+      "words": 936
+    },
+    "physics/m06-momentum-and-rotational-motion/l05-gravity-and-planetary-orbits": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 137,
+      "words": 928
+    },
+    "physics/m07-fluids-and-thermodynamics/l01-pressure-and-buoyancy": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 8,
+      "words": 812
+    },
+    "physics/m07-fluids-and-thermodynamics/l02-fluid-dynamics-and-flow": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 846
+    },
+    "physics/m07-fluids-and-thermodynamics/l03-temperature-and-ideal-gases": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 9,
+      "words": 752
+    },
+    "physics/m07-fluids-and-thermodynamics/l04-heat-transfer-and-calorimetry": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 8,
+      "words": 726
+    },
+    "physics/m07-fluids-and-thermodynamics/l05-laws-of-thermodynamics": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 761
+    },
+    "physics/m08-oscillations-and-waves/l01-simple-harmonic-motion": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 5,
+      "words": 765
+    },
+    "physics/m08-oscillations-and-waves/l02-wave-properties-and-behavior": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 41,
+      "words": 777
+    },
+    "physics/m08-oscillations-and-waves/l03-interference-and-standing-waves": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 12,
+      "words": 882
+    },
+    "physics/m08-oscillations-and-waves/l04-physics-of-sound": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 9,
+      "words": 899
+    },
+    "physics/m08-oscillations-and-waves/l05-resonance-and-music": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 689
+    },
+    "physics/m09-electricity-and-circuits/l01-electric-charge-and-fields": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 84,
+      "words": 964
+    },
+    "physics/m09-electricity-and-circuits/l02-electric-potential-and-voltage": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 126,
+      "words": 865
+    },
+    "physics/m09-electricity-and-circuits/l03-current-resistance-and-ohms-law": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 87,
+      "words": 698
+    },
+    "physics/m09-electricity-and-circuits/l04-series-and-parallel-circuits": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 57,
+      "words": 952
+    },
+    "physics/m09-electricity-and-circuits/l05-electrical-safety-and-power": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 64,
+      "words": 831
+    },
+    "physics/m10-magnetism-and-electromagnetism/l01-magnetic-fields-and-forces": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 110,
+      "words": 1091
+    },
+    "physics/m10-magnetism-and-electromagnetism/l02-electromagnets-and-motors": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 178,
+      "words": 808
+    },
+    "physics/m10-magnetism-and-electromagnetism/l03-electromagnetic-induction": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 132,
+      "words": 813
+    },
+    "physics/m10-magnetism-and-electromagnetism/l04-generators-and-transformers": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 69,
+      "words": 814
+    },
+    "physics/m10-magnetism-and-electromagnetism/l05-electromagnetic-spectrum": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 130,
+      "words": 740
+    },
+    "physics/m11-light-and-optics/l01-reflection-and-mirrors": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 20,
+      "words": 989
+    },
+    "physics/m11-light-and-optics/l02-refraction-and-lenses": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 968
+    },
+    "physics/m11-light-and-optics/l03-optical-instruments-and-vision": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 11,
+      "words": 906
+    },
+    "physics/m11-light-and-optics/l04-wave-optics-and-diffraction": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 11,
+      "words": 1001
+    },
+    "physics/m12-modern-physics/l01-special-relativity": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 111,
+      "words": 768
+    },
+    "physics/m12-modern-physics/l02-photons-and-quantum-effects": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 61,
+      "words": 782
+    },
+    "physics/m12-modern-physics/l03-bohr-atom": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 122,
+      "words": 805
+    },
+    "physics/m12-modern-physics/l04-radioactivity-and-the-nucleus": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 46,
+      "words": 1045
+    },
+    "physics/m12-modern-physics/l05-fission-fusion-and-cosmology": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 96,
+      "words": 1047
+    }
+  },
+  "outline": {
+    "date": "2026-10-27",
+    "hand_reviewed": false,
+    "model": "gemini:gemini-3-flash-preview",
+    "raw": "outline-raw-physics-20261027-103359.json"
+  }
+}

@@ -1,0 +1,23 @@
+# Free Body Reasoning
+
+Imagine you are pushing a heavy wooden crate across a rough floor. How do you know exactly how hard to push to keep it moving at a steady pace? Physics gives us a powerful mental toolkit for answering this question by isolating an object and mapping every single influence acting upon it. In our previous study of friction and drag, we examined how opposing forces resist motion. Now, we pull all those pieces together into a unified method called free body reasoning, which allows us to predict the exact motion of any system.
+
+A free body diagram is simply a sketch of your system drawn completely separate from everything else in the universe. You represent the object, whether it is a falling apple or a soaring airplane, as a simple dot or box. From that center point, you draw arrows pointing in the exact directions of every real force acting on the object. You do not draw the forces the object exerts on other things. You only draw the forces that the world exerts on this specific object.
+
+Let us build a clear mental picture of this process. Suppose a box rests on a table, and you pull it to the right with a rope while friction resists your pull. Your drawing shows the box as a central point. Gravity pulls straight down toward the center of the earth. The table pushes straight up with the normal force. Your hand pulls to the right with the tension force. Friction pushes to the left. Every single one of these arrows represents a real push or pull that has a specific magnitude and direction.
+
+Once you have identified all the forces, you translate them into a net force equation. The net force is the vector sum of all individual forces acting on the object. In the horizontal direction, for instance, you take the rightward pull and subtract the leftward friction force. According to Newton's second law, this net horizontal force equals the mass of the object multiplied by its horizontal acceleration. If your pull exactly matches the opposing friction, the net force is zero, the acceleration is zero, and the box moves at a constant velocity.
+
+Let us walk through a worked example with numbers to see how this works in practice. Imagine a crate with a mass of ten kilograms resting on a level floor. You pull it horizontally with a tension force of forty newtons. A constant friction force of ten newtons opposes your motion. To find the acceleration of the crate, we first set up our horizontal forces. The rightward tension is forty newtons, and the leftward friction is ten newtons. We subtract the opposing force from the pulling force, giving us a net force of thirty newtons pointing to the right.
+
+Next, we apply the relation between force, mass, and acceleration. We take our net force of thirty newtons and divide it by the mass of ten kilograms. Thirty divided by ten gives us three. Therefore, the acceleration of the crate is three meters per second squared to the right. Take a moment to do a mental sense check on this result. An acceleration of three meters per second squared means that every second, the speed of the crate increases by three meters per second. That is a brisk, manageable increase in speed, which matches our everyday experience of pulling a heavy box across a room.
+
+Free body reasoning is not limited to horizontal surfaces. If the same crate were placed on a tilted ramp, we would simply tilt our coordinate axes to match the incline. Gravity would still point straight down toward the center of the earth, but we would break that gravity vector into two components. One component would point directly into the ramp, balanced entirely by the normal force. The other component would point down along the slope, driving the crate to slide unless friction or your hand held it in place. By carefully breaking forces into components along our chosen axes, we can solve complex mechanical problems with absolute confidence.
+
+As we master the art of balancing forces and calculating accelerations, we open the door to a deeper question about what happens when forces push objects over a distance. Understanding how forces do work on a system will lead us directly into our next exploration of energy and kinetic motion.
+
+## Key ideas
+- A free body diagram isolates a single system and displays all external forces as directional arrows originating from a central point.
+- The net force on a system is the vector sum of all individual forces acting upon it in both horizontal and vertical directions.
+- Solving an unknown value requires setting up an equation where the net force equals the mass multiplied by the acceleration.
+- Tilting coordinate axes to align with inclined planes simplifies the task of breaking angled forces into manageable components.

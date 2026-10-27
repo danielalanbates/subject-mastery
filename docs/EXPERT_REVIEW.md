@@ -26,7 +26,15 @@ Before this review, Mathematics and the five drafted subjects (Chemistry, Comput
 | Church History | 66 | 82 | 1 | 6 | 7 | 88 |
 | **All** | **389** | **428** | **4** | **23** | **18** | **442** |
 
-Applied edits by kind: 252 factual, 42 numeric, 14 quotation, 43 text-to-speech, 55 coherence, 35 clarity, 1 contract. No lesson needed a full rewrite.
+After v0.2.0 shipped, the same process ran on the new Calculus (59 lessons) and Physics (58 lessons) drafts. It proposed 138 edits and the verifier accepted all of them, corrected 3 replacements and found 9 more problems, so 147 corrections were applied (Calculus 90, Physics 57). They include:
+- the Bernoulli pressure arithmetic: 144,000 pascals, not 142,000
+- an energy budget whose efficiency figure contradicted the climb it was meant to power
+- a claim that doubling kinetic energy doubles molecular speed (it multiplies speed by about 1.41)
+- 28 Calculus phrasings where the voice would have read a lone variable "a" as "uh"
+
+These two subjects stay planned until they are narrated.
+
+Applied edits by kind, for the six v0.2.0 subjects: 252 factual, 42 numeric, 14 quotation, 43 text-to-speech, 55 coherence, 35 clarity, 1 contract. No lesson needed a full rewrite.
 
 Representative corrections:
 

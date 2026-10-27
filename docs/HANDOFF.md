@@ -14,7 +14,7 @@ Read AGENTS.md, GOAL.md and CONTRACT.md first. Published lesson IDs are permanen
 | Subjects | Economics, Biology, World History, Biblical Studies & Theology, Mathematics, Computer Science, Chemistry, Psychology, US History, Church History |
 | Review | Every available lesson has an expert-review record in provenance: the pilots by hand on 2026-10-02, the other six on 2026-10-27 (docs/EXPERT_REVIEW.md, 442 verified corrections) |
 | New in 0.2.0 | Library-wide search (`#/search`, `data/search.json`, contract v3); five subjects activated; Mathematics recorded; web/icons tracked again (the old `Icon?` ignore rule hid it) |
-| Drafts | Calculus and Physics: outlines plus free-model lesson drafts (see CONTENT_STATUS.md). Status planned. They have not had expert review or narration yet |
+| Next subjects | Calculus (59) and Physics (58) are fully drafted by free models and expert-reviewed (147 verified corrections). Status planned. They are not narrated yet |
 | Source | Public `danielalanbates/subject-mastery`, release v0.2.0. The canonical checkout is in Google Drive Code. Local paths are only in the ignored LOCAL_PATHS.md |
 | Website integration | Private `danielalanbates/website`, branch `subjectmastery` (PR #12). Deployed as a static-only update; see VALIDATION.md for the deployment id |
 | Mac beta | /Applications/Subject Mastery.app 0.2.0 bundles the full site and recordings (APFS clones). Older builds are archived in the build workspace |
@@ -30,7 +30,7 @@ Read AGENTS.md, GOAL.md and CONTRACT.md first. Published lesson IDs are permanen
 
 | Task | Steps |
 |---|---|
-| Activate Calculus and Physics | Finish any missing drafts (`pipeline/write_lessons.py calculus physics`), then run tools/review_workflow.js for both and apply with tools/apply_review.py. Render with tools/render_rest.sh calculus physics, then Whisper-check a few lessons. Then set the catalog status to available, rebuild, test and deploy |
+| Activate Calculus and Physics | Drafts and expert review are done. Render with `tools/render_rest.sh calculus physics` (about 117 × 30 s), then Whisper-check a few lessons with tools/asr_diff.py. Set both catalog statuses to available, rebuild, run the tests and the GOAL suite, then deploy following site-integration/README.md and refresh the .app |
 | More subjects | Add a spec to pipeline/subjects.py: a reference syllabus, plus guidance that includes the voice rules (lone "a", colons, four-digit numbers, symbols). Then run outline.py, fix the titles by hand, and run write_lessons.py. Keep the subject planned until it has been reviewed and narrated |
 | Player change | Edit web/ and run the node tests, e2e_search.py and the relevant e2e_goal.py groups. Rebuild, deploy and refresh the .app |
 | Deploy | See site-integration/README.md. Rebuild the website from branch `subjectmastery` (or whatever branch production was last deployed from; check `wrangler pages deployment list`). Stage the dist with `cp -cR`, build, run live_diff.py (every non-Subject-Mastery file must be SAME), then deploy. /play and /dev/play are NOT live (an earlier deploy dropped them). Do not stage the Antediluvia build unless Daniel has approved that build |

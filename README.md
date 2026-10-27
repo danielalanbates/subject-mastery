@@ -5,7 +5,7 @@ Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved.
 
 Learn a subject by listening or reading. Skip what you already know, resume where you stopped, and build a personal Study Plan that plays subjects in your chosen order.
 
-**Version 0.2.0:** 639 available lessons in ten subjects, every one recorded with the John voice (about 73 hours). Every lesson has been read in full by an expert AI reviewer, and every correction was independently re-checked before it was applied. A library-wide search finds any subject, topic or page. Calculus and Physics are drafted as the next step up and stay unpublished until they are reviewed and narrated. The catalog lists 44 subject paths for future expansion. Content starts at college foundations and moves on to intermediate material.
+**Version 0.2.0:** 639 available lessons in ten subjects, every one recorded with the John voice (about 73 hours). Every lesson has been read in full by an expert AI reviewer, and every correction was independently re-checked before it was applied. A library-wide search finds any subject, topic or page. Calculus and Physics (117 more lessons) are drafted and expert-reviewed as the next step up. They stay unpublished until they are narrated. The catalog lists 44 subject paths for future expansion. Content starts at college foundations and moves on to intermediate material.
 
 | Subject | Available pages | Recorded hours |
 |---|---:|---:|
@@ -99,7 +99,7 @@ The canonical source lives in the Google Drive Code workspace. Build artifacts, 
 
 ## Next development paths
 
-- Review and narrate the Calculus and Physics drafts, then activate them (see docs/HANDOFF.md).
+- Narrate the reviewed Calculus and Physics lessons, then activate them (see docs/HANDOFF.md).
 - Add quick knowledge checks and spaced repetition to distinguish completion from retained understanding.
 - Expand the catalog into deeper college and advanced paths, preserving published lesson IDs.
 - Add offline web caching and accessible mathematical notation alongside spoken explanations.

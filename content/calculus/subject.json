@@ -1,0 +1,389 @@
+{
+  "id": "calculus",
+  "title": "Calculus",
+  "tagline": "Limits, derivatives, integrals and the mathematics of change.",
+  "description": "Single-variable calculus made for listening, picking up where the Mathematics path ends. It builds limits and continuity, then the derivative and its rules, the applications of derivatives, the integral and the fundamental theorem of calculus, techniques and applications of integration, differential equations, and sequences and series. Every expression is spoken in words and every worked example is walked through step by step.",
+  "category": "Mathematics & Computing",
+  "color": "#a40e26",
+  "modules": [
+    {
+      "id": "m01-functions-and-limits-foundations",
+      "title": "Functions and Limits Foundations",
+      "summary": "Learners will understand the foundational concepts of functions and the two core problems that calculus aims to solve.",
+      "lessons": [
+        {
+          "id": "l01-functions-and-graphs-in-words",
+          "title": "Functions and Graphs in Words",
+          "summary": "Learners will review function behavior and graph descriptions using verbal language instead of visual aids."
+        },
+        {
+          "id": "l02-two-problems-of-calculus",
+          "title": "The Two Problems of Calculus",
+          "summary": "Learners will explore the tangent line problem and the area problem that define the field of calculus."
+        },
+        {
+          "id": "l03-intuitive-limits-and-tables",
+          "title": "Intuitive Limits and Tables",
+          "summary": "Learners will understand how to estimate the limit of a function using numerical tables of values."
+        },
+        {
+          "id": "l04-one-sided-limits-and-existence",
+          "title": "One Sided Limits and Existence",
+          "summary": "Learners will determine when a limit exists by comparing the behavior from the left and right sides."
+        }
+      ]
+    },
+    {
+      "id": "m02-limits-and-continuity",
+      "title": "Limits and Continuity",
+      "summary": "Learners will master the calculation of limits and the formal definition of continuity.",
+      "lessons": [
+        {
+          "id": "l01-limit-laws-and-algebraic-evaluation",
+          "title": "Limit Laws and Algebraic Evaluation",
+          "summary": "Learners will apply the basic laws of limits and use factoring to resolve indeterminate forms."
+        },
+        {
+          "id": "l02-squeeze-theorem-and-sine",
+          "title": "The Squeeze Theorem and Sine",
+          "summary": "Learners will use the squeeze theorem to find the limit of sine of x over x as x approaches zero."
+        },
+        {
+          "id": "l03-continuity-and-the-intermediate-value",
+          "title": "Continuity and the Intermediate Value",
+          "summary": "Learners will define continuity at a point and apply the intermediate value theorem to find roots."
+        },
+        {
+          "id": "l04-limits-at-infinity-and-asymptotes",
+          "title": "Limits at Infinity and Asymptotes",
+          "summary": "Learners will analyze the end behavior of functions and identify horizontal asymptotes."
+        },
+        {
+          "id": "l05-precise-epsilon-delta-definition",
+          "title": "The Precise Epsilon Delta Definition",
+          "summary": "Learners will understand the formal definition of a limit using the language of epsilon and delta."
+        }
+      ]
+    },
+    {
+      "id": "m03-derivative",
+      "title": "The Derivative",
+      "summary": "Learners will understand the derivative as a rate of change and apply basic differentiation rules.",
+      "lessons": [
+        {
+          "id": "l01-derivative-as-a-limit",
+          "title": "The Derivative as a Limit",
+          "summary": "Learners will define the derivative as the limit of average rates of change over an interval."
+        },
+        {
+          "id": "l02-derivative-as-a-function",
+          "title": "The Derivative as a Function",
+          "summary": "Learners will understand how the derivative creates a new function representing the slope at any point."
+        },
+        {
+          "id": "l03-power-and-constant-multiple-rules",
+          "title": "Power and Constant Multiple Rules",
+          "summary": "Learners will apply the power rule and constant multiple rule to find derivatives of polynomials."
+        },
+        {
+          "id": "l04-product-and-quotient-rules",
+          "title": "Product and Quotient Rules",
+          "summary": "Learners will differentiate products and quotients of functions using standardized formulas."
+        },
+        {
+          "id": "l05-velocity-and-acceleration",
+          "title": "Velocity and Acceleration",
+          "summary": "Learners will use derivatives to model the physical motion of objects over time."
+        }
+      ]
+    },
+    {
+      "id": "m04-differentiation-rules",
+      "title": "Differentiation Rules",
+      "summary": "Learners will apply advanced differentiation rules to trigonometric, exponential, and inverse functions.",
+      "lessons": [
+        {
+          "id": "l01-trigonometric-derivatives",
+          "title": "Trigonometric Derivatives",
+          "summary": "Learners will find the derivatives of the sine, cosine, tangent, and secant functions."
+        },
+        {
+          "id": "l02-chain-rule",
+          "title": "The Chain Rule",
+          "summary": "Learners will differentiate composite functions by applying the chain rule step by step."
+        },
+        {
+          "id": "l03-implicit-differentiation",
+          "title": "Implicit Differentiation",
+          "summary": "Learners will find the derivative of functions where the dependent variable is not isolated."
+        },
+        {
+          "id": "l04-exponential-and-natural-logarithm",
+          "title": "Exponential and Natural Logarithm Derivatives",
+          "summary": "Learners will differentiate functions involving the natural constant e and the natural logarithm."
+        },
+        {
+          "id": "l05-inverse-functions-and-inverse-trigonometry",
+          "title": "Inverse Functions and Inverse Trigonometry",
+          "summary": "Learners will find the derivatives of inverse functions and the inverse trigonometric functions."
+        }
+      ]
+    },
+    {
+      "id": "m05-applications-of-derivatives",
+      "title": "Applications of Derivatives",
+      "summary": "Learners will use derivatives to solve real-world problems involving rates, optimization, and graph behavior.",
+      "lessons": [
+        {
+          "id": "l01-related-rates-and-linear-approximation",
+          "title": "Related Rates and Linear Approximation",
+          "summary": "Learners will solve problems involving multiple changing variables and use differentials to approximate values."
+        },
+        {
+          "id": "l02-maxima-minima-and-extreme-values",
+          "title": "Maxima, Minima and Extreme Values",
+          "summary": "Learners will identify absolute and local extrema using the extreme value theorem."
+        },
+        {
+          "id": "l03-mean-value-theorem",
+          "title": "The Mean Value Theorem",
+          "summary": "Learners will understand the relationship between the average rate of change and the instantaneous derivative."
+        },
+        {
+          "id": "l04-derivative-tests-and-graph-shape",
+          "title": "Derivative Tests and Graph Shape",
+          "summary": "Learners will use the first and second derivatives to determine concavity and find points of inflection."
+        },
+        {
+          "id": "l05-indeterminate-forms-and-l-hopital",
+          "title": "Indeterminate Forms and L'Hôpital's Rule",
+          "summary": "Learners will use L Hopital's rule to evaluate limits of indeterminate forms like zero over zero."
+        },
+        {
+          "id": "l06-optimization-and-newtons-method",
+          "title": "Optimization and Newton's Method",
+          "summary": "Learners will solve optimization problems and use Newtons method to approximate roots of equations."
+        }
+      ]
+    },
+    {
+      "id": "m06-integral",
+      "title": "The Integral",
+      "summary": "Learners will understand the relationship between differentiation and integration through the fundamental theorem.",
+      "lessons": [
+        {
+          "id": "l01-antiderivatives-and-riemann-sums",
+          "title": "Antiderivatives and Riemann Sums",
+          "summary": "Learners will understand the concept of the antiderivative and the approximation of area using rectangles."
+        },
+        {
+          "id": "l02-definite-integral",
+          "title": "The Definite Integral",
+          "summary": "Learners will define the definite integral as the limit of a Riemann sum."
+        },
+        {
+          "id": "l03-fundamental-theorem-of-calculus",
+          "title": "The Fundamental Theorem of Calculus",
+          "summary": "Learners will understand the dual nature of the theorem and the historical contributions of Newton and Leibniz."
+        },
+        {
+          "id": "l04-integration-by-substitution",
+          "title": "Integration by Substitution",
+          "summary": "Learners will use the substitution method to reverse the chain rule during integration."
+        },
+        {
+          "id": "l05-exponential-and-logarithmic-integrals",
+          "title": "Exponential and Logarithmic Integrals",
+          "summary": "Learners will evaluate integrals that result in natural logarithms or exponential functions."
+        }
+      ]
+    },
+    {
+      "id": "m07-applications-of-integration",
+      "title": "Applications of Integration",
+      "summary": "Learners will apply integration to calculate areas, volumes, and physical properties like work.",
+      "lessons": [
+        {
+          "id": "l01-area-between-curves",
+          "title": "Area Between Curves",
+          "summary": "Learners will calculate the area of regions bounded by two or more functions."
+        },
+        {
+          "id": "l02-volumes-by-slicing-and-disks",
+          "title": "Volumes by Slicing and Disks",
+          "summary": "Learners will find the volume of solids of revolution using the disk and washer methods."
+        },
+        {
+          "id": "l03-volumes-by-cylindrical-shells",
+          "title": "Volumes by Cylindrical Shells",
+          "summary": "Learners will use the shell method to find volumes of revolution around a vertical axis."
+        },
+        {
+          "id": "l04-arc-length-and-physical-applications",
+          "title": "Arc Length and Physical Applications",
+          "summary": "Learners will calculate the length of a curve and apply integration to find work and mass."
+        },
+        {
+          "id": "l05-growth-and-decay-revisited",
+          "title": "Growth and Decay Revisited",
+          "summary": "Learners will use integration to solve problems involving exponential growth and radioactive decay."
+        }
+      ]
+    },
+    {
+      "id": "m08-techniques-of-integration",
+      "title": "Techniques of Integration",
+      "summary": "Learners will master advanced techniques for evaluating complex integrals.",
+      "lessons": [
+        {
+          "id": "l01-integration-by-parts",
+          "title": "Integration by Parts",
+          "summary": "Learners will use the integration by parts formula to evaluate integrals of products."
+        },
+        {
+          "id": "l02-trigonometric-integrals-and-substitution",
+          "title": "Trigonometric Integrals and Substitution",
+          "summary": "Learners will evaluate integrals involving powers of trigonometric functions and use trigonometric substitution."
+        },
+        {
+          "id": "l03-integration-by-partial-fractions",
+          "title": "Integration by Partial Fractions",
+          "summary": "Learners will decompose rational functions into simpler fractions to facilitate integration."
+        },
+        {
+          "id": "l04-numerical-integration-and-simpsons-rule",
+          "title": "Numerical Integration and Simpson's Rule",
+          "summary": "Learners will approximate integrals using the midpoint trapezoidal and Simpsons rules."
+        },
+        {
+          "id": "l05-evaluating-improper-integrals",
+          "title": "Evaluating Improper Integrals",
+          "summary": "Learners will determine the convergence of integrals with infinite limits or discontinuous integrands."
+        }
+      ]
+    },
+    {
+      "id": "m09-differential-equations",
+      "title": "Differential Equations",
+      "summary": "Learners will understand how to model change using differential equations and numerical methods.",
+      "lessons": [
+        {
+          "id": "l01-introduction-to-differential-equations",
+          "title": "Introduction to Differential Equations",
+          "summary": "Learners will define differential equations and verify solutions to basic initial value problems."
+        },
+        {
+          "id": "l02-slope-fields-and-eulers-method",
+          "title": "Slope Fields and Euler's Method",
+          "summary": "Learners will understand how to visualize and approximate solutions to differential equations."
+        },
+        {
+          "id": "l03-solving-separable-equations",
+          "title": "Solving Separable Equations",
+          "summary": "Learners will use the method of separation of variables to solve first order equations."
+        },
+        {
+          "id": "l04-logistic-growth-equation",
+          "title": "The Logistic Growth Equation",
+          "summary": "Learners will model population growth with carrying capacity using the logistic equation."
+        },
+        {
+          "id": "l05-first-order-linear-equations",
+          "title": "First Order Linear Equations",
+          "summary": "Learners will solve linear differential equations using an integrating factor."
+        }
+      ]
+    },
+    {
+      "id": "m10-sequences-and-series",
+      "title": "Sequences and Series",
+      "summary": "Learners will determine the convergence or divergence of infinite sequences and series.",
+      "lessons": [
+        {
+          "id": "l01-sequences-and-their-limits",
+          "title": "Sequences and Their Limits",
+          "summary": "Learners will find the limit of an infinite sequence and determine if it converges."
+        },
+        {
+          "id": "l02-infinite-series-and-geometric-series",
+          "title": "Infinite Series and Geometric Series",
+          "summary": "Learners will understand the sum of an infinite series and the properties of geometric series."
+        },
+        {
+          "id": "l03-divergence-and-integral-tests",
+          "title": "Divergence and Integral Tests",
+          "summary": "Learners will use the divergence test and the integral test to check for series convergence."
+        },
+        {
+          "id": "l04-comparison-and-alternating-series",
+          "title": "Comparison and Alternating Series",
+          "summary": "Learners will apply comparison tests and the alternating series test to determine convergence."
+        },
+        {
+          "id": "l05-ratio-and-root-tests",
+          "title": "Ratio and Root Tests",
+          "summary": "Learners will use the ratio and root tests to analyze the convergence of complex series."
+        }
+      ]
+    },
+    {
+      "id": "m11-power-series",
+      "title": "Power Series",
+      "summary": "Learners will represent functions as infinite power series and use them for approximation.",
+      "lessons": [
+        {
+          "id": "l01-power-series-and-convergence",
+          "title": "Power Series and Convergence",
+          "summary": "Learners will find the radius and interval of convergence for a power series."
+        },
+        {
+          "id": "l02-working-with-power-series",
+          "title": "Working with Power Series",
+          "summary": "Learners will differentiate and integrate power series to find representations for new functions."
+        },
+        {
+          "id": "l03-taylor-and-maclaurin-series",
+          "title": "Taylor and Maclaurin Series",
+          "summary": "Learners will construct Taylor and Maclaurin series for common transcendental functions."
+        },
+        {
+          "id": "l04-using-taylor-series",
+          "title": "Using Taylor Series",
+          "summary": "Learners will apply Taylor series to approximate functions and estimate the remainder error."
+        }
+      ]
+    },
+    {
+      "id": "m12-parametric-and-polar-curves",
+      "title": "Parametric and Polar Curves",
+      "summary": "Learners will extend calculus to parametric and polar coordinate systems.",
+      "lessons": [
+        {
+          "id": "l01-parametric-curves-and-motion",
+          "title": "Parametric Curves and Motion",
+          "summary": "Learners will describe curves defined by parametric equations and find their derivatives."
+        },
+        {
+          "id": "l02-calculus-with-parametric-curves",
+          "title": "Calculus with Parametric Curves",
+          "summary": "Learners will calculate the area under a parametric curve and its arc length."
+        },
+        {
+          "id": "l03-polar-coordinates-and-graphs",
+          "title": "Polar Coordinates and Graphs",
+          "summary": "Learners will understand the polar coordinate system and describe polar graphs in words."
+        },
+        {
+          "id": "l04-polar-area-and-calculus",
+          "title": "Polar Area and Calculus",
+          "summary": "Learners will use integration to find the area of regions bounded by polar curves."
+        },
+        {
+          "id": "l05-future-of-higher-mathematics",
+          "title": "The Future of Higher Mathematics",
+          "summary": "Learners will look ahead to multivariable calculus, linear algebra, and advanced differential equations."
+        }
+      ]
+    }
+  ]
+}

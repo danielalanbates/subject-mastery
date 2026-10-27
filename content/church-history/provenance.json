@@ -3,6 +3,14 @@
     "church-history/m01-the-apostolic-church/l01-jewish-world-of-jesus": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -14,6 +22,16 @@
     "church-history/m01-the-apostolic-church/l02-pentecost-and-the-jerusalem-church": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -25,6 +43,14 @@
     "church-history/m01-the-apostolic-church/l03-paul-and-the-gentile-mission": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -36,6 +62,14 @@
     "church-history/m01-the-apostolic-church/l04-early-worship-and-leadership": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 8,
@@ -47,6 +81,14 @@
     "church-history/m01-the-apostolic-church/l05-parting-of-the-ways": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -58,6 +100,12 @@
     "church-history/m02-the-church-of-the-martyrs/l01-persecution-under-rome": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -69,6 +117,15 @@
     "church-history/m02-the-church-of-the-martyrs/l02-the-apologists": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -80,6 +137,12 @@
     "church-history/m02-the-church-of-the-martyrs/l03-gnosticism-and-marcion": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -91,6 +154,14 @@
     "church-history/m02-the-church-of-the-martyrs/l04-rule-of-faith-bishops-and-canon": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -102,6 +173,12 @@
     "church-history/m02-the-church-of-the-martyrs/l05-irenaeus-tertullian-origen-and-cyprian": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -113,6 +190,14 @@
     "church-history/m03-constantine-and-the-imperial-church/l01-constantine-and-the-edict-of-milan": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -124,6 +209,14 @@
     "church-history/m03-constantine-and-the-imperial-church/l02-arius-and-the-council-of-nicaea": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -135,6 +228,14 @@
     "church-history/m03-constantine-and-the-imperial-church/l03-athanasius-cappadocians-and-constantinople": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -146,6 +247,15 @@
     "church-history/m03-constantine-and-the-imperial-church/l04-rise-of-monasticism": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -157,6 +267,14 @@
     "church-history/m04-fathers-councils-and-divisions/l01-augustine-of-hippo": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -168,6 +286,14 @@
     "church-history/m04-fathers-councils-and-divisions/l02-jerome-ambrose-and-chrysostom": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 6,
@@ -179,6 +305,14 @@
     "church-history/m04-fathers-councils-and-divisions/l03-ephesus-and-chalcedon": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 11,
@@ -190,6 +324,14 @@
     "church-history/m04-fathers-councils-and-divisions/l04-churches-beyond-chalcedon": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 2,
@@ -201,6 +343,14 @@
     "church-history/m04-fathers-councils-and-divisions/l05-fall-of-rome-benedict-and-gregory": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -212,6 +362,14 @@
     "church-history/m05-the-early-medieval-church/l01-missions-to-ireland-britain-and-germany": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -223,6 +381,14 @@
     "church-history/m05-the-early-medieval-church/l02-the-papacy-and-charlemagne": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
@@ -234,6 +400,12 @@
     "church-history/m05-the-early-medieval-church/l03-christians-under-islam": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -245,6 +417,14 @@
     "church-history/m05-the-early-medieval-church/l04-church-of-the-east-in-asia": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -256,6 +436,12 @@
     "church-history/m05-the-early-medieval-church/l05-byzantium-and-iconoclasm": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -267,6 +453,14 @@
     "church-history/m05-the-early-medieval-church/l06-cyril-methodius-and-the-slavs": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -278,6 +472,14 @@
     "church-history/m06-the-high-medieval-church/l01-monastic-and-papal-reform": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 5,
@@ -289,6 +491,14 @@
     "church-history/m06-the-high-medieval-church/l02-east-west-schism-of-1054": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -300,6 +510,14 @@
     "church-history/m06-the-high-medieval-church/l03-the-crusades": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -311,6 +529,12 @@
     "church-history/m06-the-high-medieval-church/l04-francis-dominic-and-the-friars": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -322,6 +546,12 @@
     "church-history/m06-the-high-medieval-church/l05-universities-and-scholasticism": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -333,6 +563,14 @@
     "church-history/m06-the-high-medieval-church/l06-dissent-and-the-inquisition": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -344,6 +582,14 @@
     "church-history/m07-the-late-medieval-church/l01-avignon-and-the-western-schism": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -355,6 +601,14 @@
     "church-history/m07-the-late-medieval-church/l02-wycliffe-hus-and-dissent": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -366,6 +620,14 @@
     "church-history/m07-the-late-medieval-church/l03-mystics-and-lay-devotion": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -377,6 +639,14 @@
     "church-history/m07-the-late-medieval-church/l04-renaissance-humanism-and-erasmus": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -388,6 +658,14 @@
     "church-history/m07-the-late-medieval-church/l05-fall-of-constantinople-and-russia": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -399,6 +677,14 @@
     "church-history/m08-the-protestant-reformations/l01-luther-and-wittenberg": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 12,
@@ -410,6 +696,12 @@
     "church-history/m08-the-protestant-reformations/l02-the-lutheran-reformation-spreads": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -421,6 +713,14 @@
     "church-history/m08-the-protestant-reformations/l03-zwingli-and-reformed-beginnings": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -432,6 +732,14 @@
     "church-history/m08-the-protestant-reformations/l04-calvin-and-geneva": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -443,6 +751,14 @@
     "church-history/m08-the-protestant-reformations/l05-anabaptists-and-radical-reformers": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -454,6 +770,14 @@
     "church-history/m08-the-protestant-reformations/l06-english-and-scottish-reformations": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -465,6 +789,14 @@
     "church-history/m09-catholic-reform-and-the-confessional-age/l01-council-of-trent": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -476,6 +808,12 @@
     "church-history/m09-catholic-reform-and-the-confessional-age/l02-jesuits-and-catholic-spirituality": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 0,
@@ -487,6 +825,12 @@
     "church-history/m09-catholic-reform-and-the-confessional-age/l03-catholic-missions-worldwide": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -498,6 +842,14 @@
     "church-history/m09-catholic-reform-and-the-confessional-age/l04-wars-of-religion-and-westphalia": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -509,6 +861,14 @@
     "church-history/m09-catholic-reform-and-the-confessional-age/l05-puritans-and-pietists": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -520,6 +880,14 @@
     "church-history/m09-catholic-reform-and-the-confessional-age/l06-orthodoxy-under-ottomans-and-tsars": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -531,6 +899,14 @@
     "church-history/m10-enlightenment-revival-and-missions/l01-science-enlightenment-and-faith": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -542,6 +918,14 @@
     "church-history/m10-enlightenment-revival-and-missions/l02-wesley-and-methodism": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -553,6 +937,12 @@
     "church-history/m10-enlightenment-revival-and-missions/l03-the-great-awakenings": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
@@ -564,6 +954,15 @@
     "church-history/m10-enlightenment-revival-and-missions/l04-the-modern-missionary-movement": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 5
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
@@ -575,6 +974,15 @@
     "church-history/m10-enlightenment-revival-and-missions/l05-slavery-abolition-and-the-black-church": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -586,6 +994,14 @@
     "church-history/m10-enlightenment-revival-and-missions/l06-vatican-i-and-catholic-revival": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -597,6 +1013,12 @@
     "church-history/m11-the-church-in-the-modern-world/l01-liberal-theology-and-its-critics": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 2,
@@ -608,6 +1030,14 @@
     "church-history/m11-the-church-in-the-modern-world/l02-birth-of-pentecostalism": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -619,6 +1049,14 @@
     "church-history/m11-the-church-in-the-modern-world/l03-fundamentalist-modernist-controversy": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -630,6 +1068,12 @@
     "church-history/m11-the-church-in-the-modern-world/l04-churches-under-nazism-and-communism": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -641,6 +1085,14 @@
     "church-history/m11-the-church-in-the-modern-world/l05-the-ecumenical-movement": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -652,6 +1104,15 @@
     "church-history/m11-the-church-in-the-modern-world/l06-civil-rights-and-the-church": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "quotation"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 0,
@@ -663,6 +1124,15 @@
     "church-history/m12-global-christianity-today/l01-second-vatican-council": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -674,6 +1144,14 @@
     "church-history/m12-global-christianity-today/l02-evangelicals-and-lausanne": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -685,6 +1163,15 @@
     "church-history/m12-global-christianity-today/l03-christianity-in-africa": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -696,6 +1183,14 @@
     "church-history/m12-global-christianity-today/l04-christianity-in-latin-america": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 7
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 8,
@@ -707,6 +1202,14 @@
     "church-history/m12-global-christianity-today/l05-christianity-in-asia": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 7,
@@ -718,6 +1221,12 @@
     "church-history/m12-global-christianity-today/l06-the-church-today": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,

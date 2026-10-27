@@ -69,7 +69,9 @@ if [ ! -f "$SITE/index.html" ]; then
   exit 2
 fi
 # Dereference audio links: the installed app must remain usable independently of Downloads.
-cp -RL "$SITE" "$APP/Contents/Resources/Site"
+# -c makes APFS clones (independent files that share blocks until changed), so bundling the
+# audio costs almost no disk; plain copies are the fallback on other filesystems.
+cp -cRL "$SITE" "$APP/Contents/Resources/Site" 2>/dev/null || { rm -rf "$APP/Contents/Resources/Site"; cp -RL "$SITE" "$APP/Contents/Resources/Site"; }
 /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $(date +%Y%m%d.%H%M)" "$APP/Contents/Info.plist"
 printf 'APPL????' > "$APP/Contents/PkgInfo"
 codesign --force --sign - --timestamp=none "$APP"

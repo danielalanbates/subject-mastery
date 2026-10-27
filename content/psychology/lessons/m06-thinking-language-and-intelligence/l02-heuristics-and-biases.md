@@ -17,7 +17,7 @@ Ultimately, understanding these biases does not mean we can simply turn them off
 ## Key ideas
 
 - Heuristics are mental shortcuts that allow for quick decision-making, though they can lead to systematic cognitive biases supported by extensive experimental evidence.
-- The availability heuristic leads us to judge the frequency of events based on memory vividness, while the representativeness heuristic often results in the conjunction fallacy where we ignore statistical base rates.
+- The availability heuristic leads us to judge the frequency of events based on memory vividness, while the representativeness heuristic can lead to the conjunction fallacy and to neglect of statistical base rates.
 - Anchoring-and-adjustment describes our tendency to rely too heavily on an initial piece of information, leading to insufficient adjustments in our final judgments.
 - Framing, confirmation bias, and overconfidence demonstrate how context and our existing beliefs significantly influence our decisions and certainty.
 - Many psychologists view these shortcuts as evolutionarily efficient rules of thumb that prioritize survival speed over absolute logical precision.

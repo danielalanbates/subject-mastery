@@ -4,7 +4,7 @@ Imagine you are standing in front of a long, disorganized shelf of books. You wa
 
 Let us start with selection sort. Imagine our shelf contains four books with heights of three, one, four, and two. Selection sort works by scanning the entire list to find the smallest item. You look at three, one, four, and two, find that one is the smallest, and swap it with the first book in the list. Now, the first position is correct. Next, you look at the remaining unsorted books to find the smallest among them. You find two and swap it with the second book. You repeat this process until the entire list is sorted.
 
-Selection sort is consistent in its performance. It always performs theta of n squared comparisons, regardless of the initial order of the items. However, it is efficient in terms of movement because it only performs big O of n swaps. One important detail is that basic selection sort is not stable. This means it does not necessarily preserve the original relative order of equal elements.
+Selection sort is consistent in its performance. It always performs about the same number of comparisons, roughly half of n squared, regardless of the initial order of the items. However, it is efficient in terms of movement because it only performs big O of n swaps. One important detail is that basic selection sort is not stable. This means it does not necessarily preserve the original relative order of equal elements.
 
 Insertion sort takes a different approach, one that feels more like how you might organize a hand of playing cards. You start with the first card and consider it sorted. Then, you look at the second card. If it is smaller than the first, you slide it to the left. If it is larger, it stays put. Now you have two sorted cards. You move to the third card and pull it out of the line. You compare it to the cards you have already sorted, moving backward until you find the right spot to insert it. You keep doing this for every card in the deck until the whole hand is in order.
 
@@ -16,7 +16,7 @@ While these two methods are simple, they serve as a perfect foundation for under
 
 ## Key ideas
 
-- Selection sort functions by repeatedly finding the smallest element in the unsorted portion of a list and swapping it into its correct position, performing theta of n squared comparisons but only big O of n swaps.
+- Selection sort functions by repeatedly finding the smallest element in the unsorted portion of a list and swapping it into its correct position, performing roughly half of n squared comparisons whatever the starting order, but only big O of n swaps.
 - Insertion sort is an adaptive algorithm that builds a sorted list one item at a time, achieving big O of n efficiency when the input is already sorted.
 - Both algorithms are in-place, requiring only big O of one extra memory, and are primarily useful for small datasets or as subroutines in larger, hybrid sorting algorithms.
 - Insertion sort is stable, preserving the relative order of equal elements, whereas the basic implementation of selection sort is not.

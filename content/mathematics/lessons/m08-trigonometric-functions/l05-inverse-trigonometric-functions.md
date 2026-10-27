@@ -22,4 +22,4 @@ Understanding these inverse operations allows us to move fluidly between side le
 - The domain of arc sine and arc cosine is the interval from negative one to one, while the domain of arc tangent is all real numbers.
 - The notation arc sine, arc cosine, and arc tangent refers to inverse functions, not the reciprocal functions cosecant, secant, or cotangent.
 - Composition of a function and its inverse returns the original input only when that input lies within the restricted domain or range.
-- To find all solutions to a trigonometric equation, add integer multiples of the function's period to the principal value obtained from the inverse function.
+- To find all solutions to a trigonometric equation, find every solution in one cycle, starting from the principal value, then add integer multiples of the function's period to each.

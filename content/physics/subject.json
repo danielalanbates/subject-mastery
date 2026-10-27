@@ -1,0 +1,384 @@
+{
+  "id": "physics",
+  "title": "Physics",
+  "tagline": "Motion, energy, waves, electricity, magnetism and the modern physics of atoms and light.",
+  "description": "A full introductory physics path at college level, using algebra and trigonometry rather than calculus. It moves from measurement and motion through forces, energy, momentum, rotation and gravity, then fluids, heat, waves and sound, electricity, magnetism and light, and ends with relativity, quantum ideas and nuclear physics. Equations are spoken in words, and worked examples go step by step.",
+  "category": "Natural Sciences",
+  "color": "#1b4f9c",
+  "modules": [
+    {
+      "id": "m01-foundations-of-physical-measurement",
+      "title": "Foundations of Physical Measurement",
+      "summary": "Learners will understand the fundamental tools of physics including measurement systems, unit conversion, and the distinction between scalars and vectors.",
+      "lessons": [
+        {
+          "id": "l01-models-and-the-scientific-method",
+          "title": "Models and the Scientific Method",
+          "summary": "Understand how physicists use simplified models to represent reality and the importance of experimental verification."
+        },
+        {
+          "id": "l02-units-and-the-international-system",
+          "title": "Units and the International System",
+          "summary": "Learn to use the metric system and perform unit conversions using conversion factors to ensure consistency."
+        },
+        {
+          "id": "l03-significant-figures-and-estimation",
+          "title": "Significant Figures and Estimation",
+          "summary": "Master the rules for precision in measurement and how to make quick order of magnitude estimates."
+        },
+        {
+          "id": "l04-introduction-to-scalars-and-vectors",
+          "title": "Introduction to Scalars and Vectors",
+          "summary": "Distinguish between quantities that only have magnitude and those that require a specific direction."
+        }
+      ]
+    },
+    {
+      "id": "m02-motion-in-one-dimension",
+      "title": "Motion in One Dimension",
+      "summary": "Learners will understand how to describe objects moving along a straight line using position, velocity, and acceleration.",
+      "lessons": [
+        {
+          "id": "l01-displacement-and-velocity",
+          "title": "Displacement and Velocity",
+          "summary": "Understand the difference between distance and displacement and how to calculate average and instantaneous velocity."
+        },
+        {
+          "id": "l02-defining-acceleration",
+          "title": "Defining Acceleration",
+          "summary": "Learn how acceleration describes the rate of change of velocity over time in a single direction."
+        },
+        {
+          "id": "l03-equations-of-constant-acceleration",
+          "title": "Equations of Constant Acceleration",
+          "summary": "Apply the four kinematic equations to predict the future position and speed of an accelerating object."
+        },
+        {
+          "id": "l04-gravity-and-free-fall",
+          "title": "Gravity and Free Fall",
+          "summary": "Analyze the motion of objects falling under the influence of gravity at nine point eight meters per second squared."
+        },
+        {
+          "id": "l05-interpreting-motion-graphs",
+          "title": "Interpreting Motion Graphs",
+          "summary": "Describe the physical meaning of slopes and areas on position versus time and velocity versus time graphs."
+        }
+      ]
+    },
+    {
+      "id": "m03-motion-in-two-dimensions",
+      "title": "Motion in Two Dimensions",
+      "summary": "Learners will understand how to analyze complex motion by breaking vectors into independent horizontal and vertical components.",
+      "lessons": [
+        {
+          "id": "l01-vector-addition-and-components",
+          "title": "Vector Addition and Components",
+          "summary": "Use trigonometry to break vectors into parts and add them together to find a resultant vector."
+        },
+        {
+          "id": "l02-physics-of-projectiles",
+          "title": "The Physics of Projectiles",
+          "summary": "Understand how an object moves through the air by treating horizontal and vertical motion separately."
+        },
+        {
+          "id": "l03-relative-velocity-and-frames",
+          "title": "Relative Velocity and Frames",
+          "summary": "Calculate how the velocity of an object appears different depending on the observer's own motion."
+        },
+        {
+          "id": "l04-uniform-circular-motion",
+          "title": "Uniform Circular Motion",
+          "summary": "Explain why an object moving in a circle at a constant speed is still accelerating toward the center."
+        }
+      ]
+    },
+    {
+      "id": "m04-forces-and-newtons-laws",
+      "title": "Forces and Newton's Laws",
+      "summary": "Learners will understand the relationship between force, mass, and motion using the three fundamental laws of dynamics.",
+      "lessons": [
+        {
+          "id": "l01-inertia-and-the-first-law",
+          "title": "Inertia and the First Law",
+          "summary": "Understand that an object will maintain its state of motion unless acted upon by a net external force."
+        },
+        {
+          "id": "l02-force-mass-and-acceleration",
+          "title": "Force, Mass and Acceleration",
+          "summary": "Apply the principle that the net force on an object equals its mass times its acceleration."
+        },
+        {
+          "id": "l03-action-and-reaction-pairs",
+          "title": "Action and Reaction Pairs",
+          "summary": "Explain how every force exerted by one object results in an equal and opposite force on the first."
+        },
+        {
+          "id": "l04-weight-and-normal-force",
+          "title": "Weight and Normal Force",
+          "summary": "Distinguish between mass and weight and understand how surfaces push back against objects."
+        },
+        {
+          "id": "l05-friction-and-drag",
+          "title": "Friction and Drag",
+          "summary": "Analyze the forces that oppose motion between surfaces and through fluids like air."
+        },
+        {
+          "id": "l06-free-body-reasoning",
+          "title": "Free Body Reasoning",
+          "summary": "Learn to identify all forces acting on a system and solve for unknown values using net force equations."
+        }
+      ]
+    },
+    {
+      "id": "m05-work-and-energy",
+      "title": "Work and Energy",
+      "summary": "Learners will understand how energy is transferred through work and conserved within closed systems.",
+      "lessons": [
+        {
+          "id": "l01-work-and-kinetic-energy",
+          "title": "Work and Kinetic Energy",
+          "summary": "Calculate the energy transferred by a force and how it changes an object's energy of motion."
+        },
+        {
+          "id": "l02-potential-energy-and-storage",
+          "title": "Potential Energy and Storage",
+          "summary": "Understand how energy is stored in gravitational fields and elastic materials like springs."
+        },
+        {
+          "id": "l03-conservation-of-mechanical-energy",
+          "title": "Conservation of Mechanical Energy",
+          "summary": "Predict the behavior of systems where the sum of kinetic and potential energy remains constant."
+        },
+        {
+          "id": "l04-nonconservative-forces-and-power",
+          "title": "Nonconservative Forces and Power",
+          "summary": "Account for energy lost to heat and calculate the rate at which work is performed in watts."
+        },
+        {
+          "id": "l05-energy-in-living-systems",
+          "title": "Energy in Living Systems",
+          "summary": "Explore how the human body converts chemical energy into work and the efficiency of energy use."
+        }
+      ]
+    },
+    {
+      "id": "m06-momentum-and-rotational-motion",
+      "title": "Momentum and Rotational Motion",
+      "summary": "Learners will understand the conservation of momentum in collisions and the mechanics of spinning objects.",
+      "lessons": [
+        {
+          "id": "l01-impulse-and-linear-momentum",
+          "title": "Impulse and Linear Momentum",
+          "summary": "Understand how the product of mass and velocity changes when a force is applied over time."
+        },
+        {
+          "id": "l02-collisions-and-conservation",
+          "title": "Collisions and Conservation",
+          "summary": "Apply the law of conservation of momentum to predict the outcomes of elastic and inelastic impacts."
+        },
+        {
+          "id": "l03-rotational-kinematics-and-torque",
+          "title": "Rotational Kinematics and Torque",
+          "summary": "Describe spinning motion using angular quantities and understand how forces cause rotation."
+        },
+        {
+          "id": "l04-angular-momentum-and-equilibrium",
+          "title": "Angular Momentum and Equilibrium",
+          "summary": "Explain why spinning objects resist changes to their orientation and how to achieve static balance."
+        },
+        {
+          "id": "l05-gravity-and-planetary-orbits",
+          "title": "Gravity and Planetary Orbits",
+          "summary": "Apply Newton's law of universal gravitation to understand the motion of planets and satellites."
+        }
+      ]
+    },
+    {
+      "id": "m07-fluids-and-thermodynamics",
+      "title": "Fluids and Thermodynamics",
+      "summary": "Learners will understand the behavior of liquids and gases and the laws governing heat and temperature.",
+      "lessons": [
+        {
+          "id": "l01-pressure-and-buoyancy",
+          "title": "Pressure and Buoyancy",
+          "summary": "Understand how fluids exert pressure and why objects float or sink based on displaced volume."
+        },
+        {
+          "id": "l02-fluid-dynamics-and-flow",
+          "title": "Fluid Dynamics and Flow",
+          "summary": "Apply Bernoulli's equation to understand how the speed of a fluid relates to its internal pressure."
+        },
+        {
+          "id": "l03-temperature-and-ideal-gases",
+          "title": "Temperature and Ideal Gases",
+          "summary": "Relate the macroscopic properties of gases like pressure and volume to the kinetic energy of molecules."
+        },
+        {
+          "id": "l04-heat-transfer-and-calorimetry",
+          "title": "Heat Transfer and Calorimetry",
+          "summary": "Calculate the energy required to change the temperature or phase of a substance using specific heat."
+        },
+        {
+          "id": "l05-laws-of-thermodynamics",
+          "title": "The Laws of Thermodynamics",
+          "summary": "Understand the conservation of energy in thermal systems and the inevitable increase of entropy."
+        }
+      ]
+    },
+    {
+      "id": "m08-oscillations-and-waves",
+      "title": "Oscillations and Waves",
+      "summary": "Learners will understand periodic motion and how energy travels through space via mechanical waves.",
+      "lessons": [
+        {
+          "id": "l01-simple-harmonic-motion",
+          "title": "Simple Harmonic Motion",
+          "summary": "Analyze the repetitive back and forth motion of springs and pendulums."
+        },
+        {
+          "id": "l02-wave-properties-and-behavior",
+          "title": "Wave Properties and Behavior",
+          "summary": "Identify the frequency, wavelength, and speed of transverse and longitudinal waves."
+        },
+        {
+          "id": "l03-interference-and-standing-waves",
+          "title": "Interference and Standing Waves",
+          "summary": "Understand what happens when waves overlap and how fixed boundaries create stable patterns."
+        },
+        {
+          "id": "l04-physics-of-sound",
+          "title": "The Physics of Sound",
+          "summary": "Explore how pressure waves are perceived as pitch and loudness and the effects of source motion."
+        },
+        {
+          "id": "l05-resonance-and-music",
+          "title": "Resonance and Music",
+          "summary": "Explain how instruments use standing waves in strings and air columns to produce specific notes."
+        }
+      ]
+    },
+    {
+      "id": "m09-electricity-and-circuits",
+      "title": "Electricity and Circuits",
+      "summary": "Learners will understand the forces between electric charges and the principles of direct current circuits.",
+      "lessons": [
+        {
+          "id": "l01-electric-charge-and-fields",
+          "title": "Electric Charge and Fields",
+          "summary": "Understand Coulomb's law and how invisible fields exert forces on stationary charges."
+        },
+        {
+          "id": "l02-electric-potential-and-voltage",
+          "title": "Electric Potential and Voltage",
+          "summary": "Learn how work is done to move charges and how voltage represents electric potential energy per charge."
+        },
+        {
+          "id": "l03-current-resistance-and-ohms-law",
+          "title": "Current, Resistance and Ohm's Law",
+          "summary": "Describe the flow of charge through materials and how resistors limit that flow."
+        },
+        {
+          "id": "l04-series-and-parallel-circuits",
+          "title": "Series and Parallel Circuits",
+          "summary": "Calculate total resistance and current in different wiring configurations."
+        },
+        {
+          "id": "l05-electrical-safety-and-power",
+          "title": "Electrical Safety and Power",
+          "summary": "Understand how energy is consumed in the home and the function of fuses and circuit breakers."
+        }
+      ]
+    },
+    {
+      "id": "m10-magnetism-and-electromagnetism",
+      "title": "Magnetism and Electromagnetism",
+      "summary": "Learners will understand the relationship between moving charges and magnetic fields.",
+      "lessons": [
+        {
+          "id": "l01-magnetic-fields-and-forces",
+          "title": "Magnetic Fields and Forces",
+          "summary": "Understand how magnets and moving charges interact within magnetic fields."
+        },
+        {
+          "id": "l02-electromagnets-and-motors",
+          "title": "Electromagnets and Motors",
+          "summary": "Explain how electric currents are used to create magnetic fields and mechanical motion."
+        },
+        {
+          "id": "l03-electromagnetic-induction",
+          "title": "Electromagnetic Induction",
+          "summary": "Understand how a changing magnetic field can generate an electric current in a wire."
+        },
+        {
+          "id": "l04-generators-and-transformers",
+          "title": "Generators and Transformers",
+          "summary": "Learn how mechanical energy is converted to electricity and how voltage is stepped up or down."
+        },
+        {
+          "id": "l05-electromagnetic-spectrum",
+          "title": "The Electromagnetic Spectrum",
+          "summary": "Identify the different types of electromagnetic waves from radio to gamma rays."
+        }
+      ]
+    },
+    {
+      "id": "m11-light-and-optics",
+      "title": "Light and Optics",
+      "summary": "Learners will understand the behavior of light as both a ray and a wave.",
+      "lessons": [
+        {
+          "id": "l01-reflection-and-mirrors",
+          "title": "Reflection and Mirrors",
+          "summary": "Apply the law of reflection to understand how images form in flat and curved mirrors."
+        },
+        {
+          "id": "l02-refraction-and-lenses",
+          "title": "Refraction and Lenses",
+          "summary": "Understand how light bends when entering new materials and how lenses focus light."
+        },
+        {
+          "id": "l03-optical-instruments-and-vision",
+          "title": "Optical Instruments and Vision",
+          "summary": "Explain how the human eye works and how telescopes and microscopes magnify images."
+        },
+        {
+          "id": "l04-wave-optics-and-diffraction",
+          "title": "Wave Optics and Diffraction",
+          "summary": "Observe how light interferes with itself and bends around corners, proving its wave nature."
+        }
+      ]
+    },
+    {
+      "id": "m12-modern-physics",
+      "title": "Modern Physics",
+      "summary": "Learners will understand the breakdown of classical physics and the foundations of relativity and quantum mechanics.",
+      "lessons": [
+        {
+          "id": "l01-special-relativity",
+          "title": "Special Relativity",
+          "summary": "Understand how time and length change for observers moving near the speed of light."
+        },
+        {
+          "id": "l02-photons-and-quantum-effects",
+          "title": "Photons and Quantum Effects",
+          "summary": "Explore the photoelectric effect and the idea that light comes in discrete packets of energy."
+        },
+        {
+          "id": "l03-bohr-atom",
+          "title": "The Bohr Atom",
+          "summary": "Understand the model of the atom where electrons exist in specific, quantized energy levels."
+        },
+        {
+          "id": "l04-radioactivity-and-the-nucleus",
+          "title": "Radioactivity and the Nucleus",
+          "summary": "Learn about the forces holding the nucleus together and the process of radioactive decay."
+        },
+        {
+          "id": "l05-fission-fusion-and-cosmology",
+          "title": "Fission, Fusion and Cosmology",
+          "summary": "Understand how mass is converted to energy in stars and the origins of the universe."
+        }
+      ]
+    }
+  ]
+}

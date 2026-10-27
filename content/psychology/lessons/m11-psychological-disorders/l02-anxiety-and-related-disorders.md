@@ -14,7 +14,7 @@ What causes these conditions? Current research points to a complex interplay of 
 
 Psychological factors also matter. Cognitive perspectives emphasize how our interpretations of events influence our anxiety levels. If someone consistently interprets ambiguous situations as threatening, they are more likely to experience chronic anxiety.
 
-Regarding treatment, first-line psychosocial interventions, such as cognitive behavioral therapy with exposure, have strong empirical support. For OCD, a specific type of therapy called exposure and response prevention is the gold standard. Pharmacological treatments, such as selective serotonin reuptake inhibitors, also show moderate to large effect sizes in multiple randomized controlled trials.
+Regarding treatment, first-line psychosocial interventions, such as cognitive behavioral therapy with exposure, have strong empirical support. For OCD, a specific type of therapy called exposure and response prevention is the gold standard. Pharmacological treatments, such as selective serotonin reuptake inhibitors, also outperform placebo in multiple randomized controlled trials, though the average advantage is small to moderate.
 
 It is important to remember that these conditions are not a sign of weakness. They are complex health challenges. If you or someone you know is struggling, please reach out for professional help. In the United States, you can call or text nine eight eight to reach the Suicide and Crisis Lifeline for support. Understanding these patterns is a vital step in learning how to support mental health.
 

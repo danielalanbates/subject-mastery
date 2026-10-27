@@ -604,6 +604,24 @@ def drag(r, source, target_box_fn, at='end'):
     page.mouse.move(src['x'] + src['width'] / 2 + 20, src['y'] + src['height'] / 2 + 20, steps=4)
     t = target_box_fn()
     y = t['y'] + t['height'] - 10 if at == 'end' else t['y'] + 4
+    # Drop on the part of the target a learner can see: above the phone tab bar and outside
+    # dnd.js's auto-scroll band (which would move the target away mid-drop). A ten-subject
+    # palette pushes the drop zone's lower edge under the tab bar at 390 px.
+    vh = page.viewport_size['height']
+    floor = vh - page.evaluate("() => { const t = document.querySelector('.tabbar'); "
+                               "const h = t && getComputedStyle(t).display !== 'none' ? t.offsetHeight : 0; "
+                               "return h + 80; }")   # 72 px is EDGE in dnd.js
+    if at == 'end' and y > floor:
+        # The end of the target is hidden: hold the pointer in the bottom auto-scroll band, as a
+        # learner would, until the page has scrolled the target's end into view.
+        page.mouse.move(t['x'] + t['width'] / 2, vh - 30, steps=10)
+        for _ in range(60):
+            page.wait_for_timeout(50)
+            t = target_box_fn()
+            if t['y'] + t['height'] - 10 <= floor:
+                break
+        y = t['y'] + t['height'] - 10
+    y = max(t['y'] + 4, min(y, floor))
     page.mouse.move(t['x'] + t['width'] / 2, y, steps=10)
     page.wait_for_timeout(120)
     page.mouse.up()
@@ -635,7 +653,9 @@ def g_plan(r, A, B):
     show_editor(r)
     zone = lambda: r.page.locator('.plan-drop').bounding_box()   # noqa: E731
     for _ in range(3):
+        show_editor(r)   # a drop near the viewport edge auto-scrolls; start each drag from the same view
         drag(r, r.page.get_by_role('button', name=f'Add {A.title} to the plan', exact=True), zone)
+    show_editor(r)
     drag(r, r.page.get_by_role('button', name=f'Add {B.title} to the plan', exact=True), zone)
     got = blocks(r)
     groups = r.page.locator('.plan-group').all_text_contents()

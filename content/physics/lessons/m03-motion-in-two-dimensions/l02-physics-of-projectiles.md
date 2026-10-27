@@ -1,0 +1,26 @@
+# The Physics of Projectiles
+
+Imagine throwing a baseball. It leaves your hand, arcs through the air, and then falls into a catcher's mitt. Or picture a cannonball fired from a fortress, tracing a grand curve before it impacts the ground. This common type of motion, where an object is launched and then moves under the sole influence of gravity (ignoring air resistance), is called projectile motion. The object itself is a projectile, and the path it follows is its trajectory.
+
+In our last lesson, we explored how to break down a vector, like a velocity, into its independent horizontal and vertical components. This concept is fundamental to understanding projectile motion. For a projectile, these parts of its motion are entirely separate; they don't affect each other. Once launched, the only significant force is gravity, pulling straight down. With no horizontal component to gravity, horizontal velocity remains constant (ignoring air resistance). Vertically, the projectile experiences constant downward acceleration due to gravity, exactly the free-fall motion we've studied.
+
+To analyze projectile motion, we treat it as two independent one-dimensional problems: constant velocity horizontally, and constant acceleration vertically due to gravity (roughly nine point eight meters per second squared downwards). For a projectile launched at an angle, we decompose its initial velocity into horizontal and vertical components using trigonometry. If launched with initial speed 'v' at angle 'theta' above horizontal, its initial horizontal velocity is 'v' multiplied by cosine of 'theta', and initial vertical velocity is 'v' multiplied by sine of 'theta'.
+
+The combination of constant horizontal velocity and constantly changing vertical velocity due to gravity gives the projectile's trajectory a characteristic parabolic shape. This path is symmetrical about its highest point, the apex. As the projectile rises, its vertical velocity decreases until it momentarily reaches zero at the apex, then it increases in the downward direction as the projectile falls. Throughout this, the horizontal velocity remains unchanged.
+
+Three important quantities describe projectile motion: time of flight, maximum height, and horizontal range. Time of flight is the total duration in the air, determined by vertical motion. Maximum height is the greatest vertical distance reached, also determined by vertical motion. Horizontal range is the total horizontal distance traveled, depending on constant horizontal velocity and time of flight. On level ground, neglecting air resistance, a launch angle of forty-five degrees achieves the greatest horizontal range.
+
+Consider a classic demonstration: drop a ball from a table while simultaneously rolling an identical ball horizontally off the edge. Surprisingly, both balls hit the floor at the same time. The horizontal motion of the second ball does not affect how quickly gravity pulls it down. Both have the same initial vertical velocity (zero) and experience the same downward acceleration due to gravity. Their vertical motion is identical.
+
+Let's consider an example: a ball thrown horizontally off a forty-five meter high cliff at twenty meters per second. We'll find its time in air and horizontal range, ignoring air resistance. For time, we use vertical motion: initial vertical velocity is zero, vertical displacement is forty-five meters downwards, and gravity's acceleration is approximately ten meters per second squared. Because the initial vertical velocity is zero, forty-five meters equals one half times ten meters per second squared times the time squared. That makes the time squared equal to nine, so the time in the air is three seconds.
+
+Now, for the horizontal distance traveled. Since there's no horizontal acceleration, the horizontal velocity remains constant at twenty meters per second. The horizontal distance is simply this constant horizontal velocity multiplied by the three seconds of time in the air. This gives us a horizontal distance of sixty meters. So, the ball lands sixty meters away from the base of the cliff, three seconds after being thrown.
+
+This method of separating motion into independent horizontal and vertical components is incredibly powerful. It allows us to analyze complex two-dimensional motion using simpler one-dimensional equations we've already mastered. Whether it's a golf ball flying, a person jumping, or water spraying, the same principles apply. In our next lesson, we'll explore how motion is perceived by different observers, introducing relative velocity and frames of reference.
+
+## Key ideas
+- Projectile motion describes the movement of an object launched into the air, moving solely under the influence of gravity, with air resistance typically neglected.
+- Projectile motion can be analyzed by treating its horizontal and vertical components of motion independently.
+- The initial velocity of a projectile launched at an angle can be decomposed into horizontal and vertical components using trigonometry.
+- The trajectory of a projectile is a parabola, symmetrical about its highest point, resulting from constant horizontal velocity and constant vertical acceleration.
+- On level ground and neglecting air resistance, a launch angle of forty-five degrees yields the greatest horizontal range.

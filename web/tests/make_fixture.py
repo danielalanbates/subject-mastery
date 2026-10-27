@@ -11,6 +11,8 @@ that follows docs/CONTRACT.md:
     audio (speech fallback), one has no text (coming soon).
   - biology (available, v2 nested): a topic with a sub-topic, to exercise the tree.
   - a handful of planned subjects in several categories.
+  - data/search.json (CONTRACT v3), the same shape and order pipeline/build.py writes.
+    Two summaries carry diacritics and HTML characters to exercise search and escaping.
   - short, quiet sine-tone MP3s made with ffmpeg (-ac 1 -ar 22050 -b:a 40k).
 Never run this inside Google Drive; the destination should be under ~/Downloads.
 """
@@ -103,6 +105,28 @@ def tone(path, seconds, freq):
     ], check=True)
 
 
+def search_index(subjects):
+    """data/search.json as pipeline/build.py search_index() writes it: per available subject, per
+    topic node and per lesson with text, in path order (a node, its own lessons, then its sub-topics)."""
+    entries = []
+    for subj in subjects:
+        entries.append({'key': subj['id'], 'kind': 'subject', 'title': subj['title'], 'summary': subj.get('tagline', ''),
+                        'breadcrumb': []})
+
+        def walk(node, path, crumbs):
+            for ls in node.get('lessons', []):
+                if ls['hasText']:
+                    entries.append({'key': ls['key'], 'kind': 'lesson', 'title': ls['title'], 'summary': ls.get('summary', ''),
+                                    'breadcrumb': crumbs, 'minutes': ls['minutes']})
+            for m in node.get('modules', []):
+                key = '/'.join(path + [m['id']])
+                entries.append({'key': key, 'kind': 'topic', 'title': m['title'], 'summary': m.get('summary', ''),
+                                'breadcrumb': crumbs})
+                walk(m, path + [m['id']], crumbs + [m['title']])
+        walk(subj, [subj['id']], [subj['title']])
+    return {'version': 1, 'entries': entries}
+
+
 def main(dest):
     dest = os.path.abspath(os.path.expanduser(dest))
     if 'GoogleDrive' in dest or 'CloudStorage' in dest:
@@ -142,7 +166,7 @@ def main(dest):
         'modules': [
             {'id': 'm01-foundations', 'title': 'Foundations', 'summary': 'The questions every economy must answer.',
              'lessons': [lesson_entry('economics/m01-foundations/l01-scarcity-and-choice', 'Why every choice has a cost.'),
-                         lesson_entry('economics/m01-foundations/l02-opportunity-cost', 'The value of the road not taken.')]},
+                         lesson_entry('economics/m01-foundations/l02-opportunity-cost', 'The value of the road not taken, <b>&</b> why "free" is never free.')]},
             {'id': 'm02-markets', 'title': 'Markets', 'summary': 'How prices coordinate millions of decisions.',
              'lessons': [lesson_entry('economics/m02-markets/l01-supply-and-demand', 'Two curves that set a price.'),
                          lesson_entry('economics/m02-markets/l02-price-signals', 'What prices tell buyers and sellers.')]},
@@ -158,7 +182,7 @@ def main(dest):
                          lesson_entry('biology/m01-cells/l02-the-cell', 'The smallest living unit.')],
              'modules': [{'id': 't01-membranes', 'title': 'Membranes', 'summary': 'The boundary of the cell.',
                           'lessons': [lesson_entry('biology/m01-cells/t01-membranes/l01-lipids', 'A self-assembling wall.')]}]},
-            {'id': 'm02-genetics', 'title': 'Genetics', 'summary': 'How traits pass on.',
+            {'id': 'm02-genetics', 'title': 'Genetics', 'summary': 'How traits pass on, from Mendel’s peas in Brünn to DNA.',
              'lessons': [lesson_entry('biology/m02-genetics/l01-dna', 'The molecule of heredity.')]},
         ],
     }
@@ -194,6 +218,8 @@ def main(dest):
     for s in (economics, biology):
         with open(os.path.join(data, 'subjects', f"{s['id']}.json"), 'w') as f:
             json.dump(s, f, indent=1)
+    with open(os.path.join(data, 'search.json'), 'w', encoding='utf-8') as f:
+        json.dump(search_index((economics, biology)), f, ensure_ascii=False, separators=(',', ':'))
 
     for key, (title, md, secs, has_text) in lessons.items():
         if not has_text:

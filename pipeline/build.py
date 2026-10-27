@@ -11,6 +11,7 @@ build.py - assemble the static site in ~/Downloads/subject-mastery-build/dist/.
 dist/ gets:
   * a copy of the repo's web/ folder (read-only for us; the player is built elsewhere), minus web/tests
   * data/catalog.json, data/subjects/<id>.json, data/lessons/<lesson key>.json  (CONTRACT.md v1 + v2)
+  * data/search.json, the library search index (CONTRACT.md v3)
   * audio/<lesson key>.mp3 (hard links to ~/Downloads/subject-mastery-build/audio when possible)
 
 Every id, key, colour, status and lesson file is validated against CONTRACT.md; any violation
@@ -208,6 +209,40 @@ def stamp_web(stage, P):
         f.write(html)
 
 
+def _text(v):
+    return v if isinstance(v, str) else ""
+
+
+def search_index(catalog, subjects_out):
+    """data/search.json (CONTRACT v3): one compact entry per available subject, per topic node and
+    per lesson with text, in path order (catalog order, then depth first: a node, its own lessons,
+    then its sub-topics, as web/js/tree.js). No lesson text, so it stays small; the same input always
+    gives the same bytes. web/js/search.js entriesFromSubjects() builds the identical list in the
+    browser when a host has no search.json."""
+    entries = []
+    for s in catalog.get("subjects", []):
+        subj = subjects_out.get(s.get("id"))
+        if s.get("status") != "available" or subj is None:
+            continue
+        sid = subj["id"]
+        entries.append({"key": sid, "kind": "subject", "title": subj["title"], "summary": _text(subj.get("tagline")),
+                        "breadcrumb": []})
+
+        def walk(node, path, crumbs):
+            for ls in node.get("lessons", []) or []:
+                if ls.get("hasText"):
+                    entries.append({"key": ls["key"], "kind": "lesson", "title": ls["title"],
+                                    "summary": _text(ls.get("summary")), "breadcrumb": crumbs, "minutes": ls["minutes"]})
+            for m in node.get("modules", []) or []:
+                key = "/".join(path + [m["id"]])
+                summary = m.get("summary") if isinstance(m.get("summary"), str) else _text(m.get("tagline"))
+                entries.append({"key": key, "kind": "topic", "title": m["title"], "summary": summary,
+                                "breadcrumb": crumbs})
+                walk(m, path + [m["id"]], crumbs + [m["title"]])
+        walk(subj, [sid], [subj["title"]])
+    return {"version": 1, "entries": entries}
+
+
 def build(check_only=False, with_web=True):
     P = Problems()
     catalog = read_json(os.path.join(CONTENT, "catalog.json"))
@@ -341,6 +376,7 @@ def build(check_only=False, with_web=True):
     dump("data/catalog.json", catalog)
     for sid, subj in subjects_out.items():
         dump(f"data/subjects/{sid}.json", subj)
+    dump("data/search.json", search_index(catalog, subjects_out))
     for key, les in lessons_out.items():
         dump(f"data/lessons/{key}.json", les)
     for key in audio_out:
@@ -401,10 +437,43 @@ def verify(stage):
                 for m in node.get("modules", []) or []:
                     walk(m)
             walk(subj)
+    errs += verify_search(stage, cat)
     if errs:
         print("VERIFY FAILED:\n  " + "\n  ".join(errs[:50]), file=sys.stderr)
         sys.exit(3)
     print("verify: dist data matches the contract")
+
+
+def verify_search(stage, cat):
+    """data/search.json lists exactly the available subjects, their topics and their written lessons."""
+    errs = []
+    try:
+        idx = read_json(os.path.join(stage, "data/search.json"))
+    except (OSError, ValueError) as e:
+        return [f"search.json unreadable: {e}"]
+    entries = idx.get("entries") if isinstance(idx, dict) else None
+    if not isinstance(entries, list) or idx.get("version") != 1:
+        return ["search.json needs version 1 and an entries list"]
+    available = [s["id"] for s in cat["subjects"] if s["status"] == "available"]
+    if [e.get("key") for e in entries if e.get("kind") == "subject"] != available:
+        errs.append("search.json subjects differ from the available catalog subjects")
+    keys = set()
+    for e in entries:
+        k, kind = e.get("key"), e.get("kind")
+        if k in keys:
+            errs.append(f"search.json duplicate key {k}")
+        keys.add(k)
+        if kind not in ("subject", "topic", "lesson") or not isinstance(e.get("title"), str) or not e["title"] \
+                or not isinstance(e.get("summary"), str) or not isinstance(e.get("breadcrumb"), list) \
+                or not all(isinstance(t, str) for t in e["breadcrumb"]) or "markdown" in e:
+            errs.append(f"search.json entry {k} shape")
+        elif kind == "lesson" and (not LESSON_KEY_V2.match(k or "") or not isinstance(e.get("minutes"), int)
+                                   or not os.path.exists(os.path.join(stage, "data/lessons", k + ".json"))):
+            errs.append(f"search.json lesson {k} has no lesson file or minutes")
+    n_lessons = sum(1 for _, _, fs in os.walk(os.path.join(stage, "data/lessons")) for f in fs if f.endswith(".json"))
+    if sum(1 for e in entries if e.get("kind") == "lesson") != n_lessons:
+        errs.append("search.json lesson count differs from the lesson files")
+    return errs
 
 
 if __name__ == "__main__":

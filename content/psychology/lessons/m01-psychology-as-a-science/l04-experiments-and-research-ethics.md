@@ -14,7 +14,7 @@ Designing an experiment is only half the battle; we must also ensure that the re
 
 To ensure these rules are followed, almost every academic institution has an Institutional Review Board. This is a committee of experts and community members who review research proposals before they begin. They weigh the potential benefits of the research against the potential risks. If a study is deemed too risky or fails to protect participant privacy, the board will block it from moving forward.
 
-These ethical protections extend to animal research as well. While animals are used to study processes that would be unethical to test on humans, researchers are required to minimize discomfort and ensure that the housing and care of these animals meet high standards of welfare. The goal is always to maximize scientific knowledge while strictly upholding the safety and rights of every participant.
+These ethical protections extend to animal research as well. While animals are used to study processes that would be unethical to test on humans, each animal study must first be approved by a separate animal care committee, and researchers are required to minimize discomfort and ensure that the housing and care of these animals meet high standards of welfare. The goal is always to maximize scientific knowledge while strictly upholding the safety and rights of every participant.
 
 By controlling variables and following these ethical safeguards, psychologists can draw meaningful conclusions about human behavior that are both reliable and responsible. Even the most well-designed experiment is subject to the influence of chance. Once we have gathered our data, we must use specific mathematical tools to determine if our findings are truly significant or if they are simply the result of random noise. That transition from raw observation to meaningful conclusion is exactly what we will explore in our next lesson.
 
@@ -23,4 +23,4 @@ By controlling variables and following these ethical safeguards, psychologists c
 - Experiments establish cause-and-effect relationships by manipulating an independent variable while controlling for confounding variables to ensure high internal validity.
 - Random assignment is a proven method for distributing individual differences across groups, which helps ensure that observed effects are due to the experimental treatment.
 - Blinding techniques, especially double-blind designs, are essential for preventing bias from both participants and researchers, which strengthens the accuracy of the data.
-- Ethical oversight, including informed consent and the review of all studies by an Institutional Review Board, is mandatory to protect the welfare and rights of human and animal participants.
+- Ethical oversight, including informed consent, review of human studies by an Institutional Review Board, and review of animal studies by a separate animal care committee, protects the welfare and rights of participants.

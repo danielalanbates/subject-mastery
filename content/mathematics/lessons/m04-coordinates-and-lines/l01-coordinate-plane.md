@@ -10,7 +10,7 @@ To understand a graph deeply, mathematicians always look for where it anchors it
 
 To find where the graph crosses the horizontal x-axis, you do the reverse. The x-axis is the line where the vertical position is zero, so you substitute zero for y and solve for x. For our same equation, setting zero equal to two times x minus four means you add four to both sides, leaving four equals two times x. Dividing both sides by two gives x equals two. So the x-intercept is the point two comma zero. Knowing these two crossing points alone gives you enough structure to sketch the entire line accurately.
 
-Now that we can locate any point on our map and find where lines anchor to the axes, we are ready in our next module to measure the direct stretch between points and find the exact halfway mark between them.
+Now that we can locate any point on our map and find where lines anchor to the axes, we are ready in our next lesson to measure the direct stretch between points and find the exact halfway mark between them.
 
 ## Key ideas
 - The coordinate plane consists of a horizontal x-axis and a vertical y-axis intersecting at the origin, with coordinates zero comma zero, dividing the surface into four quadrants while points on the axes belong to no quadrant.

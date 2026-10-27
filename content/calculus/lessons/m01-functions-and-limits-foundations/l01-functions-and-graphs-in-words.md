@@ -1,0 +1,27 @@
+# Functions and Graphs in Words
+
+Imagine a long, winding mountain trail. As you hike, every step forward changes your elevation. If the trail is steep, your height increases rapidly for each foot you move horizontally. If it levels out, your elevation stays the same even as you walk. In mathematics, this relationship is a function: a rule assigning exactly one output to each input. Here, horizontal distance traveled is the input, and your current elevation is the output. Since you can only be at one specific height at any given distance, this perfectly illustrates a function's fundamental requirement.
+
+When studying calculus, we largely examine how outputs change with inputs. To do this effectively, we visualize a function's "shape" using words. Think of a graph as a path on a flat surface. We track this path using two axes: a horizontal line for inputs, often called the variable x, and a vertical line for outputs, called the variable y, or f of x. Moving left to right along the horizontal axis, we observe if the function's path goes up, down, or stays level. This movement describes the function's behavior.
+
+Consider a straight line path. Suppose a taxi costs five dollars just to enter, plus three dollars for every mile traveled. We describe this as a function where total cost equals five plus three times the number of miles, m. If graphed, the path starts at a height of five on the vertical axis when miles are zero. Moving one unit right on the horizontal axis, the path rises exactly three units. This steady, unchanging rise is a constant rate of change, or the slope. In this case, the slope is three. For every mile traveled, the cost always increases by three dollars.
+
+Most interesting things in the world, however, do not change at a constant rate. Imagine throwing a ball straight up into the air. At the moment it leaves your hand, it moves very fast. As gravity pulls on it, the ball slows down, momentarily stops at the top of its arc, and then speeds up as it falls back toward the ground. If the input is time in seconds and the output is the ball's height in feet, the function might look like this: height equals negative sixteen times the square of the time t, plus thirty-two times the time t, plus six.
+
+Let’s trace that path. At time zero, the height is six feet, where the ball leaves your hand. As time increases, the ball goes up, but not in a straight line. The path curves like an upside-down bowl, a shape we call a parabola. The ball reaches its highest point, or maximum, at one second, where the height is twenty-two feet. After that one-second mark, the height begins to decrease. In calculus, we say the function is increasing on the interval from zero to one, and decreasing for all values of time greater than one. The "turning point" at the top is a key landmark we find using derivatives.
+
+As we describe these paths, we also define where the function exists. This introduces domain and range. The domain is the set of all possible input values. For our ball toss, the domain starts at time zero and ends when the ball hits the ground; negative time makes no sense here. The range is the set of all resulting output values. For our ball, the range includes all heights between zero, the ground, and twenty-two feet, the peak. When describing a function, always ask: what are the allowed inputs, and what are the possible outputs?
+
+Another vital feature is where the graph crosses the axes, called intercepts. An x-intercept occurs when the output is zero; this is where the path touches or crosses the horizontal axis. In our ball example, the x-intercept is when the ball hits the dirt. The y-intercept occurs when the input is zero, which we identified as the starting height of six feet. These intercepts provide anchors for our mental map of the function.
+
+Finally, consider the path's "smoothness." Most functions in beginning calculus are continuous, meaning you could draw their graph without lifting your pencil. There are no sudden jumps, holes, or vertical breaks. For example, daily temperature is continuous; it doesn't jump from sixty to seventy degrees instantly but passes through every value in between. However, some functions do have breaks, such as a post office charging a flat rate for a letter up to one ounce, then jumping to a higher rate the moment that weight is exceeded.
+
+Understanding these verbal descriptions—knowing when functions rise, fall, start, and curve—is the essential first step. Calculus provides the tools to move beyond describing these shapes to precisely measuring how steep they are at any point. In our next lesson, we will explore the two big questions that motivated calculus: finding the exact slope of a curve and finding the area trapped underneath it.
+
+## Key ideas
+
+- A function is a mathematical rule that assigns exactly one output value to every valid input value.
+- The domain of a function represents all possible input values, while the range represents all possible output values.
+- We describe function behavior by identifying where the output is increasing, decreasing, or remaining constant as we move from left to right.
+- Intercepts are the points where the function's path crosses the horizontal or vertical axes, representing where an input or output is zero.
+- A continuous function is one whose graph has no jumps, holes, or breaks, representing a smooth transition between values.

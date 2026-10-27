@@ -387,4 +387,90 @@ Global Christianity today: the Second Vatican Council; evangelicalism and the La
                     "of quoting. Paraphrase, never quote, modern writings still under copyright, such as those of Barth, "
                     "Bonhoeffer and Martin Luther King Jr., the documents of the Second Vatican Council and recent popes.",
     },
+    "calculus": {
+        "title": "Calculus",
+        "tagline": "Limits, derivatives, integrals and the mathematics of change.",
+        "description": "Single-variable calculus made for listening, picking up where the Mathematics path ends. It "
+                       "builds limits and continuity, then the derivative and its rules, the applications of "
+                       "derivatives, the integral and the fundamental theorem of calculus, techniques and applications "
+                       "of integration, differential equations, and sequences and series. Every expression is spoken in "
+                       "words and every worked example is walked through step by step.",
+        "category": "Mathematics & Computing",
+        "color": "#a40e26",
+        "reference": """\
+Align scope and order with a standard two-semester single-variable calculus sequence (the chapter order of OpenStax Calculus Volumes 1 and 2, used as references only). The learner has finished college algebra and precalculus (the Mathematics subject), so review functions only briefly.
+Functions and the idea of a limit: a short review of functions and their graphs described in words; the two problems calculus solves (instantaneous rate of change and area); the intuitive limit from tables of values; one-sided limits and limits that do not exist.
+Limits and continuity: the limit laws; evaluating limits by algebra (factoring, rationalizing); the squeeze theorem and the limit of sine of x over x; continuity and the intermediate value theorem; limits at infinity and horizontal asymptotes; the precise epsilon-delta definition in words.
+The derivative: the derivative as the limit of average rates of change; the derivative as a function; differentiability; the power, constant multiple and sum rules; the product and quotient rules; derivatives as rates of change (velocity and acceleration).
+Differentiation rules: derivatives of the trigonometric functions; the chain rule; implicit differentiation; derivatives of exponential and logarithmic functions; derivatives of inverse functions and inverse trigonometric functions.
+Applications of derivatives: related rates; linear approximation and differentials; maxima and minima and the extreme value theorem; the mean value theorem; what the first and second derivatives say about the shape of a graph; limits at infinity and L'Hopital's rule; optimization problems; Newton's method.
+The integral: antiderivatives; area and Riemann sums; the definite integral; the fundamental theorem of calculus, both parts; integration by substitution; integrals of exponential and logarithmic functions.
+Applications of integration: area between curves; volumes by slicing, disks and washers; volumes by shells; arc length; work, and the idea of mass and center of mass; exponential growth and decay revisited.
+Techniques of integration: integration by parts; trigonometric integrals and trigonometric substitution; partial fractions; numerical integration (the midpoint, trapezoidal and Simpson's rules); improper integrals.
+Differential equations: what a differential equation is; slope fields described in words and Euler's method; separable equations; the logistic equation; first-order linear equations.
+Sequences and series: sequences and their limits; infinite series and the geometric series; the divergence and integral tests; comparison tests; alternating series; the ratio and root tests.
+Power series: power series and their intervals of convergence; working with power series; Taylor and Maclaurin series; using Taylor series (approximation and error).
+Parametric equations and polar coordinates in brief, and a closing look ahead: parametric curves; calculus with parametric curves; polar coordinates and polar area; where calculus goes next (multivariable calculus, linear algebra, differential equations).""",
+        "guidance": "This subject is heard, not seen, so calculus must work by ear. Follow every rule of the Mathematics "
+                    "subject: write every symbol and expression in words, every time ('the derivative of x cubed is three x "
+                    "squared', 'the limit as x approaches two of f of x', 'the integral from zero to one of x squared, d x'). "
+                    "Never type an equals sign, plus sign, slash, caret, prime mark, integral sign, inequality sign, "
+                    "superscript or grouping parentheses; say grouping aloud ('the quantity x plus one, all squared'). Say "
+                    "'f prime of x' for a derivative and name the variable of integration aloud. Keep each expression short "
+                    "enough to hold in memory and give intermediate results a name. Walk through every worked example step "
+                    "by step in full sentences, saying what is done and why, then state the result plainly and check it "
+                    "(differentiate an antiderivative to check it). Never rely on a picture: describe graphs, tangent lines, "
+                    "areas and solids in words. Use small whole numbers in examples. Explain why each rule works, not only "
+                    "how to apply it, and give the intuition before the formal statement. The narrator's voice reads a lone "
+                    "letter a as the word 'a' (it says 'uh'), so never use a or capital A as the name of a number, endpoint, "
+                    "point or constant; use other letters or the role ('the left endpoint', 'the constant c'), and when a "
+                    "famous formula is usually printed with a, say so once, then use other letters. Write sine, cosine, "
+                    "tangent, secant, natural logarithm and so on in full, never as abbreviations. Never put a colon between "
+                    "numbers, which the voice reads as a Bible verse. Write numbers of four or more digits that are not years "
+                    "with commas (1,250). Say interval notation in words. Credit Newton and Leibniz both and say plainly that "
+                    "their priority dispute was bitter; name the notation each introduced.",
+    },
+    "physics": {
+        "title": "Physics",
+        "tagline": "Motion, energy, waves, electricity, magnetism and the modern physics of atoms and light.",
+        "description": "A full introductory physics path at college level, using algebra and trigonometry rather than "
+                       "calculus. It moves from measurement and motion through forces, energy, momentum, rotation and "
+                       "gravity, then fluids, heat, waves and sound, electricity, magnetism and light, and ends with "
+                       "relativity, quantum ideas and nuclear physics. Equations are spoken in words, and worked examples "
+                       "go step by step.",
+        "category": "Natural Sciences",
+        "color": "#1b4f9c",
+        "reference": """\
+Align scope and order with a standard two-semester algebra-based college physics course (the chapter order of OpenStax College Physics 2e, used as a reference only). The learner knows algebra and basic trigonometry; do not use calculus.
+Introduction: physics as a science of models and measurement; units, the International System of Units and unit conversion; significant figures and estimation; scalars and vectors.
+Motion in one dimension: position, displacement, distance; speed and velocity; acceleration; the equations of motion for constant acceleration; free fall; describing motion graphs in words.
+Motion in two dimensions: vector addition and components; projectile motion; relative velocity; uniform circular motion and centripetal acceleration.
+Forces and Newton's laws: force and inertia; Newton's first, second and third laws; weight, normal force, tension; friction; drag and terminal velocity in brief; problem solving with free-body reasoning described in words.
+Energy and work: work; kinetic energy and the work-energy theorem; gravitational and elastic potential energy; conservative and nonconservative forces; conservation of energy; power; energy in human bodies and in society.
+Momentum and collisions: momentum and impulse; conservation of momentum; elastic and inelastic collisions; collisions in two dimensions in brief; center of mass.
+Rotation and gravity: angular quantities; rotational kinematics; torque; rotational inertia and angular momentum; static equilibrium; Newton's law of universal gravitation; orbits and Kepler's laws.
+Fluids and heat: density and pressure; Pascal's principle and Archimedes' principle; fluid flow and Bernoulli's equation; temperature, thermal expansion and the ideal gas law; heat, specific heat and phase changes; conduction, convection and radiation; the laws of thermodynamics and heat engines; entropy.
+Oscillations, waves and sound: simple harmonic motion and the pendulum; waves and their properties; superposition, interference and standing waves; sound, loudness in decibels, the Doppler effect; resonance and musical instruments.
+Electricity: electric charge and Coulomb's law; electric fields; electric potential and voltage; capacitors; current, resistance and Ohm's law; electric power; series and parallel circuits; household electricity and safety.
+Magnetism and electromagnetism: magnets and magnetic fields; the force on moving charges and currents; electromagnets and motors; electromagnetic induction and Faraday's law; generators and transformers; alternating current; electromagnetic waves and the spectrum.
+Light and optics: the ray model; reflection and mirrors; refraction, total internal reflection and lenses; the eye and optical instruments; wave optics (interference, diffraction, polarization).
+Modern physics: special relativity (time dilation, length contraction, mass-energy equivalence); the photoelectric effect and photons; the Bohr atom and atomic spectra; wave-particle duality and the uncertainty principle; the nucleus, radioactivity and half-life; fission and fusion; a closing look at particle physics and cosmology.""",
+        "guidance": "Equations, quantities and units are spoken in words. State a law first as a sentence ('the net force "
+                    "on an object equals its mass times its acceleration'), and only then name its usual letters if that "
+                    "helps. Never type an equals sign, plus sign, slash, caret, superscript, subscript, vector arrow or "
+                    "Greek letter symbol; write Greek letters as words (theta, lambda, omega). Spell out units every time "
+                    "(meters per second squared, newtons, joules, watts, kilograms) and say scientific notation in words "
+                    "('three times ten to the eighth meters per second'). Walk through every worked example step by step in "
+                    "sentences with round numbers, saying why each step is taken, and state the answer plainly with its unit "
+                    "and a sense check ('about the speed of a car on a highway'). Use g as nine point eight meters per second "
+                    "squared, and say when you round it to ten. Never rely on a diagram: describe arrangements, directions "
+                    "and graphs in words with everyday comparisons. Present models honestly as models with limits "
+                    "(frictionless surfaces, point masses, the Bohr atom) and say where classical physics breaks down. "
+                    "The narrator's voice reads a lone letter a as the word 'a' (it says 'uh'), so never use a or capital A "
+                    "as the name of a quantity or point; say 'the acceleration' in full, and use other letters for points "
+                    "and objects. Never put a colon between numbers, which the voice reads as a Bible verse. Write numbers "
+                    "of four or more digits that are not years with commas (1,250). Abbreviated units such as m/s, kg or kWh "
+                    "must be written in full words. Credit discoveries accurately and say when a 'first' is disputed. Never "
+                    "give instructions for building weapons or dangerous devices; stay with standard textbook physics.",
+    },
 }

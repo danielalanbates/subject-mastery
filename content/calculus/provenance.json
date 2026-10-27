@@ -1,0 +1,1147 @@
+{
+  "lessons": {
+    "calculus/m01-functions-and-limits-foundations/l01-functions-and-graphs-in-words": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [
+        "gemini:gemini-2.5-flash"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 82,
+      "words": 926
+    },
+    "calculus/m01-functions-and-limits-foundations/l02-two-problems-of-calculus": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [
+        "gemini:gemini-3-flash-preview"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-2.5-flash",
+      "seconds": 181,
+      "words": 915
+    },
+    "calculus/m01-functions-and-limits-foundations/l03-intuitive-limits-and-tables": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 40,
+      "words": 1068
+    },
+    "calculus/m01-functions-and-limits-foundations/l04-one-sided-limits-and-existence": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash",
+      "seconds": 293,
+      "words": 1003
+    },
+    "calculus/m02-limits-and-continuity/l01-limit-laws-and-algebraic-evaluation": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [
+        "gemini:gemini-2.5-flash"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3-flash-preview",
+      "seconds": 91,
+      "words": 830
+    },
+    "calculus/m02-limits-and-continuity/l02-squeeze-theorem-and-sine": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 16,
+      "words": 1096
+    },
+    "calculus/m02-limits-and-continuity/l03-continuity-and-the-intermediate-value": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 22,
+      "words": 992
+    },
+    "calculus/m02-limits-and-continuity/l04-limits-at-infinity-and-asymptotes": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3-flash-preview",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [
+        "gemini:gemini-2.5-flash"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-2.5-flash",
+      "seconds": 79,
+      "words": 879
+    },
+    "calculus/m02-limits-and-continuity/l05-precise-epsilon-delta-definition": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-2.5-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
+      "fixes": [
+        "gemini:gemini-2.5-flash"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 9,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-2.5-flash",
+      "seconds": 64,
+      "words": 981
+    },
+    "calculus/m03-derivative/l01-derivative-as-a-limit": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 57,
+      "words": 895
+    },
+    "calculus/m03-derivative/l02-derivative-as-a-function": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 29,
+      "words": 1052
+    },
+    "calculus/m03-derivative/l03-power-and-constant-multiple-rules": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 44,
+      "words": 901
+    },
+    "calculus/m03-derivative/l04-product-and-quotient-rules": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.6-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.6-flash",
+      "seconds": 66,
+      "words": 951
+    },
+    "calculus/m03-derivative/l05-velocity-and-acceleration": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.6-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [
+        "gemini:gemini-2.5-flash"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-2.5-flash",
+      "seconds": 356,
+      "words": 839
+    },
+    "calculus/m04-differentiation-rules/l01-trigonometric-derivatives": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 17,
+      "words": 968
+    },
+    "calculus/m04-differentiation-rules/l02-chain-rule": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 18,
+      "words": 886
+    },
+    "calculus/m04-differentiation-rules/l03-implicit-differentiation": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.6-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 672,
+      "words": 848
+    },
+    "calculus/m04-differentiation-rules/l04-exponential-and-natural-logarithm": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 7
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 8,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 1077
+    },
+    "calculus/m04-differentiation-rules/l05-inverse-functions-and-inverse-trigonometry": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 24,
+      "words": 979
+    },
+    "calculus/m05-applications-of-derivatives/l01-related-rates-and-linear-approximation": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 14,
+      "words": 1080
+    },
+    "calculus/m05-applications-of-derivatives/l02-maxima-minima-and-extreme-values": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 10,
+      "words": 969
+    },
+    "calculus/m05-applications-of-derivatives/l03-mean-value-theorem": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 14,
+      "words": 970
+    },
+    "calculus/m05-applications-of-derivatives/l04-derivative-tests-and-graph-shape": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 1095
+    },
+    "calculus/m05-applications-of-derivatives/l05-indeterminate-forms-and-l-hopital": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 15,
+      "words": 975
+    },
+    "calculus/m05-applications-of-derivatives/l06-optimization-and-newtons-method": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 13,
+      "words": 1030
+    },
+    "calculus/m06-integral/l01-antiderivatives-and-riemann-sums": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 10,
+      "words": 880
+    },
+    "calculus/m06-integral/l02-definite-integral": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 86,
+      "words": 876
+    },
+    "calculus/m06-integral/l03-fundamental-theorem-of-calculus": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 152,
+      "words": 832
+    },
+    "calculus/m06-integral/l04-integration-by-substitution": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 110,
+      "words": 1063
+    },
+    "calculus/m06-integral/l05-exponential-and-logarithmic-integrals": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 113,
+      "words": 873
+    },
+    "calculus/m07-applications-of-integration/l01-area-between-curves": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 188,
+      "words": 804
+    },
+    "calculus/m07-applications-of-integration/l02-volumes-by-slicing-and-disks": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.8-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "gemini:gemini-3.5-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 195,
+      "words": 794
+    },
+    "calculus/m07-applications-of-integration/l03-volumes-by-cylindrical-shells": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 19,
+      "words": 956
+    },
+    "calculus/m07-applications-of-integration/l04-arc-length-and-physical-applications": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 8,
+      "words": 887
+    },
+    "calculus/m07-applications-of-integration/l05-growth-and-decay-revisited": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 11,
+      "words": 836
+    },
+    "calculus/m08-techniques-of-integration/l01-integration-by-parts": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 9,
+      "words": 883
+    },
+    "calculus/m08-techniques-of-integration/l02-trigonometric-integrals-and-substitution": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 8,
+      "words": 843
+    },
+    "calculus/m08-techniques-of-integration/l03-integration-by-partial-fractions": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 960
+    },
+    "calculus/m08-techniques-of-integration/l04-numerical-integration-and-simpsons-rule": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 10,
+      "words": 910
+    },
+    "calculus/m08-techniques-of-integration/l05-evaluating-improper-integrals": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 6,
+      "words": 806
+    },
+    "calculus/m09-differential-equations/l01-introduction-to-differential-equations": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 9,
+      "words": 1006
+    },
+    "calculus/m09-differential-equations/l02-slope-fields-and-eulers-method": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 10,
+      "words": 901
+    },
+    "calculus/m09-differential-equations/l03-solving-separable-equations": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.7-flash",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [
+        "gemini:gemini-3.5-flash-lite"
+      ],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 221,
+      "words": 1021
+    },
+    "calculus/m09-differential-equations/l04-logistic-growth-equation": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 97,
+      "words": 873
+    },
+    "calculus/m09-differential-equations/l05-first-order-linear-equations": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 71,
+      "words": 915
+    },
+    "calculus/m10-sequences-and-series/l01-sequences-and-their-limits": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 91,
+      "words": 1016
+    },
+    "calculus/m10-sequences-and-series/l02-infinite-series-and-geometric-series": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 55,
+      "words": 847
+    },
+    "calculus/m10-sequences-and-series/l03-divergence-and-integral-tests": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 1,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 147,
+      "words": 822
+    },
+    "calculus/m10-sequences-and-series/l04-comparison-and-alternating-series": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 7,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 14,
+      "words": 823
+    },
+    "calculus/m10-sequences-and-series/l05-ratio-and-root-tests": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 981
+    },
+    "calculus/m11-power-series/l01-power-series-and-convergence": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "coherence",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 0,
+      "review_verdict": "pass",
+      "revise": "skipped (review passed)",
+      "seconds": 187,
+      "words": 801
+    },
+    "calculus/m11-power-series/l02-working-with-power-series": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "gemini:gemini-3.1-flash-lite",
+      "review_issues": 4,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 9,
+      "words": 849
+    },
+    "calculus/m11-power-series/l03-taylor-and-maclaurin-series": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "groq:qwen/qwen3.8-27b",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 834
+    },
+    "calculus/m11-power-series/l04-using-taylor-series": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 8,
+      "words": 797
+    },
+    "calculus/m12-parametric-and-polar-curves/l01-parametric-curves-and-motion": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "groq:openai/gpt-oss-120b",
+      "review_issues": 6,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 12,
+      "words": 1052
+    },
+    "calculus/m12-parametric-and-polar-curves/l02-calculus-with-parametric-curves": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 78,
+      "words": 980
+    },
+    "calculus/m12-parametric-and-polar-curves/l03-polar-coordinates-and-graphs": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 5,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 71,
+      "words": 1027
+    },
+    "calculus/m12-parametric-and-polar-curves/l04-polar-area-and-calculus": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 3,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 61,
+      "words": 1086
+    },
+    "calculus/m12-parametric-and-polar-curves/l05-future-of-higher-mathematics": {
+      "date": "2026-10-27",
+      "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
+      "fixes": [],
+      "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+      "review_issues": 2,
+      "review_verdict": "revise",
+      "revise": "gemini:gemini-3.5-flash-lite",
+      "seconds": 122,
+      "words": 723
+    }
+  },
+  "outline": {
+    "date": "2026-10-27",
+    "hand_reviewed": false,
+    "model": "gemini:gemini-3-flash-preview",
+    "raw": "outline-raw-calculus-20261027-103339.json"
+  }
+}

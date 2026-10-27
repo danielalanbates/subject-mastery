@@ -14,7 +14,7 @@ In the real world, reactions rarely produce the theoretical yield. Spills occur,
 
 Let us walk through a calculation. Consider the reaction of nitrogen gas with hydrogen gas to form ammonia. The balanced equation states that one mole of nitrogen reacts with three moles of hydrogen to form two moles of ammonia. Suppose we start with twenty-eight grams of nitrogen, which is one mole. We also have six grams of hydrogen, which is three moles. Since one mole of nitrogen requires three moles of hydrogen, both reactants are present in perfect stoichiometric amounts. None is left over. If the reaction is one hundred percent efficient, we should produce two moles of ammonia. Since one mole of ammonia has a mass of seventeen grams, our theoretical yield is thirty-four grams. If we weigh our final product and find only thirty-two grams, our percent yield is thirty-two divided by thirty-four, which is about ninety-four percent.
 
-Mastering these calculations allows chemists to optimize industrial processes, ensuring that expensive reagents are used effectively and waste is minimized. By understanding the relationship between the microscopic mole and the macroscopic gram, we gain control over the material world.
+Mastering these calculations allows chemists to optimize industrial processes, ensuring that expensive reagents are used effectively and waste is minimized. By understanding how the mole links counts of tiny particles to grams we can weigh, we gain control over the material world.
 
 ## Key ideas
 - Stoichiometry uses the mole ratios found in balanced chemical equations to predict the exact amounts of reactants needed and products formed.

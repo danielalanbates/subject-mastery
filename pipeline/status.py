@@ -56,7 +56,8 @@ def table_and_modules():
                     c["written"] += 1
                     mw += 1
                     models[prov.get(key, {}).get("draft", "unknown")] += 1
-                    if key in reviewed:
+                    # hand_reviewed.txt (build logs) or an expert_review record in provenance (in git)
+                    if key in reviewed or prov.get(key, {}).get("expert_review"):
                         c["reviewed"] += 1
                         mr += 1
                 if os.path.exists(side):
@@ -96,8 +97,9 @@ def write_doc():
     blocks = {
         "STATUS-TABLE": table + "\n\nPer module:\n" + mods,
         "HAND-EDITS": "### Hand edits (" + str(len(edits)) + ")\n\n" + "\n".join(edits)
-        + "\n\n<details><summary>All hand-reviewed lessons (" + str(len(reviewed)) + "), read in full by Claude on "
-        "2026-10-02; --rereview-weak skips these</summary>\n\n" + "\n".join(f"- `{k}`: reviewed" for k in reviewed)
+        + "\n\n<details><summary>All hand-reviewed lessons (" + str(len(reviewed)) + "), read in full by Claude (the four "
+        "pilots on 2026-10-02; Mathematics and the five other drafted subjects on 2026-10-27); --rereview-weak skips "
+        "these</summary>\n\n" + "\n".join(f"- `{k}`: reviewed" for k in reviewed)
         + "\n\n</details>",
     }
     for name, body in blocks.items():

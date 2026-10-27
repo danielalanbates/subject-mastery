@@ -82,6 +82,30 @@ bullets. Bible quotations only from public-domain translations (KJV, WEB, ASV) a
   "durationSec": 371, "voice": "piper:en_US-ryan-high" }
 ```
 
+`dist/data/search.json` — **v3 addition (2026-10-27): the library search index.** Written by
+`pipeline/build.py` for **available** subjects only, so the player can search the whole library
+without loading every subject file. One compact entry per subject, per topic (module) node and
+per lesson **with text**, in path order: catalog order, then each subject depth first (a node,
+its own lessons, then its sub-topics, the same order as `web/js/tree.js`). No lesson body text.
+Compact JSON (no whitespace, UTF-8); the same content always gives the same bytes.
+```json
+{ "version": 1,
+  "entries": [
+    { "key": "economics", "kind": "subject", "title": "Economics", "summary": "<tagline>", "breadcrumb": [] },
+    { "key": "economics/m01-foundations", "kind": "topic", "title": "Foundations", "summary": "…",
+      "breadcrumb": ["Economics"] },
+    { "key": "economics/m01-foundations/l01-scarcity-and-choice", "kind": "lesson", "title": "Scarcity and Choice",
+      "summary": "…", "breadcrumb": ["Economics", "Foundations"], "minutes": 6 } ] }
+```
+- `key`: subject id, topic key, or global lesson key (v2 regexes). `kind`: `subject` | `topic` | `lesson`.
+- `summary`: the subject's `tagline`, the module's `summary`, or the lesson's `summary` (`""` if none).
+- `breadcrumb`: ancestor titles, subject first (`[]` for a subject). `minutes`: lessons only, as in the subject file.
+- Every topic node is listed, even one with no written lessons yet; lessons without text are not.
+- Readers validate entries and drop any they do not understand. A host without `search.json` (older
+  builds) still works: the player builds the identical list from `data/subjects/<id>.json`
+  (`entriesFromSubjects()` in `web/js/search.js`), and fills in any available subject the file lacks.
+- Route: `#/search?q=<text>` (URL-encoded, at most 200 characters).
+
 All URLs in the player are **relative** (the app lives at `/subjectmastery/` live and at
 `/` under a local static server). The only absolute paths are the site APIs below.
 
@@ -180,4 +204,4 @@ CREATE TABLE IF NOT EXISTS sm_plan    (user_id TEXT PRIMARY KEY, data TEXT NOT N
 Account deletion also clears `sm_profile` and `sm_plan`.
 
 ## Routes
-`#/` catalog · `#/s/<topicKey>` subject/topic tree · `#/l/<lessonKey>` player · `#/plan` Study Plan · `#/profile` profile + plan editor · `#/account` sign-in and data.
+`#/` catalog · `#/s/<topicKey>` subject/topic tree · `#/l/<lessonKey>` player · `#/plan` Study Plan · `#/profile` profile + plan editor · `#/account` sign-in and data. v3 adds `#/search?q=<text>` library search (see `data/search.json`).

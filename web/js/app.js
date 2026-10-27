@@ -5,9 +5,9 @@
 // the sticky knowledge bar and toasts, and routes hash changes to screens.
 // Screens live in js/screens/*.js and receive the shared `ctx` built here.
 
-import { h, clear } from './dom.js';
+import { h, clear, isTypingTarget } from './dom.js';
 import { icon } from './icons.js';
-import { avatar } from './components.js';
+import { avatar, searchBox } from './components.js';
 import { parseRoute, href } from './router.js';
 import { createProgressStore, createSync, PROGRESS_KEY, safeLocalStorage, isDone, apiProbeAllowed, API_SWITCH_KEY } from './progress.js';
 import { createPrefs, PREFS_KEY } from './prefs.js';
@@ -15,7 +15,7 @@ import { createDocStore, createDocSync } from './docsync.js';
 import { normalizeProfile, PROFILE_KEY } from './profile.js';
 import { normalizePlan, nextAssignment, PLAN_KEY, PLAN_RUN_KEY } from './plan.js';
 import { knowledge, resumeKey, subjectOf } from './tree.js';
-import { getCatalog, getSubject } from './data.js';
+import { getCatalog, getSubject, getSearchIndex } from './data.js';
 
 import { renderCatalog } from './screens/catalog.js';
 import { renderTopic } from './screens/topic.js';
@@ -25,8 +25,10 @@ import { renderProfile } from './screens/profile-page.js';
 import { renderAccount } from './screens/account.js';
 import { renderNotFound } from './screens/notfound.js';
 import { renderAbout } from './screens/about.js';
+import { renderSearch } from './screens/search.js';
 
 const UNDO_MS = 10000;
+const SEARCH_LAUNCH_MS = 200;
 const RETURN_ROUTE_KEY = 'sm.returnRoute';
 
 // ---------------------------------------------------------------------------
@@ -288,6 +290,18 @@ const tabsBottom = h('nav', { class: 'tabbar', 'aria-label': 'Main' });
 const kbarRoot = h('div', { class: 'kbar', hidden: true });
 const main = h('main', { id: 'main', class: 'main', tabindex: '-1' });
 const toastRoot = h('div', { class: 'toasts', 'aria-live': 'polite' });
+// Header search (v3): a field from 1024 px, an icon link to #/search below that.
+const headerSearch = searchBox({ id: 'hs-q', label: 'Search the library', placeholder: 'Search the library', className: 'header-search', shortcut: true });
+const searchLink = h('a', { href: href.search(), class: 'icon-btn header-search-link', 'aria-label': 'Search', title: 'Search (press /)' }, icon('search'));
+const siteHeader = h('header', { class: 'site-header' },
+  h('div', { class: 'wrap header-row' },
+    h('div', { class: 'brand-group' },
+      h('a', { class: 'brand', href: '#/', 'aria-label': 'Subject Mastery home' }, icon('logo', 'brand-mark'), h('span', { class: 'brand-name' }, 'Subject Mastery')),
+      h('a', { class: 'by-link', href: 'https://batesai.org/', title: 'BatesAI home' }, h('span', { class: 'by-word' }, 'by '), 'BatesAI')),
+    headerSearch.form,
+    searchLink,
+    tabsTop,
+    accountSlot));
 
 const TABS = [
   { id: 'catalog', label: 'Subjects', icon: 'grid', href: href.catalog() },
@@ -301,13 +315,7 @@ for (const t of TABS) {
 
 root.append(
   h('a', { class: 'skip-link', href: '#main', onClick: (e) => { e.preventDefault(); main.focus(); } }, 'Skip to content'),
-  h('header', { class: 'site-header' },
-    h('div', { class: 'wrap header-row' },
-      h('div', { class: 'brand-group' },
-        h('a', { class: 'brand', href: '#/', 'aria-label': 'Subject Mastery home' }, icon('logo', 'brand-mark'), h('span', { class: 'brand-name' }, 'Subject Mastery')),
-        h('a', { class: 'by-link', href: 'https://batesai.org/', title: 'BatesAI home' }, h('span', { class: 'by-word' }, 'by '), 'BatesAI')),
-      tabsTop,
-      accountSlot)),
+  siteHeader,
   kbarRoot,
   main,
   h('footer', { class: 'site-footer' },
@@ -348,6 +356,47 @@ const ctx = {
       catalogPromise.catch(() => { catalogPromise = null; });
     }
     return catalogPromise;
+  },
+  /** The prepared search index (data.js getSearchIndex). */
+  searchIndex() {
+    return ctx.catalog().then((c) => getSearchIndex(c));
+  },
+  /** Set by a search launcher just before it opens #/search; the search screen takes the field over. */
+  searchHandover: null,
+  /**
+   * Turn a field (header, catalog) into a search launcher: typing opens #/search
+   * after a short pause (Enter at once), and the search screen continues from the
+   * text typed so far. Focusing the field warms the index, and the hand-over waits
+   * for it, so no key is lost.
+   * Returns a disposer.
+   */
+  searchLauncher(input) {
+    let timer = 0;
+    let waiting = false;
+    const open = () => {
+      clearTimeout(timer);
+      if (waiting || !input.value.trim()) return;
+      // Wait for the index first, so the search screen mounts at once: while a screen loads,
+      // the old one is inert and keys typed into the catalog field would be lost.
+      waiting = true;
+      const from = location.hash;
+      ctx.searchIndex().catch(() => {}).then(() => {
+        waiting = false;
+        if (location.hash !== from || !input.isConnected || !input.value.trim()) return;
+        ctx.searchHandover = input;
+        ctx.navigate(href.search(input.value));
+      });
+    };
+    input.addEventListener('focus', () => { ctx.searchIndex().catch(() => {}); });
+    input.addEventListener('input', () => {
+      clearTimeout(timer);
+      if (input.value.trim()) timer = setTimeout(open, SEARCH_LAUNCH_MS);
+    });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && input.value) { e.preventDefault(); clearTimeout(timer); input.value = ''; }
+    });
+    if (input.form) input.form.addEventListener('submit', (e) => { e.preventDefault(); open(); });
+    return () => clearTimeout(timer);
   },
   navigate(hash, { autoplay = false, replace = false } = {}) {
     if (autoplay) {
@@ -435,6 +484,29 @@ function highlightTab(route) {
   }
 }
 
+// On #/search the page has its own field, so the header field steps aside (keeping its
+// space). Called once the new screen is in place, so a header field still being typed
+// in stays usable until the search screen takes it over.
+function syncHeaderSearch(route) {
+  const onSearch = route.name === 'search';
+  siteHeader.classList.toggle('on-search', onSearch);
+  if (onSearch) searchLink.setAttribute('aria-current', 'page');
+  else searchLink.removeAttribute('aria-current');
+}
+
+ctx.searchLauncher(headerSearch.input);
+
+// "/" focuses search from anywhere (not while typing in a field).
+document.addEventListener('keydown', (e) => {
+  if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented || isTypingTarget(e.target)) return;
+  e.preventDefault();
+  const page = main.querySelector('#search-q');
+  if (page) { page.focus(); page.select(); return; }
+  const field = headerSearch.input;
+  if (field.offsetParent !== null && getComputedStyle(headerSearch.form).visibility !== 'hidden') { field.focus(); return; }
+  ctx.navigate(href.search());
+});
+
 // ---------------------------------------------------------------------------
 // Router
 // ---------------------------------------------------------------------------
@@ -447,6 +519,7 @@ const SCREENS = {
   profile: renderProfile,
   account: renderAccount,
   about: renderAbout,
+  search: renderSearch,
   notfound: renderNotFound,
 };
 
@@ -476,6 +549,7 @@ async function onRoute() {
   current = view;
   clear(main);
   main.append(view.el);
+  syncHeaderSearch(route);
   document.title = view.title ? `${view.title} · Subject Mastery` : 'Subject Mastery';
   if (!view.keepScroll) window.scrollTo(0, 0);
   const heading = main.querySelector('h1');

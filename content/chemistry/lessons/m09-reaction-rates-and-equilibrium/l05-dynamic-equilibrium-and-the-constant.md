@@ -14,7 +14,7 @@ Sometimes, we need to know if a reaction is currently at equilibrium or if it is
 
 Let us walk through a simple calculation using concentrations. Consider a reaction where one molecule of nitrogen gas reacts with three molecules of hydrogen gas to produce two molecules of ammonia. Suppose we find that at equilibrium, the concentration of nitrogen is one mole per liter, hydrogen is two moles per liter, and ammonia is four moles per liter. To find the equilibrium constant, we place the product, ammonia, on top. We square its concentration because of the two in the balanced equation, giving us four times four, which is sixteen. On the bottom, we place the nitrogen concentration of one, multiplied by the hydrogen concentration of two cubed. Since two cubed is eight, our denominator is one times eight, which equals eight. Dividing sixteen by eight gives us an equilibrium constant of two.
 
-This value of two indicates that the products are favored at this temperature. By mastering how to write these expressions and interpret these values, you gain the ability to predict the behavior of chemical systems before they ever reach the lab bench.
+This value of two is greater than one, so the products are slightly favored, but because it is close to one, the mixture still holds significant amounts of both reactants and products. By mastering how to write these expressions and interpret these values, you gain the ability to predict the behavior of chemical systems before they ever reach the lab bench.
 
 ## Key ideas
 

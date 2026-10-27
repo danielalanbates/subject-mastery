@@ -14,11 +14,11 @@ Temperature acts differently because it actually changes the value of the equili
 
 Finally, consider the role of a catalyst. A catalyst increases the rate of a reaction by lowering the activation energy, but it does so for both the forward and the reverse directions equally. Because it speeds up both sides of the reaction by the same factor, it helps the system reach equilibrium much faster, but it does not change the final position of that equilibrium. It is like a shortcut to a destination; you arrive sooner, but you are still in the same place.
 
-Understanding how to manipulate these conditions allows chemists to control the yields of vital reactions. By balancing concentration, pressure, and temperature, we can steer molecular interactions to suit our needs. This ability to predict and control the behavior of substances in solution sets the stage for our next investigation, where we will explore the fascinating world of acids, bases, and the delicate balance of the potential of hydrogen scale.
+Understanding how to manipulate these conditions allows chemists to control the yields of vital reactions. By balancing concentration, pressure, and temperature, we can steer molecular interactions to suit our needs. This ability to predict and control the behavior of substances in solution sets the stage for our next investigation, where we will explore the fascinating world of acids, bases, and the delicate balance of the pH scale.
 
 ## Key ideas
 - Le Chatelier’s principle states that a system at equilibrium will shift its position to counteract any external stress applied to it.
-- Increasing the concentration of a reactant shifts the equilibrium toward the products, while removing a product shifts the equilibrium toward the reactants.
+- Increasing the concentration of a reactant shifts the equilibrium toward the products, while removing a product also shifts the equilibrium toward the products, replacing what was lost.
 - Changes in the concentration of pure solids or liquids do not affect the equilibrium position because their concentrations remain constant.
 - For gaseous reactions, increasing the pressure shifts the equilibrium toward the side with fewer total moles of gas.
 - Temperature changes shift the equilibrium by altering the equilibrium constant, whereas concentration and pressure changes shift the equilibrium position without changing the constant.

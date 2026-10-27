@@ -3,119 +3,177 @@
     "mathematics/m01-numbers-and-mathematical-thinking/l01-how-mathematicians-think": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 5,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 178,
-      "words": 756,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 756
     },
     "mathematics/m01-numbers-and-mathematical-thinking/l02-number-systems-and-the-number-line": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 37,
-      "words": 720,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 720
     },
     "mathematics/m01-numbers-and-mathematical-thinking/l03-order-of-operations-and-properties": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 1,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 84,
-      "words": 826,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 826
     },
     "mathematics/m01-numbers-and-mathematical-thinking/l04-fractions-percents-and-ratios": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "editorial_correction": "2026-10-08",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 13,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 115,
-      "words": 1027,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
       },
-      "editorial_correction": "2026-10-08"
+      "words": 1027
     },
     "mathematics/m01-numbers-and-mathematical-thinking/l05-exponents-and-scientific-notation": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 42,
-      "words": 1033,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 1033
     },
     "mathematics/m02-algebraic-expressions/l01-variables-and-expressions": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 352,
-      "words": 739,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 739
     },
     "mathematics/m02-algebraic-expressions/l02-polynomial-arithmetic": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "gemini:gemini-3.1-flash-lite",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 938,
-      "words": 824,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 824
     },
     "mathematics/m02-algebraic-expressions/l03-factoring-common-factors-and-grouping": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [
         "gemini:gemini-3.5-flash-lite"
       ],
@@ -124,433 +182,641 @@
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 56,
-      "words": 1034,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 1034
     },
     "mathematics/m02-algebraic-expressions/l04-factoring-trinomials-and-special-forms": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 43,
-      "words": 947,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 947
     },
     "mathematics/m02-algebraic-expressions/l05-rational-expressions": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "gemini:gemini-3.1-flash-lite",
       "review_issues": 0,
       "review_verdict": "pass",
       "revise": "skipped (review passed)",
       "seconds": 84,
-      "words": 761,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 761
     },
     "mathematics/m02-algebraic-expressions/l06-radicals-and-rational-exponents": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 31,
-      "words": 786,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 786
     },
     "mathematics/m03-equations-and-inequalities/l01-linear-and-rational-equations": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 4,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 142,
-      "words": 862,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 862
     },
     "mathematics/m03-equations-and-inequalities/l02-modeling-with-word-problems": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 1,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 226,
-      "words": 874,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 874
     },
     "mathematics/m03-equations-and-inequalities/l03-quadratics-by-factoring-and-square-roots": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 80,
-      "words": 892,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 892
     },
     "mathematics/m03-equations-and-inequalities/l04-completing-the-square-and-quadratic-formula": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 87,
-      "words": 899,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 899
     },
     "mathematics/m03-equations-and-inequalities/l05-radical-and-absolute-value-equations": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 0,
       "review_verdict": "pass",
       "revise": "skipped (review passed)",
       "seconds": 163,
-      "words": 797,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 797
     },
     "mathematics/m03-equations-and-inequalities/l06-linear-and-absolute-value-inequalities": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 33,
-      "words": 874,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 874
     },
     "mathematics/m04-coordinates-and-lines/l01-coordinate-plane": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 208,
-      "words": 793,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 793
     },
     "mathematics/m04-coordinates-and-lines/l02-distance-and-midpoint": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
       "review_verdict": "pass",
       "revise": "skipped (review passed)",
       "seconds": 32,
-      "words": 726,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 726
     },
     "mathematics/m04-coordinates-and-lines/l03-slope-as-a-rate-of-change": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 6,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 248,
-      "words": 937,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 937
     },
     "mathematics/m04-coordinates-and-lines/l04-equations-of-lines": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 56,
-      "words": 1099,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 1099
     },
     "mathematics/m04-coordinates-and-lines/l05-linear-models": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 26,
-      "words": 829,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 829
     },
     "mathematics/m05-functions/l01-what-a-function-is": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 47,
-      "words": 843,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 843
     },
     "mathematics/m05-functions/l02-domain-range-and-piecewise-functions": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 6,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 214,
-      "words": 1001,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 1001
     },
     "mathematics/m05-functions/l03-graph-behavior-and-rates-of-change": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 6,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 172,
-      "words": 1053,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 1053
     },
     "mathematics/m05-functions/l04-transforming-graphs": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 56,
-      "words": 961,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 961
     },
     "mathematics/m05-functions/l05-combining-and-composing-functions": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 10,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 25,
-      "words": 837,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 837
     },
     "mathematics/m05-functions/l06-inverse-functions": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 34,
-      "words": 780,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 780
     },
     "mathematics/m06-polynomial-and-rational-functions/l01-quadratic-functions-and-the-vertex": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 10,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 204,
-      "words": 893,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 893
     },
     "mathematics/m06-polynomial-and-rational-functions/l02-polynomial-functions-and-graphs": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 1,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 169,
-      "words": 978,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 978
     },
     "mathematics/m06-polynomial-and-rational-functions/l03-dividing-polynomials-and-the-factor-theorem": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 11,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 28,
-      "words": 895,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 895
     },
     "mathematics/m06-polynomial-and-rational-functions/l04-complex-numbers": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 5,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 147,
-      "words": 1066,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 1066
     },
     "mathematics/m06-polynomial-and-rational-functions/l05-zeros-of-polynomials": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 181,
-      "words": 957,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 957
     },
     "mathematics/m06-polynomial-and-rational-functions/l06-rational-functions-and-asymptotes": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "editorial_correction": "2026-10-08",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 4,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 146,
-      "words": 1023,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
       },
-      "editorial_correction": "2026-10-08"
+      "words": 1023
     },
     "mathematics/m07-exponential-and-logarithmic-functions/l01-exponential-growth-and-decay": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [
         "gemini:gemini-3.5-flash-lite"
       ],
@@ -559,32 +825,48 @@
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 291,
-      "words": 814,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 814
     },
     "mathematics/m07-exponential-and-logarithmic-functions/l02-the-number-e-and-continuous-growth": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 2,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 162,
-      "words": 881,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 881
     },
     "mathematics/m07-exponential-and-logarithmic-functions/l03-logarithms-as-inverses": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [
         "gemini:gemini-3.5-flash-lite"
       ],
@@ -593,479 +875,703 @@
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 147,
-      "words": 923,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 923
     },
     "mathematics/m07-exponential-and-logarithmic-functions/l04-laws-of-logarithms": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 4,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 148,
-      "words": 931,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 931
     },
     "mathematics/m07-exponential-and-logarithmic-functions/l05-solving-exponential-and-log-equations": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 2,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 99,
-      "words": 1060,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 1060
     },
     "mathematics/m07-exponential-and-logarithmic-functions/l06-exponential-models": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 6,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 80,
-      "words": 1048,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 1048
     },
     "mathematics/m08-trigonometric-functions/l01-angles-and-radian-measure": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 79,
-      "words": 736,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 736
     },
     "mathematics/m08-trigonometric-functions/l02-right-triangle-trigonometry": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "groq:openai/gpt-oss-120b",
       "review_issues": 6,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 1068,
-      "words": 829,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 829
     },
     "mathematics/m08-trigonometric-functions/l03-the-unit-circle": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 1,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 121,
-      "words": 847,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 847
     },
     "mathematics/m08-trigonometric-functions/l04-graphs-of-sine-and-cosine": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 77,
-      "words": 736,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 736
     },
     "mathematics/m08-trigonometric-functions/l05-inverse-trigonometric-functions": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 88,
-      "words": 830,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 830
     },
     "mathematics/m09-trigonometric-identities-and-applications/l01-fundamental-trigonometric-identities": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "editorial_correction": "2026-10-08",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 28,
-      "words": 925,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
       },
-      "editorial_correction": "2026-10-08"
+      "words": 925
     },
     "mathematics/m09-trigonometric-identities-and-applications/l02-sum-difference-and-double-angle-formulas": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 54,
-      "words": 866,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 866
     },
     "mathematics/m09-trigonometric-identities-and-applications/l03-solving-trigonometric-equations": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "editorial_correction": "2026-10-08",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 31,
-      "words": 870,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
       },
-      "editorial_correction": "2026-10-08"
+      "words": 870
     },
     "mathematics/m09-trigonometric-identities-and-applications/l04-laws-of-sines-and-cosines": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 34,
-      "words": 958,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 958
     },
     "mathematics/m09-trigonometric-identities-and-applications/l05-polar-coordinates-and-vectors": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 62,
-      "words": 841,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 841
     },
     "mathematics/m10-systems-and-conic-sections/l01-systems-of-two-linear-equations": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 21,
-      "words": 797,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 797
     },
     "mathematics/m10-systems-and-conic-sections/l02-three-variables-matrices-and-row-reduction": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 54,
-      "words": 849,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 849
     },
     "mathematics/m10-systems-and-conic-sections/l03-circles-and-parabolas": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 128,
-      "words": 967,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 967
     },
     "mathematics/m10-systems-and-conic-sections/l04-ellipses-and-hyperbolas": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 5
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 66,
-      "words": 959,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 959
     },
     "mathematics/m10-systems-and-conic-sections/l05-nonlinear-systems-and-inequalities": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 8,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 153,
-      "words": 960,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 960
     },
     "mathematics/m11-sequences-counting-and-probability/l01-sequences-and-summation": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 110,
-      "words": 855,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 855
     },
     "mathematics/m11-sequences-counting-and-probability/l02-arithmetic-sequences-and-series": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 0,
       "review_verdict": "pass",
       "revise": "skipped (review passed)",
       "seconds": 162,
-      "words": 747,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 747
     },
     "mathematics/m11-sequences-counting-and-probability/l03-geometric-sequences-and-series": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "gemini:gemini-3.1-flash-lite",
       "review_issues": 0,
       "review_verdict": "pass",
       "revise": "skipped (review passed)",
       "seconds": 59,
-      "words": 923,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 923
     },
     "mathematics/m11-sequences-counting-and-probability/l04-counting-permutations-and-combinations": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 56,
-      "words": 980,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 980
     },
     "mathematics/m11-sequences-counting-and-probability/l05-binomial-theorem": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
       "review_verdict": "pass",
       "revise": "skipped (review passed)",
       "seconds": 34,
-      "words": 792,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 792
     },
     "mathematics/m11-sequences-counting-and-probability/l06-basic-probability": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
       "review_verdict": "pass",
       "revise": "skipped (review passed)",
       "seconds": 70,
-      "words": 807,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 807
     },
     "mathematics/m12-proof-and-mathematical-reasoning/l01-logic-and-direct-proof": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 34,
-      "words": 897,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 897
     },
     "mathematics/m12-proof-and-mathematical-reasoning/l02-proof-by-contradiction": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "editorial_correction": "2026-10-08",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 45,
-      "words": 908,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
       },
-      "editorial_correction": "2026-10-08"
+      "words": 908
     },
     "mathematics/m12-proof-and-mathematical-reasoning/l03-mathematical-induction": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 8,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.5-flash-lite",
       "seconds": 46,
-      "words": 841,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 841
     },
     "mathematics/m12-proof-and-mathematical-reasoning/l04-sets-and-functions": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.5-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 54,
-      "words": 747,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 747
     },
     "mathematics/m12-proof-and-mathematical-reasoning/l05-where-mathematics-goes-next": {
       "date": "2026-10-02",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
       "review_verdict": "revise",
       "revise": "gemini:gemini-3.1-flash-lite",
       "seconds": 61,
-      "words": 816,
       "supplemental_review": {
         "date": "2026-10-08",
-        "model": "gemini:gemini-3.1-flash-lite",
-        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions."
-      }
+        "editorial_checks": "Codex inspected suggestions and rejected incorrect revisions; docs/MATH_REVIEW.md records decisions.",
+        "model": "gemini:gemini-3.1-flash-lite"
+      },
+      "words": 816
     }
   },
   "outline": {

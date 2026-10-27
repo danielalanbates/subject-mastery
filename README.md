@@ -5,17 +5,22 @@ Copyright (c) 2026 Daniel Bates / Bates LLC. All rights reserved.
 
 Learn a subject by listening or reading. Skip what you already know, resume where you stopped, and build a personal Study Plan that plays subjects in your chosen order.
 
-**Initial public version:** 316 available lessons in five subjects, including 250 recorded lessons (about 30 hours). Mathematics adds 66 lessons with device speech. The repository holds 639 written lessons across ten subjects; five additional subjects remain unpublished drafts pending further review and narration. The catalog includes 44 subject paths for future expansion. Content starts with college foundations and progresses to intermediate material.
+**Version 0.2.0:** 639 available lessons in ten subjects, every one recorded with the John voice (about 73 hours). Every lesson has been read in full by an expert AI reviewer, and every correction was independently re-checked before it was applied. A library-wide search finds any subject, topic or page. Calculus and Physics (117 more lessons) are drafted and expert-reviewed as the next step up. They stay unpublished until they are narrated. The catalog lists 44 subject paths for future expansion. Content starts at college foundations and moves on to intermediate material.
 
-| Subject | Available pages | Narration |
-|---|---:|---|
-| Biology | 61 | Recorded John voice |
-| Economics | 61 | Recorded John voice |
-| World History | 63 | Recorded John voice |
-| Biblical Studies & Theology | 65 | Recorded John voice |
-| Mathematics | 66 | Device speech, or read the text |
+| Subject | Available pages | Recorded hours |
+|---|---:|---:|
+| Economics | 61 | 7.3 |
+| Biology | 61 | 7.4 |
+| World History | 63 | 7.9 |
+| Biblical Studies & Theology | 65 | 7.4 |
+| Mathematics | 66 | 7.4 |
+| Computer Science | 60 | 6.4 |
+| Chemistry | 63 | 6.8 |
+| Psychology | 68 | 7.7 |
+| US History | 66 | 7.7 |
+| Church History | 66 | 7.2 |
 
-Lessons are original AI-assisted texts with review provenance. Further expert corrections are welcome. See [content status](docs/CONTENT_STATUS.md) and [Mathematics review](docs/MATH_REVIEW.md).
+Lessons are original AI-assisted texts with review provenance. Further expert corrections are welcome. See [content status](docs/CONTENT_STATUS.md), [expert review](docs/EXPERT_REVIEW.md) and [Mathematics review](docs/MATH_REVIEW.md).
 
 | Lesson player | Subject path | Profile and Study Plan |
 |---|---|---|
@@ -28,6 +33,7 @@ Lessons are original AI-assisted texts with review provenance. Further expert co
 | Subject knowledge | A persistent subject bar and topic bar grow after each completed or known page. The fill uses the exact fraction, so a single page visibly moves the bar. |
 | Already Known | Skip from the top button, the bottom text button, the mini-player, or the K key. Each skip counts toward knowledge; an undo window protects accidental clicks. |
 | Continuous listening | One Play click starts a lesson. Finishing its audio completes the page and starts the next. Recordings are at most ten minutes at 1x. Device speech times are estimates. |
+| Search the library | Search titles, topics and summaries across every available subject from any screen. Results show each page's status and length. |
 | Resume or choose any page | Selecting a subject resumes at its first unfinished page; the full topic tree lets you start anywhere. |
 | Study Plan | Drag subjects or nested topics into blocks on your profile. One block means one next unfinished lesson. Three Biology blocks then one Mathematics block play three consecutive Biology lessons, followed by Mathematics. Touch and keyboard controls are included. |
 | Personal profile | Customize your name, photo/initials/emoji, bio, accent, banner and featured subjects. |
@@ -51,7 +57,7 @@ Open `http://127.0.0.1:8765/`. Without recordings, lessons use browser speech. T
 | `SM_REPO` | Canonical source checkout when running a local mirror |
 | `SM_BUILD` | Build workspace; defaults to `~/Downloads/subject-mastery-build` |
 | `SM_CONTENT_DIR`, `SM_WEB_DIR`, `SM_DIST_DIR` | Override content, player source, or build destination |
-| `SM_AUDIO_DIR` | Recording folder; existing John masters use `audio-en_US-john-medium` |
+| `SM_AUDIO_DIR` | Recording folder (John-voice MP3 masters with JSON sidecars) |
 | `SM_VOICES_DIR`, `SM_PIPER_PYTHON` | Installed Piper voice models and Python environment |
 | `SM_SECRETS_FILE` | Ignored JSON credential file, or use provider environment variables |
 | `SM_APP_SITE` | Verified static build to bundle in the Mac beta |
@@ -93,12 +99,12 @@ The canonical source lives in the Google Drive Code workspace. Build artifacts, 
 
 ## Next development paths
 
-- Review and narrate the remaining Chemistry, Psychology, Computer Science, US History and Church History drafts.
+- Narrate the reviewed Calculus and Physics lessons, then activate them (see docs/HANDOFF.md).
 - Add quick knowledge checks and spaced repetition to distinguish completion from retained understanding.
 - Expand the catalog into deeper college and advanced paths, preserving published lesson IDs.
 - Add offline web caching and accessible mathematical notation alongside spoken explanations.
 - Move to subjectmastery.com or subjectmastery.org after domain acquisition; no domain was purchased.
-- Improve narrator pronunciations and add consistent Mathematics recordings.
+- Improve narrator pronunciations where listeners report problems; Whisper checks of the new recordings found no meaning-changing errors.
 
 [docs/HANDOFF.md](docs/HANDOFF.md) records architectural decisions, current state and alternatives for the next contributor. Related open-licensed projects were researched before development; see [docs/RELATED_PROJECTS.md](docs/RELATED_PROJECTS.md).
 

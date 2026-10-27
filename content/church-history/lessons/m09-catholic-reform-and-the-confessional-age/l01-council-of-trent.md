@@ -19,5 +19,5 @@ The Council of Trent did not end the divisions in Europe. Instead, it drew firm 
 - The Council of Trent functioned as both a movement for internal moral renewal and a structured institutional response against Protestant theology.
 - The council affirmed that both Scripture and apostolic tradition are essential, equal sources of divine authority for the Church.
 - In response to Protestant emphasis on faith alone, the council taught that justification is a process of interior renewal involving the cooperation of human will with divine grace.
-- The council reaffirmed the doctrine of original sin and its necessity for baptism, while also defining the Mass as a true propitiatory sacrifice.
+- The council reaffirmed the doctrine of original sin and the necessity of baptism for its remission, while also defining the Mass as a true propitiatory sacrifice.
 - Trent revitalized the Church’s mission by mandating the establishment of formal seminaries to improve the education and moral discipline of the priesthood.

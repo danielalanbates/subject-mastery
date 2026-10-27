@@ -62,7 +62,7 @@
       "title": "Computer Science",
       "tagline": "How computers work, algorithms, data structures and the limits of computation.",
       "category": "Mathematics & Computing",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "artificial-intelligence",
@@ -83,7 +83,7 @@
       "title": "Chemistry",
       "tagline": "Atoms, bonds, reactions and the matter that makes up everything.",
       "category": "Natural Sciences",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "astronomy",
@@ -139,7 +139,7 @@
       "title": "Psychology",
       "tagline": "Mind and behavior: perception, memory, learning, development and personality.",
       "category": "Social Sciences",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "sociology",
@@ -202,7 +202,7 @@
       "title": "US History",
       "tagline": "The United States from the first peoples of North America to the present.",
       "category": "History",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "ancient-civilizations",
@@ -279,7 +279,7 @@
       "title": "Church History",
       "tagline": "Two thousand years of Christian history, from the apostles to the global church.",
       "category": "Theology & Religion",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "christian-apologetics",

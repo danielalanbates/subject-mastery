@@ -3,6 +3,12 @@
     "computer-science/m01-computational-thinking-and-history/l01-abstraction-and-decomposition": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -14,6 +20,12 @@
     "computer-science/m01-computational-thinking-and-history/l02-patterns-and-algorithms": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -25,6 +37,14 @@
     "computer-science/m01-computational-thinking-and-history/l03-pioneers-of-computing": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 4
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -36,6 +56,14 @@
     "computer-science/m01-computational-thinking-and-history/l04-from-vacuum-tubes-to-smartphones": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -47,6 +75,15 @@
     "computer-science/m02-data-representation-and-compression/l01-bits-binary-and-hexadecimal": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -58,6 +95,15 @@
     "computer-science/m02-data-representation-and-compression/l02-whole-numbers-and-overflow": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -69,6 +115,14 @@
     "computer-science/m02-data-representation-and-compression/l03-fractions-and-floating-point": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -80,6 +134,14 @@
     "computer-science/m02-data-representation-and-compression/l04-text-encoding": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -91,6 +153,15 @@
     "computer-science/m02-data-representation-and-compression/l05-images-sound-and-compression": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 9,
@@ -102,6 +173,12 @@
     "computer-science/m03-how-computers-work/l01-boolean-logic-and-logic-gates": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -113,6 +190,12 @@
     "computer-science/m03-how-computers-work/l02-inside-the-processor": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -124,6 +207,12 @@
     "computer-science/m03-how-computers-work/l03-fetch-decode-execute-cycle": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -135,6 +224,12 @@
     "computer-science/m03-how-computers-work/l04-memory-hierarchy-and-storage": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -146,6 +241,12 @@
     "computer-science/m03-how-computers-work/l05-operating-systems": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -157,6 +258,14 @@
     "computer-science/m04-programming-concepts/l01-variables-types-and-expressions": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -168,6 +277,15 @@
     "computer-science/m04-programming-concepts/l02-conditionals-and-branching": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -179,6 +297,12 @@
     "computer-science/m04-programming-concepts/l03-loops-and-iteration": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -190,6 +314,12 @@
     "computer-science/m04-programming-concepts/l04-functions-and-parameters": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -201,6 +331,12 @@
     "computer-science/m04-programming-concepts/l05-objects-and-classes": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -212,6 +348,12 @@
     "computer-science/m04-programming-concepts/l06-languages-paradigms-and-translation": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -223,6 +365,14 @@
     "computer-science/m05-algorithms-and-efficiency/l01-what-makes-a-good-algorithm": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -234,6 +384,12 @@
     "computer-science/m05-algorithms-and-efficiency/l02-searching": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -245,6 +401,14 @@
     "computer-science/m05-algorithms-and-efficiency/l03-measuring-efficiency-with-big-o": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -256,6 +420,14 @@
     "computer-science/m05-algorithms-and-efficiency/l04-selection-and-insertion-sort": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -267,6 +439,14 @@
     "computer-science/m05-algorithms-and-efficiency/l05-recursion": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -278,6 +458,12 @@
     "computer-science/m05-algorithms-and-efficiency/l06-merge-sort-and-quicksort": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -289,6 +475,14 @@
     "computer-science/m06-data-structures/l01-arrays-and-lists": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "numeric"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -300,6 +494,12 @@
     "computer-science/m06-data-structures/l02-stacks-and-queues": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -311,6 +511,14 @@
     "computer-science/m06-data-structures/l03-hash-tables": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -322,6 +530,14 @@
     "computer-science/m06-data-structures/l04-trees": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -333,6 +549,14 @@
     "computer-science/m06-data-structures/l05-graphs": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -344,6 +568,14 @@
     "computer-science/m07-limits-of-computation/l01-tractable-and-intractable-problems": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 6,
@@ -355,6 +587,14 @@
     "computer-science/m07-limits-of-computation/l02-p-versus-np": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -366,6 +606,14 @@
     "computer-science/m07-limits-of-computation/l03-heuristics-and-approximation": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -377,6 +625,14 @@
     "computer-science/m07-limits-of-computation/l04-undecidable-problems-and-the-halting-problem": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -388,6 +644,12 @@
     "computer-science/m08-networks-and-the-internet/l01-packets-and-protocols": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -399,6 +661,14 @@
     "computer-science/m08-networks-and-the-internet/l02-ip-addresses-and-routing": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -410,6 +680,14 @@
     "computer-science/m08-networks-and-the-internet/l03-reliable-delivery-with-tcp": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -421,6 +699,15 @@
     "computer-science/m08-networks-and-the-internet/l04-domain-name-system": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual",
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -432,6 +719,12 @@
     "computer-science/m08-networks-and-the-internet/l05-the-web-and-cloud-computing": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -443,6 +736,12 @@
     "computer-science/m09-security-and-cryptography/l01-threats-and-malware": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -454,6 +753,14 @@
     "computer-science/m09-security-and-cryptography/l02-social-engineering-and-phishing": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -465,6 +772,14 @@
     "computer-science/m09-security-and-cryptography/l03-symmetric-and-public-key-encryption": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -476,6 +791,12 @@
     "computer-science/m09-security-and-cryptography/l04-hashing-and-password-security": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
       "review_issues": 3,
@@ -487,6 +808,12 @@
     "computer-science/m09-security-and-cryptography/l05-authentication-and-privacy": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -498,6 +825,12 @@
     "computer-science/m10-databases-and-data/l01-relational-tables": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -509,6 +842,12 @@
     "computer-science/m10-databases-and-data/l02-querying-data": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -520,6 +859,14 @@
     "computer-science/m10-databases-and-data/l03-data-at-scale": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 7,
@@ -531,6 +878,12 @@
     "computer-science/m10-databases-and-data/l04-data-science-basics": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -542,6 +895,14 @@
     "computer-science/m11-software-engineering/l01-development-life-cycle": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -553,6 +914,14 @@
     "computer-science/m11-software-engineering/l02-requirements-and-design": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [
         "gemini:gemini-3.1-flash-lite"
       ],
@@ -566,6 +935,12 @@
     "computer-science/m11-software-engineering/l03-version-control-and-teamwork": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 0,
@@ -577,6 +952,12 @@
     "computer-science/m11-software-engineering/l04-testing-and-debugging": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -588,6 +969,14 @@
     "computer-science/m11-software-engineering/l05-open-source-and-licensing": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -599,6 +988,14 @@
     "computer-science/m12-artificial-intelligence-and-ethics/l01-search-and-problem-solving": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "tts"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 5,
@@ -610,6 +1007,14 @@
     "computer-science/m12-artificial-intelligence-and-ethics/l02-machine-learning": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,
@@ -621,6 +1026,14 @@
     "computer-science/m12-artificial-intelligence-and-ethics/l03-neural-networks-and-deep-learning": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "clarity"
+        ],
+        "date": "2026-10-27",
+        "edits": 1
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 3,
@@ -632,6 +1045,15 @@
     "computer-science/m12-artificial-intelligence-and-ethics/l04-large-language-models": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "coherence",
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 2
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 4,
@@ -643,6 +1065,14 @@
     "computer-science/m12-artificial-intelligence-and-ethics/l05-algorithmic-bias-and-fairness": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [
+          "factual"
+        ],
+        "date": "2026-10-27",
+        "edits": 3
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 2,
@@ -654,6 +1084,12 @@
     "computer-science/m12-artificial-intelligence-and-ethics/l06-computing-and-society": {
       "date": "2026-10-03",
       "draft": "gemini:gemini-3.1-flash-lite",
+      "expert_review": {
+        "by": "Claude (Opus 5.5) expert reviewer + independent verifier",
+        "categories": [],
+        "date": "2026-10-27",
+        "edits": 0
+      },
       "fixes": [],
       "review": "openrouter:nvidia/nemotron-3-super-120b-a12b:free",
       "review_issues": 1,

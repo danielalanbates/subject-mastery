@@ -5,6 +5,7 @@
 // the app root so the same files work at /subjectmastery/ and at / locally.
 
 import { indexSubject, isSlug, isLessonKey } from './tree.js';
+import { normalizeEntries, entriesFromSubjects, orderBySubject, prepareIndex } from './search.js';
 
 const cache = new Map();
 
@@ -59,6 +60,42 @@ export async function getAllSubjects(catalog) {
   const ids = catalog.subjects.filter((s) => s.status === 'available').map((s) => s.id);
   const results = await Promise.allSettled(ids.map((id) => getSubject(id)));
   return results.filter((r) => r.status === 'fulfilled').map((r) => r.value);
+}
+
+let searchPromise = null;
+/**
+ * The prepared search index (search.js) for every available subject. It reads
+ * data/search.json (CONTRACT v3); a host without that file (older builds), or a
+ * file that lacks a subject the catalog offers, falls back to building those
+ * entries from data/subjects/<id>.json. `source` says which was used.
+ */
+export function getSearchIndex(catalog) {
+  if (!searchPromise) {
+    searchPromise = loadSearchIndex(catalog);
+    searchPromise.catch(() => { searchPromise = null; });
+  }
+  return searchPromise;
+}
+
+async function loadSearchIndex(catalog) {
+  const ids = catalog.subjects.filter((s) => s.status === 'available').map((s) => s.id);
+  let entries = null;
+  try {
+    entries = normalizeEntries(await loadJson('data/search.json'), new Set(ids));
+  } catch {
+    entries = null; // missing or broken: build it from the subject files below
+  }
+  let source = entries ? 'search.json' : 'subjects';
+  const have = new Set((entries || []).filter((e) => e.kind === 'subject').map((e) => e.key));
+  const missing = ids.filter((id) => !have.has(id));
+  if (missing.length) {
+    const results = await Promise.allSettled(missing.map((id) => getSubject(id)));
+    const extra = entriesFromSubjects(results.filter((r) => r.status === 'fulfilled').map((r) => r.value));
+    if (entries && extra.length) source = 'mixed';
+    entries = orderBySubject([...(entries || []), ...extra], ids);
+  }
+  if (ids.length && !entries.length) throw new DataError('data/search.json', 'empty');
+  return { ...prepareIndex(entries), source };
 }
 
 export function getLesson(lessonKey) {
